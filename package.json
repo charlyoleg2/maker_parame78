@@ -1,0 +1,41 @@
+{
+	"name": "maker_parame78",
+	"version": "0.0.1",
+	"description": "parameters and stl for maker_parame78",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyoleg2/maker_parame78.git"
+	},
+	"homepage": "https://github.com/charlyoleg2/maker_parame78#readme",
+	"author": "charlyoleg2",
+	"license": "ISC",
+	"keywords": [
+		"desi78",
+		"parametrix"
+	],
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"desi78-uis": "desi78-uis",
+		"desi78-cli": "desi78-cli",
+		"desi78-cli-help": "desi78-cli --help",
+		"doorstop_list-outopt": "desi78-cli --design desi78/doorstop list-outopt",
+		"doorstop_json_param": "desi78-cli --design=desi78/doorstop write json_param",
+		"doorstop_openscad_long": "desi78-cli --design=desi78/doorstop --param=refs/doorstop/px_doorstop_v01.json --outDir=refs/doorstop --outFileName=doorstop_v01.scad write scad_3d_openscad",
+		"doorstop_openscad": "desi78-cli -d=desi78/doorstop -p=refs/doorstop/px_doorstop_v01.json -o=refs/doorstop --outFileName=doorstop_v01.scad write scad_3d_openscad",
+		"doorstop_view": "openscad refs/doorstop/doorstop_v01.scad",
+		"doorstop_stl": "openscad -o refs/doorstop/doorstop_v01.stl refs/doorstop/doorstop_v01.scad",
+		"make_parts": "node make_parts.js",
+		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
+		"clean_jscad": "rimraf refs/node_modules refs/package-lock.json refs/package.json",
+		"ls_refs": "ls -ltra refs"
+	},
+	"devDependencies": {
+		"desi78-cli": "^0.1.28",
+		"desi78-uis": "^0.1.28",
+		"rimraf": "^6.0.1"
+	}
+}
