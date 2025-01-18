@@ -28,23 +28,23 @@ function getCmd(dName, fName) {
 	const rCmd = [];
 	//rCmd.push('pwd');
 	//rCmd.push(`ls refs/${dName}`);
-	//rCmd.push(`npx desi82-cli -d=desi82/${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.log.txt write compute_log`);
+	//rCmd.push(`npx desi78-cli -d=desi78/${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.log.txt write compute_log`);
 	// svg, dxf
 	for (const face of c_svgdxf[desiName]) {
-		rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
-		rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
+		rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
+		rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
 	}
 	// paxJson
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.pax.json write pax_all`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.pax.json write pax_all`);
 	// OpenSCAD
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.scad write scad_3d_openscad`);
 	//rCmd.push(`openscad -o refs/${dName}/${fName}_oscad.stl refs/${dName}/${fName}.scad`);
 	// JsCAD
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.js write js_3d_openjscad`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.js write js_3d_openjscad`);
 	//rCmd.push(`cd refs && npx jscad ${dName}/${fName}.js -o ${dName}/${fName}_jscad.stl`);
 	// FreeCAD
-	rCmd.push(`npx desi82-cli -d=desi82/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
+	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.py write py_3d_freecad`);
 	//rCmd.push(`freecad.cmd refs/${dName}/${fName}.py refs/${dName}/${fName}_fc`);
 	//rCmd.push(`npx rimraf refs/${dName}`);
 	return rCmd
