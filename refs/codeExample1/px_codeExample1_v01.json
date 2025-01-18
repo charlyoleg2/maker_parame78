@@ -1,0 +1,19 @@
+{
+  "lastModif": "20250118_180932",
+  "partName": "codeExample1",
+  "pVal": {
+    "L2": 40,
+    "a3": 60,
+    "L3": 20,
+    "a4": 45,
+    "L4": 40,
+    "R34": 15,
+    "a5": 70,
+    "L5": 20,
+    "Corner": 0,
+    "R4": 2,
+    "Thickness": 0,
+    "T1": 5
+  },
+  "comment": "Written by geom_cli"
+}

@@ -1,0 +1,30 @@
+{
+  "lastModif": "20250118_180929",
+  "partName": "maison",
+  "pVal": {
+    "H1": 12,
+    "H2": 6,
+    "H3": 6,
+    "RS": 50,
+    "TopView": 0,
+    "A1": 135,
+    "W1": 12,
+    "W2": 12,
+    "L1": 16,
+    "L2": 16,
+    "Roof border": 0,
+    "WF1": 0.4,
+    "WBL": 3,
+    "WBH": 5,
+    "AB1": 15,
+    "WBE": 0.3,
+    "WBR": 50,
+    "Chimney": 0,
+    "ChiNb": 0,
+    "ChiOffset": 1.5,
+    "ChiH": 1.5,
+    "ChiW": 1.5,
+    "ChiT": 0.6
+  },
+  "comment": "Written by geom_cli"
+}

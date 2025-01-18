@@ -1,0 +1,21 @@
+{
+  "lastModif": "20250118_180932",
+  "partName": "rail",
+  "pVal": {
+    "W1": 200,
+    "W2": 10,
+    "W3": 100,
+    "Heights": 0,
+    "H1": 6,
+    "H2": 10,
+    "H3": 100,
+    "H4": 10,
+    "H5": 30,
+    "H6": 10,
+    "Corners": 0,
+    "R1": 3,
+    "Depth": 0,
+    "L1": 100
+  },
+  "comment": "Written by geom_cli"
+}

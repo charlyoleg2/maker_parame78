@@ -1,0 +1,26 @@
+{
+  "lastModif": "20250118_180930",
+  "partName": "reinforced_tube",
+  "pVal": {
+    "D1L": 1600,
+    "H1": 6000,
+    "E1": 10,
+    "Wave": 0,
+    "E2": 10,
+    "N2": 20,
+    "W2_method": 0,
+    "RW2": 50,
+    "W2": 80,
+    "S23L": 200,
+    "D2_method": 0,
+    "Rvw": 50,
+    "D2": 20,
+    "D3_method": 0,
+    "R32": 50,
+    "D3": 20,
+    "Optional internal cylinder": 0,
+    "internal_cylinder": 0,
+    "E4": 10
+  },
+  "comment": "Written by geom_cli"
+}

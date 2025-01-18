@@ -1,0 +1,28 @@
+{
+  "lastModif": "20250118_180931",
+  "partName": "lens_x1",
+  "pVal": {
+    "D1": 40,
+    "E1": 8,
+    "Dioptre left": 0,
+    "Dl": 30,
+    "Rl": 35,
+    "TypeL": 0,
+    "Dioptre right": 0,
+    "Dr": 30,
+    "Rr": 50,
+    "TypeR": 0,
+    "index of refraction": 0,
+    "ni": 1.6,
+    "ne": 1,
+    "Simulation": 0,
+    "objectPx": -50,
+    "objectPy": 8,
+    "ray1Angle": 0,
+    "ray2Angle": -2,
+    "rayNb": 3,
+    "imagePx": 120,
+    "simType": 0
+  },
+  "comment": "Written by geom_cli"
+}

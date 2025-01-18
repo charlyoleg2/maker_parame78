@@ -1,0 +1,28 @@
+{
+  "lastModif": "20250118_180930",
+  "partName": "reinforced_cone",
+  "pVal": {
+    "D1L": 1600,
+    "D1H": 1200,
+    "H1": 4000,
+    "E1": 10,
+    "Wave": 0,
+    "E2": 10,
+    "N2": 20,
+    "W2_method": 1,
+    "RW2": 50,
+    "W2": 80,
+    "S23L": 197,
+    "S23H": 200,
+    "D2_method": 1,
+    "Rvw": 50,
+    "D2": 30,
+    "D3_method": 1,
+    "R32": 50,
+    "D3": 30,
+    "Optional internal cylinder": 0,
+    "internal_cylinder": 1,
+    "E4": 10
+  },
+  "comment": "Written by geom_cli"
+}

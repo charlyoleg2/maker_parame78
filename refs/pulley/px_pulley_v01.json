@@ -1,0 +1,24 @@
+{
+  "lastModif": "20250118_180932",
+  "partName": "pulley",
+  "pVal": {
+    "zn": 100,
+    "pim": 2,
+    "Profile details": 0,
+    "bw": 0.45,
+    "nw": 0.9,
+    "pegR": 0.55,
+    "ha": 5,
+    "ra": 0,
+    "Inner hollow": 0,
+    "rw": 2,
+    "Rim": 0,
+    "rimPlus": 1.5,
+    "rimLeft": 1,
+    "rimRight": 1,
+    "Widths": 0,
+    "wheelW": 7,
+    "rimW": 1.2
+  },
+  "comment": "Written by geom_cli"
+}
