@@ -28,7 +28,7 @@ const c_svgdxf = {
 	lens_x1: ['faceLensSim', 'faceLens3D'],
 	lens_x3: ['faceLensSim', 'faceLens1', 'faceLens2', 'faceLens3'],
 	pulley: ['facePulleyProfile', 'facePulleyRim', 'facePulleyWidth'],
-	codeExample1: ['faceExampl1'],
+	codeExample1: ['faceExample1'],
 	rail: ['faceRail'],
 };
 
