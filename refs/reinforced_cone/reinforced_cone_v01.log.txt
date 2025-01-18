@@ -1,0 +1,26 @@
+reinforced_cone simTime: 0
+Cylinder-1 (Ext): R1H: 600.00 mm, D1H: 1200.00 mm
+Cylinder-1 (Ext): R1L: 800.00 mm, D1L: 1600.00 mm
+Cylinder-1 (Ext): angle: 2.86 degree, length: 4005.00 mm
+Cylinder-4 (Int): R4H: 389.99 mm, D4H: 779.98 mm
+Cylinder-4 (Int): R4L: 592.99 mm, D4L: 1185.98 mm
+Cylinder-4 (Int): angle: 2.91 degree, length: 4005.15 mm
+Section horizontal: R1t: 800.00 mm, S23t: 197.00 mm
+[reinforced_tube]: reinforced_tube simTime: 0
+[reinforced_tube]: External cylinder: D1Le: 1600 mm, D1Li: 1580.00 mm, corde-ext: 5026.55 mm, corde-int: 4963.72 mm, diff: 62.83 mm
+[reinforced_tube]: Period: angle: 18.00 degree, corde-ext: 248.19 mm
+[reinforced_tube]: W2: angle: 5.88 degree or 32.66 %, corde-ext: 81.06 mm, corde-int: 80.04 mm, W2bis: 80.00 mm
+[reinforced_tube]: Wave: angle: 12.12 degree or 67.34 %, corde-ext: 167.12 mm
+[reinforced_tube]: D2: 30.00 mm, R2i: 15.00 mm, R2e: 25.00 mm
+[reinforced_tube]: D3: 30.00 mm, R3i: 15.00 mm, R3e: 25.00 mm
+[reinforced_tube]: af: 15.39 degree, afDiff: 13.07 degree
+[reinforced_tube]: info253: Wave-internal length: 10109.32 mm
+[reinforced_tube]: info254: Wave-external length: 10172.15 mm
+[reinforced_tube]: info255: Wave-average length: 10140.74 mm, diff: 62.83 mm
+[reinforced_tube]: reinforced_tube drawn successfully!
+wave-low-corde length: 10140.74 mm
+wave-high-corde length: 10123.84 mm
+wave-corde low-high-diff: 16.90 mm
+wave-corde at t: 0.00 %, expected length: 10140.74 mm
+wave-corde-t length: 10140.74 mm, diff: 0.00 mm
+reinforced_cone drawn successfully!

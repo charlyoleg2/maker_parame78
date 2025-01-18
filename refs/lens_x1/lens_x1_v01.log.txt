@@ -1,0 +1,17 @@
+lens_x1 simTime: 0
+E2: 2.32 mm
+x1: -0.62, x2: 1.70 mm
+Optic simulator:
+ray1-angle1: 0.00
+ray2-angle1: -2.00
+rayNb: 3
+simType: 0
+lens-1
+  E1: 8
+  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 0
+  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+  index of refraction of the lens: ni: 1.6
+  Position-X: 0 mm
+index of refraction of the environment: n0: 1
+End of simulator
+lens_x1 drawn successfully!

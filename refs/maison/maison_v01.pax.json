@@ -1,0 +1,802 @@
+{
+  "partName": "maison",
+  "pDef": {
+    "partName": "maison",
+    "params": [
+      {
+        "name": "H1",
+        "unit": "m",
+        "init": 12,
+        "min": 3,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "m",
+        "init": 6,
+        "min": 2,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "m",
+        "init": 6,
+        "min": 2,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "RS",
+        "unit": "%",
+        "init": 50,
+        "min": 10,
+        "max": 90,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "TopView",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "A1",
+        "unit": "degree",
+        "init": 135,
+        "min": 90,
+        "max": 180,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "m",
+        "init": 12,
+        "min": 2,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "m",
+        "init": 12,
+        "min": 2,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "m",
+        "init": 16,
+        "min": 2,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "m",
+        "init": 16,
+        "min": 2,
+        "max": 50,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Roof border",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "WF1",
+        "unit": "m",
+        "init": 0.4,
+        "min": 0,
+        "max": 1.5,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WBL",
+        "unit": "%",
+        "init": 3,
+        "min": 0,
+        "max": 20,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WBH",
+        "unit": "%",
+        "init": 5,
+        "min": 0,
+        "max": 20,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "AB1",
+        "unit": "degree",
+        "init": 15,
+        "min": 0,
+        "max": 80,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WBE",
+        "unit": "m",
+        "init": 0.3,
+        "min": 0.05,
+        "max": 1,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "WBR",
+        "unit": "%",
+        "init": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Chimney",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "ChiNb",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 5,
+        "step": 1,
+        "dropdown": [
+          "5",
+          "4",
+          "3",
+          "2",
+          "1",
+          "0"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "ChiOffset",
+        "unit": "m",
+        "init": 1.5,
+        "min": 0,
+        "max": 5,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ChiH",
+        "unit": "m",
+        "init": 1.5,
+        "min": 0,
+        "max": 3,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ChiW",
+        "unit": "m",
+        "init": 1.5,
+        "min": 0.3,
+        "max": 3,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ChiT",
+        "unit": "m",
+        "init": 0.6,
+        "min": 0.3,
+        "max": 3,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "H1": "maison_side.svg",
+      "H2": "maison_side.svg",
+      "H3": "maison_side.svg",
+      "RS": "maison_side.svg",
+      "A1": "maison_top.svg",
+      "W1": "maison_top.svg",
+      "W2": "maison_top.svg",
+      "L1": "maison_top.svg",
+      "L2": "maison_top.svg",
+      "WF1": "maison_roofBorder.svg",
+      "WBL": "maison_roofBorder.svg",
+      "WBH": "maison_roofBorder.svg",
+      "AB1": "maison_roofBorder.svg",
+      "WBE": "maison_roofBorder.svg",
+      "WBR": "maison_roofBorder.svg",
+      "ChiNb": "maison_chimney_nb.svg",
+      "ChiOffset": "maison_chimney_nb.svg",
+      "ChiH": "maison_chimney.svg",
+      "ChiW": "maison_chimney.svg",
+      "ChiT": "maison_chimney.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "H1": 12,
+    "H2": 6,
+    "H3": 6,
+    "RS": 50,
+    "TopView": 0,
+    "A1": 135,
+    "W1": 12,
+    "W2": 12,
+    "L1": 16,
+    "L2": 16,
+    "Roof border": 0,
+    "WF1": 0.4,
+    "WBL": 3,
+    "WBH": 5,
+    "AB1": 15,
+    "WBE": 0.3,
+    "WBR": 50,
+    "Chimney": 0,
+    "ChiNb": 0,
+    "ChiOffset": 1.5,
+    "ChiH": 1.5,
+    "ChiW": 1.5,
+    "ChiT": 0.6
+  },
+  "figures": {
+    "faceSide1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 12,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 12,
+              "py": 6
+            },
+            {
+              "typ": 1,
+              "px": 12.36,
+              "py": 6
+            },
+            {
+              "typ": 2,
+              "px": 12.36,
+              "py": 6.3,
+              "radius": 0.1875,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.76,
+              "py": 6.460769515458673
+            },
+            {
+              "typ": 1,
+              "px": 6.2,
+              "py": 12
+            },
+            {
+              "typ": 1,
+              "px": 5.8,
+              "py": 12
+            },
+            {
+              "typ": 1,
+              "px": 0.24,
+              "py": 6.460769515458673
+            },
+            {
+              "typ": 1,
+              "px": -0.36,
+              "py": 6.3
+            },
+            {
+              "typ": 2,
+              "px": -0.36,
+              "py": 6,
+              "radius": 0.18750000000000014,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 6
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 12,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 12,
+              "py": 6
+            },
+            {
+              "typ": 1,
+              "px": 12.36,
+              "py": 6
+            },
+            {
+              "typ": 2,
+              "px": 12.36,
+              "py": 6.3,
+              "radius": 0.1875,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 11.76,
+              "py": 6.460769515458673
+            },
+            {
+              "typ": 1,
+              "px": 6.2,
+              "py": 12
+            },
+            {
+              "typ": 1,
+              "px": 5.8,
+              "py": 12
+            },
+            {
+              "typ": 1,
+              "px": 0.24,
+              "py": 6.460769515458673
+            },
+            {
+              "typ": 1,
+              "px": -0.36,
+              "py": 6.3
+            },
+            {
+              "typ": 2,
+              "px": -0.36,
+              "py": 6,
+              "radius": 0.18750000000000014,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 6
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -0.96,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 12.96,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 12.96,
+              "py": 15.602354980121829
+            },
+            {
+              "typ": 1,
+              "px": -0.96,
+              "py": 21.36820776835531
+            },
+            {
+              "typ": 1,
+              "px": -0.96,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -0.96,
+              "py": -0.3976450198781712
+            },
+            {
+              "typ": 1,
+              "px": 12.96,
+              "py": 5.368207768355311
+            },
+            {
+              "typ": 1,
+              "px": 12.96,
+              "py": 20.97056274847714
+            },
+            {
+              "typ": 1,
+              "px": -0.96,
+              "py": 20.97056274847714
+            },
+            {
+              "typ": 1,
+              "px": -0.96,
+              "py": -0.3976450198781712
+            }
+          ]
+        }
+      ]
+    ],
+    "faceChimney": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 5.25,
+              "py": 1.5
+            },
+            {
+              "typ": 1,
+              "px": 6.75,
+              "py": 1.5
+            },
+            {
+              "typ": 1,
+              "px": 6.75,
+              "py": 2.1
+            },
+            {
+              "typ": 1,
+              "px": 5.25,
+              "py": 2.1
+            },
+            {
+              "typ": 1,
+              "px": 5.25,
+              "py": 1.5
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 17.05581348548381,
+              "py": 30.6017550315022
+            },
+            {
+              "typ": 1,
+              "px": 18.116473657263633,
+              "py": 29.541094859722378
+            },
+            {
+              "typ": 1,
+              "px": 18.540737725975564,
+              "py": 29.965358928434313
+            },
+            {
+              "typ": 1,
+              "px": 17.48007755419574,
+              "py": 31.026019100214135
+            },
+            {
+              "typ": 1,
+              "px": 17.05581348548381,
+              "py": 30.6017550315022
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 5.192285320907008,
+              "py": 18.495130088759
+            },
+            {
+              "typ": 1,
+              "px": 6.578104619673938,
+              "py": 17.921104940211368
+            },
+            {
+              "typ": 1,
+              "px": 6.807714679092992,
+              "py": 18.47543265971814
+            },
+            {
+              "typ": 1,
+              "px": 5.421895380326062,
+              "py": 19.049457808265775
+            },
+            {
+              "typ": 1,
+              "px": 5.192285320907008,
+              "py": 18.495130088759
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 5.25,
+              "py": 10.935281374238569
+            },
+            {
+              "typ": 1,
+              "px": 6.75,
+              "py": 10.935281374238569
+            },
+            {
+              "typ": 1,
+              "px": 6.75,
+              "py": 11.535281374238568
+            },
+            {
+              "typ": 1,
+              "px": 5.25,
+              "py": 11.535281374238568
+            },
+            {
+              "typ": 1,
+              "px": 5.25,
+              "py": 10.935281374238569
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.384062043356591,
+              "py": 23.930003589374984
+            },
+            {
+              "typ": 1,
+              "px": 11.444722215136414,
+              "py": 22.86934341759516
+            },
+            {
+              "typ": 1,
+              "px": 11.868986283848342,
+              "py": 23.293607486307092
+            },
+            {
+              "typ": 1,
+              "px": 10.808326112068523,
+              "py": 24.35426765808691
+            },
+            {
+              "typ": 1,
+              "px": 10.384062043356591,
+              "py": 23.930003589374984
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_maison_top1",
+        "face": "maison_faceTop1",
+        "extrudeMethod": 0,
+        "length": 12,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_maison_side1",
+        "face": "maison_faceSide1",
+        "extrudeMethod": 0,
+        "length": 21.36820776835531,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          21.36820776835531,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_maison_top2",
+        "face": "maison_faceTop2",
+        "extrudeMethod": 0,
+        "length": 12,
+        "rotate": [
+          0,
+          0,
+          -0.7853981633974483
+        ],
+        "translate": [
+          0,
+          20.97056274847714,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_maison_side2",
+        "face": "maison_faceSide2",
+        "extrudeMethod": 0,
+        "length": 21.36820776835531,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          -0.7853981633974483
+        ],
+        "translate": [
+          14.828427124746188,
+          35.79898987322333,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_maison_chi1",
+        "face": "maison_faceChimney",
+        "extrudeMethod": 0,
+        "length": 7.5,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          6
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "ipax_maison_1",
+        "boolMethod": 1,
+        "inList": [
+          "subpax_maison_top1",
+          "subpax_maison_side1"
+        ]
+      },
+      {
+        "outName": "ipax_maison_2",
+        "boolMethod": 1,
+        "inList": [
+          "subpax_maison_top2",
+          "subpax_maison_side2"
+        ]
+      },
+      {
+        "outName": "pax_maison",
+        "boolMethod": 2,
+        "inList": [
+          "ipax_maison_1",
+          "ipax_maison_2",
+          "subpax_maison_chi1"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "maison simTime: 0\nmaison: height 12.00 m\nmaison: aA3: 22.50, aA2: 22.50 degree\nfold lBD: 12.99 m\nRoof border: low-1: 0.36 low-2: 0.36 high-1: 0.60 high-2: 0.60\nRoof top: WF1: 0.40 WF2: 0.40 m  ratio12: 1.00\ntriangule: \nmaison drawn successfully!\n"
+}

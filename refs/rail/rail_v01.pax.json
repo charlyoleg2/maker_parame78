@@ -1,0 +1,388 @@
+{
+  "partName": "rail",
+  "pDef": {
+    "partName": "rail",
+    "params": [
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 200,
+        "min": 2,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 10,
+        "min": 0.5,
+        "max": 40,
+        "step": 0.5,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W3",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Heights",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 6,
+        "min": 1,
+        "max": 30,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H4",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H5",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H6",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Corners",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "R1",
+        "unit": "mm",
+        "init": 3,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Depth",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 1000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "W1": "rail_profile.svg",
+      "W2": "rail_profile.svg",
+      "W3": "rail_profile.svg",
+      "H1": "rail_profile.svg",
+      "H2": "rail_profile.svg",
+      "H3": "rail_profile.svg",
+      "H4": "rail_profile.svg",
+      "H5": "rail_profile.svg",
+      "H6": "rail_profile.svg",
+      "R1": "rail_profile.svg",
+      "L1": "rail_profile.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "W1": 200,
+    "W2": 10,
+    "W3": 100,
+    "Heights": 0,
+    "H1": 6,
+    "H2": 10,
+    "H3": 100,
+    "H4": 10,
+    "H5": 30,
+    "H6": 10,
+    "Corners": 0,
+    "R1": 3,
+    "Depth": 0,
+    "L1": 100
+  },
+  "figures": {
+    "faceRail": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 100,
+              "py": 3.0000000000000004
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 3.299214761914295
+            },
+            {
+              "typ": 2,
+              "px": 97.31405435355413,
+              "py": 6.2827311206785135,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 7.685945646445871,
+              "py": 15.717268879321487
+            },
+            {
+              "typ": 2,
+              "px": 5,
+              "py": 18.700785238085704,
+              "radius": 3,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 5,
+              "py": 113.59348518090238
+            },
+            {
+              "typ": 2,
+              "px": 7.349208626544032,
+              "py": 116.52204636145423,
+              "radius": 3,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 47.65079137345597,
+              "py": 125.47795363854577
+            },
+            {
+              "typ": 2,
+              "px": 50,
+              "py": 128.40651481909762,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 153.98304963002101
+            },
+            {
+              "typ": 2,
+              "px": 48.11023622047243,
+              "py": 156.7700508023837,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -48.11023622047243,
+              "py": 156.7700508023837,
+              "radius": 130.0000000000002,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -50,
+              "py": 153.98304963002104,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -50,
+              "py": 128.40651481909762
+            },
+            {
+              "typ": 2,
+              "px": -47.65079137345597,
+              "py": 125.47795363854577,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -7.349208626544032,
+              "py": 116.52204636145423
+            },
+            {
+              "typ": 2,
+              "px": -5,
+              "py": 113.59348518090238,
+              "radius": 3,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -5,
+              "py": 18.700785238085704
+            },
+            {
+              "typ": 2,
+              "px": -7.685945646445871,
+              "py": 15.717268879321487,
+              "radius": 3,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -97.31405435355413,
+              "py": 6.282731120678513
+            },
+            {
+              "typ": 2,
+              "px": -100,
+              "py": 3.299214761914295,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -100,
+              "py": 3.0000000000000004
+            },
+            {
+              "typ": 2,
+              "px": -97,
+              "py": 0,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 97,
+              "py": 3.6739403974420604e-16
+            },
+            {
+              "typ": 2,
+              "px": 100,
+              "py": 3.0000000000000004,
+              "radius": 3,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_rail",
+        "face": "rail_faceRail",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_rail",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_rail"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "rail simTime: 0\ntotal height: 166.00 mm\nrail drawn successfully!\n"
+}

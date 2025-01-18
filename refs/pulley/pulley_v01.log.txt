@@ -1,0 +1,9 @@
+pulley simTime: 0
+R1: 31.83  D1: 63.66 mm
+R2: 31.38  D2: 62.76 mm
+R3: 30.48  D3: 60.96 mm
+R4: 29.38  D4: 58.76 mm
+pitch length at R2: 1.97 mm
+addendum length: 0.81 mm
+dedendum length: 1.16 mm
+pulley drawn successfully!

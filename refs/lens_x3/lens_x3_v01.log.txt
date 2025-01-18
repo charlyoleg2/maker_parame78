@@ -1,0 +1,84 @@
+lens_x3 simTime: 0
+lens-1 : E2: 2.32 mm
+lens-1 : x1: -0.62, x2: 1.70 mm
+lens-2 : E2: 5.70 mm
+lens-2 : x1: -4.00, x2: 1.70 mm
+lens-3 : E2: 9.07 mm
+lens-3 : x1: -7.38, x2: 1.70 mm
+Optic simulator:
+ray1-angle1: 0.00
+ray2-angle1: -2.00
+rayNb: 3
+simType: 0
+lens-1
+  E1: 8
+  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 0
+  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+  index of refraction of the lens: ni: 1.6
+  Position-X: 0 mm
+lens-2
+  E1: 8
+  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 1
+  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+  index of refraction of the lens: ni: 1.6
+  Position-X: 20 mm
+lens-3
+  E1: 8
+  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 2
+  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+  index of refraction of the lens: ni: 1.6
+  Position-X: 40 mm
+index of refraction of the environment: n0: 1
+End of simulator
+[lens_x1]: lens_x1 simTime: 0
+[lens_x1]: E2: 2.32 mm
+[lens_x1]: x1: -0.62, x2: 1.70 mm
+[lens_x1]: Optic simulator:
+[lens_x1]: ray1-angle1: 0.00
+[lens_x1]: ray2-angle1: -2.00
+[lens_x1]: rayNb: 3
+[lens_x1]: simType: 0
+[lens_x1]: lens-1
+[lens_x1]:   E1: 8
+[lens_x1]:   Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 0
+[lens_x1]:   Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+[lens_x1]:   index of refraction of the lens: ni: 1.6
+[lens_x1]:   Position-X: 0 mm
+[lens_x1]: index of refraction of the environment: n0: 1
+[lens_x1]: End of simulator
+[lens_x1]: lens_x1 drawn successfully!
+[lens_x1]: lens_x1 simTime: 0
+[lens_x1]: E2: 5.70 mm
+[lens_x1]: x1: -4.00, x2: 1.70 mm
+[lens_x1]: Optic simulator:
+[lens_x1]: ray1-angle1: 0.00
+[lens_x1]: ray2-angle1: -2.00
+[lens_x1]: rayNb: 3
+[lens_x1]: simType: 0
+[lens_x1]: lens-1
+[lens_x1]:   E1: 8
+[lens_x1]:   Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 1
+[lens_x1]:   Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+[lens_x1]:   index of refraction of the lens: ni: 1.6
+[lens_x1]:   Position-X: 0 mm
+[lens_x1]: index of refraction of the environment: n0: 1
+[lens_x1]: End of simulator
+[lens_x1]: lens_x1 drawn successfully!
+[lens_x1]: lens_x1 simTime: 0
+[lens_x1]: E2: 9.07 mm
+[lens_x1]: x1: -7.38, x2: 1.70 mm
+[lens_x1]: Optic simulator:
+[lens_x1]: ray1-angle1: 0.00
+[lens_x1]: ray2-angle1: -2.00
+[lens_x1]: rayNb: 3
+[lens_x1]: simType: 0
+[lens_x1]: lens-1
+[lens_x1]:   E1: 8
+[lens_x1]:   Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 2
+[lens_x1]:   Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0
+[lens_x1]:   index of refraction of the lens: ni: 1.6
+[lens_x1]:   Position-X: 0 mm
+[lens_x1]: index of refraction of the environment: n0: 1
+[lens_x1]: End of simulator
+[lens_x1]: lens_x1 drawn successfully!
+lens_x3 drawn successfully!

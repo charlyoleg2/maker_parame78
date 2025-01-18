@@ -1,0 +1,829 @@
+{
+  "partName": "reinforced_tube",
+  "pDef": {
+    "partName": "reinforced_tube",
+    "params": [
+      {
+        "name": "D1L",
+        "unit": "mm",
+        "init": 1600,
+        "min": 100,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 6000,
+        "min": 10,
+        "max": 20000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Wave",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "E2",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "N2",
+        "unit": "wave",
+        "init": 20,
+        "min": 4,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2_method",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "W2_from_RW2",
+          "W2_direct"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "RW2",
+        "unit": "%",
+        "init": 50,
+        "min": 5,
+        "max": 95,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 80,
+        "min": 1,
+        "max": 800,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "S23L",
+        "unit": "mm",
+        "init": 200,
+        "min": 1,
+        "max": 600,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2_method",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "D2_from_Rvw",
+          "D2_direct"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Rvw",
+        "unit": "%",
+        "init": 50,
+        "min": 5,
+        "max": 95,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 600,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3_method",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [
+          "D3_from_R32",
+          "D3_direct"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "R32",
+        "unit": "%",
+        "init": 50,
+        "min": 5,
+        "max": 95,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 600,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Optional internal cylinder",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "internal_cylinder",
+        "unit": "checkbox",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "E4",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1L": "reinforced_tube_section.svg",
+      "H1": "reinforced_tube_section.svg",
+      "E1": "reinforced_tube_section.svg",
+      "E2": "reinforced_tube_section.svg",
+      "N2": "reinforced_tube_section.svg",
+      "W2_method": "reinforced_tube_section.svg",
+      "RW2": "reinforced_tube_section.svg",
+      "W2": "reinforced_tube_section.svg",
+      "S23L": "reinforced_tube_section.svg",
+      "D2_method": "reinforced_tube_section.svg",
+      "R32": "reinforced_tube_section.svg",
+      "D2": "reinforced_tube_section.svg",
+      "D3_method": "reinforced_tube_section.svg",
+      "Rvw": "reinforced_tube_section.svg",
+      "D3": "reinforced_tube_section.svg",
+      "internal_cylinder": "reinforced_tube_section.svg",
+      "E4": "reinforced_tube_section.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1L": 1600,
+    "H1": 6000,
+    "E1": 10,
+    "Wave": 0,
+    "E2": 10,
+    "N2": 5,
+    "W2_method": 0,
+    "RW2": 50,
+    "W2": 80,
+    "S23L": 200,
+    "D2_method": 0,
+    "Rvw": 50,
+    "D2": 20,
+    "D3_method": 0,
+    "R32": 50,
+    "D3": 20,
+    "Optional internal cylinder": 0,
+    "internal_cylinder": 0,
+    "E4": 10
+  },
+  "figures": {
+    "faceTopExt": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 800
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 790
+        }
+      ]
+    ],
+    "faceTopWave": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 790,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 639.1234255562085,
+              "py": 464.3503493110538,
+              "radius": 790,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 513.0269870534395,
+              "py": 500.77806020462515,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 445.5382937101975,
+              "py": 473.82099868068804
+            },
+            {
+              "typ": 2,
+              "px": 312.95164395147793,
+              "py": 570.1508383761496,
+              "radius": 96.86574217371074,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 317.73417980276656,
+              "py": 642.6665900857924
+            },
+            {
+              "typ": 2,
+              "px": 244.12342555620847,
+              "py": 751.3346478731713,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -244.1234255562084,
+              "py": 751.3346478731714,
+              "radius": 790.000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -317.73417980276645,
+              "py": 642.6665900857927,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -312.9516439514778,
+              "py": 570.1508383761496
+            },
+            {
+              "typ": 2,
+              "px": -445.5382937101975,
+              "py": 473.8209986806881,
+              "radius": 96.86574217371071,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -513.0269870534393,
+              "py": 500.77806020462515
+            },
+            {
+              "typ": 2,
+              "px": -639.1234255562084,
+              "py": 464.3503493110539,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -790,
+              "py": 9.67470971326409e-14,
+              "radius": 790.0000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -709.3975095591195,
+              "py": -103.58826409760897,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -638.9530465073665,
+              "py": -121.44840184997958
+            },
+            {
+              "typ": 2,
+              "px": -588.3094527540136,
+              "py": -277.31335660806513,
+              "radius": 96.86574217371061,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -634.8022949477444,
+              "py": -333.1687280590931
+            },
+            {
+              "typ": 2,
+              "px": -639.1234255562085,
+              "py": -464.35034931105366,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -244.1234255562086,
+              "py": -751.3346478731713,
+              "radius": 789.9999999999989,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -120.69759263929784,
+              "py": -706.6876581337154,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -81.94305600536691,
+              "py": -645.2100785987926
+            },
+            {
+              "typ": 2,
+              "px": 81.94305600536666,
+              "py": -645.2100785987926,
+              "radius": 96.86574217371079,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 120.69759263929757,
+              "py": -706.6876581337154
+            },
+            {
+              "typ": 2,
+              "px": 244.1234255562083,
+              "py": -751.3346478731714,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 639.1234255562084,
+              "py": -464.35034931105395,
+              "radius": 790.0000000000022,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 634.8022949477443,
+              "py": -333.1687280590933,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 588.3094527540135,
+              "py": -277.3133566080654
+            },
+            {
+              "typ": 2,
+              "px": 638.9530465073664,
+              "py": -121.44840184997983,
+              "radius": 96.86574217371064,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 709.3975095591194,
+              "py": -103.58826409760924
+            },
+            {
+              "typ": 2,
+              "px": 790,
+              "py": -1.934941942652818e-13,
+              "radius": 106.8657421737107,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 780,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 631.033255612459,
+              "py": 458.47249678812904,
+              "radius": 780.000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 516.7363363885436,
+              "py": 491.4914716216113,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 449.24764304530163,
+              "py": 464.53441009767425
+            },
+            {
+              "typ": 2,
+              "px": 302.9733213828299,
+              "py": 570.8089255405959,
+              "radius": 106.86574217371063,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 307.7558572341185,
+              "py": 643.3246772502388
+            },
+            {
+              "typ": 2,
+              "px": 241.03325561245902,
+              "py": 741.8240827102197,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -241.03325561245893,
+              "py": 741.8240827102198,
+              "radius": 780.000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -307.7558572341184,
+              "py": 643.3246772502389,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -302.9733213828298,
+              "py": 570.8089255405959
+            },
+            {
+              "typ": 2,
+              "px": -449.2476430453016,
+              "py": 464.53441009767425,
+              "radius": 106.86574217371069,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -516.7363363885434,
+              "py": 491.49147162161137
+            },
+            {
+              "typ": 2,
+              "px": -631.0332556124589,
+              "py": 458.47249678812915,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -780,
+              "py": 9.552245033349355e-14,
+              "radius": 780.0000000000013,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -706.9399163960888,
+              "py": -93.89495527940734,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -636.4954533443358,
+              "py": -111.75509303177796
+            },
+            {
+              "typ": 2,
+              "px": -580.6236341506067,
+              "py": -283.7108711563506,
+              "radius": 106.86574217371074,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -627.1164763443375,
+              "py": -339.56624260737857
+            },
+            {
+              "typ": 2,
+              "px": -631.033255612459,
+              "py": -458.472496788129,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -241.0332556124591,
+              "py": -741.8240827102197,
+              "radius": 779.9999999999992,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -129.15703910267365,
+              "py": -701.354950985064,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -90.40250246874272,
+              "py": -639.8773714501411
+            },
+            {
+              "typ": 2,
+              "px": 90.40250246874247,
+              "py": -639.8773714501411,
+              "radius": 106.86574217371079,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 129.15703910267337,
+              "py": -701.3549509850641
+            },
+            {
+              "typ": 2,
+              "px": 241.03325561245885,
+              "py": -741.8240827102198,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 631.0332556124589,
+              "py": -458.4724967881292,
+              "radius": 780.0000000000003,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 627.1164763443373,
+              "py": -339.5662426073788,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 580.6236341506066,
+              "py": -283.71087115635095
+            },
+            {
+              "typ": 2,
+              "px": 636.4954533443358,
+              "py": -111.7550930317782,
+              "radius": 106.86574217371071,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 706.9399163960888,
+              "py": -93.8949552794076
+            },
+            {
+              "typ": 2,
+              "px": 780,
+              "py": -1.910449006669871e-13,
+              "radius": 96.8657421737107,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTopInt": [],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -800,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -790,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -790,
+              "py": 6000
+            },
+            {
+              "typ": 1,
+              "px": -800,
+              "py": 6000
+            },
+            {
+              "typ": 1,
+              "px": -800,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 790,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 800,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 800,
+              "py": 6000
+            },
+            {
+              "typ": 1,
+              "px": 790,
+              "py": 6000
+            },
+            {
+              "typ": 1,
+              "px": 790,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_reinforced_tube_topExt",
+        "face": "reinforced_tube_faceTopExt",
+        "extrudeMethod": 0,
+        "length": 6000,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_reinforced_tube_topWave",
+        "face": "reinforced_tube_faceTopWave",
+        "extrudeMethod": 0,
+        "length": 6000,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_reinforced_tube",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_reinforced_tube_topExt",
+          "subpax_reinforced_tube_topWave"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "reinforced_tube simTime: 0\nExternal cylinder: D1Le: 1600 mm, D1Li: 1580.00 mm, corde-ext: 5026.55 mm, corde-int: 4963.72 mm, diff: 62.83 mm\nPeriod: angle: 72.00 degree, corde-ext: 992.74 mm\nW2: angle: 36.00 degree or 50.00 %, corde-ext: 496.37 mm, corde-int: 490.09 mm, W2bis: 482.07 mm\nWave: angle: 36.00 degree or 50.00 %, corde-ext: 496.37 mm\nD2: 193.73 mm, R2i: 96.87 mm, R2e: 106.87 mm\nD3: 193.73 mm, R3i: 96.87 mm, R3e: 106.87 mm\naf: 32.23 degree, afDiff: 23.41 degree\ninfo253: Wave-internal length: 5535.78 mm\ninfo254: Wave-external length: 5598.61 mm\ninfo255: Wave-average length: 5567.20 mm, diff: 62.83 mm\nreinforced_tube drawn successfully!\n"
+}

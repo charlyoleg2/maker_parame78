@@ -1,0 +1,472 @@
+{
+  "partName": "door",
+  "pDef": {
+    "partName": "door",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 1200,
+        "min": 400,
+        "max": 4000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "mm",
+        "init": 200,
+        "min": 50,
+        "max": 500,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 1000,
+        "min": 50,
+        "max": 5000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Heights",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 500,
+        "min": 100,
+        "max": 4000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 1600,
+        "min": 100,
+        "max": 4000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "mm",
+        "init": 200,
+        "min": 10,
+        "max": 500,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "R1",
+        "unit": "mm",
+        "init": 200,
+        "min": 50,
+        "max": 500,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R2",
+        "unit": "mm",
+        "init": 1000,
+        "min": 50,
+        "max": 5000,
+        "step": 10,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "H1": "door_face.svg",
+      "H2": "door_face.svg",
+      "H3": "door_face.svg",
+      "L1": "door_face.svg",
+      "L2": "door_face.svg",
+      "R1": "door_face.svg",
+      "R2": "door_face.svg",
+      "W1": "door_face.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 1990,
+    "L2": 350,
+    "W1": 400,
+    "Heights": 0,
+    "H1": 340,
+    "H2": 1040,
+    "H3": 500,
+    "Details": 0,
+    "R1": 500,
+    "R2": 1350
+  },
+  "figures": {
+    "faceDoor": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 350,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 350,
+              "py": 230.75452284679224
+            },
+            {
+              "typ": 2,
+              "px": 398.71802604216373,
+              "py": 446.0324362069855,
+              "radius": 500,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 620.1035669767214,
+              "py": 849.3872429921234,
+              "radius": 4048.261979463646,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 847.5,
+              "py": 1135.5961393103416,
+              "radius": 1627.2465049604132,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 1113.5199510187285,
+              "py": 1326.211205573769,
+              "radius": 995.5671898679699,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 1345,
+              "py": 1380,
+              "radius": 524.9815327210381,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 1576.4800489812715,
+              "py": 1326.211205573769,
+              "radius": 524.9815327210373,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 1842.5,
+              "py": 1135.5961393103416,
+              "radius": 995.5671898679706,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 2069.896433023279,
+              "py": 849.3872429921233,
+              "radius": 1627.2465049604157,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 2291.281973957836,
+              "py": 446.0324362069873,
+              "radius": 4048.261979463644,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 2340,
+              "py": 230.7545228467941,
+              "radius": 500,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 2340,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2690,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 2690,
+              "py": 61.210777998078015
+            },
+            {
+              "typ": 2,
+              "px": 2564.813286176656,
+              "py": 628.9540421634397,
+              "radius": 1350,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 2322.541568038905,
+              "py": 1098.4606651836748,
+              "radius": 6243.344855053193,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 2017.5,
+              "py": 1518.0942832095452,
+              "radius": 2365.7308396264075,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 1653.7015614164843,
+              "py": 1802.2105906162801,
+              "radius": 1369.5397724335674,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 1345,
+              "py": 1880,
+              "radius": 651.4244486245844,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 1036.2984385835155,
+              "py": 1802.2105906162801,
+              "radius": 651.4244486245855,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 672.5,
+              "py": 1518.0942832095452,
+              "radius": 1369.5397724335664,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 367.45843196109536,
+              "py": 1098.460665183676,
+              "radius": 2365.7308396264007,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 125.18671382334287,
+              "py": 628.9540421634388,
+              "radius": 6243.344855053223,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": 1.7070916418071824e-14,
+              "py": 61.21077799807648,
+              "radius": 1350,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -1345,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -995,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -995,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": -1345,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": -1345,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 995,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1345,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1345,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 995,
+              "py": 400
+            },
+            {
+              "typ": 1,
+              "px": 995,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 400,
+              "py": 1880
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 1880
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_door",
+        "face": "door_faceDoor",
+        "extrudeMethod": 0,
+        "length": 400,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_door",
+        "boolMethod": 0,
+        "inList": [
+          "subpax_door"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "door simTime: 0\ndoor: height-int 1.38  height-ext 1.88  width-ext 2.69 m\ninternal cosh a1 995.00  b1 -1915.00  c1 3295.00\nexternal cosh a2 1345.00  b2 -2835.67  c2 4715.67\ndoor drawn successfully!\n"
+}

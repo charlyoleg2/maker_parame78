@@ -1,0 +1,1333 @@
+{
+  "partName": "lens_x3",
+  "pDef": {
+    "partName": "lens_x3",
+    "params": [
+      {
+        "name": "ne",
+        "unit": "no-unit",
+        "init": 1,
+        "min": 1,
+        "max": 3,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "First lens",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "l1ni",
+        "unit": "no-unit",
+        "init": 1.6,
+        "min": 1,
+        "max": 3,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1D1",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1E1",
+        "unit": "mm",
+        "init": 8,
+        "min": 0.5,
+        "max": 200,
+        "step": 0.5,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1Dl",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1Rl",
+        "unit": "mm",
+        "init": 35,
+        "min": 1,
+        "max": 5000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1TypeL",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "convex",
+          "planar",
+          "concave"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "l1Dr",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1Rr",
+        "unit": "mm",
+        "init": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l1TypeR",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "convex",
+          "planar",
+          "concave"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "Second lens",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "l2Active",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "l2ni",
+        "unit": "no-unit",
+        "init": 1.6,
+        "min": 1,
+        "max": 3,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2D1",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2E1",
+        "unit": "mm",
+        "init": 8,
+        "min": 0.5,
+        "max": 200,
+        "step": 0.5,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2Dl",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2Rl",
+        "unit": "mm",
+        "init": 35,
+        "min": 1,
+        "max": 5000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2TypeL",
+        "unit": "dropdown",
+        "init": 1,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "convex",
+          "planar",
+          "concave"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "l2Dr",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2Rr",
+        "unit": "mm",
+        "init": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l2TypeR",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "convex",
+          "planar",
+          "concave"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "l2Px",
+        "unit": "mm",
+        "init": 20,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Third lens",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "l3Active",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "l3ni",
+        "unit": "no-unit",
+        "init": 1.6,
+        "min": 1,
+        "max": 3,
+        "step": 0.01,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3D1",
+        "unit": "mm",
+        "init": 40,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3E1",
+        "unit": "mm",
+        "init": 8,
+        "min": 0.5,
+        "max": 200,
+        "step": 0.5,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3Dl",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3Rl",
+        "unit": "mm",
+        "init": 35,
+        "min": 1,
+        "max": 5000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3TypeL",
+        "unit": "dropdown",
+        "init": 2,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "convex",
+          "planar",
+          "concave"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "l3Dr",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3Rr",
+        "unit": "mm",
+        "init": 50,
+        "min": 1,
+        "max": 5000,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "l3TypeR",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 2,
+        "step": 1,
+        "dropdown": [
+          "convex",
+          "planar",
+          "concave"
+        ],
+        "pType": 2
+      },
+      {
+        "name": "l3Px",
+        "unit": "mm",
+        "init": 40,
+        "min": 0,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Simulation",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "objectPx",
+        "unit": "mm",
+        "init": -50,
+        "min": -500,
+        "max": 0,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "objectPy",
+        "unit": "mm",
+        "init": 8,
+        "min": -500,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ray1Angle",
+        "unit": "degree",
+        "init": 0,
+        "min": -60,
+        "max": 60,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "ray2Angle",
+        "unit": "degree",
+        "init": -2,
+        "min": -60,
+        "max": 60,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "rayNb",
+        "unit": "rays",
+        "init": 3,
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "imagePx",
+        "unit": "mm",
+        "init": 140,
+        "min": 0,
+        "max": 2000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "simType",
+        "unit": "dropdown",
+        "init": 0,
+        "min": 0,
+        "max": 3,
+        "step": 1,
+        "dropdown": [
+          "oneRay",
+          "twoRays",
+          "parallel",
+          "object"
+        ],
+        "pType": 2
+      }
+    ],
+    "paramSvg": {
+      "ne": "lens_profile.svg",
+      "l1ni": "lens_profile.svg",
+      "l1D1": "lens_profile.svg",
+      "l1E1": "lens_profile.svg",
+      "l1Dl": "lens_profile.svg",
+      "l1Rl": "lens_profile.svg",
+      "l1TypeL": "lens_profile.svg",
+      "l1Dr": "lens_profile.svg",
+      "l1Rr": "lens_profile.svg",
+      "l1TypeR": "lens_profile.svg",
+      "l2Active": "lens_multi.svg",
+      "l2ni": "lens_multi.svg",
+      "l2D1": "lens_profile.svg",
+      "l2E1": "lens_profile.svg",
+      "l2Dl": "lens_profile.svg",
+      "l2Rl": "lens_profile.svg",
+      "l2TypeL": "lens_profile.svg",
+      "l2Dr": "lens_profile.svg",
+      "l2Rr": "lens_profile.svg",
+      "l2TypeR": "lens_profile.svg",
+      "l2Px": "lens_multi.svg",
+      "l3Active": "lens_multi.svg",
+      "l3ni": "lens_multi.svg",
+      "l3D1": "lens_profile.svg",
+      "l3E1": "lens_profile.svg",
+      "l3Dl": "lens_profile.svg",
+      "l3Rl": "lens_profile.svg",
+      "l3TypeL": "lens_profile.svg",
+      "l3Dr": "lens_profile.svg",
+      "l3Rr": "lens_profile.svg",
+      "l3TypeR": "lens_profile.svg",
+      "l3Px": "lens_multi.svg",
+      "objectPx": "lens_simOneRay.svg",
+      "objectPy": "lens_simOneRay.svg",
+      "ray1Angle": "lens_simOneRay.svg",
+      "ray2Angle": "lens_simTwoRays.svg",
+      "rayNb": "lens_simParallel.svg",
+      "imagePx": "lens_simOneRay.svg",
+      "simType": "lens_simObject.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "ne": 1,
+    "First lens": 0,
+    "l1ni": 1.6,
+    "l1D1": 40,
+    "l1E1": 8,
+    "l1Dl": 30,
+    "l1Rl": 35,
+    "l1TypeL": 0,
+    "l1Dr": 30,
+    "l1Rr": 50,
+    "l1TypeR": 0,
+    "Second lens": 0,
+    "l2Active": 1,
+    "l2ni": 1.6,
+    "l2D1": 40,
+    "l2E1": 8,
+    "l2Dl": 30,
+    "l2Rl": 35,
+    "l2TypeL": 1,
+    "l2Dr": 30,
+    "l2Rr": 50,
+    "l2TypeR": 0,
+    "l2Px": 20,
+    "Third lens": 0,
+    "l3Active": 1,
+    "l3ni": 1.6,
+    "l3D1": 40,
+    "l3E1": 8,
+    "l3Dl": 30,
+    "l3Rl": 35,
+    "l3TypeL": 2,
+    "l3Dr": 30,
+    "l3Rr": 50,
+    "l3TypeR": 0,
+    "l3Px": 40,
+    "Simulation": 0,
+    "objectPx": -50,
+    "objectPy": 8,
+    "ray1Angle": 0,
+    "ray2Angle": -2,
+    "rayNb": 3,
+    "imagePx": 140,
+    "simType": 0
+  },
+  "figures": {
+    "faceLensSim": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 4,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 1.696960070847283,
+              "py": 15,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 1.696960070847283,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": -0.6227766016837952,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": -0.6227766016837952,
+              "py": 15
+            },
+            {
+              "typ": 2,
+              "px": -4,
+              "py": 0,
+              "radius": 34.999999999999964,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 2,
+              "px": -0.6227766016837952,
+              "py": -15,
+              "radius": 35.00000000000003,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -0.6227766016837952,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 1.696960070847283,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 1.696960070847283,
+              "py": -15
+            },
+            {
+              "typ": 2,
+              "px": 4,
+              "py": 0,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 24,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 21.696960070847283,
+              "py": 15,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 21.696960070847283,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 16,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 16,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 16,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 21.696960070847283,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 21.696960070847283,
+              "py": -15
+            },
+            {
+              "typ": 2,
+              "px": 24,
+              "py": 0,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 44,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 41.69696007084728,
+              "py": 15,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 41.69696007084728,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 32.622776601683796,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 32.622776601683796,
+              "py": 15
+            },
+            {
+              "typ": 2,
+              "px": 36,
+              "py": 0,
+              "radius": 35.00000000000003,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 2,
+              "px": 32.622776601683796,
+              "py": -15,
+              "radius": 34.99999999999996,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 32.622776601683796,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 41.69696007084728,
+              "py": -20
+            },
+            {
+              "typ": 1,
+              "px": 41.69696007084728,
+              "py": -15
+            },
+            {
+              "typ": 2,
+              "px": 44,
+              "py": 0,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "faceLens1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2.4492935982947064e-16,
+              "py": 4
+            },
+            {
+              "typ": 2,
+              "px": -15,
+              "py": 1.6969600708472787,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 1.6969600708472856
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": -0.6227766016837971
+            },
+            {
+              "typ": 1,
+              "px": -15,
+              "py": -0.622776601683795
+            },
+            {
+              "typ": 2,
+              "px": -7.347880794884119e-16,
+              "py": -4,
+              "radius": 34.999999999999964,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 2.4492935982947064e-16,
+              "py": 4
+            }
+          ]
+        }
+      ]
+    ],
+    "faceLens2": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2.4492935982947064e-16,
+              "py": 4
+            },
+            {
+              "typ": 2,
+              "px": -15,
+              "py": 1.6969600708472787,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 1.6969600708472856
+            },
+            {
+              "typ": 1,
+              "px": -19.999999999999996,
+              "py": -4
+            },
+            {
+              "typ": 1,
+              "px": -7.347880794884119e-16,
+              "py": -4
+            },
+            {
+              "typ": 1,
+              "px": 2.4492935982947064e-16,
+              "py": 4
+            }
+          ]
+        }
+      ]
+    ],
+    "faceLens3": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2.4492935982947064e-16,
+              "py": 4
+            },
+            {
+              "typ": 2,
+              "px": -15,
+              "py": 1.6969600708472787,
+              "radius": 49.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": 1.6969600708472856
+            },
+            {
+              "typ": 1,
+              "px": -20,
+              "py": -7.377223398316202
+            },
+            {
+              "typ": 1,
+              "px": -14.999999999999996,
+              "py": -7.377223398316206
+            },
+            {
+              "typ": 2,
+              "px": -7.347880794884119e-16,
+              "py": -4,
+              "radius": 35.00000000000002,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 2.4492935982947064e-16,
+              "py": 4
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_lens_x3_lens1",
+        "face": "lens_x3_faceLens1",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_lens_x3_lens2",
+        "face": "lens_x3_faceLens2",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          20
+        ]
+      },
+      {
+        "outName": "subpax_lens_x3_lens3",
+        "face": "lens_x3_faceLens3",
+        "extrudeMethod": 1,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          40
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_lens_x3",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_lens_x3_lens1",
+          "subpax_lens_x3_lens2",
+          "subpax_lens_x3_lens3"
+        ]
+      }
+    ]
+  },
+  "subs": {
+    "lens_1": {
+      "partName": "lens_x1",
+      "dparam": {
+        "D1": {
+          "val": 40,
+          "init": 40,
+          "chg": true
+        },
+        "E1": {
+          "val": 8,
+          "init": 8,
+          "chg": true
+        },
+        "Dioptre left": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "Dl": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        },
+        "Rl": {
+          "val": 35,
+          "init": 35,
+          "chg": true
+        },
+        "TypeL": {
+          "val": 0,
+          "init": 0,
+          "chg": true
+        },
+        "Dioptre right": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "Dr": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        },
+        "Rr": {
+          "val": 50,
+          "init": 50,
+          "chg": true
+        },
+        "TypeR": {
+          "val": 0,
+          "init": 0,
+          "chg": true
+        },
+        "index of refraction": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "ni": {
+          "val": 1.6,
+          "init": 1.6,
+          "chg": true
+        },
+        "ne": {
+          "val": 1,
+          "init": 1,
+          "chg": true
+        },
+        "Simulation": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "objectPx": {
+          "val": -50,
+          "init": -50,
+          "chg": false
+        },
+        "objectPy": {
+          "val": 8,
+          "init": 8,
+          "chg": false
+        },
+        "ray1Angle": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "ray2Angle": {
+          "val": -2,
+          "init": -2,
+          "chg": false
+        },
+        "rayNb": {
+          "val": 3,
+          "init": 3,
+          "chg": false
+        },
+        "imagePx": {
+          "val": 120,
+          "init": 120,
+          "chg": false
+        },
+        "simType": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        }
+      },
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "lens_2": {
+      "partName": "lens_x1",
+      "dparam": {
+        "D1": {
+          "val": 40,
+          "init": 40,
+          "chg": true
+        },
+        "E1": {
+          "val": 8,
+          "init": 8,
+          "chg": true
+        },
+        "Dioptre left": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "Dl": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        },
+        "Rl": {
+          "val": 35,
+          "init": 35,
+          "chg": true
+        },
+        "TypeL": {
+          "val": 1,
+          "init": 0,
+          "chg": true
+        },
+        "Dioptre right": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "Dr": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        },
+        "Rr": {
+          "val": 50,
+          "init": 50,
+          "chg": true
+        },
+        "TypeR": {
+          "val": 0,
+          "init": 0,
+          "chg": true
+        },
+        "index of refraction": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "ni": {
+          "val": 1.6,
+          "init": 1.6,
+          "chg": true
+        },
+        "ne": {
+          "val": 1,
+          "init": 1,
+          "chg": true
+        },
+        "Simulation": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "objectPx": {
+          "val": -50,
+          "init": -50,
+          "chg": false
+        },
+        "objectPy": {
+          "val": 8,
+          "init": 8,
+          "chg": false
+        },
+        "ray1Angle": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "ray2Angle": {
+          "val": -2,
+          "init": -2,
+          "chg": false
+        },
+        "rayNb": {
+          "val": 3,
+          "init": 3,
+          "chg": false
+        },
+        "imagePx": {
+          "val": 120,
+          "init": 120,
+          "chg": false
+        },
+        "simType": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        }
+      },
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    },
+    "lens_3": {
+      "partName": "lens_x1",
+      "dparam": {
+        "D1": {
+          "val": 40,
+          "init": 40,
+          "chg": true
+        },
+        "E1": {
+          "val": 8,
+          "init": 8,
+          "chg": true
+        },
+        "Dioptre left": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "Dl": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        },
+        "Rl": {
+          "val": 35,
+          "init": 35,
+          "chg": true
+        },
+        "TypeL": {
+          "val": 2,
+          "init": 0,
+          "chg": true
+        },
+        "Dioptre right": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "Dr": {
+          "val": 30,
+          "init": 30,
+          "chg": true
+        },
+        "Rr": {
+          "val": 50,
+          "init": 50,
+          "chg": true
+        },
+        "TypeR": {
+          "val": 0,
+          "init": 0,
+          "chg": true
+        },
+        "index of refraction": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "ni": {
+          "val": 1.6,
+          "init": 1.6,
+          "chg": true
+        },
+        "ne": {
+          "val": 1,
+          "init": 1,
+          "chg": true
+        },
+        "Simulation": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "objectPx": {
+          "val": -50,
+          "init": -50,
+          "chg": false
+        },
+        "objectPy": {
+          "val": 8,
+          "init": 8,
+          "chg": false
+        },
+        "ray1Angle": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        },
+        "ray2Angle": {
+          "val": -2,
+          "init": -2,
+          "chg": false
+        },
+        "rayNb": {
+          "val": 3,
+          "init": 3,
+          "chg": false
+        },
+        "imagePx": {
+          "val": 120,
+          "init": 120,
+          "chg": false
+        },
+        "simType": {
+          "val": 0,
+          "init": 0,
+          "chg": false
+        }
+      },
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "log": "lens_x3 simTime: 0\nlens-1 : E2: 2.32 mm\nlens-1 : x1: -0.62, x2: 1.70 mm\nlens-2 : E2: 5.70 mm\nlens-2 : x1: -4.00, x2: 1.70 mm\nlens-3 : E2: 9.07 mm\nlens-3 : x1: -7.38, x2: 1.70 mm\nOptic simulator:\nray1-angle1: 0.00\nray2-angle1: -2.00\nrayNb: 3\nsimType: 0\nlens-1\n  E1: 8\n  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 0\n  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0\n  index of refraction of the lens: ni: 1.6\n  Position-X: 0 mm\nlens-2\n  E1: 8\n  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 1\n  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0\n  index of refraction of the lens: ni: 1.6\n  Position-X: 20 mm\nlens-3\n  E1: 8\n  Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 2\n  Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0\n  index of refraction of the lens: ni: 1.6\n  Position-X: 40 mm\nindex of refraction of the environment: n0: 1\nEnd of simulator\n[lens_x1]: lens_x1 simTime: 0\n[lens_x1]: E2: 2.32 mm\n[lens_x1]: x1: -0.62, x2: 1.70 mm\n[lens_x1]: Optic simulator:\n[lens_x1]: ray1-angle1: 0.00\n[lens_x1]: ray2-angle1: -2.00\n[lens_x1]: rayNb: 3\n[lens_x1]: simType: 0\n[lens_x1]: lens-1\n[lens_x1]:   E1: 8\n[lens_x1]:   Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 0\n[lens_x1]:   Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0\n[lens_x1]:   index of refraction of the lens: ni: 1.6\n[lens_x1]:   Position-X: 0 mm\n[lens_x1]: index of refraction of the environment: n0: 1\n[lens_x1]: End of simulator\n[lens_x1]: lens_x1 drawn successfully!\n[lens_x1]: lens_x1 simTime: 0\n[lens_x1]: E2: 5.70 mm\n[lens_x1]: x1: -4.00, x2: 1.70 mm\n[lens_x1]: Optic simulator:\n[lens_x1]: ray1-angle1: 0.00\n[lens_x1]: ray2-angle1: -2.00\n[lens_x1]: rayNb: 3\n[lens_x1]: simType: 0\n[lens_x1]: lens-1\n[lens_x1]:   E1: 8\n[lens_x1]:   Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 1\n[lens_x1]:   Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0\n[lens_x1]:   index of refraction of the lens: ni: 1.6\n[lens_x1]:   Position-X: 0 mm\n[lens_x1]: index of refraction of the environment: n0: 1\n[lens_x1]: End of simulator\n[lens_x1]: lens_x1 drawn successfully!\n[lens_x1]: lens_x1 simTime: 0\n[lens_x1]: E2: 9.07 mm\n[lens_x1]: x1: -7.38, x2: 1.70 mm\n[lens_x1]: Optic simulator:\n[lens_x1]: ray1-angle1: 0.00\n[lens_x1]: ray2-angle1: -2.00\n[lens_x1]: rayNb: 3\n[lens_x1]: simType: 0\n[lens_x1]: lens-1\n[lens_x1]:   E1: 8\n[lens_x1]:   Dioptre-left  :  Dl: 30, Rl: 35, TypeL: 2\n[lens_x1]:   Dioptre-right :  Dr: 30, Rr: 50, TypeR: 0\n[lens_x1]:   index of refraction of the lens: ni: 1.6\n[lens_x1]:   Position-X: 0 mm\n[lens_x1]: index of refraction of the environment: n0: 1\n[lens_x1]: End of simulator\n[lens_x1]: lens_x1 drawn successfully!\nlens_x3 drawn successfully!\n"
+}

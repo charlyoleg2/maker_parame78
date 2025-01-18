@@ -1,0 +1,8 @@
+maison simTime: 0
+maison: height 12.00 m
+maison: aA3: 22.50, aA2: 22.50 degree
+fold lBD: 12.99 m
+Roof border: low-1: 0.36 low-2: 0.36 high-1: 0.60 high-2: 0.60
+Roof top: WF1: 0.40 WF2: 0.40 m  ratio12: 1.00
+triangule: 
+maison drawn successfully!

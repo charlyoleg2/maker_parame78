@@ -1,0 +1,5 @@
+door simTime: 0
+door: height-int 1.38  height-ext 1.88  width-ext 2.69 m
+internal cosh a1 995.00  b1 -1915.00  c1 3295.00
+external cosh a2 1345.00  b2 -2835.67  c2 4715.67
+door drawn successfully!

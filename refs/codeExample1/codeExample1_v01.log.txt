@@ -1,0 +1,2 @@
+codeExample1 simTime: 0
+sum of angles: 175.00 degreecodeExample1 drawn successfully!
