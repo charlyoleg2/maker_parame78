@@ -5,15 +5,31 @@ import { exec } from "child_process";
 import { promisify } from 'util';
 
 const c_Parts = {
-	doorstop: 'doorstop_v01',
-	pencil_holder: 'pencil_holder_v01',
-	spiral: 'spiral_v01'
+	door: 'door_v01',
+	maison: 'maison_v01',
+	cabane_plancher: 'cabane_plancher_v01',
+	cabane: 'cabane_v01',
+	reinforced_tube: 'reinforced_tube_v01',
+	reinforced_cone: 'reinforced_cone_v01',
+	lens_x1: 'lens_x1_v01',
+	lens_x3: 'lens_x3_v01',
+	pulley: 'pulley_v01',
+	codeExample1: 'codeExample1_v01',
+	rail: 'rail_v01',
 };
 
 const c_svgdxf = {
-	doorstop: ['faceProfile', 'faceTop', 'faceSide'],
-	pencil_holder: ['faceTop', 'faceFace', 'faceSide'],
-	spiral: ['faceTop', 'faceSide']
+	door: ['faceDoor', 'faceTop', 'faceSide'],
+	maison: ['faceSide1', 'faceSide2', 'faceTop1', 'faceSide2', 'faceChimney'],
+	cabane_plancher: ['facePlancherTop', 'facePlancherBottom', 'faceBeam', 'faceLeg', 'faceButtress', 'faceSide'],
+	cabane: ['faceTop', 'faceFaceFront', 'faceFaceBack', 'faceFaceRoof', 'faceFaceSide', 'faceSide'],
+	reinforced_tube: ['faceTopExt', 'faceTopWave', 'faceTopInt', 'faceSide'],
+	reinforced_cone: ['faceTopWave', 'faceSideExt', 'faceSideInt', 'faceTopWaveH', 'faceTopWaveL'],
+	lens_x1: ['faceLensSim', 'faceLens3D'],
+	lens_x3: ['faceLensSim', 'faceLens1', 'faceLens2', 'faceLens3'],
+	pulley: ['facePulleyProfile', 'facePulleyRim', 'facePulleyWidth'],
+	codeExample1: ['faceExampl1'],
+	rail: ['faceRail'],
 };
 
 function inferDesignName(instanceName) {
@@ -31,7 +47,7 @@ function getCmd(dName, fName) {
 	//rCmd.push(`npx desi78-cli -d=desi78/${desiName} -o=refs/${dName} --outFileName=px_${fName}.json write json_param`);
 	rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}.log.txt write compute_log`);
 	// svg, dxf
-	for (const face of c_svgdxf[desiName]) {
+	for (const face of c_svgdxf[dName]) {
 		rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.svg write svg__${face}`);
 		rCmd.push(`npx desi78-cli -d=desi78/${desiName} -p=refs/${dName}/px_${fName}.json -o=refs/${dName} --outFileName=${fName}_${face}.dxf write dxf__${face}`);
 	}
