@@ -1,5 +1,5 @@
 {
-  "lastModif": "20250118_180930",
+  "lastModif": "20250118_183145",
   "partName": "reinforced_tube",
   "pVal": {
     "D1L": 1600,
@@ -7,7 +7,7 @@
     "E1": 10,
     "Wave": 0,
     "E2": 10,
-    "N2": 20,
+    "N2": 5,
     "W2_method": 0,
     "RW2": 50,
     "W2": 80,
@@ -22,5 +22,5 @@
     "internal_cylinder": 0,
     "E4": 10
   },
-  "comment": "Written by geom_cli"
+  "comment": ""
 }
