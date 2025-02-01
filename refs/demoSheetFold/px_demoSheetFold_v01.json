@@ -1,0 +1,19 @@
+{
+  "lastModif": "20250201_100016",
+  "partName": "demoSheetFold",
+  "pVal": {
+    "W": 80,
+    "L1": 60,
+    "L2": 35,
+    "Fold": 0,
+    "Ja": 60,
+    "Jr": 10,
+    "Jn": 50,
+    "Thickness": 0,
+    "T": 10,
+    "jMark": 1,
+    "R1": 10,
+    "R2": 10
+  },
+  "comment": ""
+}
