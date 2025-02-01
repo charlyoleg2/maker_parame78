@@ -1,0 +1,16 @@
+{
+  "lastModif": "20250201_151723",
+  "partName": "sfDie",
+  "pVal": {
+    "W1": 200,
+    "J1": 90,
+    "J5": 30,
+    "D1": 50,
+    "Thickness and fold": 0,
+    "Th": 10,
+    "Jradius": 20,
+    "Jneutral": 50,
+    "Jmark": 1
+  },
+  "comment": ""
+}
