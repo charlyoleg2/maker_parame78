@@ -20,6 +20,9 @@ const c_Parts = {
 	pulley: 'pulley_v01',
 	codeExample1: 'codeExample1_v01',
 	demoSheetFold: 'demoSheetFold_v01',
+	demoSheetFold2_A: 'demoSheetFold2_A_v01',
+	demoSheetFold2_B: 'demoSheetFold2_B_v01',
+	demoSheetFold2_C: 'demoSheetFold2_C_v01',
 	rail: 'rail_v01',
 };
 
@@ -39,6 +42,9 @@ const c_svgdxf = {
 	pulley: ['facePulleyProfile', 'facePulleyRim', 'facePulleyWidth'],
 	codeExample1: ['faceExample1'],
 	demoSheetFold: ['faceCut', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
+	demoSheetFold2_A: ['facePattern', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
+	demoSheetFold2_B: ['facePattern', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
+	demoSheetFold2_C: ['facePattern', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
 	rail: ['faceRail'],
 };
 

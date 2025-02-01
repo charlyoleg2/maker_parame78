@@ -1,0 +1,25 @@
+{
+  "lastModif": "20250201_152712",
+  "partName": "demoSheetFold2",
+  "pVal": {
+    "L1": 100,
+    "W1": 200,
+    "J1": 60,
+    "L2": 100,
+    "A2": 60,
+    "J2": 60,
+    "L3": 100,
+    "A3": 60,
+    "J3": 60,
+    "L4": 100,
+    "A4": 60,
+    "J4": 60,
+    "W5": 100,
+    "Thickness and fold": 0,
+    "Th": 10,
+    "Jradius": 20,
+    "Jneutral": 50,
+    "Jmark": 1
+  },
+  "comment": ""
+}
