@@ -1,0 +1,3 @@
+demoSheetFold2 simTime: 0
+junction: radius neutral 20.00, intern 15.00, extern 25.00
+demoSheetFold2 drawn successfully!

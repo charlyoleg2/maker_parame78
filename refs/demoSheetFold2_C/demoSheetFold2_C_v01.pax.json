@@ -1,0 +1,855 @@
+{
+  "partName": "demoSheetFold2",
+  "pDef": {
+    "partName": "demoSheetFold2",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 200,
+        "min": 10,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "J1",
+        "unit": "degree",
+        "init": 60,
+        "min": -200,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A2",
+        "unit": "degree",
+        "init": 60,
+        "min": 1,
+        "max": 179,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "J2",
+        "unit": "degree",
+        "init": 60,
+        "min": -200,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L3",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A3",
+        "unit": "degree",
+        "init": 60,
+        "min": 1,
+        "max": 179,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "J3",
+        "unit": "degree",
+        "init": 60,
+        "min": -200,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L4",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "A4",
+        "unit": "degree",
+        "init": 60,
+        "min": 1,
+        "max": 179,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "J4",
+        "unit": "degree",
+        "init": 60,
+        "min": -200,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W5",
+        "unit": "mm",
+        "init": 100,
+        "min": 10,
+        "max": 300,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Thickness and fold",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Th",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Jradius",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 50,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Jneutral",
+        "unit": "%",
+        "init": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Jmark",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "L1": "demoSF2_patron.svg",
+      "W1": "demoSF2_patron.svg",
+      "J1": "demoSF2_patron.svg",
+      "L2": "demoSF2_patron.svg",
+      "A2": "demoSF2_patron.svg",
+      "J2": "demoSF2_patron.svg",
+      "L3": "demoSF2_patron.svg",
+      "A3": "demoSF2_patron.svg",
+      "J3": "demoSF2_patron.svg",
+      "L4": "demoSF2_patron.svg",
+      "A4": "demoSF2_patron.svg",
+      "J4": "demoSF2_patron.svg",
+      "W5": "demoSF2_patron.svg",
+      "Th": "demoSF2_patron.svg",
+      "Jradius": "demoSF2_patron.svg",
+      "Jneutral": "demoSF2_patron.svg",
+      "Jmark": "demoSF2_patron.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 100,
+    "W1": 200,
+    "J1": 15,
+    "L2": 167,
+    "A2": 77,
+    "J2": 134,
+    "L3": 82,
+    "A3": 77,
+    "J3": 14,
+    "L4": 79,
+    "A4": 34,
+    "J4": 149,
+    "W5": 100,
+    "Thickness and fold": 0,
+    "Th": 10,
+    "Jradius": 20,
+    "Jneutral": 50,
+    "Jmark": 1
+  },
+  "figures": {
+    "facePattern": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 37.56682607542544,
+              "py": 162.7198008191343
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 82,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 37.56682607542544,
+              "py": 162.7198008191343
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 82,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 65.49396823184829,
+              "py": 44.176239374189
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 79
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 79
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f00": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 200,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f01": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 6.123233995736766e-15,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 162.7198008191343,
+              "py": 62.433173924574575
+            },
+            {
+              "typ": 1,
+              "px": 6.123233995736766e-15,
+              "py": 100
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f02": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 2.0769947144257412e-14,
+              "py": 4.795120126968266e-15
+            },
+            {
+              "typ": 1,
+              "px": 79.89834531238932,
+              "py": 18.445986456196945
+            },
+            {
+              "typ": 1,
+              "px": -2.685564824959983e-14,
+              "py": 167
+            },
+            {
+              "typ": 1,
+              "px": 2.0769947144257412e-14,
+              "py": 4.795120126968266e-15
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f03": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 5.021051876504148e-15,
+              "py": 82
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 44.176239374189,
+              "py": 16.50603176815173
+            },
+            {
+              "typ": 1,
+              "px": 5.021051876504148e-15,
+              "py": 82
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f04": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -4.8373548566320455e-15,
+              "py": 5.9240511415143385e-31
+            },
+            {
+              "typ": 1,
+              "px": 100,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 99.99999999999999,
+              "py": 79
+            },
+            {
+              "typ": 1,
+              "px": -1.2704168932445429e-14,
+              "py": 79
+            },
+            {
+              "typ": 1,
+              "px": -4.8373548566320455e-15,
+              "py": 5.9240511415143385e-31
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_fj00": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 6.4704761275630185,
+              "py": 0.8518543427732936,
+              "radius": 25.000000000000032,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.882285676537811,
+              "py": 10.511112605663975
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": 10,
+              "radius": 15.00000000000012,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_fj01": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 17.98349500846628,
+              "py": 42.36645926147493,
+              "radius": 24.999999999999993,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 10.790097005079769,
+              "py": 35.41987555688495
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": 10,
+              "radius": 14.999999999999998,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_fj02": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 6.048047389991692,
+              "py": 0.7426068431000878,
+              "radius": 24.99999999999996,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 3.628828433995015,
+              "py": 10.445564105860052
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": 10,
+              "radius": 15.00000000000022,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_fj03": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 12.87595187275136,
+              "py": 46.4291825175528,
+              "radius": 24.99999999999999,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 7.725571123650815,
+              "py": 37.857509510531685
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": 10,
+              "radius": 15.000000000000002,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_SFG_f00",
+        "face": "demoSheetFold2_SFG_f00",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_SFG_f01",
+        "face": "demoSheetFold2_SFG_f01",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          -1.640715604224463e-17,
+          -0.2617993877991494,
+          2.160043071267636e-18
+        ],
+        "translate": [
+          206.47047612756302,
+          -3.9620239392897057e-16,
+          0.8518543427732936
+        ]
+      },
+      {
+        "outName": "subpax_SFG_f02",
+        "face": "demoSheetFold2_SFG_f02",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          -2.8015711249408195,
+          -0.713368694821056,
+          -2.0328958675786275
+        ],
+        "translate": [
+          356.5880499475629,
+          79.95575312103882,
+          84.93672313928086
+        ]
+      },
+      {
+        "outName": "subpax_SFG_f03",
+        "face": "demoSheetFold2_SFG_f03",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          2.505601436775179,
+          -0.2103438790439557,
+          -0.5727191984948401
+        ],
+        "translate": [
+          361.6931823621126,
+          77.1887426856568,
+          86.78377983451381
+        ]
+      },
+      {
+        "outName": "subpax_SFG_f04",
+        "face": "demoSheetFold2_SFG_f04",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0.7176505884067325,
+          0.9827263374842236,
+          2.424732299404218
+        ],
+        "translate": [
+          385.5789955996381,
+          6.280809970216583,
+          75.47871682992943
+        ]
+      },
+      {
+        "outName": "subpax_SFG_fj00",
+        "face": "demoSheetFold2_SFG_fj00",
+        "extrudeMethod": 0,
+        "length": 100,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          200,
+          100,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_SFG_fj01",
+        "face": "demoSheetFold2_SFG_fj01",
+        "extrudeMethod": 0,
+        "length": 167,
+        "rotate": [
+          1.3154153544613625,
+          -0.058254560208720794,
+          1.351384851712499
+        ],
+        "translate": [
+          206.47047612756302,
+          100.00000000000003,
+          0.8518543427732936
+        ]
+      },
+      {
+        "outName": "subpax_SFG_fj02",
+        "face": "demoSheetFold2_SFG_fj02",
+        "extrudeMethod": 0,
+        "length": 82,
+        "rotate": [
+          -2.254528246437487,
+          -0.40381198166725474,
+          -0.4158122095646415
+        ],
+        "translate": [
+          312.29205296473714,
+          30.025656923156554,
+          132.56917158535296
+        ]
+      },
+      {
+        "outName": "subpax_SFG_fj03",
+        "face": "demoSheetFold2_SFG_fj03",
+        "extrudeMethod": 0,
+        "length": 79,
+        "rotate": [
+          -2.0049846568653997,
+          -0.5212053995231275,
+          -1.1180955130194996
+        ],
+        "translate": [
+          317.39718537928684,
+          27.25864648777459,
+          134.4162282805859
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_demoSheetFold2",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_SFG_f00",
+          "subpax_SFG_f01",
+          "subpax_SFG_f02",
+          "subpax_SFG_f03",
+          "subpax_SFG_f04",
+          "subpax_SFG_fj00",
+          "subpax_SFG_fj01",
+          "subpax_SFG_fj02",
+          "subpax_SFG_fj03"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "demoSheetFold2 simTime: 0\njunction: radius neutral 20.00, intern 15.00, extern 25.00\ndemoSheetFold2 drawn successfully!\n"
+}
