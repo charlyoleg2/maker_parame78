@@ -1,0 +1,3 @@
+sfDie simTime: 0
+junction: radius neutral 20.00, intern 15.00, extern 25.00
+sfDie drawn successfully!
