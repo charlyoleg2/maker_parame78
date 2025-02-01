@@ -1,0 +1,639 @@
+{
+  "partName": "demoSheetFold",
+  "pDef": {
+    "partName": "demoSheetFold",
+    "params": [
+      {
+        "name": "W",
+        "unit": "mm",
+        "init": 80,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 60,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L2",
+        "unit": "mm",
+        "init": 35,
+        "min": 10,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Fold",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "Ja",
+        "unit": "degree",
+        "init": 60,
+        "min": -240,
+        "max": 240,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Jr",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Jn",
+        "unit": "%",
+        "init": 50,
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Thickness",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "T",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 20,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "jMark",
+        "unit": "mm",
+        "init": 1,
+        "min": 0,
+        "max": 20,
+        "step": 0.1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R1",
+        "unit": "mm",
+        "init": 10,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "R2",
+        "unit": "mm",
+        "init": 10,
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "W": "demoSheetFold_cut.svg",
+      "L1": "demoSheetFold_cut.svg",
+      "L2": "demoSheetFold_cut.svg",
+      "Ja": "demoSheetFold_cut.svg",
+      "Jr": "demoSheetFold_cut.svg",
+      "Jn": "demoSheetFold_cut.svg",
+      "T": "demoSheetFold_cut.svg",
+      "R1": "demoSheetFold_cut.svg",
+      "R2": "demoSheetFold_cut.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "W": 80,
+    "L1": 60,
+    "L2": 35,
+    "Fold": 0,
+    "Ja": 60,
+    "Jr": 10,
+    "Jn": 50,
+    "Thickness": 0,
+    "T": 10,
+    "jMark": 1,
+    "R1": 10,
+    "R2": 10
+  },
+  "figures": {
+    "faceCut": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.000000000000002,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 10.000000000000002,
+              "py": 80
+            },
+            {
+              "typ": 2,
+              "px": 6.123233995736767e-16,
+              "py": 70,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.123233995736767e-16,
+              "py": 10.000000000000002
+            },
+            {
+              "typ": 2,
+              "px": 10.000000000000002,
+              "py": 0,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 60,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 70.47197551196598,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 99.71006019311645,
+              "py": 33.41495392131482
+            },
+            {
+              "typ": 2,
+              "px": 99.71006019311645,
+              "py": 46.58504607868518,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facet1": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.000000000000002,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 10.000000000000002,
+              "py": 80
+            },
+            {
+              "typ": 2,
+              "px": 6.123233995736767e-16,
+              "py": 70,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.123233995736767e-16,
+              "py": 10.000000000000002
+            },
+            {
+              "typ": 2,
+              "px": 10.000000000000002,
+              "py": 0,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "facet3": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 70.47197551196598,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 99.71006019311645,
+              "py": 33.41495392131482
+            },
+            {
+              "typ": 2,
+              "px": 99.71006019311645,
+              "py": 46.58504607868518,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePattern": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.000000000000002,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 10.000000000000002,
+              "py": 80
+            },
+            {
+              "typ": 2,
+              "px": 6.123233995736767e-16,
+              "py": 70,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.123233995736767e-16,
+              "py": 10.000000000000002
+            },
+            {
+              "typ": 2,
+              "px": 10.000000000000002,
+              "py": 0,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        },
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 70.47197551196598,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 99.71006019311645,
+              "py": 33.41495392131482
+            },
+            {
+              "typ": 2,
+              "px": 99.71006019311645,
+              "py": 46.58504607868518,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 70.47197551196598,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f00": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 10.000000000000002,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 60,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 10.000000000000002,
+              "py": 80
+            },
+            {
+              "typ": 2,
+              "px": 6.123233995736767e-16,
+              "py": 70,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.123233995736767e-16,
+              "py": 10.000000000000002
+            },
+            {
+              "typ": 2,
+              "px": 10.000000000000002,
+              "py": 0,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_f01": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 29.238084681150468,
+              "py": 33.41495392131482
+            },
+            {
+              "typ": 2,
+              "px": 29.238084681150468,
+              "py": 46.58504607868518,
+              "radius": 10,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 4.898587196589413e-15,
+              "py": 80
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "SFG_fj00": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 2,
+              "px": 12.990381056766578,
+              "py": 7.5,
+              "radius": 14.999999999999995,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 4.330127018922193,
+              "py": 12.5
+            },
+            {
+              "typ": 2,
+              "px": 0,
+              "py": 10,
+              "radius": 4.999999999999997,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_SFG_f00",
+        "face": "demoSheetFold_SFG_f00",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_SFG_f01",
+        "face": "demoSheetFold_SFG_f01",
+        "extrudeMethod": 0,
+        "length": 10,
+        "rotate": [
+          -1.0605752387249065e-16,
+          -1.0471975511965976,
+          6.123233995736764e-17
+        ],
+        "translate": [
+          72.99038105676658,
+          -7.954314290436801e-16,
+          7.5
+        ]
+      },
+      {
+        "outName": "subpax_SFG_fj00",
+        "face": "demoSheetFold_SFG_fj00",
+        "extrudeMethod": 0,
+        "length": 80,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          60,
+          80,
+          0
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_demoSheetFold",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_SFG_f00",
+          "subpax_SFG_f01",
+          "subpax_SFG_fj00"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "demoSheetFold simTime: 0\njunction: radius neutral 10.00, intern 5.00, extern 15.00\njunction: neutral arc 10.47, intern arc 5.24, extern arc 15.71\ndemoSheetFold drawn successfully!\n"
+}

@@ -1,0 +1,4 @@
+demoSheetFold simTime: 0
+junction: radius neutral 10.00, intern 5.00, extern 15.00
+junction: neutral arc 10.47, intern arc 5.24, extern arc 15.71
+demoSheetFold drawn successfully!
