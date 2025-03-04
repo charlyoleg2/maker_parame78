@@ -11,284 +11,682 @@ if (len(sys.argv) == 3):
     outFileName = sys.argv[2]
 print(f"outFileName: {outFileName}")
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr0():
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(200.0000, 0.0000, 0)
+	P001 = App.Vector(0.0000, -27.9253, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 200.0000, 0)
+	P002 = App.Vector(0.0000, -227.9253, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 200.0000, 0)
+	P003 = App.Vector(200.0000, -227.9253, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
-	aShape = Part.Shape([S000, S001, S002, S003])
+	P004 = App.Vector(200.0000, -27.9253, 0)
+	S003 = Part.LineSegment(P003, P004)
+	P005 = App.Vector(200.0000, 0.0000, 0)
+	S004 = Part.LineSegment(P004, P005)
+	P006 = App.Vector(227.9253, -0.0000, 0)
+	S005 = Part.LineSegment(P005, P006)
+	P007 = App.Vector(427.9253, -0.0000, 0)
+	S006 = Part.LineSegment(P006, P007)
+	P008 = App.Vector(490.7571, -0.0000, 0)
+	S007 = Part.LineSegment(P007, P008)
+	P009 = App.Vector(690.7571, -0.0000, 0)
+	S008 = Part.LineSegment(P008, P009)
+	P010 = App.Vector(690.7571, 200.0000, 0)
+	S009 = Part.LineSegment(P009, P010)
+	P011 = App.Vector(490.7571, 200.0000, 0)
+	S010 = Part.LineSegment(P010, P011)
+	P012 = App.Vector(427.9253, 200.0000, 0)
+	S011 = Part.LineSegment(P011, P012)
+	P013 = App.Vector(227.9253, 200.0000, 0)
+	S012 = Part.LineSegment(P012, P013)
+	P014 = App.Vector(200.0000, 200.0000, 0)
+	S013 = Part.LineSegment(P013, P014)
+	P015 = App.Vector(200.0000, 227.9253, 0)
+	S014 = Part.LineSegment(P014, P015)
+	P016 = App.Vector(200.0000, 427.9253, 0)
+	S015 = Part.LineSegment(P015, P016)
+	P017 = App.Vector(0.0000, 427.9253, 0)
+	S016 = Part.LineSegment(P016, P017)
+	P018 = App.Vector(0.0000, 227.9253, 0)
+	S017 = Part.LineSegment(P017, P018)
+	P019 = App.Vector(0.0000, 200.0000, 0)
+	S018 = Part.LineSegment(P018, P019)
+	P020 = App.Vector(-27.9253, 200.0000, 0)
+	S019 = Part.LineSegment(P019, P020)
+	P021 = App.Vector(-227.9253, 200.0000, 0)
+	S020 = Part.LineSegment(P020, P021)
+	P022 = App.Vector(-227.9253, 0.0000, 0)
+	S021 = Part.LineSegment(P021, P022)
+	P023 = App.Vector(-27.9253, 0.0000, 0)
+	S022 = Part.LineSegment(P022, P023)
+	P024 = App.Vector(0.0000, 0.0000, 0)
+	S023 = Part.LineSegment(P023, P000)
+	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007, S008, S009, S010, S011, S012, S013, S014, S015, S016, S017, S018, S019, S020, S021, S022, S023])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr1():
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr1():
+	P000 = App.Vector(0.0000, 0.0000, 0)
+	P001 = App.Vector(0.0000, -27.9253, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(0.0000, -227.9253, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(200.0000, -227.9253, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(200.0000, -27.9253, 0)
+	S003 = Part.LineSegment(P003, P004)
+	P005 = App.Vector(200.0000, 0.0000, 0)
+	S004 = Part.LineSegment(P004, P005)
+	P006 = App.Vector(227.9253, -0.0000, 0)
+	S005 = Part.LineSegment(P005, P006)
+	P007 = App.Vector(427.9253, -0.0000, 0)
+	S006 = Part.LineSegment(P006, P007)
+	P008 = App.Vector(490.7571, -0.0000, 0)
+	S007 = Part.LineSegment(P007, P008)
+	P009 = App.Vector(690.7571, -0.0000, 0)
+	S008 = Part.LineSegment(P008, P009)
+	P010 = App.Vector(690.7571, 200.0000, 0)
+	S009 = Part.LineSegment(P009, P010)
+	P011 = App.Vector(490.7571, 200.0000, 0)
+	S010 = Part.LineSegment(P010, P011)
+	P012 = App.Vector(427.9253, 200.0000, 0)
+	S011 = Part.LineSegment(P011, P012)
+	P013 = App.Vector(227.9253, 200.0000, 0)
+	S012 = Part.LineSegment(P012, P013)
+	P014 = App.Vector(200.0000, 200.0000, 0)
+	S013 = Part.LineSegment(P013, P014)
+	P015 = App.Vector(200.0000, 227.9253, 0)
+	S014 = Part.LineSegment(P014, P015)
+	P016 = App.Vector(200.0000, 427.9253, 0)
+	S015 = Part.LineSegment(P015, P016)
+	P017 = App.Vector(0.0000, 427.9253, 0)
+	S016 = Part.LineSegment(P016, P017)
+	P018 = App.Vector(0.0000, 227.9253, 0)
+	S017 = Part.LineSegment(P017, P018)
+	P019 = App.Vector(0.0000, 200.0000, 0)
+	S018 = Part.LineSegment(P018, P019)
+	P020 = App.Vector(-27.9253, 200.0000, 0)
+	S019 = Part.LineSegment(P019, P020)
+	P021 = App.Vector(-227.9253, 200.0000, 0)
+	S020 = Part.LineSegment(P020, P021)
+	P022 = App.Vector(-227.9253, 0.0000, 0)
+	S021 = Part.LineSegment(P021, P022)
+	P023 = App.Vector(-27.9253, 0.0000, 0)
+	S022 = Part.LineSegment(P022, P023)
+	P024 = App.Vector(0.0000, 0.0000, 0)
+	S023 = Part.LineSegment(P023, P000)
+	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007, S008, S009, S010, S011, S012, S013, S014, S015, S016, S017, S018, S019, S020, S021, S022, S023])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr2():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(25.0000, App.Vector(100.0000, 100.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr2():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(200.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 200.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 200.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr3():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(294.5919, 66.6667, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr4():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(361.2586, 133.3333, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr5():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, -177.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr6():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(100.0000, -127.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr7():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, -77.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr8():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 277.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr9():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 377.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr10():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 277.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr11():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 377.9253, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr12():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(-127.9253, 100.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr13():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(-177.9253, 50.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr14():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(-77.9253, 50.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr15():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(-177.9253, 150.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr16():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(-77.9253, 150.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr17():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(640.7571, 150.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr18():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(590.7571, 150.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr19():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(540.7571, 150.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr20():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(640.7571, 50.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr21():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(590.7571, 50.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr22():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(25.0000, App.Vector(540.7571, 50.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr23():
+	P000 = App.Vector(99.0000, -26.9253, 0)
+	P001 = App.Vector(100.0000, -27.9253, 0)
+	P002 = App.Vector(101.0000, -26.9253, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(101.0000, -1.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(100.0000, -0.0000, 0)
+	P005 = App.Vector(99.0000, -1.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(99.0000, -26.9253, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr3():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(66.6667, 66.6667, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr4():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(133.3333, 133.3333, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr5():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(200.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 200.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 200.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr24():
+	P000 = App.Vector(226.9253, 99.0000, 0)
+	P001 = App.Vector(227.9253, 100.0000, 0)
+	P002 = App.Vector(226.9253, 101.0000, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(201.0000, 101.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(200.0000, 100.0000, 0)
+	P005 = App.Vector(201.0000, 99.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(226.9253, 99.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr6():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr7():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(100.0000, 100.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr8():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr9():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(200.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 200.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 200.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr25():
+	P000 = App.Vector(101.0000, 226.9253, 0)
+	P001 = App.Vector(100.0000, 227.9253, 0)
+	P002 = App.Vector(99.0000, 226.9253, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(99.0000, 201.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(100.0000, 200.0000, 0)
+	P005 = App.Vector(101.0000, 201.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(101.0000, 226.9253, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr10():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr11():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr12():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr13():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr14():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(200.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 200.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 200.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr26():
+	P000 = App.Vector(-26.9253, 101.0000, 0)
+	P001 = App.Vector(-27.9253, 100.0000, 0)
+	P002 = App.Vector(-26.9253, 99.0000, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-1.0000, 99.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(0.0000, 100.0000, 0)
+	P005 = App.Vector(-1.0000, 101.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(-26.9253, 101.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr15():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(100.0000, 100.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr16():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr17():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr18():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr19():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr20():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(200.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 200.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 200.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+def ctr_face_sfDie_SFG_pattern_Fa0_Ctr27():
+	P000 = App.Vector(489.7571, 99.0000, 0)
+	P001 = App.Vector(490.7571, 100.0000, 0)
+	P002 = App.Vector(489.7571, 101.0000, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(428.9253, 101.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(427.9253, 100.0000, 0)
+	P005 = App.Vector(428.9253, 99.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(489.7571, 99.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_sfDie_facePattern_Fa0_Ctr21():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr22():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(100.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr23():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 50.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr24():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(50.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr25():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(100.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def ctr_face_sfDie_facePattern_Fa0_Ctr26():
-	# Radius, XYZ-position, orientation
-	aCircle = Part.makeCircle(25.0000, App.Vector(150.0000, 150.0000, 0), App.Vector(0, 0, 1))
-	aWire = Part.Wire(aCircle)
-	rFace = Part.Face(aWire)
-	return rFace
-
-def face_sfDie_facePattern_Fa0():
-	FC000 = ctr_face_sfDie_facePattern_Fa0_Ctr0()
-	FC001 = ctr_face_sfDie_facePattern_Fa0_Ctr1()
-	FC002 = ctr_face_sfDie_facePattern_Fa0_Ctr2()
-	FC003 = ctr_face_sfDie_facePattern_Fa0_Ctr3()
-	FC004 = ctr_face_sfDie_facePattern_Fa0_Ctr4()
-	FC005 = ctr_face_sfDie_facePattern_Fa0_Ctr5()
-	FC006 = ctr_face_sfDie_facePattern_Fa0_Ctr6()
-	FC007 = ctr_face_sfDie_facePattern_Fa0_Ctr7()
-	FC008 = ctr_face_sfDie_facePattern_Fa0_Ctr8()
-	FC009 = ctr_face_sfDie_facePattern_Fa0_Ctr9()
-	FC010 = ctr_face_sfDie_facePattern_Fa0_Ctr10()
-	FC011 = ctr_face_sfDie_facePattern_Fa0_Ctr11()
-	FC012 = ctr_face_sfDie_facePattern_Fa0_Ctr12()
-	FC013 = ctr_face_sfDie_facePattern_Fa0_Ctr13()
-	FC014 = ctr_face_sfDie_facePattern_Fa0_Ctr14()
-	FC015 = ctr_face_sfDie_facePattern_Fa0_Ctr15()
-	FC016 = ctr_face_sfDie_facePattern_Fa0_Ctr16()
-	FC017 = ctr_face_sfDie_facePattern_Fa0_Ctr17()
-	FC018 = ctr_face_sfDie_facePattern_Fa0_Ctr18()
-	FC019 = ctr_face_sfDie_facePattern_Fa0_Ctr19()
-	FC020 = ctr_face_sfDie_facePattern_Fa0_Ctr20()
-	FC021 = ctr_face_sfDie_facePattern_Fa0_Ctr21()
-	FC022 = ctr_face_sfDie_facePattern_Fa0_Ctr22()
-	FC023 = ctr_face_sfDie_facePattern_Fa0_Ctr23()
-	FC024 = ctr_face_sfDie_facePattern_Fa0_Ctr24()
-	FC025 = ctr_face_sfDie_facePattern_Fa0_Ctr25()
-	FC026 = ctr_face_sfDie_facePattern_Fa0_Ctr26()
-	rOneFace = FC000.cut([FC001, FC002, FC003, FC004, FC005, FC006, FC007, FC008, FC009, FC010, FC011, FC012, FC013, FC014, FC015, FC016, FC017, FC018, FC019, FC020, FC021, FC022, FC023, FC024, FC025, FC026])
+def face_sfDie_SFG_pattern_Fa0():
+	FC000 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr0()
+	FC001 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr1()
+	FC002 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr2()
+	FC003 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr3()
+	FC004 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr4()
+	FC005 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr5()
+	FC006 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr6()
+	FC007 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr7()
+	FC008 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr8()
+	FC009 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr9()
+	FC010 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr10()
+	FC011 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr11()
+	FC012 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr12()
+	FC013 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr13()
+	FC014 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr14()
+	FC015 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr15()
+	FC016 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr16()
+	FC017 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr17()
+	FC018 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr18()
+	FC019 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr19()
+	FC020 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr20()
+	FC021 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr21()
+	FC022 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr22()
+	FC023 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr23()
+	FC024 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr24()
+	FC025 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr25()
+	FC026 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr26()
+	FC027 = ctr_face_sfDie_SFG_pattern_Fa0_Ctr27()
+	rOneFace = FC000.cut([FC001, FC002, FC003, FC004, FC005, FC006, FC007, FC008, FC009, FC010, FC011, FC012, FC013, FC014, FC015, FC016, FC017, FC018, FC019, FC020, FC021, FC022, FC023, FC024, FC025, FC026, FC027])
 	rOneFace.check()
 	return rOneFace
 
-def sfDie_facePattern():
-	FA000 = face_sfDie_facePattern_Fa0()
+def sfDie_SFG_pattern():
+	FA000 = face_sfDie_SFG_pattern_Fa0()
 	rOneFig = FA000
+	rOneFig.check()
+	return rOneFig
+
+def ctr_face_sfDie_SFG_profiles_Fa0_Ctr0():
+	P000 = App.Vector(0.0000, 0.0000, 0)
+	P001 = App.Vector(200.0000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(200.0000, 10.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(0.0000, 10.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(0.0000, 0.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa0():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa0_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa1_Ctr0():
+	P000 = App.Vector(200.0000, 0.0000, 0)
+	P001 = App.Vector(216.0697, 5.8489, 0)
+	P002 = App.Vector(224.6202, 20.6588, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(214.7721, 22.3953, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(209.6418, 13.5093, 0)
+	P005 = App.Vector(200.0000, 10.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(200.0000, 0.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa1():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa1_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa2_Ctr0():
+	P000 = App.Vector(224.6202, 20.6588, 0)
+	P001 = App.Vector(259.3498, 217.6203, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(249.5018, 219.3568, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(214.7721, 22.3953, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(224.6202, 20.6588, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa2():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa2_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa3_Ctr0():
+	P000 = App.Vector(0.0000, 10.0000, 0)
+	P001 = App.Vector(-9.6418, 13.5093, 0)
+	P002 = App.Vector(-14.7721, 22.3953, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-24.6202, 20.6588, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-16.0697, 5.8489, 0)
+	P005 = App.Vector(-0.0000, 0.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(0.0000, 10.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa3():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa3_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa4_Ctr0():
+	P000 = App.Vector(-14.7721, 22.3953, 0)
+	P001 = App.Vector(-49.5018, 219.3568, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-59.3498, 217.6203, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-24.6202, 20.6588, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-14.7721, 22.3953, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa4():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa4_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa5_Ctr0():
+	P000 = App.Vector(0.0000, 300.0000, 0)
+	P001 = App.Vector(200.0000, 300.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(200.0000, 310.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(0.0000, 310.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(0.0000, 300.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa5():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa5_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa6_Ctr0():
+	P000 = App.Vector(200.0000, 300.0000, 0)
+	P001 = App.Vector(216.0697, 305.8489, 0)
+	P002 = App.Vector(224.6202, 320.6588, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(214.7721, 322.3953, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(209.6418, 313.5093, 0)
+	P005 = App.Vector(200.0000, 310.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(200.0000, 300.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa6():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa6_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa7_Ctr0():
+	P000 = App.Vector(224.6202, 320.6588, 0)
+	P001 = App.Vector(259.3498, 517.6203, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(249.5018, 519.3568, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(214.7721, 322.3953, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(224.6202, 320.6588, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa7():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa7_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa8_Ctr0():
+	P000 = App.Vector(259.3498, 517.6203, 0)
+	P001 = App.Vector(276.7267, 529.7877, 0)
+	P002 = App.Vector(288.8941, 512.4109, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(298.7421, 510.6744, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(278.4632, 539.6358, 0)
+	P005 = App.Vector(249.5018, 519.3568, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(259.3498, 517.6203, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa8():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa8_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa9_Ctr0():
+	P000 = App.Vector(288.8941, 512.4109, 0)
+	P001 = App.Vector(254.1644, 315.4494, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(264.0125, 313.7129, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(298.7421, 510.6744, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(288.8941, 512.4109, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa9():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa9_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa10_Ctr0():
+	P000 = App.Vector(0.0000, 310.0000, 0)
+	P001 = App.Vector(-9.6418, 313.5093, 0)
+	P002 = App.Vector(-14.7721, 322.3953, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-24.6202, 320.6588, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-16.0697, 305.8489, 0)
+	P005 = App.Vector(-0.0000, 300.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(0.0000, 310.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa10():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa10_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_sfDie_SFG_profiles_Fa11_Ctr0():
+	P000 = App.Vector(-14.7721, 322.3953, 0)
+	P001 = App.Vector(-49.5018, 519.3568, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-59.3498, 517.6203, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-24.6202, 320.6588, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-14.7721, 322.3953, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_sfDie_SFG_profiles_Fa11():
+	FC000 = ctr_face_sfDie_SFG_profiles_Fa11_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def sfDie_SFG_profiles():
+	FA000 = face_sfDie_SFG_profiles_Fa0()
+	FA001 = face_sfDie_SFG_profiles_Fa1()
+	FA002 = face_sfDie_SFG_profiles_Fa2()
+	FA003 = face_sfDie_SFG_profiles_Fa3()
+	FA004 = face_sfDie_SFG_profiles_Fa4()
+	FA005 = face_sfDie_SFG_profiles_Fa5()
+	FA006 = face_sfDie_SFG_profiles_Fa6()
+	FA007 = face_sfDie_SFG_profiles_Fa7()
+	FA008 = face_sfDie_SFG_profiles_Fa8()
+	FA009 = face_sfDie_SFG_profiles_Fa9()
+	FA010 = face_sfDie_SFG_profiles_Fa10()
+	FA011 = face_sfDie_SFG_profiles_Fa11()
+	rOneFig = FA000.fuse([FA001, FA002, FA003, FA004, FA005, FA006, FA007, FA008, FA009, FA010, FA011])
 	rOneFig.check()
 	return rOneFig
 

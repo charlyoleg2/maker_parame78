@@ -11,93 +11,611 @@ if (len(sys.argv) == 3):
     outFileName = sys.argv[2]
 print(f"outFileName: {outFileName}")
 
-def ctr_face_demoSheetFold2_facePattern_Fa0_Ctr0():
+def ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(200.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(200.0000, 100.0000, 0)
+	P002 = App.Vector(235.9538, 0.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 100.0000, 0)
+	P003 = App.Vector(339.0747, 3.8382, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+	P004 = App.Vector(348.5971, 14.0499, 0)
+	S003 = Part.LineSegment(P003, P004)
+	P005 = App.Vector(375.5018, -1.4836, 0)
+	S004 = Part.LineSegment(P004, P005)
+	P006 = App.Vector(422.0126, -9.2771, 0)
+	S005 = Part.LineSegment(P005, P006)
+	P007 = App.Vector(460.6645, -6.5742, 0)
+	S006 = Part.LineSegment(P006, P007)
+	P008 = App.Vector(560.4209, 0.4014, 0)
+	S007 = Part.LineSegment(P007, P008)
+	P009 = App.Vector(554.9102, 79.2090, 0)
+	S008 = Part.LineSegment(P008, P009)
+	P010 = App.Vector(455.1538, 72.2333, 0)
+	S009 = Part.LineSegment(P009, P010)
+	P011 = App.Vector(416.5018, 69.5305, 0)
+	S010 = Part.LineSegment(P010, P011)
+	P012 = App.Vector(389.5971, 85.0639, 0)
+	S011 = Part.LineSegment(P011, P012)
+	P013 = App.Vector(245.4763, 110.2116, 0)
+	S012 = Part.LineSegment(P012, P013)
+	P014 = App.Vector(235.9538, 100.0000, 0)
+	S013 = Part.LineSegment(P013, P014)
+	P015 = App.Vector(200.0000, 100.0000, 0)
+	S014 = Part.LineSegment(P014, P015)
+	P016 = App.Vector(0.0000, 100.0000, 0)
+	S015 = Part.LineSegment(P015, P016)
+	P017 = App.Vector(0.0000, 0.0000, 0)
+	S016 = Part.LineSegment(P016, P000)
+	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007, S008, S009, S010, S011, S012, S013, S014, S015, S016])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr1():
+	P000 = App.Vector(0.0000, 0.0000, 0)
+	P001 = App.Vector(200.0000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(235.9538, 0.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(339.0747, 3.8382, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(348.5971, 14.0499, 0)
+	S003 = Part.LineSegment(P003, P004)
+	P005 = App.Vector(375.5018, -1.4836, 0)
+	S004 = Part.LineSegment(P004, P005)
+	P006 = App.Vector(422.0126, -9.2771, 0)
+	S005 = Part.LineSegment(P005, P006)
+	P007 = App.Vector(460.6645, -6.5742, 0)
+	S006 = Part.LineSegment(P006, P007)
+	P008 = App.Vector(560.4209, 0.4014, 0)
+	S007 = Part.LineSegment(P007, P008)
+	P009 = App.Vector(554.9102, 79.2090, 0)
+	S008 = Part.LineSegment(P008, P009)
+	P010 = App.Vector(455.1538, 72.2333, 0)
+	S009 = Part.LineSegment(P009, P010)
+	P011 = App.Vector(416.5018, 69.5305, 0)
+	S010 = Part.LineSegment(P010, P011)
+	P012 = App.Vector(389.5971, 85.0639, 0)
+	S011 = Part.LineSegment(P011, P012)
+	P013 = App.Vector(245.4763, 110.2116, 0)
+	S012 = Part.LineSegment(P012, P013)
+	P014 = App.Vector(235.9538, 100.0000, 0)
+	S013 = Part.LineSegment(P013, P014)
+	P015 = App.Vector(200.0000, 100.0000, 0)
+	S014 = Part.LineSegment(P014, P015)
+	P016 = App.Vector(0.0000, 100.0000, 0)
+	S015 = Part.LineSegment(P015, P016)
+	P017 = App.Vector(0.0000, 0.0000, 0)
+	S016 = Part.LineSegment(P016, P000)
+	aShape = Part.Shape([S000, S001, S002, S003, S004, S005, S006, S007, S008, S009, S010, S011, S012, S013, S014, S015, S016])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr2():
+	P000 = App.Vector(234.9538, 49.0000, 0)
+	P001 = App.Vector(235.9538, 50.0000, 0)
+	P002 = App.Vector(234.9538, 51.0000, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(201.0000, 51.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(200.0000, 50.0000, 0)
+	P005 = App.Vector(201.0000, 49.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(234.9538, 49.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def ctr_face_demoSheetFold2_facePattern_Fa0_Ctr1():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(100.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(96.1618, 103.1209, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 0.0000, 0)
-	S002 = Part.LineSegment(P002, P000)
-	aShape = Part.Shape([S000, S001, S002])
-	aWire = Part.Wire(aShape.Edges)
-	subFace = Part.Face(aWire)
-	subFace.check()
-	return subFace
-
-def ctr_face_demoSheetFold2_facePattern_Fa0_Ctr2():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(82.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(31.7181, 137.3862, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 0.0000, 0)
-	S002 = Part.LineSegment(P002, P000)
-	aShape = Part.Shape([S000, S001, S002])
-	aWire = Part.Wire(aShape.Edges)
-	subFace = Part.Face(aWire)
-	subFace.check()
-	return subFace
-
-def ctr_face_demoSheetFold2_facePattern_Fa0_Ctr3():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(82.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(65.4940, 44.1762, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 0.0000, 0)
-	S002 = Part.LineSegment(P002, P000)
-	aShape = Part.Shape([S000, S001, S002])
-	aWire = Part.Wire(aShape.Edges)
-	subFace = Part.Face(aWire)
-	subFace.check()
-	return subFace
-
-def ctr_face_demoSheetFold2_facePattern_Fa0_Ctr4():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(100.0000, 0.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(100.0000, 79.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 79.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 0.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
+def ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr3():
+	P000 = App.Vector(287.4649, 53.3325, 0)
+	P001 = App.Vector(287.5142, 51.9191, 0)
+	P002 = App.Vector(288.9276, 51.9685, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(297.0861, 60.7174, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(297.0367, 62.1307, 0)
+	P005 = App.Vector(295.6234, 62.0814, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(287.4649, 53.3325, 0)
+	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
 	subFace = Part.Face(aWire)
 	subFace.check()
 	return subFace
 
-def face_demoSheetFold2_facePattern_Fa0():
-	FC000 = ctr_face_demoSheetFold2_facePattern_Fa0_Ctr0()
-	FC001 = ctr_face_demoSheetFold2_facePattern_Fa0_Ctr1()
-	FC002 = ctr_face_demoSheetFold2_facePattern_Fa0_Ctr2()
-	FC003 = ctr_face_demoSheetFold2_facePattern_Fa0_Ctr3()
-	FC004 = ctr_face_demoSheetFold2_facePattern_Fa0_Ctr4()
-	rOneFace = FC000.cut([FC001, FC002, FC003, FC004])
+def ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr4():
+	P000 = App.Vector(394.6358, 33.6574, 0)
+	P001 = App.Vector(396.0018, 34.0235, 0)
+	P002 = App.Vector(395.6358, 35.3895, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(370.4632, 49.9229, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(369.0971, 49.5569, 0)
+	P005 = App.Vector(369.4632, 48.1909, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(394.6358, 33.6574, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr5():
+	P000 = App.Vector(456.9813, 31.7622, 0)
+	P001 = App.Vector(457.9091, 32.8295, 0)
+	P002 = App.Vector(456.8418, 33.7573, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(420.1850, 31.1940, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(419.2572, 30.1267, 0)
+	P005 = App.Vector(420.3245, 29.1989, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(456.9813, 31.7622, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_pattern_Fa0():
+	FC000 = ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr0()
+	FC001 = ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr1()
+	FC002 = ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr2()
+	FC003 = ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr3()
+	FC004 = ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr4()
+	FC005 = ctr_face_demoSheetFold2_SFG_pattern_Fa0_Ctr5()
+	rOneFace = FC000.cut([FC001, FC002, FC003, FC004, FC005])
 	rOneFace.check()
 	return rOneFace
 
-def demoSheetFold2_facePattern():
-	FA000 = face_demoSheetFold2_facePattern_Fa0()
+def demoSheetFold2_SFG_pattern():
+	FA000 = face_demoSheetFold2_SFG_pattern_Fa0()
 	rOneFig = FA000
+	rOneFig.check()
+	return rOneFig
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa0_Ctr0():
+	P000 = App.Vector(0.0000, 0.0000, 0)
+	P001 = App.Vector(200.0000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(200.0000, 10.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(0.0000, 10.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(0.0000, 0.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa0():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa0_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa1_Ctr0():
+	P000 = App.Vector(200.0000, 0.0000, 0)
+	P001 = App.Vector(219.5652, 9.4371, 0)
+	P002 = App.Vector(224.3593, 30.6238, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(214.6156, 28.3743, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(211.7391, 15.6623, 0)
+	P005 = App.Vector(200.0000, 10.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(200.0000, 0.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa1():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa1_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa2_Ctr0():
+	P000 = App.Vector(224.3593, 30.6238, 0)
+	P001 = App.Vector(201.1460, 131.1712, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(191.4023, 128.9217, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(214.6156, 28.3743, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(224.3593, 30.6238, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa2():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa2_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa3_Ctr0():
+	P000 = App.Vector(201.1460, 131.1712, 0)
+	P001 = App.Vector(200.8734, 136.3735, 0)
+	P002 = App.Vector(202.3965, 141.3554, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(193.4864, 145.8953, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(190.9479, 137.5922, 0)
+	P005 = App.Vector(191.4023, 128.9217, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(201.1460, 131.1712, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa3():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa3_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa4_Ctr0():
+	P000 = App.Vector(202.3965, 141.3554, 0)
+	P001 = App.Vector(202.8505, 142.2464, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(193.9404, 146.7863, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(193.4864, 145.8953, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(202.3965, 141.3554, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa4():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa4_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa5_Ctr0():
+	P000 = App.Vector(202.8505, 142.2464, 0)
+	P001 = App.Vector(204.4182, 161.1138, 0)
+	P002 = App.Vector(192.3121, 175.6698, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(187.6174, 166.8403, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(194.8811, 158.1067, 0)
+	P005 = App.Vector(193.9404, 146.7863, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(202.8505, 142.2464, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa5():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa5_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa6_Ctr0():
+	P000 = App.Vector(192.3121, 175.6698, 0)
+	P001 = App.Vector(150.6730, 197.8097, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(145.9783, 188.9802, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(187.6174, 166.8403, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(192.3121, 175.6698, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa6():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa6_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa7_Ctr0():
+	P000 = App.Vector(150.6730, 197.8097, 0)
+	P001 = App.Vector(142.8115, 209.3559, 0)
+	P002 = App.Vector(147.8742, 222.3746, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(141.3136, 229.9217, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(132.8758, 208.2239, 0)
+	P005 = App.Vector(145.9783, 188.9802, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(150.6730, 197.8097, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa7():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa7_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa8_Ctr0():
+	P000 = App.Vector(147.8742, 222.3746, 0)
+	P001 = App.Vector(223.3452, 287.9805, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(216.7846, 295.5276, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(141.3136, 229.9217, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(147.8742, 222.3746, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa8():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa8_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa9_Ctr0():
+	P000 = App.Vector(0.0000, 400.0000, 0)
+	P001 = App.Vector(200.0000, 400.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(200.0000, 410.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(0.0000, 410.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(0.0000, 400.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa9():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa9_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa10_Ctr0():
+	P000 = App.Vector(200.0000, 400.0000, 0)
+	P001 = App.Vector(219.5652, 409.4371, 0)
+	P002 = App.Vector(224.3593, 430.6238, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(214.6156, 428.3743, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(211.7391, 415.6623, 0)
+	P005 = App.Vector(200.0000, 410.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(200.0000, 400.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa10():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa10_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa11_Ctr0():
+	P000 = App.Vector(224.3593, 430.6238, 0)
+	P001 = App.Vector(224.1343, 431.5981, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(214.3906, 429.3486, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(214.6156, 428.3743, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(224.3593, 430.6238, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa11():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa11_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa12_Ctr0():
+	P000 = App.Vector(224.1343, 431.5981, 0)
+	P001 = App.Vector(223.8617, 436.8005, 0)
+	P002 = App.Vector(225.3848, 441.7823, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(216.4747, 446.3222, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(213.9362, 438.0191, 0)
+	P005 = App.Vector(214.3906, 429.3486, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(224.1343, 431.5981, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa12():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa12_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa13_Ctr0():
+	P000 = App.Vector(225.3848, 441.7823, 0)
+	P001 = App.Vector(291.8029, 572.1351, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(282.8928, 576.6750, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(216.4747, 446.3222, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(225.3848, 441.7823, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa13():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa13_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa14_Ctr0():
+	P000 = App.Vector(291.8029, 572.1351, 0)
+	P001 = App.Vector(293.3706, 591.0025, 0)
+	P002 = App.Vector(281.2645, 605.5586, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(276.5698, 596.7291, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(283.8334, 587.9955, 0)
+	P005 = App.Vector(282.8928, 576.6750, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(291.8029, 572.1351, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa14():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa14_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa15_Ctr0():
+	P000 = App.Vector(281.2645, 605.5586, 0)
+	P001 = App.Vector(280.3815, 606.0281, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(275.6868, 597.1986, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(276.5698, 596.7291, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(281.2645, 605.5586, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa15():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa15_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa16_Ctr0():
+	P000 = App.Vector(280.3815, 606.0281, 0)
+	P001 = App.Vector(272.5200, 617.5742, 0)
+	P002 = App.Vector(277.5827, 630.5929, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(271.0221, 638.1400, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(262.5843, 616.4422, 0)
+	P005 = App.Vector(275.6868, 597.1986, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(280.3815, 606.0281, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa16():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa16_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_demoSheetFold2_SFG_profiles_Fa17_Ctr0():
+	P000 = App.Vector(277.5827, 630.5929, 0)
+	P001 = App.Vector(353.0537, 696.1988, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(346.4931, 703.7459, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(271.0221, 638.1400, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(277.5827, 630.5929, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_demoSheetFold2_SFG_profiles_Fa17():
+	FC000 = ctr_face_demoSheetFold2_SFG_profiles_Fa17_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def demoSheetFold2_SFG_profiles():
+	FA000 = face_demoSheetFold2_SFG_profiles_Fa0()
+	FA001 = face_demoSheetFold2_SFG_profiles_Fa1()
+	FA002 = face_demoSheetFold2_SFG_profiles_Fa2()
+	FA003 = face_demoSheetFold2_SFG_profiles_Fa3()
+	FA004 = face_demoSheetFold2_SFG_profiles_Fa4()
+	FA005 = face_demoSheetFold2_SFG_profiles_Fa5()
+	FA006 = face_demoSheetFold2_SFG_profiles_Fa6()
+	FA007 = face_demoSheetFold2_SFG_profiles_Fa7()
+	FA008 = face_demoSheetFold2_SFG_profiles_Fa8()
+	FA009 = face_demoSheetFold2_SFG_profiles_Fa9()
+	FA010 = face_demoSheetFold2_SFG_profiles_Fa10()
+	FA011 = face_demoSheetFold2_SFG_profiles_Fa11()
+	FA012 = face_demoSheetFold2_SFG_profiles_Fa12()
+	FA013 = face_demoSheetFold2_SFG_profiles_Fa13()
+	FA014 = face_demoSheetFold2_SFG_profiles_Fa14()
+	FA015 = face_demoSheetFold2_SFG_profiles_Fa15()
+	FA016 = face_demoSheetFold2_SFG_profiles_Fa16()
+	FA017 = face_demoSheetFold2_SFG_profiles_Fa17()
+	rOneFig = FA000.fuse([FA001, FA002, FA003, FA004, FA005, FA006, FA007, FA008, FA009, FA010, FA011, FA012, FA013, FA014, FA015, FA016, FA017])
 	rOneFig.check()
 	return rOneFig
 
@@ -156,12 +674,12 @@ def demoSheetFold2_SFG_f01():
 	return rOneFig
 
 def ctr_face_demoSheetFold2_SFG_f02_Fa0_Ctr0():
-	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(79.8983, 18.4460, 0)
+	P000 = App.Vector(0.0000, 141.0000, 0)
+	P001 = App.Vector(-79.8983, 122.5540, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(0.0000, 141.0000, 0)
+	P002 = App.Vector(0.0000, 0.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 0.0000, 0)
+	P003 = App.Vector(0.0000, 141.0000, 0)
 	S002 = Part.LineSegment(P002, P000)
 	aShape = Part.Shape([S000, S001, S002])
 	aWire = Part.Wire(aShape.Edges)
@@ -378,10 +896,10 @@ subpax_SFG_f01 = fex_subpax_SFG_f01()
 def fex_subpax_SFG_f02():
 	FIG = demoSheetFold2_SFG_f02()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
-	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -70.3235)
-	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -40.8171)
-	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 47.7559)
-	VFP = VR3.translate(App.Vector(203.1023, 10.8898, 138.2983))
+	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 70.3235)
+	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 40.8171)
+	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -132.2441)
+	VFP = VR3.translate(App.Vector(226.2994, 107.0516, 37.8204))
 	return VFP
 subpax_SFG_f02 = fex_subpax_SFG_f02()
 

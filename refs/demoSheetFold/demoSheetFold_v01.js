@@ -95,8 +95,19 @@ const ctr_face_fig_demoSheetFold_facet3_Fa000_Ctr000 = polygon({ points: [ [ 70.
 
 face_fig_demoSheetFold_facet3_Fa000 = ctr_face_fig_demoSheetFold_facet3_Fa000_Ctr000;
 fig_demoSheetFold_facet3 = face_fig_demoSheetFold_facet3_Fa000;
-const ctr_face_fig_demoSheetFold_facePattern_Fa000_Ctr000 = polygon({ points: [ [ 10.0000, 0.0000 ],
+const ctr_face_fig_demoSheetFold_SFG_pattern_Fa000_Ctr000 = polygon({ points: [ [ 10.0000, 0.0000 ],
 	[ 60.0000, 0.0000 ],
+	[ 70.4720, -0.0000 ],
+	[ 99.7101, 33.4150 ],
+	[ 100.7659, 34.8662 ],
+	[ 101.5453, 36.4827 ],
+	[ 102.0233, 38.2126 ],
+	[ 102.1843, 40.0000 ],
+	[ 102.0233, 41.7874 ],
+	[ 101.5453, 43.5173 ],
+	[ 100.7659, 45.1338 ],
+	[ 99.7101, 46.5850 ],
+	[ 70.4720, 80.0000 ],
 	[ 60.0000, 80.0000 ],
 	[ 10.0000, 80.0000 ],
 	[ 8.2635, 79.8481 ],
@@ -118,7 +129,9 @@ const ctr_face_fig_demoSheetFold_facePattern_Fa000_Ctr000 = polygon({ points: [ 
 	[ 8.0491, 0.1921 ],
 	[ 10.0000, 0.0000 ] ] });
 
-const ctr_face_fig_demoSheetFold_facePattern_Fa000_Ctr001 = polygon({ points: [ [ 70.4720, 0.0000 ],
+const ctr_face_fig_demoSheetFold_SFG_pattern_Fa000_Ctr001 = polygon({ points: [ [ 10.0000, 0.0000 ],
+	[ 60.0000, 0.0000 ],
+	[ 70.4720, -0.0000 ],
 	[ 99.7101, 33.4150 ],
 	[ 100.7659, 34.8662 ],
 	[ 101.5453, 36.4827 ],
@@ -129,10 +142,99 @@ const ctr_face_fig_demoSheetFold_facePattern_Fa000_Ctr001 = polygon({ points: [ 
 	[ 100.7659, 45.1338 ],
 	[ 99.7101, 46.5850 ],
 	[ 70.4720, 80.0000 ],
-	[ 70.4720, 0.0000 ] ] });
+	[ 60.0000, 80.0000 ],
+	[ 10.0000, 80.0000 ],
+	[ 8.2635, 79.8481 ],
+	[ 6.5798, 79.3969 ],
+	[ 5.0000, 78.6603 ],
+	[ 3.5721, 77.6604 ],
+	[ 2.3396, 76.4279 ],
+	[ 1.3397, 75.0000 ],
+	[ 0.6031, 73.4202 ],
+	[ 0.1519, 71.7365 ],
+	[ 0.0000, 70.0000 ],
+	[ 0.0000, 10.0000 ],
+	[ 0.1921, 8.0491 ],
+	[ 0.7612, 6.1732 ],
+	[ 1.6853, 4.4443 ],
+	[ 2.9289, 2.9289 ],
+	[ 4.4443, 1.6853 ],
+	[ 6.1732, 0.7612 ],
+	[ 8.0491, 0.1921 ],
+	[ 10.0000, 0.0000 ] ] });
 
-face_fig_demoSheetFold_facePattern_Fa000 = subtract( ctr_face_fig_demoSheetFold_facePattern_Fa000_Ctr000, ctr_face_fig_demoSheetFold_facePattern_Fa000_Ctr001 );
-fig_demoSheetFold_facePattern = face_fig_demoSheetFold_facePattern_Fa000;
+const ctr_face_fig_demoSheetFold_SFG_pattern_Fa000_Ctr002 = polygon({ points: [ [ 69.4720, 39.0000 ],
+	[ 69.6671, 39.0192 ],
+	[ 69.8547, 39.0761 ],
+	[ 70.0275, 39.1685 ],
+	[ 70.1791, 39.2929 ],
+	[ 70.3034, 39.4444 ],
+	[ 70.3959, 39.6173 ],
+	[ 70.4528, 39.8049 ],
+	[ 70.4720, 40.0000 ],
+	[ 70.4528, 40.1951 ],
+	[ 70.3959, 40.3827 ],
+	[ 70.3034, 40.5556 ],
+	[ 70.1791, 40.7071 ],
+	[ 70.0275, 40.8315 ],
+	[ 69.8547, 40.9239 ],
+	[ 69.6671, 40.9808 ],
+	[ 69.4720, 41.0000 ],
+	[ 61.0000, 41.0000 ],
+	[ 60.8049, 40.9808 ],
+	[ 60.6173, 40.9239 ],
+	[ 60.4444, 40.8315 ],
+	[ 60.2929, 40.7071 ],
+	[ 60.1685, 40.5556 ],
+	[ 60.0761, 40.3827 ],
+	[ 60.0192, 40.1951 ],
+	[ 60.0000, 40.0000 ],
+	[ 60.0192, 39.8049 ],
+	[ 60.0761, 39.6173 ],
+	[ 60.1685, 39.4444 ],
+	[ 60.2929, 39.2929 ],
+	[ 60.4444, 39.1685 ],
+	[ 60.6173, 39.0761 ],
+	[ 60.8049, 39.0192 ],
+	[ 61.0000, 39.0000 ],
+	[ 69.4720, 39.0000 ] ] });
+
+face_fig_demoSheetFold_SFG_pattern_Fa000 = subtract( ctr_face_fig_demoSheetFold_SFG_pattern_Fa000_Ctr000, ctr_face_fig_demoSheetFold_SFG_pattern_Fa000_Ctr001, ctr_face_fig_demoSheetFold_SFG_pattern_Fa000_Ctr002 );
+fig_demoSheetFold_SFG_pattern = face_fig_demoSheetFold_SFG_pattern_Fa000;
+const ctr_face_fig_demoSheetFold_SFG_profiles_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+	[ 60.0000, 0.0000 ],
+	[ 60.0000, 10.0000 ],
+	[ 0.0000, 10.0000 ],
+	[ 0.0000, 0.0000 ] ] });
+
+face_fig_demoSheetFold_SFG_profiles_Fa000 = ctr_face_fig_demoSheetFold_SFG_profiles_Fa000_Ctr000;
+const ctr_face_fig_demoSheetFold_SFG_profiles_Fa001_Ctr000 = polygon({ points: [ [ 60.0000, 0.0000 ],
+	[ 61.9579, 0.1283 ],
+	[ 63.8823, 0.5111 ],
+	[ 65.7403, 1.1418 ],
+	[ 67.5000, 2.0096 ],
+	[ 69.1314, 3.0997 ],
+	[ 70.6066, 4.3934 ],
+	[ 71.9003, 5.8686 ],
+	[ 72.9904, 7.5000 ],
+	[ 64.3301, 12.5000 ],
+	[ 63.8302, 11.7861 ],
+	[ 63.2139, 11.1698 ],
+	[ 62.5000, 10.6699 ],
+	[ 61.7101, 10.3015 ],
+	[ 60.8682, 10.0760 ],
+	[ 60.0000, 10.0000 ],
+	[ 60.0000, 0.0000 ] ] });
+
+face_fig_demoSheetFold_SFG_profiles_Fa001 = ctr_face_fig_demoSheetFold_SFG_profiles_Fa001_Ctr000;
+const ctr_face_fig_demoSheetFold_SFG_profiles_Fa002_Ctr000 = polygon({ points: [ [ 72.9904, 7.5000 ],
+	[ 90.4904, 37.8109 ],
+	[ 81.8301, 42.8109 ],
+	[ 64.3301, 12.5000 ],
+	[ 72.9904, 7.5000 ] ] });
+
+face_fig_demoSheetFold_SFG_profiles_Fa002 = ctr_face_fig_demoSheetFold_SFG_profiles_Fa002_Ctr000;
+fig_demoSheetFold_SFG_profiles = union( face_fig_demoSheetFold_SFG_profiles_Fa000, face_fig_demoSheetFold_SFG_profiles_Fa001, face_fig_demoSheetFold_SFG_profiles_Fa002 );
 const ctr_face_fig_demoSheetFold_SFG_f00_Fa000_Ctr000 = polygon({ points: [ [ 10.0000, 0.0000 ],
 	[ 60.0000, 0.0000 ],
 	[ 60.0000, 80.0000 ],
