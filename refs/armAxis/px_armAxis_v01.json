@@ -1,0 +1,13 @@
+{
+  "lastModif": "20250304_104207",
+  "partName": "armAxis",
+  "pVal": {
+    "D1": 20,
+    "T1": 3,
+    "L1": 50,
+    "Hollow": 0,
+    "D2": 10,
+    "D3": 20
+  },
+  "comment": ""
+}

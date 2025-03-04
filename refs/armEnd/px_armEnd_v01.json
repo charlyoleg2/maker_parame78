@@ -1,0 +1,24 @@
+{
+  "lastModif": "20250304_104220",
+  "partName": "armEnd",
+  "pVal": {
+    "W2A": 60,
+    "W2B": 60,
+    "eqWAB": 1,
+    "Face": 0,
+    "L1": 50,
+    "L2": 50,
+    "D1": 40,
+    "S1": 10,
+    "Hollow": 0,
+    "D2": 20,
+    "D3A": 30,
+    "D3B": 30,
+    "Thickness and corners": 0,
+    "T1": 3,
+    "Jmark": 1,
+    "Jradius": 5,
+    "Jneutral": 50
+  },
+  "comment": ""
+}

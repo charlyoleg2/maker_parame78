@@ -1,0 +1,4 @@
+armAxis simTime: 0
+D1 20.00, R1 10.00
+D1b 14.00, R1b 7.00
+armAxis drawn successfully!

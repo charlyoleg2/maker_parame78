@@ -23,6 +23,8 @@ const c_Parts = {
 	demoSheetFold2_A: 'demoSheetFold2_A_v01',
 	demoSheetFold2_B: 'demoSheetFold2_B_v01',
 	demoSheetFold2_C: 'demoSheetFold2_C_v01',
+	armEnd: 'armEnd_v01',
+	armAxis: 'armAxis_v01',
 	rail: 'rail_v01',
 };
 
@@ -45,6 +47,8 @@ const c_svgdxf = {
 	demoSheetFold2_A: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
 	demoSheetFold2_B: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
 	demoSheetFold2_C: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
+	armEnd: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
+	armAxis: ['faceAxis', 'faceHoleS', 'faceHoleL'],
 	rail: ['faceRail'],
 };
 

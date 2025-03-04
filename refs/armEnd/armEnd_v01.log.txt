@@ -1,0 +1,3 @@
+armEnd simTime: 0
+W1A 47.00, W1B 47.00
+armEnd drawn successfully!

@@ -1,0 +1,191 @@
+{
+  "partName": "armAxis",
+  "pDef": {
+    "partName": "armAxis",
+    "params": [
+      {
+        "name": "D1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "T1",
+        "unit": "mm",
+        "init": 3,
+        "min": 0.5,
+        "max": 10,
+        "step": 0.25,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 50,
+        "min": 1,
+        "max": 500,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "Hollow",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "D2",
+        "unit": "mm",
+        "init": 10,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "D3",
+        "unit": "mm",
+        "init": 20,
+        "min": 0,
+        "max": 200,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "D1": "armAxis_section.svg",
+      "T1": "armAxis_section.svg",
+      "L1": "armAxis_length.svg",
+      "D2": "armAxis_length.svg",
+      "D3": "armAxis_section.svg"
+    },
+    "sim": {
+      "tMax": 100,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "D1": 20,
+    "T1": 3,
+    "L1": 50,
+    "Hollow": 0,
+    "D2": 10,
+    "D3": 20
+  },
+  "figures": {
+    "faceAxis": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 10
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 7
+        }
+      ]
+    ],
+    "faceHoleS": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 5
+        }
+      ]
+    ],
+    "faceHoleL": [
+      [
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 0,
+          "radius": 10
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_armAxis_Axis",
+        "face": "armAxis_faceAxis",
+        "extrudeMethod": 0,
+        "length": 50,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_armAxis_HoleS",
+        "face": "armAxis_faceHoleS",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          0,
+          1.5707963267948966,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          25
+        ]
+      },
+      {
+        "outName": "subpax_armAxis_HoleL",
+        "face": "armAxis_faceHoleL",
+        "extrudeMethod": 0,
+        "length": 40,
+        "rotate": [
+          -1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          -10,
+          -20,
+          25
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_armAxis",
+        "boolMethod": 3,
+        "inList": [
+          "subpax_armAxis_Axis",
+          "subpax_armAxis_HoleS",
+          "subpax_armAxis_HoleL"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "armAxis simTime: 0\nD1 20.00, R1 10.00\nD1b 14.00, R1b 7.00\narmAxis drawn successfully!\n"
+}
