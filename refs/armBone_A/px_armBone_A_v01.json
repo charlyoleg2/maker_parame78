@@ -1,0 +1,29 @@
+{
+  "lastModif": "20250317_221814",
+  "partName": "armBone",
+  "pVal": {
+    "W2A": 60,
+    "W2B": 40,
+    "eqWAB": 0,
+    "twist": 0,
+    "Face": 0,
+    "L1": 50,
+    "L2": 50,
+    "D1": 40,
+    "S1": 10,
+    "L3": 50,
+    "D5": 40,
+    "S2": 10,
+    "Hollow": 0,
+    "D2": 20,
+    "D4": 20,
+    "D3A": 30,
+    "D3B": 10,
+    "Thickness and corners": 0,
+    "T1": 3,
+    "Jmark": 1,
+    "Jradius": 5,
+    "Jneutral": 50
+  },
+  "comment": ""
+}
