@@ -1,0 +1,32 @@
+armChain simTime: 0
+arm twist: 0 joint-nb: 6
+hand armEnd W2Ahand 60.00, W2Bhand 60.00 mm
+shoulder armEnd W2A 72.00, W2B 108.00 mm
+shoulder armEnd L1 50.00, L2 35.00, D1 20.00, S1 15.00 mm
+[armEnd1]: armEnd1 simTime: 0
+[armEnd1]: W1A 59.00, W1B 95.00
+[armEnd1]: armEnd drawn successfully!
+[armEnd2]: armEnd2 simTime: 0
+[armEnd2]: W1A 47.00, W1B 47.00
+[armEnd2]: armEnd drawn successfully!
+[armBone0]: armBone0 simTime: 0
+[armBone0]: W1A 57.00, W1B 87.00
+[armBone0]: Y-length 142.00
+[armBone0]: armBone drawn successfully!
+[armBone1]: armBone1 simTime: 0
+[armBone1]: W1A 55.00, W1B 79.00
+[armBone1]: Y-length 136.00
+[armBone1]: armBone drawn successfully!
+[armBone2]: armBone2 simTime: 0
+[armBone2]: W1A 53.00, W1B 71.00
+[armBone2]: Y-length 130.00
+[armBone2]: armBone drawn successfully!
+[armBone3]: armBone3 simTime: 0
+[armBone3]: W1A 51.00, W1B 63.00
+[armBone3]: Y-length 124.00
+[armBone3]: armBone drawn successfully!
+[armBone4]: armBone4 simTime: 0
+[armBone4]: W1A 49.00, W1B 55.00
+[armBone4]: Y-length 118.00
+[armBone4]: armBone drawn successfully!
+armChain drawn successfully!

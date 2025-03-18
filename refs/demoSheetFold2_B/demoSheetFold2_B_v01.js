@@ -740,7 +740,7 @@ const ctr_face_fig_demoSheetFold2_SFG_fj03_Fa000_Ctr000 = polygon({ points: [ [ 
 face_fig_demoSheetFold2_SFG_fj03_Fa000 = ctr_face_fig_demoSheetFold2_SFG_fj03_Fa000_Ctr000;
 fig_demoSheetFold2_SFG_fj03 = face_fig_demoSheetFold2_SFG_fj03_Fa000;
 
-const subpax_SFG_f00 =
+const subpax_demoSheetFold2_SFG_f00 =
 	translate( [ 0, 0, 0, ],
 		rotate( [ 0, 0, 0, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold2_SFG_f00 )
@@ -748,7 +748,7 @@ const subpax_SFG_f00 =
 	);
 
 
-const subpax_SFG_f01 =
+const subpax_demoSheetFold2_SFG_f01 =
 	translate( [ 224.35925161963087, -1.491573976280297e-15, 30.623776358596622, ],
 		rotate( [ -3.141592653589793, -1.343903524035634, 3.141592653589793, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold2_SFG_f01 )
@@ -756,7 +756,7 @@ const subpax_SFG_f01 =
 	);
 
 
-const subpax_SFG_f02 =
+const subpax_demoSheetFold2_SFG_f02 =
 	translate( [ 226.29943001547542, 107.05157646548783, 37.820371229793395, ],
 		rotate( [ 1.2273758443591767, 0.7123930147740434, -2.3080948240375943, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold2_SFG_f02 )
@@ -764,7 +764,7 @@ const subpax_SFG_f02 =
 	);
 
 
-const subpax_SFG_f03 =
+const subpax_demoSheetFold2_SFG_f03 =
 	translate( [ 181.19929063609473, 8.977121768001199, 165.5890136402613, ],
 		rotate( [ 2.623875118511849, -0.272839820570033, 2.6428415382253676, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold2_SFG_f03 )
@@ -772,7 +772,7 @@ const subpax_SFG_f03 =
 	);
 
 
-const subpax_SFG_f04 =
+const subpax_demoSheetFold2_SFG_f04 =
 	translate( [ 146.35346234249107, 40.55543452976888, 209.27058884358186, ],
 		rotate( [ 0.31222581469686533, -0.6505967922119138, -1.4251759069597367, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold2_SFG_f04 )
@@ -780,7 +780,7 @@ const subpax_SFG_f04 =
 	);
 
 
-const subpax_SFG_fj00 =
+const subpax_demoSheetFold2_SFG_fj00 =
 	translate( [ 200, 100, 0, ],
 		rotate( [ 1.5707963267948966, 0, 0, ],
 			   extrudeLinear( {height: 100}, fig_demoSheetFold2_SFG_fj00 )
@@ -788,7 +788,7 @@ const subpax_SFG_fj00 =
 	);
 
 
-const subpax_SFG_fj01 =
+const subpax_demoSheetFold2_SFG_fj01 =
 	translate( [ 224.3592516196309, 99.99999999999999, 30.623776358596597, ],
 		rotate( [ -0.3057724264189253, -0.7268496724933166, 1.7775684666185343, ],
 			   extrudeLinear( {height: 141}, fig_demoSheetFold2_SFG_fj01 )
@@ -796,7 +796,7 @@ const subpax_SFG_fj01 =
 	);
 
 
-const subpax_SFG_fj02 =
+const subpax_demoSheetFold2_SFG_fj02 =
 	translate( [ 246.78841875062616, 68.23294335421204, 177.3787707739824, ],
 		rotate( [ 2.6505908068656776, -0.9998381681959577, -1.655735987422204, ],
 			   extrudeLinear( {height: 82}, fig_demoSheetFold2_SFG_fj02 )
@@ -804,14 +804,14 @@ const subpax_SFG_fj02 =
 	);
 
 
-const subpax_SFG_fj03 =
+const subpax_demoSheetFold2_SFG_fj03 =
 	translate( [ 224.88542823637593, 66.32025742553763, 204.6695225229597, ],
 		rotate( [ -1.8549858579046703, -0.5119809326079416, 2.0516135222243985, ],
 			   extrudeLinear( {height: 79}, fig_demoSheetFold2_SFG_fj03 )
 		)
 	);
 
-const pax_demoSheetFold2 = union( subpax_SFG_f00, subpax_SFG_f01, subpax_SFG_f02, subpax_SFG_f03, subpax_SFG_f04, subpax_SFG_fj00, subpax_SFG_fj01, subpax_SFG_fj02, subpax_SFG_fj03 );
+const pax_demoSheetFold2 = union( subpax_demoSheetFold2_SFG_f00, subpax_demoSheetFold2_SFG_f01, subpax_demoSheetFold2_SFG_f02, subpax_demoSheetFold2_SFG_f03, subpax_demoSheetFold2_SFG_f04, subpax_demoSheetFold2_SFG_fj00, subpax_demoSheetFold2_SFG_fj01, subpax_demoSheetFold2_SFG_fj02, subpax_demoSheetFold2_SFG_fj03 );
 
 return pax_demoSheetFold2;
 }

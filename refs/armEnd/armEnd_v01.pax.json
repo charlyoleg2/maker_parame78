@@ -216,6 +216,175 @@
     "Jneutral": 50
   },
   "figures": {
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -23.5,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 23.5,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 23.5,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 29.72840454110303,
+              "py": 95.97235013431842
+            },
+            {
+              "typ": 2,
+              "px": -29.72840454110303,
+              "py": 95.97235013431842,
+              "radius": 30,
+              "large": true,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -23.5,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -23.5,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 25,
+          "radius": 15
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 100,
+          "radius": 20
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 65,
+          "radius": 10
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -23.5,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 23.5,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 23.5,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -23.5,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": -23.5,
+              "py": 0
+            }
+          ]
+        },
+        {
+          "circle": true,
+          "cx": 0,
+          "cy": 25,
+          "radius": 15
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -27,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": -27,
+              "py": 130
+            },
+            {
+              "typ": 1,
+              "px": -30,
+              "py": 130
+            },
+            {
+              "typ": 1,
+              "px": -30,
+              "py": 0
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 27,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 130
+            },
+            {
+              "typ": 1,
+              "px": 27,
+              "py": 130
+            },
+            {
+              "typ": 1,
+              "px": 27,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
     "SFG_pattern": [
       [
         {
@@ -1320,7 +1489,7 @@
   "volume": {
     "extrudes": [
       {
-        "outName": "subpax_SFG_f00",
+        "outName": "subpax_armEnd_SFG_f00",
         "face": "armEnd_SFG_f00",
         "extrudeMethod": 0,
         "length": 3,
@@ -1336,7 +1505,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f01",
+        "outName": "subpax_armEnd_SFG_f01",
         "face": "armEnd_SFG_f01",
         "extrudeMethod": 0,
         "length": 3,
@@ -1352,7 +1521,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f02",
+        "outName": "subpax_armEnd_SFG_f02",
         "face": "armEnd_SFG_f02",
         "extrudeMethod": 0,
         "length": 3,
@@ -1368,7 +1537,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f03",
+        "outName": "subpax_armEnd_SFG_f03",
         "face": "armEnd_SFG_f03",
         "extrudeMethod": 0,
         "length": 3,
@@ -1384,7 +1553,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj00",
+        "outName": "subpax_armEnd_SFG_fj00",
         "face": "armEnd_SFG_fj00",
         "extrudeMethod": 0,
         "length": 50,
@@ -1400,7 +1569,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj01",
+        "outName": "subpax_armEnd_SFG_fj01",
         "face": "armEnd_SFG_fj01",
         "extrudeMethod": 0,
         "length": 50,
@@ -1416,7 +1585,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj02",
+        "outName": "subpax_armEnd_SFG_fj02",
         "face": "armEnd_SFG_fj02",
         "extrudeMethod": 0,
         "length": 50,
@@ -1432,7 +1601,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj03",
+        "outName": "subpax_armEnd_SFG_fj03",
         "face": "armEnd_SFG_fj03",
         "extrudeMethod": 0,
         "length": 50,
@@ -1453,14 +1622,14 @@
         "outName": "pax_armEnd",
         "boolMethod": 2,
         "inList": [
-          "subpax_SFG_f00",
-          "subpax_SFG_f01",
-          "subpax_SFG_f02",
-          "subpax_SFG_f03",
-          "subpax_SFG_fj00",
-          "subpax_SFG_fj01",
-          "subpax_SFG_fj02",
-          "subpax_SFG_fj03"
+          "subpax_armEnd_SFG_f00",
+          "subpax_armEnd_SFG_f01",
+          "subpax_armEnd_SFG_f02",
+          "subpax_armEnd_SFG_f03",
+          "subpax_armEnd_SFG_fj00",
+          "subpax_armEnd_SFG_fj01",
+          "subpax_armEnd_SFG_fj02",
+          "subpax_armEnd_SFG_fj03"
         ]
       }
     ]

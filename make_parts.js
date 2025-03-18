@@ -25,6 +25,12 @@ const c_Parts = {
 	demoSheetFold2_C: 'demoSheetFold2_C_v01',
 	armEnd: 'armEnd_v01',
 	armAxis: 'armAxis_v01',
+	armJoint_A1: 'armJoint_A1_v01',
+	armJoint_A2: 'armJoint_A2_v01',
+	armBone_A: 'armBone_A_v01',
+	armBone_B: 'armBone_B_v01',
+	armChain_A: 'armChain_A_v01',
+	armChain_B: 'armChain_B_v01',
 	rail: 'rail_v01',
 };
 
@@ -49,6 +55,12 @@ const c_svgdxf = {
 	demoSheetFold2_C: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
 	armEnd: ['SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01', 'SFG_fj00'],
 	armAxis: ['faceAxis', 'faceHoleS', 'faceHoleL'],
+	armJoint_A1: ['faceSide', 'faceTop', 'faceSection'],
+	armJoint_A2: ['faceSide', 'faceTop', 'faceSection'],
+	armBone_A: ['faceA', 'faceB', 'SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	armBone_B: ['faceA', 'faceB', 'SFG_pattern', 'SFG_profiles', 'SFG_f00', 'SFG_f01'],
+	armChain_A: ['faceA', 'faceB', 'faceSection'],
+	armChain_B: ['faceA', 'faceB', 'faceSection'],
 	rail: ['faceRail'],
 };
 

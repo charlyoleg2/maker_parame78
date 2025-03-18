@@ -4159,7 +4159,7 @@ const ctr_face_fig_sfDie_SFG_fj04_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0
 face_fig_sfDie_SFG_fj04_Fa000 = ctr_face_fig_sfDie_SFG_fj04_Fa000_Ctr000;
 fig_sfDie_SFG_fj04 = face_fig_sfDie_SFG_fj04_Fa000;
 
-const subpax_SFG_f00 =
+const subpax_sfDie_SFG_f00 =
 	translate( [ 0, 0, 0, ],
 		rotate( [ 0, 0, 0, ],
 			   extrudeLinear( {height: 10}, fig_sfDie_SFG_f00 )
@@ -4167,7 +4167,7 @@ const subpax_SFG_f00 =
 	);
 
 
-const subpax_SFG_f01 =
+const subpax_sfDie_SFG_f01 =
 	translate( [ 224.6201938253052, -1.5075520781273722e-15, 20.65879555832674, ],
 		rotate( [ -3.472658563728701e-16, -1.3962634015954636, 2.913906520029376e-16, ],
 			   extrudeLinear( {height: 10}, fig_sfDie_SFG_f01 )
@@ -4175,7 +4175,7 @@ const subpax_SFG_f01 =
 	);
 
 
-const subpax_SFG_f02 =
+const subpax_sfDie_SFG_f02 =
 	translate( [ 0, -24.6201938253052, 20.65879555832674, ],
 		rotate( [ -3.472658563728701e-16, -1.3962634015954636, -1.5707963267948963, ],
 			   extrudeLinear( {height: 10}, fig_sfDie_SFG_f02 )
@@ -4183,7 +4183,7 @@ const subpax_SFG_f02 =
 	);
 
 
-const subpax_SFG_f03 =
+const subpax_sfDie_SFG_f03 =
 	translate( [ 200, 224.6201938253052, 20.65879555832674, ],
 		rotate( [ -3.472658563728701e-16, -1.3962634015954636, 1.570796326794897, ],
 			   extrudeLinear( {height: 10}, fig_sfDie_SFG_f03 )
@@ -4191,7 +4191,7 @@ const subpax_SFG_f03 =
 	);
 
 
-const subpax_SFG_f04 =
+const subpax_sfDie_SFG_f04 =
 	translate( [ -24.6201938253052, 200, 20.65879555832674, ],
 		rotate( [ -3.472658563728701e-16, -1.3962634015954636, -3.1415926535897927, ],
 			   extrudeLinear( {height: 10}, fig_sfDie_SFG_f04 )
@@ -4199,7 +4199,7 @@ const subpax_SFG_f04 =
 	);
 
 
-const subpax_SFG_f05 =
+const subpax_sfDie_SFG_f05 =
 	translate( [ 288.8940619490575, 6.803276570017541e-15, 212.41090083076043, ],
 		rotate( [ 3.1415926535897927, 1.3962634015954638, 3.1415926535897927, ],
 			   extrudeLinear( {height: 10}, fig_sfDie_SFG_f05 )
@@ -4207,7 +4207,7 @@ const subpax_SFG_f05 =
 	);
 
 
-const subpax_SFG_fj00 =
+const subpax_sfDie_SFG_fj00 =
 	translate( [ 200, 1.2246467991473532e-14, 0, ],
 		rotate( [ 1.5707963267948966, 0, -1.5707963267948966, ],
 			   extrudeLinear( {height: 200}, fig_sfDie_SFG_fj00 )
@@ -4215,7 +4215,7 @@ const subpax_SFG_fj00 =
 	);
 
 
-const subpax_SFG_fj01 =
+const subpax_sfDie_SFG_fj01 =
 	translate( [ 200, 200, 0, ],
 		rotate( [ 1.5707963267948966, 0, 0, ],
 			   extrudeLinear( {height: 200}, fig_sfDie_SFG_fj01 )
@@ -4223,7 +4223,7 @@ const subpax_SFG_fj01 =
 	);
 
 
-const subpax_SFG_fj02 =
+const subpax_sfDie_SFG_fj02 =
 	translate( [ 0, 200, 0, ],
 		rotate( [ 1.5707963267948966, 0, 1.5707963267948966, ],
 			   extrudeLinear( {height: 200}, fig_sfDie_SFG_fj02 )
@@ -4231,7 +4231,7 @@ const subpax_SFG_fj02 =
 	);
 
 
-const subpax_SFG_fj03 =
+const subpax_sfDie_SFG_fj03 =
 	translate( [ 2.4492935982947064e-14, 0, 0, ],
 		rotate( [ 1.5707963267948966, 0, -3.141592653589793, ],
 			   extrudeLinear( {height: 200}, fig_sfDie_SFG_fj03 )
@@ -4239,14 +4239,14 @@ const subpax_SFG_fj03 =
 	);
 
 
-const subpax_SFG_fj04 =
+const subpax_sfDie_SFG_fj04 =
 	translate( [ 259.3498293586913, 200, 217.62034616076835, ],
 		rotate( [ 1.5707963267948961, -1.3962634015954636, 2.913906520029376e-16, ],
 			   extrudeLinear( {height: 200}, fig_sfDie_SFG_fj04 )
 		)
 	);
 
-const pax_sfDie = union( subpax_SFG_f00, subpax_SFG_f01, subpax_SFG_f02, subpax_SFG_f03, subpax_SFG_f04, subpax_SFG_f05, subpax_SFG_fj00, subpax_SFG_fj01, subpax_SFG_fj02, subpax_SFG_fj03, subpax_SFG_fj04 );
+const pax_sfDie = union( subpax_sfDie_SFG_f00, subpax_sfDie_SFG_f01, subpax_sfDie_SFG_f02, subpax_sfDie_SFG_f03, subpax_sfDie_SFG_f04, subpax_sfDie_SFG_f05, subpax_sfDie_SFG_fj00, subpax_sfDie_SFG_fj01, subpax_sfDie_SFG_fj02, subpax_sfDie_SFG_fj03, subpax_sfDie_SFG_fj04 );
 
 return pax_sfDie;
 }

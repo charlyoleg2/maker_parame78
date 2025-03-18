@@ -1,0 +1,16 @@
+armJoint simTime: 0
+armEnd-1 W12A 60.00, W12B 60.00, L1total 130.00
+armEnd-2 W22A 60.00, W22B 52.00, L2total 130.00
+L12total 200.00 mm
+jointAngle 41.00 degree  0.72 rad
+[armAxis]: armAxis simTime: 0
+[armAxis]: D1 40.00, R1 20.00
+[armAxis]: D1b 34.00, R1b 17.00
+[armAxis]: armAxis drawn successfully!
+[armEnd1]: armEnd1 simTime: 0
+[armEnd1]: W1A 47.00, W1B 47.00
+[armEnd1]: armEnd drawn successfully!
+[armEnd2]: armEnd2 simTime: 0
+[armEnd2]: W1A 47.00, W1B 39.00
+[armEnd2]: armEnd drawn successfully!
+armJoint drawn successfully!

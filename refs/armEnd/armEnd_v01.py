@@ -11,6 +11,145 @@ if (len(sys.argv) == 3):
     outFileName = sys.argv[2]
 print(f"outFileName: {outFileName}")
 
+def ctr_face_armEnd_faceSide_Fa0_Ctr0():
+	P000 = App.Vector(-23.5000, 0.0000, 0)
+	P001 = App.Vector(23.5000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(23.5000, 50.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(29.7284, 95.9724, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(0.0000, 130.0000, 0)
+	P005 = App.Vector(-29.7284, 95.9724, 0)
+	S003 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(-23.5000, 50.0000, 0)
+	S004 = Part.LineSegment(P005, P006)
+	P007 = App.Vector(-23.5000, 0.0000, 0)
+	S005 = Part.LineSegment(P006, P000)
+	aShape = Part.Shape([S000, S001, S002, S003, S004, S005])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def ctr_face_armEnd_faceSide_Fa0_Ctr1():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(15.0000, App.Vector(0.0000, 25.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_armEnd_faceSide_Fa0_Ctr2():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(20.0000, App.Vector(0.0000, 100.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def ctr_face_armEnd_faceSide_Fa0_Ctr3():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(10.0000, App.Vector(0.0000, 65.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def face_armEnd_faceSide_Fa0():
+	FC000 = ctr_face_armEnd_faceSide_Fa0_Ctr0()
+	FC001 = ctr_face_armEnd_faceSide_Fa0_Ctr1()
+	FC002 = ctr_face_armEnd_faceSide_Fa0_Ctr2()
+	FC003 = ctr_face_armEnd_faceSide_Fa0_Ctr3()
+	rOneFace = FC000.cut([FC001, FC002, FC003])
+	rOneFace.check()
+	return rOneFace
+
+def armEnd_faceSide():
+	FA000 = face_armEnd_faceSide_Fa0()
+	rOneFig = FA000
+	rOneFig.check()
+	return rOneFig
+
+def ctr_face_armEnd_faceTop_Fa0_Ctr0():
+	P000 = App.Vector(-23.5000, 0.0000, 0)
+	P001 = App.Vector(23.5000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(23.5000, 50.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-23.5000, 50.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-23.5000, 0.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def ctr_face_armEnd_faceTop_Fa0_Ctr1():
+	# Radius, XYZ-position, orientation
+	aCircle = Part.makeCircle(15.0000, App.Vector(0.0000, 25.0000, 0), App.Vector(0, 0, 1))
+	aWire = Part.Wire(aCircle)
+	rFace = Part.Face(aWire)
+	return rFace
+
+def face_armEnd_faceTop_Fa0():
+	FC000 = ctr_face_armEnd_faceTop_Fa0_Ctr0()
+	FC001 = ctr_face_armEnd_faceTop_Fa0_Ctr1()
+	rOneFace = FC000.cut([FC001])
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_armEnd_faceTop_Fa1_Ctr0():
+	P000 = App.Vector(-30.0000, 0.0000, 0)
+	P001 = App.Vector(-27.0000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-27.0000, 130.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-30.0000, 130.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-30.0000, 0.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_armEnd_faceTop_Fa1():
+	FC000 = ctr_face_armEnd_faceTop_Fa1_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_armEnd_faceTop_Fa2_Ctr0():
+	P000 = App.Vector(27.0000, 0.0000, 0)
+	P001 = App.Vector(30.0000, 0.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(30.0000, 130.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(27.0000, 130.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(27.0000, 0.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_armEnd_faceTop_Fa2():
+	FC000 = ctr_face_armEnd_faceTop_Fa2_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def armEnd_faceTop():
+	FA000 = face_armEnd_faceTop_Fa0()
+	FA001 = face_armEnd_faceTop_Fa1()
+	FA002 = face_armEnd_faceTop_Fa2()
+	rOneFig = FA000.fuse([FA001, FA002])
+	rOneFig.check()
+	return rOneFig
+
 def ctr_face_armEnd_SFG_pattern_Fa0_Ctr0():
 	P000 = App.Vector(-23.5000, 0.0000, 0)
 	P001 = App.Vector(23.5000, 0.0000, 0)
@@ -775,7 +914,7 @@ def armEnd_SFG_fj03():
 	rOneFig.check()
 	return rOneFig
 
-def fex_subpax_SFG_f00():
+def fex_subpax_armEnd_SFG_f00():
 	FIG = armEnd_SFG_f00()
 	VEX = FIG.extrude(App.Vector(0, 0, 3))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
@@ -783,9 +922,9 @@ def fex_subpax_SFG_f00():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
-subpax_SFG_f00 = fex_subpax_SFG_f00()
+subpax_armEnd_SFG_f00 = fex_subpax_armEnd_SFG_f00()
 
-def fex_subpax_SFG_f01():
+def fex_subpax_armEnd_SFG_f01():
 	FIG = armEnd_SFG_f01()
 	VEX = FIG.extrude(App.Vector(0, 0, 3))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
@@ -793,9 +932,9 @@ def fex_subpax_SFG_f01():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(30.0000, -0.0000, 6.5000))
 	return VFP
-subpax_SFG_f01 = fex_subpax_SFG_f01()
+subpax_armEnd_SFG_f01 = fex_subpax_armEnd_SFG_f01()
 
-def fex_subpax_SFG_f02():
+def fex_subpax_armEnd_SFG_f02():
 	FIG = armEnd_SFG_f02()
 	VEX = FIG.extrude(App.Vector(0, 0, 3))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -180.0000)
@@ -803,9 +942,9 @@ def fex_subpax_SFG_f02():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180.0000)
 	VFP = VR3.translate(App.Vector(23.5000, 0.0000, 60.0000))
 	return VFP
-subpax_SFG_f02 = fex_subpax_SFG_f02()
+subpax_armEnd_SFG_f02 = fex_subpax_armEnd_SFG_f02()
 
-def fex_subpax_SFG_f03():
+def fex_subpax_armEnd_SFG_f03():
 	FIG = armEnd_SFG_f03()
 	VEX = FIG.extrude(App.Vector(0, 0, 3))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
@@ -813,9 +952,9 @@ def fex_subpax_SFG_f03():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-30.0000, 0.0000, 53.5000))
 	return VFP
-subpax_SFG_f03 = fex_subpax_SFG_f03()
+subpax_armEnd_SFG_f03 = fex_subpax_armEnd_SFG_f03()
 
-def fex_subpax_SFG_fj00():
+def fex_subpax_armEnd_SFG_fj00():
 	FIG = armEnd_SFG_fj00()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -823,9 +962,9 @@ def fex_subpax_SFG_fj00():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(23.5000, 50.0000, 0.0000))
 	return VFP
-subpax_SFG_fj00 = fex_subpax_SFG_fj00()
+subpax_armEnd_SFG_fj00 = fex_subpax_armEnd_SFG_fj00()
 
-def fex_subpax_SFG_fj01():
+def fex_subpax_armEnd_SFG_fj01():
 	FIG = armEnd_SFG_fj01()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -833,9 +972,9 @@ def fex_subpax_SFG_fj01():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(30.0000, 50.0000, 53.5000))
 	return VFP
-subpax_SFG_fj01 = fex_subpax_SFG_fj01()
+subpax_armEnd_SFG_fj01 = fex_subpax_armEnd_SFG_fj01()
 
-def fex_subpax_SFG_fj02():
+def fex_subpax_armEnd_SFG_fj02():
 	FIG = armEnd_SFG_fj02()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -90.0000)
@@ -843,9 +982,9 @@ def fex_subpax_SFG_fj02():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180.0000)
 	VFP = VR3.translate(App.Vector(-23.5000, 50.0000, 60.0000))
 	return VFP
-subpax_SFG_fj02 = fex_subpax_SFG_fj02()
+subpax_armEnd_SFG_fj02 = fex_subpax_armEnd_SFG_fj02()
 
-def fex_subpax_SFG_fj03():
+def fex_subpax_armEnd_SFG_fj03():
 	FIG = armEnd_SFG_fj03()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -853,17 +992,17 @@ def fex_subpax_SFG_fj03():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-30.0000, 50.0000, 6.5000))
 	return VFP
-subpax_SFG_fj03 = fex_subpax_SFG_fj03()
+subpax_armEnd_SFG_fj03 = fex_subpax_armEnd_SFG_fj03()
 
 def fvol_pax_armEnd():
-	V000 = subpax_SFG_f00
-	V001 = V000.fuse(subpax_SFG_f01)
-	V002 = V001.fuse(subpax_SFG_f02)
-	V003 = V002.fuse(subpax_SFG_f03)
-	V004 = V003.fuse(subpax_SFG_fj00)
-	V005 = V004.fuse(subpax_SFG_fj01)
-	V006 = V005.fuse(subpax_SFG_fj02)
-	V007 = V006.fuse(subpax_SFG_fj03)
+	V000 = subpax_armEnd_SFG_f00
+	V001 = V000.fuse(subpax_armEnd_SFG_f01)
+	V002 = V001.fuse(subpax_armEnd_SFG_f02)
+	V003 = V002.fuse(subpax_armEnd_SFG_f03)
+	V004 = V003.fuse(subpax_armEnd_SFG_fj00)
+	V005 = V004.fuse(subpax_armEnd_SFG_fj01)
+	V006 = V005.fuse(subpax_armEnd_SFG_fj02)
+	V007 = V006.fuse(subpax_armEnd_SFG_fj03)
 	VFC = V007.removeSplitter()
 	return VFC
 pax_armEnd = fvol_pax_armEnd()

@@ -296,7 +296,7 @@ const ctr_face_fig_demoSheetFold_SFG_fj00_Fa000_Ctr000 = polygon({ points: [ [ 0
 face_fig_demoSheetFold_SFG_fj00_Fa000 = ctr_face_fig_demoSheetFold_SFG_fj00_Fa000_Ctr000;
 fig_demoSheetFold_SFG_fj00 = face_fig_demoSheetFold_SFG_fj00_Fa000;
 
-const subpax_SFG_f00 =
+const subpax_demoSheetFold_SFG_f00 =
 	translate( [ 0, 0, 0, ],
 		rotate( [ 0, 0, 0, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold_SFG_f00 )
@@ -304,7 +304,7 @@ const subpax_SFG_f00 =
 	);
 
 
-const subpax_SFG_f01 =
+const subpax_demoSheetFold_SFG_f01 =
 	translate( [ 72.99038105676658, -7.954314290436801e-16, 7.5, ],
 		rotate( [ -1.0605752387249065e-16, -1.0471975511965976, 6.123233995736764e-17, ],
 			   extrudeLinear( {height: 10}, fig_demoSheetFold_SFG_f01 )
@@ -312,14 +312,14 @@ const subpax_SFG_f01 =
 	);
 
 
-const subpax_SFG_fj00 =
+const subpax_demoSheetFold_SFG_fj00 =
 	translate( [ 60, 80, 0, ],
 		rotate( [ 1.5707963267948966, 0, 0, ],
 			   extrudeLinear( {height: 80}, fig_demoSheetFold_SFG_fj00 )
 		)
 	);
 
-const pax_demoSheetFold = union( subpax_SFG_f00, subpax_SFG_f01, subpax_SFG_fj00 );
+const pax_demoSheetFold = union( subpax_demoSheetFold_SFG_f00, subpax_demoSheetFold_SFG_f01, subpax_demoSheetFold_SFG_fj00 );
 
 return pax_demoSheetFold;
 }

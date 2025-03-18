@@ -1176,7 +1176,7 @@ def sfDie_SFG_fj04():
 	rOneFig.check()
 	return rOneFig
 
-def fex_subpax_SFG_f00():
+def fex_subpax_sfDie_SFG_f00():
 	FIG = sfDie_SFG_f00()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
@@ -1184,9 +1184,9 @@ def fex_subpax_SFG_f00():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
-subpax_SFG_f00 = fex_subpax_SFG_f00()
+subpax_sfDie_SFG_f00 = fex_subpax_sfDie_SFG_f00()
 
-def fex_subpax_SFG_f01():
+def fex_subpax_sfDie_SFG_f01():
 	FIG = sfDie_SFG_f01()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
@@ -1194,9 +1194,9 @@ def fex_subpax_SFG_f01():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(223.4923, -0.0000, 16.4495))
 	return VFP
-subpax_SFG_f01 = fex_subpax_SFG_f01()
+subpax_sfDie_SFG_f01 = fex_subpax_sfDie_SFG_f01()
 
-def fex_subpax_SFG_f02():
+def fex_subpax_sfDie_SFG_f02():
 	FIG = sfDie_SFG_f02()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
@@ -1204,9 +1204,9 @@ def fex_subpax_SFG_f02():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(0.0000, -23.4923, 16.4495))
 	return VFP
-subpax_SFG_f02 = fex_subpax_SFG_f02()
+subpax_sfDie_SFG_f02 = fex_subpax_sfDie_SFG_f02()
 
-def fex_subpax_SFG_f03():
+def fex_subpax_sfDie_SFG_f03():
 	FIG = sfDie_SFG_f03()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
@@ -1214,9 +1214,9 @@ def fex_subpax_SFG_f03():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(200.0000, 223.4923, 16.4495))
 	return VFP
-subpax_SFG_f03 = fex_subpax_SFG_f03()
+subpax_sfDie_SFG_f03 = fex_subpax_sfDie_SFG_f03()
 
-def fex_subpax_SFG_f04():
+def fex_subpax_sfDie_SFG_f04():
 	FIG = sfDie_SFG_f04()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
@@ -1224,9 +1224,9 @@ def fex_subpax_SFG_f04():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -180.0000)
 	VFP = VR3.translate(App.Vector(-23.4923, 200.0000, 16.4495))
 	return VFP
-subpax_SFG_f04 = fex_subpax_SFG_f04()
+subpax_sfDie_SFG_f04 = fex_subpax_sfDie_SFG_f04()
 
-def fex_subpax_SFG_f05():
+def fex_subpax_sfDie_SFG_f05():
 	FIG = sfDie_SFG_f05()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -180.0000)
@@ -1234,9 +1234,9 @@ def fex_subpax_SFG_f05():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180.0000)
 	VFP = VR3.translate(App.Vector(276.9545, 0.0000, 236.4308))
 	return VFP
-subpax_SFG_f05 = fex_subpax_SFG_f05()
+subpax_sfDie_SFG_f05 = fex_subpax_sfDie_SFG_f05()
 
-def fex_subpax_SFG_fj00():
+def fex_subpax_sfDie_SFG_fj00():
 	FIG = sfDie_SFG_fj00()
 	VEX = FIG.extrude(App.Vector(0, 0, 200))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -1244,9 +1244,9 @@ def fex_subpax_SFG_fj00():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(200.0000, 0.0000, 0.0000))
 	return VFP
-subpax_SFG_fj00 = fex_subpax_SFG_fj00()
+subpax_sfDie_SFG_fj00 = fex_subpax_sfDie_SFG_fj00()
 
-def fex_subpax_SFG_fj01():
+def fex_subpax_sfDie_SFG_fj01():
 	FIG = sfDie_SFG_fj01()
 	VEX = FIG.extrude(App.Vector(0, 0, 200))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -1254,9 +1254,9 @@ def fex_subpax_SFG_fj01():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(200.0000, 200.0000, 0.0000))
 	return VFP
-subpax_SFG_fj01 = fex_subpax_SFG_fj01()
+subpax_sfDie_SFG_fj01 = fex_subpax_sfDie_SFG_fj01()
 
-def fex_subpax_SFG_fj02():
+def fex_subpax_sfDie_SFG_fj02():
 	FIG = sfDie_SFG_fj02()
 	VEX = FIG.extrude(App.Vector(0, 0, 200))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -1264,9 +1264,9 @@ def fex_subpax_SFG_fj02():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(0.0000, 200.0000, 0.0000))
 	return VFP
-subpax_SFG_fj02 = fex_subpax_SFG_fj02()
+subpax_sfDie_SFG_fj02 = fex_subpax_sfDie_SFG_fj02()
 
-def fex_subpax_SFG_fj03():
+def fex_subpax_sfDie_SFG_fj03():
 	FIG = sfDie_SFG_fj03()
 	VEX = FIG.extrude(App.Vector(0, 0, 200))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -1274,9 +1274,9 @@ def fex_subpax_SFG_fj03():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -180.0000)
 	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
-subpax_SFG_fj03 = fex_subpax_SFG_fj03()
+subpax_sfDie_SFG_fj03 = fex_subpax_sfDie_SFG_fj03()
 
-def fex_subpax_SFG_fj04():
+def fex_subpax_sfDie_SFG_fj04():
 	FIG = sfDie_SFG_fj04()
 	VEX = FIG.extrude(App.Vector(0, 0, 200))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -1284,20 +1284,20 @@ def fex_subpax_SFG_fj04():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(291.8963, 200.0000, 204.3880))
 	return VFP
-subpax_SFG_fj04 = fex_subpax_SFG_fj04()
+subpax_sfDie_SFG_fj04 = fex_subpax_sfDie_SFG_fj04()
 
 def fvol_pax_sfDie():
-	V000 = subpax_SFG_f00
-	V001 = V000.fuse(subpax_SFG_f01)
-	V002 = V001.fuse(subpax_SFG_f02)
-	V003 = V002.fuse(subpax_SFG_f03)
-	V004 = V003.fuse(subpax_SFG_f04)
-	V005 = V004.fuse(subpax_SFG_f05)
-	V006 = V005.fuse(subpax_SFG_fj00)
-	V007 = V006.fuse(subpax_SFG_fj01)
-	V008 = V007.fuse(subpax_SFG_fj02)
-	V009 = V008.fuse(subpax_SFG_fj03)
-	V010 = V009.fuse(subpax_SFG_fj04)
+	V000 = subpax_sfDie_SFG_f00
+	V001 = V000.fuse(subpax_sfDie_SFG_f01)
+	V002 = V001.fuse(subpax_sfDie_SFG_f02)
+	V003 = V002.fuse(subpax_sfDie_SFG_f03)
+	V004 = V003.fuse(subpax_sfDie_SFG_f04)
+	V005 = V004.fuse(subpax_sfDie_SFG_f05)
+	V006 = V005.fuse(subpax_sfDie_SFG_fj00)
+	V007 = V006.fuse(subpax_sfDie_SFG_fj01)
+	V008 = V007.fuse(subpax_sfDie_SFG_fj02)
+	V009 = V008.fuse(subpax_sfDie_SFG_fj03)
+	V010 = V009.fuse(subpax_sfDie_SFG_fj04)
 	VFC = V010.removeSplitter()
 	return VFC
 pax_sfDie = fvol_pax_sfDie()

@@ -773,7 +773,7 @@
   "volume": {
     "extrudes": [
       {
-        "outName": "subpax_SFG_f00",
+        "outName": "subpax_demoSheetFold_SFG_f00",
         "face": "demoSheetFold_SFG_f00",
         "extrudeMethod": 0,
         "length": 10,
@@ -789,7 +789,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f01",
+        "outName": "subpax_demoSheetFold_SFG_f01",
         "face": "demoSheetFold_SFG_f01",
         "extrudeMethod": 0,
         "length": 10,
@@ -805,7 +805,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj00",
+        "outName": "subpax_demoSheetFold_SFG_fj00",
         "face": "demoSheetFold_SFG_fj00",
         "extrudeMethod": 0,
         "length": 80,
@@ -826,9 +826,9 @@
         "outName": "pax_demoSheetFold",
         "boolMethod": 2,
         "inList": [
-          "subpax_SFG_f00",
-          "subpax_SFG_f01",
-          "subpax_SFG_fj00"
+          "subpax_demoSheetFold_SFG_f00",
+          "subpax_demoSheetFold_SFG_f01",
+          "subpax_demoSheetFold_SFG_fj00"
         ]
       }
     ]

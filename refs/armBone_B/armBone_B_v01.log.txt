@@ -1,0 +1,4 @@
+armBone simTime: 0
+W1A 47.00, W1B 27.00
+Y-length 198.00
+armBone drawn successfully!

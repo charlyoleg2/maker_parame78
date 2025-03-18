@@ -88,55 +88,55 @@ cb_demoSheetFold2_SFG_fj03_000 = [  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13
 a_demoSheetFold2_SFG_fj03 = concat(ca_demoSheetFold2_SFG_fj03_000);
 b_demoSheetFold2_SFG_fj03 = [cb_demoSheetFold2_SFG_fj03_000];
 
-module subpax_SFG_f00 () {
+module subpax_demoSheetFold2_SFG_f00 () {
 	translate( [ 0, 0, 0 ])
 		rotate( [ 0, 0, 0 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold2_SFG_f00, b_demoSheetFold2_SFG_f00);
 }
 
-module subpax_SFG_f01 () {
+module subpax_demoSheetFold2_SFG_f01 () {
 	translate( [ 221.65063509461098, -1.3257190484061335e-15, 12.5 ])
 		rotate( [ -6.07664850350169e-15, -59.99999999999999, 3.5083546492674368e-15 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold2_SFG_f01, b_demoSheetFold2_SFG_f01);
 }
 
-module subpax_SFG_f02 () {
+module subpax_demoSheetFold2_SFG_f02 () {
 	translate( [ 216.2379763209582, 118.75000000000001, 28.124999999999986 ])
 		rotate( [ 99.46232220802563, 40.505350327418604, -34.71500395394824 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold2_SFG_f02, b_demoSheetFold2_SFG_f02);
 }
 
-module subpax_SFG_f03 () {
+module subpax_demoSheetFold2_SFG_f03 () {
 	translate( [ 252.77342304311424, 54.68749999999998, 122.65625 ])
 		rotate( [ 168.31063082456083, -22.26470306150356, -125.03307504922282 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold2_SFG_f03, b_demoSheetFold2_SFG_f03);
 }
 
-module subpax_SFG_f04 () {
+module subpax_demoSheetFold2_SFG_f04 () {
 	translate( [ 144.18195639670608, 21.484375000000046, 161.1328125 ])
 		rotate( [ -162.81429385577522, 37.51174985202767, -174.12527598771288 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold2_SFG_f04, b_demoSheetFold2_SFG_f04);
 }
 
-module subpax_SFG_fj00 () {
+module subpax_demoSheetFold2_SFG_fj00 () {
 	translate( [ 200, 100, 0 ])
 		rotate( [ 90, 0, 0 ])
 			   linear_extrude(height = 100) polygon(a_demoSheetFold2_SFG_fj00, b_demoSheetFold2_SFG_fj00);
 }
 
-module subpax_SFG_fj01 () {
+module subpax_demoSheetFold2_SFG_fj01 () {
 	translate( [ 221.65063509461095, 100.00000000000001, 12.499999999999979 ])
 		rotate( [ 33.6900675259798, -25.658906273255287, 73.89788624801398 ])
 			   linear_extrude(height = 100.00000000000001) polygon(a_demoSheetFold2_SFG_fj01, b_demoSheetFold2_SFG_fj01);
 }
 
-module subpax_SFG_fj02 () {
+module subpax_demoSheetFold2_SFG_fj02 () {
 	translate( [ 183.7620236790418, 131.25, 121.87499999999997 ])
 		rotate( [ -146.30993247402023, -76.97671881976584, -73.89788624801399 ])
 			   linear_extrude(height = 100) polygon(a_demoSheetFold2_SFG_fj02, b_demoSheetFold2_SFG_fj02);
 }
 
-module subpax_SFG_fj03 () {
+module subpax_demoSheetFold2_SFG_fj03 () {
 	translate( [ 176.99620021197586, 117.18750000000007, 141.40625 ])
 		rotate( [ -75.49983323344743, -20.59884754384003, 170.01034825535294 ])
 			   linear_extrude(height = 100.00000000000001) polygon(a_demoSheetFold2_SFG_fj03, b_demoSheetFold2_SFG_fj03);
@@ -144,15 +144,15 @@ module subpax_SFG_fj03 () {
 
 module pax_demoSheetFold2 () {
 	union () {
-		subpax_SFG_f00();
-subpax_SFG_f01();
-subpax_SFG_f02();
-subpax_SFG_f03();
-subpax_SFG_f04();
-subpax_SFG_fj00();
-subpax_SFG_fj01();
-subpax_SFG_fj02();
-subpax_SFG_fj03();
+		subpax_demoSheetFold2_SFG_f00();
+subpax_demoSheetFold2_SFG_f01();
+subpax_demoSheetFold2_SFG_f02();
+subpax_demoSheetFold2_SFG_f03();
+subpax_demoSheetFold2_SFG_f04();
+subpax_demoSheetFold2_SFG_fj00();
+subpax_demoSheetFold2_SFG_fj01();
+subpax_demoSheetFold2_SFG_fj02();
+subpax_demoSheetFold2_SFG_fj03();
 	}
 }
 

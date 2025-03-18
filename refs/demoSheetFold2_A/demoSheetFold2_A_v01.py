@@ -873,7 +873,7 @@ def demoSheetFold2_SFG_fj03():
 	rOneFig.check()
 	return rOneFig
 
-def fex_subpax_SFG_f00():
+def fex_subpax_demoSheetFold2_SFG_f00():
 	FIG = demoSheetFold2_SFG_f00()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
@@ -881,9 +881,9 @@ def fex_subpax_SFG_f00():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
-subpax_SFG_f00 = fex_subpax_SFG_f00()
+subpax_demoSheetFold2_SFG_f00 = fex_subpax_demoSheetFold2_SFG_f00()
 
-def fex_subpax_SFG_f01():
+def fex_subpax_demoSheetFold2_SFG_f01():
 	FIG = demoSheetFold2_SFG_f01()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
@@ -891,9 +891,9 @@ def fex_subpax_SFG_f01():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(221.6506, -0.0000, 12.5000))
 	return VFP
-subpax_SFG_f01 = fex_subpax_SFG_f01()
+subpax_demoSheetFold2_SFG_f01 = fex_subpax_demoSheetFold2_SFG_f01()
 
-def fex_subpax_SFG_f02():
+def fex_subpax_demoSheetFold2_SFG_f02():
 	FIG = demoSheetFold2_SFG_f02()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 99.4623)
@@ -901,9 +901,9 @@ def fex_subpax_SFG_f02():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -34.7150)
 	VFP = VR3.translate(App.Vector(216.2380, 118.7500, 28.1250))
 	return VFP
-subpax_SFG_f02 = fex_subpax_SFG_f02()
+subpax_demoSheetFold2_SFG_f02 = fex_subpax_demoSheetFold2_SFG_f02()
 
-def fex_subpax_SFG_f03():
+def fex_subpax_demoSheetFold2_SFG_f03():
 	FIG = demoSheetFold2_SFG_f03()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 168.3106)
@@ -911,9 +911,9 @@ def fex_subpax_SFG_f03():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -125.0331)
 	VFP = VR3.translate(App.Vector(252.7734, 54.6875, 122.6563))
 	return VFP
-subpax_SFG_f03 = fex_subpax_SFG_f03()
+subpax_demoSheetFold2_SFG_f03 = fex_subpax_demoSheetFold2_SFG_f03()
 
-def fex_subpax_SFG_f04():
+def fex_subpax_demoSheetFold2_SFG_f04():
 	FIG = demoSheetFold2_SFG_f04()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -162.8143)
@@ -921,9 +921,9 @@ def fex_subpax_SFG_f04():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -174.1253)
 	VFP = VR3.translate(App.Vector(144.1820, 21.4844, 161.1328))
 	return VFP
-subpax_SFG_f04 = fex_subpax_SFG_f04()
+subpax_demoSheetFold2_SFG_f04 = fex_subpax_demoSheetFold2_SFG_f04()
 
-def fex_subpax_SFG_fj00():
+def fex_subpax_demoSheetFold2_SFG_fj00():
 	FIG = demoSheetFold2_SFG_fj00()
 	VEX = FIG.extrude(App.Vector(0, 0, 100))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
@@ -931,9 +931,9 @@ def fex_subpax_SFG_fj00():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(200.0000, 100.0000, 0.0000))
 	return VFP
-subpax_SFG_fj00 = fex_subpax_SFG_fj00()
+subpax_demoSheetFold2_SFG_fj00 = fex_subpax_demoSheetFold2_SFG_fj00()
 
-def fex_subpax_SFG_fj01():
+def fex_subpax_demoSheetFold2_SFG_fj01():
 	FIG = demoSheetFold2_SFG_fj01()
 	VEX = FIG.extrude(App.Vector(0, 0, 100.00000000000001))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 33.6901)
@@ -941,9 +941,9 @@ def fex_subpax_SFG_fj01():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 73.8979)
 	VFP = VR3.translate(App.Vector(221.6506, 100.0000, 12.5000))
 	return VFP
-subpax_SFG_fj01 = fex_subpax_SFG_fj01()
+subpax_demoSheetFold2_SFG_fj01 = fex_subpax_demoSheetFold2_SFG_fj01()
 
-def fex_subpax_SFG_fj02():
+def fex_subpax_demoSheetFold2_SFG_fj02():
 	FIG = demoSheetFold2_SFG_fj02()
 	VEX = FIG.extrude(App.Vector(0, 0, 100))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -146.3099)
@@ -951,9 +951,9 @@ def fex_subpax_SFG_fj02():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -73.8979)
 	VFP = VR3.translate(App.Vector(183.7620, 131.2500, 121.8750))
 	return VFP
-subpax_SFG_fj02 = fex_subpax_SFG_fj02()
+subpax_demoSheetFold2_SFG_fj02 = fex_subpax_demoSheetFold2_SFG_fj02()
 
-def fex_subpax_SFG_fj03():
+def fex_subpax_demoSheetFold2_SFG_fj03():
 	FIG = demoSheetFold2_SFG_fj03()
 	VEX = FIG.extrude(App.Vector(0, 0, 100.00000000000001))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -75.4998)
@@ -961,18 +961,18 @@ def fex_subpax_SFG_fj03():
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 170.0103)
 	VFP = VR3.translate(App.Vector(176.9962, 117.1875, 141.4063))
 	return VFP
-subpax_SFG_fj03 = fex_subpax_SFG_fj03()
+subpax_demoSheetFold2_SFG_fj03 = fex_subpax_demoSheetFold2_SFG_fj03()
 
 def fvol_pax_demoSheetFold2():
-	V000 = subpax_SFG_f00
-	V001 = V000.fuse(subpax_SFG_f01)
-	V002 = V001.fuse(subpax_SFG_f02)
-	V003 = V002.fuse(subpax_SFG_f03)
-	V004 = V003.fuse(subpax_SFG_f04)
-	V005 = V004.fuse(subpax_SFG_fj00)
-	V006 = V005.fuse(subpax_SFG_fj01)
-	V007 = V006.fuse(subpax_SFG_fj02)
-	V008 = V007.fuse(subpax_SFG_fj03)
+	V000 = subpax_demoSheetFold2_SFG_f00
+	V001 = V000.fuse(subpax_demoSheetFold2_SFG_f01)
+	V002 = V001.fuse(subpax_demoSheetFold2_SFG_f02)
+	V003 = V002.fuse(subpax_demoSheetFold2_SFG_f03)
+	V004 = V003.fuse(subpax_demoSheetFold2_SFG_f04)
+	V005 = V004.fuse(subpax_demoSheetFold2_SFG_fj00)
+	V006 = V005.fuse(subpax_demoSheetFold2_SFG_fj01)
+	V007 = V006.fuse(subpax_demoSheetFold2_SFG_fj02)
+	V008 = V007.fuse(subpax_demoSheetFold2_SFG_fj03)
 	VFC = V008.removeSplitter()
 	return VFC
 pax_demoSheetFold2 = fvol_pax_demoSheetFold2()

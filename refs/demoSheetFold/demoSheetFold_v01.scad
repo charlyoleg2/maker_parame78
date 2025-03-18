@@ -44,19 +44,19 @@ cb_demoSheetFold_SFG_fj00_000 = [  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13,
 a_demoSheetFold_SFG_fj00 = concat(ca_demoSheetFold_SFG_fj00_000);
 b_demoSheetFold_SFG_fj00 = [cb_demoSheetFold_SFG_fj00_000];
 
-module subpax_SFG_f00 () {
+module subpax_demoSheetFold_SFG_f00 () {
 	translate( [ 0, 0, 0 ])
 		rotate( [ 0, 0, 0 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold_SFG_f00, b_demoSheetFold_SFG_f00);
 }
 
-module subpax_SFG_f01 () {
+module subpax_demoSheetFold_SFG_f01 () {
 	translate( [ 72.99038105676658, -7.954314290436801e-16, 7.5 ])
 		rotate( [ -6.07664850350169e-15, -59.99999999999999, 3.5083546492674368e-15 ])
 			   linear_extrude(height = 10) polygon(a_demoSheetFold_SFG_f01, b_demoSheetFold_SFG_f01);
 }
 
-module subpax_SFG_fj00 () {
+module subpax_demoSheetFold_SFG_fj00 () {
 	translate( [ 60, 80, 0 ])
 		rotate( [ 90, 0, 0 ])
 			   linear_extrude(height = 80) polygon(a_demoSheetFold_SFG_fj00, b_demoSheetFold_SFG_fj00);
@@ -64,9 +64,9 @@ module subpax_SFG_fj00 () {
 
 module pax_demoSheetFold () {
 	union () {
-		subpax_SFG_f00();
-subpax_SFG_f01();
-subpax_SFG_fj00();
+		subpax_demoSheetFold_SFG_f00();
+subpax_demoSheetFold_SFG_f01();
+subpax_demoSheetFold_SFG_fj00();
 	}
 }
 

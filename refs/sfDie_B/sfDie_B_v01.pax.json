@@ -1642,7 +1642,7 @@
   "volume": {
     "extrudes": [
       {
-        "outName": "subpax_SFG_f00",
+        "outName": "subpax_sfDie_SFG_f00",
         "face": "sfDie_SFG_f00",
         "extrudeMethod": 0,
         "length": 10,
@@ -1658,7 +1658,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f01",
+        "outName": "subpax_sfDie_SFG_f01",
         "face": "sfDie_SFG_f01",
         "extrudeMethod": 0,
         "length": 10,
@@ -1674,7 +1674,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f02",
+        "outName": "subpax_sfDie_SFG_f02",
         "face": "sfDie_SFG_f02",
         "extrudeMethod": 0,
         "length": 10,
@@ -1690,7 +1690,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f03",
+        "outName": "subpax_sfDie_SFG_f03",
         "face": "sfDie_SFG_f03",
         "extrudeMethod": 0,
         "length": 10,
@@ -1706,7 +1706,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f04",
+        "outName": "subpax_sfDie_SFG_f04",
         "face": "sfDie_SFG_f04",
         "extrudeMethod": 0,
         "length": 10,
@@ -1722,7 +1722,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_f05",
+        "outName": "subpax_sfDie_SFG_f05",
         "face": "sfDie_SFG_f05",
         "extrudeMethod": 0,
         "length": 10,
@@ -1738,7 +1738,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj00",
+        "outName": "subpax_sfDie_SFG_fj00",
         "face": "sfDie_SFG_fj00",
         "extrudeMethod": 0,
         "length": 200,
@@ -1754,7 +1754,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj01",
+        "outName": "subpax_sfDie_SFG_fj01",
         "face": "sfDie_SFG_fj01",
         "extrudeMethod": 0,
         "length": 200,
@@ -1770,7 +1770,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj02",
+        "outName": "subpax_sfDie_SFG_fj02",
         "face": "sfDie_SFG_fj02",
         "extrudeMethod": 0,
         "length": 200,
@@ -1786,7 +1786,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj03",
+        "outName": "subpax_sfDie_SFG_fj03",
         "face": "sfDie_SFG_fj03",
         "extrudeMethod": 0,
         "length": 200,
@@ -1802,7 +1802,7 @@
         ]
       },
       {
-        "outName": "subpax_SFG_fj04",
+        "outName": "subpax_sfDie_SFG_fj04",
         "face": "sfDie_SFG_fj04",
         "extrudeMethod": 0,
         "length": 200,
@@ -1823,17 +1823,17 @@
         "outName": "pax_sfDie",
         "boolMethod": 2,
         "inList": [
-          "subpax_SFG_f00",
-          "subpax_SFG_f01",
-          "subpax_SFG_f02",
-          "subpax_SFG_f03",
-          "subpax_SFG_f04",
-          "subpax_SFG_f05",
-          "subpax_SFG_fj00",
-          "subpax_SFG_fj01",
-          "subpax_SFG_fj02",
-          "subpax_SFG_fj03",
-          "subpax_SFG_fj04"
+          "subpax_sfDie_SFG_f00",
+          "subpax_sfDie_SFG_f01",
+          "subpax_sfDie_SFG_f02",
+          "subpax_sfDie_SFG_f03",
+          "subpax_sfDie_SFG_f04",
+          "subpax_sfDie_SFG_f05",
+          "subpax_sfDie_SFG_fj00",
+          "subpax_sfDie_SFG_fj01",
+          "subpax_sfDie_SFG_fj02",
+          "subpax_sfDie_SFG_fj03",
+          "subpax_sfDie_SFG_fj04"
         ]
       }
     ]
