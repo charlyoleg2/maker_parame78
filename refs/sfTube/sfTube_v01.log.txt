@@ -1,0 +1,6 @@
+sfTube simTime: 0
+Cone tilt: Tilt1 85.71 degree, Tilt2 86.28 degree
+Polygone: N1 6, W1 100.00, W2 250.00 mm, CAB2 120.00 degree
+Trapeze: a1 87.86 degree, T1 2004.21, TW1 30.47, TW2 180.47 mm
+Joint: L1 2005.62 mm, Jangle 59.86 degree, JW 20.90 mm
+sfTube drawn successfully!

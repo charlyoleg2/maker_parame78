@@ -1,0 +1,16 @@
+{
+  "lastModif": "20250323_193033",
+  "partName": "sfTube",
+  "pVal": {
+    "H1": 2000,
+    "D1": 200,
+    "D2": 500,
+    "N1": 6,
+    "Thickness and fold": 0,
+    "Th": 10,
+    "Jradius": 20,
+    "Jneutral": 50,
+    "Jmark": 1
+  },
+  "comment": ""
+}
