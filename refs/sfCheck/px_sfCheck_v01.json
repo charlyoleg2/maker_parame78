@@ -1,0 +1,15 @@
+{
+  "lastModif": "20250324_215028",
+  "partName": "sfCheck",
+  "pVal": {
+    "L1": 200,
+    "W1": 100,
+    "Thickness and fold": 0,
+    "Th": 10,
+    "Jangle": 90,
+    "Jradius": 10,
+    "Jneutral": 50,
+    "Jmark": 1
+  },
+  "comment": ""
+}

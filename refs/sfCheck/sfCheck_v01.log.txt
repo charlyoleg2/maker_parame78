@@ -1,0 +1,3 @@
+sfCheck simTime: 0
+sfCheck: L1 200 W1 100 rHollow 15 mm
+sfCheck drawn successfully!
