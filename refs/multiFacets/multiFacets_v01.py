@@ -6,12 +6,12 @@ import FreeCAD as App
 import Part
 
 #print(sys.argv)
-outFileName = "sfTube"
+outFileName = "multiFacets"
 if (len(sys.argv) == 3):
     outFileName = sys.argv[2]
 print(f"outFileName: {outFileName}")
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr0():
 	P000 = App.Vector(117.3669, 25.0000, 0)
 	P001 = App.Vector(60.0000, 103.9230, 0)
 	P002 = App.Vector(-37.0328, 114.1428, 0)
@@ -166,7 +166,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr1():
 	P000 = App.Vector(117.3669, 25.0000, 0)
 	P001 = App.Vector(60.0000, 103.9230, 0)
 	P002 = App.Vector(-37.0328, 114.1428, 0)
@@ -321,7 +321,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr2():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr2():
 	P000 = App.Vector(10.0000, -99.4987, 0)
 	P001 = App.Vector(10.0000, -83.7908, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -427,7 +427,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr2():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr3():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr3():
 	P000 = App.Vector(-89.3045, 121.3467, 0)
 	P001 = App.Vector(-122.6379, 179.0817, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -455,7 +455,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr3():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr4():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr4():
 	P000 = App.Vector(-60.4370, -138.0133, 0)
 	P001 = App.Vector(-93.7704, -195.7484, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -483,7 +483,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr4():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr5():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr5():
 	P000 = App.Vector(149.7416, 16.6667, 0)
 	P001 = App.Vector(216.4082, 16.6667, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -511,7 +511,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr5():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr6():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr6():
 	P000 = App.Vector(37.5000, 18.0828, 0)
 	P001 = App.Vector(37.5000, -51.9172, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -551,7 +551,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr6():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr7():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr7():
 	P000 = App.Vector(-37.5000, -18.0828, 0)
 	P001 = App.Vector(-37.5000, 51.9172, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -591,70 +591,70 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr7():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr8():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr8():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(7.7778, App.Vector(-84.1628, 145.7743, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr9():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr9():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(9.7721, 245.9061, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr10():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr10():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(-217.8470, 114.4902, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr11():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr11():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(7.7778, App.Vector(-84.1628, -145.7743, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr12():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr12():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(-217.8470, -114.4902, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr13():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr13():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(9.7721, -245.9061, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr14():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr14():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(7.7778, App.Vector(168.3256, -0.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr15():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr15():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(208.0749, -131.4159, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr16():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr16():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(208.0749, 131.4159, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr17():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr17():
 	P000 = App.Vector(36.6667, -75.1251, 0)
 	P001 = App.Vector(23.3333, -75.1251, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -670,21 +670,21 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr17():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr18():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr18():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(30.0000, -7.6251, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr19():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr19():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(30.0000, -26.2092, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr20():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr20():
 	P000 = App.Vector(-36.6667, 75.1251, 0)
 	P001 = App.Vector(-23.3333, 75.1251, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -700,21 +700,21 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr20():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr21():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr21():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(-30.0000, 7.6251, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr22():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr22():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(-30.0000, 26.2092, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr23():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr23():
 	P000 = App.Vector(-65.1714, 114.8802, 0)
 	P001 = App.Vector(-66.5375, 115.2463, 0)
 	P002 = App.Vector(-66.9035, 113.8802, 0)
@@ -732,7 +732,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr23():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr24():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr24():
 	P000 = App.Vector(-66.9035, -113.8802, 0)
 	P001 = App.Vector(-66.5375, -115.2463, 0)
 	P002 = App.Vector(-65.1714, -114.8802, 0)
@@ -750,7 +750,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr24():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr25():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr25():
 	P000 = App.Vector(132.0749, -1.0000, 0)
 	P001 = App.Vector(133.0749, -0.0000, 0)
 	P002 = App.Vector(132.0749, 1.0000, 0)
@@ -768,7 +768,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr25():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr26():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr26():
 	P000 = App.Vector(1.0000, 98.4987, 0)
 	P001 = App.Vector(-0.0000, 99.4987, 0)
 	P002 = App.Vector(-1.0000, 98.4987, 0)
@@ -786,7 +786,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr26():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr27():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr27():
 	P000 = App.Vector(-1.0000, -98.4987, 0)
 	P001 = App.Vector(-0.0000, -99.4987, 0)
 	P002 = App.Vector(1.0000, -98.4987, 0)
@@ -804,7 +804,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr27():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr28():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr28():
 	P000 = App.Vector(-69.1493, 199.1861, 0)
 	P001 = App.Vector(-68.7833, 200.5521, 0)
 	P002 = App.Vector(-70.1493, 200.9182, 0)
@@ -822,7 +822,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr28():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr29():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr29():
 	P000 = App.Vector(-138.9256, 161.2102, 0)
 	P001 = App.Vector(-139.2916, 159.8442, 0)
 	P002 = App.Vector(-137.9256, 159.4782, 0)
@@ -840,7 +840,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr29():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr30():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr30():
 	P000 = App.Vector(-106.8381, 187.0490, 0)
 	P001 = App.Vector(-108.2041, 187.4150, 0)
 	P002 = App.Vector(-108.5701, 186.0490, 0)
@@ -858,7 +858,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr30():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr31():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr31():
 	P000 = App.Vector(-12.2446, 232.0401, 0)
 	P001 = App.Vector(-11.8786, 233.4061, 0)
 	P002 = App.Vector(-13.2446, 233.7721, 0)
@@ -876,7 +876,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr31():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr32():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr32():
 	P000 = App.Vector(-195.8303, 128.3562, 0)
 	P001 = App.Vector(-196.1964, 126.9902, 0)
 	P002 = App.Vector(-194.8303, 126.6242, 0)
@@ -894,7 +894,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr32():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr33():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr33():
 	P000 = App.Vector(-137.9256, -159.4782, 0)
 	P001 = App.Vector(-139.2916, -159.8442, 0)
 	P002 = App.Vector(-138.9256, -161.2102, 0)
@@ -912,7 +912,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr33():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr34():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr34():
 	P000 = App.Vector(-70.1493, -200.9182, 0)
 	P001 = App.Vector(-68.7833, -200.5521, 0)
 	P002 = App.Vector(-69.1493, -199.1861, 0)
@@ -930,7 +930,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr34():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr35():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr35():
 	P000 = App.Vector(-108.5701, -186.0490, 0)
 	P001 = App.Vector(-108.2041, -187.4150, 0)
 	P002 = App.Vector(-106.8381, -187.0490, 0)
@@ -948,7 +948,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr35():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr36():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr36():
 	P000 = App.Vector(-194.8303, -126.6242, 0)
 	P001 = App.Vector(-196.1964, -126.9902, 0)
 	P002 = App.Vector(-195.8303, -128.3562, 0)
@@ -966,7 +966,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr36():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr37():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr37():
 	P000 = App.Vector(-13.2446, -233.7721, 0)
 	P001 = App.Vector(-11.8786, -233.4061, 0)
 	P002 = App.Vector(-12.2446, -232.0401, 0)
@@ -984,7 +984,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr37():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr38():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr38():
 	P000 = App.Vector(207.0749, -39.7080, 0)
 	P001 = App.Vector(208.0749, -40.7080, 0)
 	P002 = App.Vector(209.0749, -39.7080, 0)
@@ -1002,7 +1002,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr38():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr39():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr39():
 	P000 = App.Vector(209.0749, 39.7080, 0)
 	P001 = App.Vector(208.0749, 40.7080, 0)
 	P002 = App.Vector(207.0749, 39.7080, 0)
@@ -1020,7 +1020,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr39():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr40():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr40():
 	P000 = App.Vector(215.4082, -1.0000, 0)
 	P001 = App.Vector(216.4082, -0.0000, 0)
 	P002 = App.Vector(215.4082, 1.0000, 0)
@@ -1038,7 +1038,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr40():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr41():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr41():
 	P000 = App.Vector(207.0749, -105.4159, 0)
 	P001 = App.Vector(208.0749, -106.4159, 0)
 	P002 = App.Vector(209.0749, -105.4159, 0)
@@ -1056,7 +1056,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr41():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr42():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr42():
 	P000 = App.Vector(209.0749, 105.4159, 0)
 	P001 = App.Vector(208.0749, 106.4159, 0)
 	P002 = App.Vector(207.0749, 105.4159, 0)
@@ -1074,7 +1074,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr42():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr43():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr43():
 	P000 = App.Vector(-1.0000, 61.9368, 0)
 	P001 = App.Vector(-0.0000, 60.9368, 0)
 	P002 = App.Vector(1.0000, 61.9368, 0)
@@ -1092,7 +1092,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr43():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr44():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr44():
 	P000 = App.Vector(29.0000, 24.0828, 0)
 	P001 = App.Vector(30.0000, 23.0828, 0)
 	P002 = App.Vector(31.0000, 24.0828, 0)
@@ -1110,7 +1110,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr44():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr45():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr45():
 	P000 = App.Vector(29.0000, -71.6251, 0)
 	P001 = App.Vector(30.0000, -72.6251, 0)
 	P002 = App.Vector(31.0000, -71.6251, 0)
@@ -1128,7 +1128,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr45():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr46():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr46():
 	P000 = App.Vector(54.7080, -17.9172, 0)
 	P001 = App.Vector(55.7080, -16.9172, 0)
 	P002 = App.Vector(54.7080, -15.9172, 0)
@@ -1146,7 +1146,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr46():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr47():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr47():
 	P000 = App.Vector(31.0000, 17.0828, 0)
 	P001 = App.Vector(30.0000, 18.0828, 0)
 	P002 = App.Vector(29.0000, 17.0828, 0)
@@ -1164,7 +1164,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr47():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr48():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr48():
 	P000 = App.Vector(29.0000, -50.9172, 0)
 	P001 = App.Vector(30.0000, -51.9172, 0)
 	P002 = App.Vector(31.0000, -50.9172, 0)
@@ -1182,7 +1182,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr48():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr49():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr49():
 	P000 = App.Vector(1.0000, -61.9368, 0)
 	P001 = App.Vector(0.0000, -60.9368, 0)
 	P002 = App.Vector(-1.0000, -61.9368, 0)
@@ -1200,7 +1200,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr49():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr50():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr50():
 	P000 = App.Vector(-29.0000, -24.0828, 0)
 	P001 = App.Vector(-30.0000, -23.0828, 0)
 	P002 = App.Vector(-31.0000, -24.0828, 0)
@@ -1218,7 +1218,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr50():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr51():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr51():
 	P000 = App.Vector(-29.0000, 71.6251, 0)
 	P001 = App.Vector(-30.0000, 72.6251, 0)
 	P002 = App.Vector(-31.0000, 71.6251, 0)
@@ -1236,7 +1236,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr51():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr52():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr52():
 	P000 = App.Vector(-54.7080, 17.9172, 0)
 	P001 = App.Vector(-55.7080, 16.9172, 0)
 	P002 = App.Vector(-54.7080, 15.9172, 0)
@@ -1254,7 +1254,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr52():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr53():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr53():
 	P000 = App.Vector(-31.0000, -17.0828, 0)
 	P001 = App.Vector(-30.0000, -18.0828, 0)
 	P002 = App.Vector(-29.0000, -17.0828, 0)
@@ -1272,7 +1272,7 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr53():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_pattern_Fa0_Ctr54():
+def ctr_face_multiFacets_SFG_pattern_Fa0_Ctr54():
 	P000 = App.Vector(-29.0000, 50.9172, 0)
 	P001 = App.Vector(-30.0000, 51.9172, 0)
 	P002 = App.Vector(-31.0000, 50.9172, 0)
@@ -1290,77 +1290,77 @@ def ctr_face_sfTube_SFG_pattern_Fa0_Ctr54():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_pattern_Fa0():
-	FC000 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr1()
-	FC002 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr2()
-	FC003 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr3()
-	FC004 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr4()
-	FC005 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr5()
-	FC006 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr6()
-	FC007 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr7()
-	FC008 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr8()
-	FC009 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr9()
-	FC010 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr10()
-	FC011 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr11()
-	FC012 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr12()
-	FC013 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr13()
-	FC014 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr14()
-	FC015 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr15()
-	FC016 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr16()
-	FC017 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr17()
-	FC018 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr18()
-	FC019 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr19()
-	FC020 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr20()
-	FC021 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr21()
-	FC022 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr22()
-	FC023 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr23()
-	FC024 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr24()
-	FC025 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr25()
-	FC026 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr26()
-	FC027 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr27()
-	FC028 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr28()
-	FC029 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr29()
-	FC030 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr30()
-	FC031 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr31()
-	FC032 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr32()
-	FC033 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr33()
-	FC034 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr34()
-	FC035 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr35()
-	FC036 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr36()
-	FC037 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr37()
-	FC038 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr38()
-	FC039 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr39()
-	FC040 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr40()
-	FC041 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr41()
-	FC042 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr42()
-	FC043 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr43()
-	FC044 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr44()
-	FC045 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr45()
-	FC046 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr46()
-	FC047 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr47()
-	FC048 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr48()
-	FC049 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr49()
-	FC050 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr50()
-	FC051 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr51()
-	FC052 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr52()
-	FC053 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr53()
-	FC054 = ctr_face_sfTube_SFG_pattern_Fa0_Ctr54()
+def face_multiFacets_SFG_pattern_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr1()
+	FC002 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr2()
+	FC003 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr3()
+	FC004 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr4()
+	FC005 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr5()
+	FC006 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr6()
+	FC007 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr7()
+	FC008 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr8()
+	FC009 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr9()
+	FC010 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr10()
+	FC011 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr11()
+	FC012 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr12()
+	FC013 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr13()
+	FC014 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr14()
+	FC015 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr15()
+	FC016 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr16()
+	FC017 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr17()
+	FC018 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr18()
+	FC019 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr19()
+	FC020 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr20()
+	FC021 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr21()
+	FC022 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr22()
+	FC023 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr23()
+	FC024 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr24()
+	FC025 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr25()
+	FC026 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr26()
+	FC027 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr27()
+	FC028 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr28()
+	FC029 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr29()
+	FC030 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr30()
+	FC031 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr31()
+	FC032 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr32()
+	FC033 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr33()
+	FC034 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr34()
+	FC035 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr35()
+	FC036 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr36()
+	FC037 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr37()
+	FC038 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr38()
+	FC039 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr39()
+	FC040 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr40()
+	FC041 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr41()
+	FC042 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr42()
+	FC043 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr43()
+	FC044 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr44()
+	FC045 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr45()
+	FC046 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr46()
+	FC047 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr47()
+	FC048 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr48()
+	FC049 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr49()
+	FC050 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr50()
+	FC051 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr51()
+	FC052 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr52()
+	FC053 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr53()
+	FC054 = ctr_face_multiFacets_SFG_pattern_Fa0_Ctr54()
 	rOneFace = FC000.cut([FC001, FC002, FC003, FC004, FC005, FC006, FC007, FC008, FC009, FC010, FC011, FC012, FC013, FC014, FC015, FC016, FC017, FC018, FC019, FC020, FC021, FC022, FC023, FC024, FC025, FC026, FC027, FC028, FC029, FC030, FC031, FC032, FC033, FC034, FC035, FC036, FC037, FC038, FC039, FC040, FC041, FC042, FC043, FC044, FC045, FC046, FC047, FC048, FC049, FC050, FC051, FC052, FC053, FC054])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_pattern():
-	FA000 = face_sfTube_SFG_pattern_Fa0()
+def multiFacets_SFG_pattern():
+	FA000 = face_multiFacets_SFG_pattern_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_profiles_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_profiles_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
-	P001 = App.Vector(50.0000, 0.0000, 0)
+	P001 = App.Vector(20.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(50.0000, 10.0000, 0)
+	P002 = App.Vector(20.0000, 10.0000, 0)
 	S001 = Part.LineSegment(P001, P002)
 	P003 = App.Vector(0.0000, 10.0000, 0)
 	S002 = Part.LineSegment(P002, P003)
@@ -1372,23 +1372,23 @@ def ctr_face_sfTube_SFG_profiles_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_profiles_Fa0():
-	FC000 = ctr_face_sfTube_SFG_profiles_Fa0_Ctr0()
+def face_multiFacets_SFG_profiles_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def ctr_face_sfTube_SFG_profiles_Fa1_Ctr0():
-	P000 = App.Vector(50.0000, 0.0000, 0)
-	P001 = App.Vector(60.6066, 4.3934, 0)
-	P002 = App.Vector(65.0000, 15.0000, 0)
+def ctr_face_multiFacets_SFG_profiles_Fa1_Ctr0():
+	P000 = App.Vector(20.0000, 0.0000, 0)
+	P001 = App.Vector(25.7403, -1.1418, 0)
+	P002 = App.Vector(30.6066, -4.3934, 0)
 	S000 = Part.Arc(P000, P001, P002)
-	P003 = App.Vector(55.0000, 15.0000, 0)
+	P003 = App.Vector(37.6777, 2.6777, 0)
 	S001 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(53.5355, 11.4645, 0)
-	P005 = App.Vector(50.0000, 10.0000, 0)
+	P004 = App.Vector(29.5671, 8.0970, 0)
+	P005 = App.Vector(20.0000, 10.0000, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(50.0000, 0.0000, 0)
+	P006 = App.Vector(20.0000, 0.0000, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -1396,21 +1396,21 @@ def ctr_face_sfTube_SFG_profiles_Fa1_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_profiles_Fa1():
-	FC000 = ctr_face_sfTube_SFG_profiles_Fa1_Ctr0()
+def face_multiFacets_SFG_profiles_Fa1():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa1_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def ctr_face_sfTube_SFG_profiles_Fa2_Ctr0():
-	P000 = App.Vector(65.0000, 15.0000, 0)
-	P001 = App.Vector(65.0000, 65.0000, 0)
+def ctr_face_multiFacets_SFG_profiles_Fa2_Ctr0():
+	P000 = App.Vector(30.6066, -4.3934, 0)
+	P001 = App.Vector(101.3173, -75.1041, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(55.0000, 65.0000, 0)
+	P002 = App.Vector(108.3883, -68.0330, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(55.0000, 15.0000, 0)
+	P003 = App.Vector(37.6777, 2.6777, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(65.0000, 15.0000, 0)
+	P004 = App.Vector(30.6066, -4.3934, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -1418,45 +1418,23 @@ def ctr_face_sfTube_SFG_profiles_Fa2_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_profiles_Fa2():
-	FC000 = ctr_face_sfTube_SFG_profiles_Fa2_Ctr0()
+def face_multiFacets_SFG_profiles_Fa2():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa2_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def ctr_face_sfTube_SFG_profiles_Fa3_Ctr0():
-	P000 = App.Vector(0.0000, 200.0000, 0)
-	P001 = App.Vector(20.0000, 200.0000, 0)
-	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(20.0000, 210.0000, 0)
-	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(0.0000, 210.0000, 0)
-	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(0.0000, 200.0000, 0)
-	S003 = Part.LineSegment(P003, P000)
-	aShape = Part.Shape([S000, S001, S002, S003])
-	aWire = Part.Wire(aShape.Edges)
-	subFace = Part.Face(aWire)
-	subFace.check()
-	return subFace
-
-def face_sfTube_SFG_profiles_Fa3():
-	FC000 = ctr_face_sfTube_SFG_profiles_Fa3_Ctr0()
-	rOneFace = FC000
-	rOneFace.check()
-	return rOneFace
-
-def ctr_face_sfTube_SFG_profiles_Fa4_Ctr0():
-	P000 = App.Vector(20.0000, 200.0000, 0)
-	P001 = App.Vector(30.6066, 204.3934, 0)
-	P002 = App.Vector(35.0000, 215.0000, 0)
+def ctr_face_multiFacets_SFG_profiles_Fa3_Ctr0():
+	P000 = App.Vector(101.3173, -75.1041, 0)
+	P001 = App.Vector(104.5689, -79.9704, 0)
+	P002 = App.Vector(105.7107, -85.7107, 0)
 	S000 = Part.Arc(P000, P001, P002)
-	P003 = App.Vector(25.0000, 215.0000, 0)
+	P003 = App.Vector(115.7107, -85.7107, 0)
 	S001 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(23.5355, 211.4645, 0)
-	P005 = App.Vector(20.0000, 210.0000, 0)
+	P004 = App.Vector(113.8077, -76.1436, 0)
+	P005 = App.Vector(108.3883, -68.0330, 0)
 	S002 = Part.Arc(P003, P004, P005)
-	P006 = App.Vector(20.0000, 200.0000, 0)
+	P006 = App.Vector(101.3173, -75.1041, 0)
 	S003 = Part.LineSegment(P005, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -1464,21 +1442,21 @@ def ctr_face_sfTube_SFG_profiles_Fa4_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_profiles_Fa4():
-	FC000 = ctr_face_sfTube_SFG_profiles_Fa4_Ctr0()
+def face_multiFacets_SFG_profiles_Fa3():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa3_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def ctr_face_sfTube_SFG_profiles_Fa5_Ctr0():
-	P000 = App.Vector(35.0000, 215.0000, 0)
-	P001 = App.Vector(35.0000, 235.0000, 0)
+def ctr_face_multiFacets_SFG_profiles_Fa4_Ctr0():
+	P000 = App.Vector(105.7107, -85.7107, 0)
+	P001 = App.Vector(105.7107, -135.7107, 0)
 	S000 = Part.LineSegment(P000, P001)
-	P002 = App.Vector(25.0000, 235.0000, 0)
+	P002 = App.Vector(115.7107, -135.7107, 0)
 	S001 = Part.LineSegment(P001, P002)
-	P003 = App.Vector(25.0000, 215.0000, 0)
+	P003 = App.Vector(115.7107, -85.7107, 0)
 	S002 = Part.LineSegment(P002, P003)
-	P004 = App.Vector(35.0000, 215.0000, 0)
+	P004 = App.Vector(105.7107, -85.7107, 0)
 	S003 = Part.LineSegment(P003, P000)
 	aShape = Part.Shape([S000, S001, S002, S003])
 	aWire = Part.Wire(aShape.Edges)
@@ -1486,24 +1464,263 @@ def ctr_face_sfTube_SFG_profiles_Fa5_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_profiles_Fa5():
-	FC000 = ctr_face_sfTube_SFG_profiles_Fa5_Ctr0()
+def face_multiFacets_SFG_profiles_Fa4():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa4_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_profiles():
-	FA000 = face_sfTube_SFG_profiles_Fa0()
-	FA001 = face_sfTube_SFG_profiles_Fa1()
-	FA002 = face_sfTube_SFG_profiles_Fa2()
-	FA003 = face_sfTube_SFG_profiles_Fa3()
-	FA004 = face_sfTube_SFG_profiles_Fa4()
-	FA005 = face_sfTube_SFG_profiles_Fa5()
-	rOneFig = FA000.fuse([FA001, FA002, FA003, FA004, FA005])
+def ctr_face_multiFacets_SFG_profiles_Fa5_Ctr0():
+	P000 = App.Vector(105.7107, -135.7107, 0)
+	P001 = App.Vector(107.6137, -145.2778, 0)
+	P002 = App.Vector(113.0330, -153.3883, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(120.1041, -146.3173, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(116.8525, -141.4509, 0)
+	P005 = App.Vector(115.7107, -135.7107, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(105.7107, -135.7107, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa5():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa5_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa6_Ctr0():
+	P000 = App.Vector(113.0330, -153.3883, 0)
+	P001 = App.Vector(148.3883, -188.7437, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(155.4594, -181.6726, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(120.1041, -146.3173, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(113.0330, -153.3883, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa6():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa6_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa7_Ctr0():
+	P000 = App.Vector(0.0000, 10.0000, 0)
+	P001 = App.Vector(-3.5355, 11.4645, 0)
+	P002 = App.Vector(-5.0000, 15.0000, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-15.0000, 15.0000, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-10.6066, 4.3934, 0)
+	P005 = App.Vector(-0.0000, 0.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(0.0000, 10.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa7():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa7_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa8_Ctr0():
+	P000 = App.Vector(-5.0000, 15.0000, 0)
+	P001 = App.Vector(-5.0000, 30.0000, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-15.0000, 30.0000, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-15.0000, 15.0000, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-5.0000, 15.0000, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa8():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa8_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa9_Ctr0():
+	P000 = App.Vector(-5.0000, 30.0000, 0)
+	P001 = App.Vector(-6.1418, 35.7403, 0)
+	P002 = App.Vector(-9.3934, 40.6066, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-16.4645, 33.5355, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-15.3806, 31.9134, 0)
+	P005 = App.Vector(-15.0000, 30.0000, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(-5.0000, 30.0000, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa9():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa9_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa10_Ctr0():
+	P000 = App.Vector(-9.3934, 40.6066, 0)
+	P001 = App.Vector(-30.6066, 61.8198, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-37.6777, 54.7487, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-16.4645, 33.5355, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-9.3934, 40.6066, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa10():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa10_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa11_Ctr0():
+	P000 = App.Vector(-30.6066, 61.8198, 0)
+	P001 = App.Vector(-35.4730, 65.0714, 0)
+	P002 = App.Vector(-41.2132, 66.2132, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-41.2132, 56.2132, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-39.2998, 55.8326, 0)
+	P005 = App.Vector(-37.6777, 54.7487, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(-30.6066, 61.8198, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa11():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa11_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa12_Ctr0():
+	P000 = App.Vector(-41.2132, 66.2132, 0)
+	P001 = App.Vector(-121.2132, 66.2132, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-121.2132, 56.2132, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-41.2132, 56.2132, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-41.2132, 66.2132, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa12():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa12_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa13_Ctr0():
+	P000 = App.Vector(-121.2132, 66.2132, 0)
+	P001 = App.Vector(-124.7487, 67.6777, 0)
+	P002 = App.Vector(-126.2132, 71.2132, 0)
+	S000 = Part.Arc(P000, P001, P002)
+	P003 = App.Vector(-136.2132, 71.2132, 0)
+	S001 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-131.8198, 60.6066, 0)
+	P005 = App.Vector(-121.2132, 56.2132, 0)
+	S002 = Part.Arc(P003, P004, P005)
+	P006 = App.Vector(-121.2132, 66.2132, 0)
+	S003 = Part.LineSegment(P005, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa13():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa13_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def ctr_face_multiFacets_SFG_profiles_Fa14_Ctr0():
+	P000 = App.Vector(-126.2132, 71.2132, 0)
+	P001 = App.Vector(-126.2132, 86.2132, 0)
+	S000 = Part.LineSegment(P000, P001)
+	P002 = App.Vector(-136.2132, 86.2132, 0)
+	S001 = Part.LineSegment(P001, P002)
+	P003 = App.Vector(-136.2132, 71.2132, 0)
+	S002 = Part.LineSegment(P002, P003)
+	P004 = App.Vector(-126.2132, 71.2132, 0)
+	S003 = Part.LineSegment(P003, P000)
+	aShape = Part.Shape([S000, S001, S002, S003])
+	aWire = Part.Wire(aShape.Edges)
+	subFace = Part.Face(aWire)
+	subFace.check()
+	return subFace
+
+def face_multiFacets_SFG_profiles_Fa14():
+	FC000 = ctr_face_multiFacets_SFG_profiles_Fa14_Ctr0()
+	rOneFace = FC000
+	rOneFace.check()
+	return rOneFace
+
+def multiFacets_SFG_profiles():
+	FA000 = face_multiFacets_SFG_profiles_Fa0()
+	FA001 = face_multiFacets_SFG_profiles_Fa1()
+	FA002 = face_multiFacets_SFG_profiles_Fa2()
+	FA003 = face_multiFacets_SFG_profiles_Fa3()
+	FA004 = face_multiFacets_SFG_profiles_Fa4()
+	FA005 = face_multiFacets_SFG_profiles_Fa5()
+	FA006 = face_multiFacets_SFG_profiles_Fa6()
+	FA007 = face_multiFacets_SFG_profiles_Fa7()
+	FA008 = face_multiFacets_SFG_profiles_Fa8()
+	FA009 = face_multiFacets_SFG_profiles_Fa9()
+	FA010 = face_multiFacets_SFG_profiles_Fa10()
+	FA011 = face_multiFacets_SFG_profiles_Fa11()
+	FA012 = face_multiFacets_SFG_profiles_Fa12()
+	FA013 = face_multiFacets_SFG_profiles_Fa13()
+	FA014 = face_multiFacets_SFG_profiles_Fa14()
+	rOneFig = FA000.fuse([FA001, FA002, FA003, FA004, FA005, FA006, FA007, FA008, FA009, FA010, FA011, FA012, FA013, FA014])
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f00_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f00_Fa0_Ctr0():
 	P000 = App.Vector(117.3669, 25.0000, 0)
 	P001 = App.Vector(60.0000, 103.9230, 0)
 	P002 = App.Vector(-37.0328, 114.1428, 0)
@@ -1526,7 +1743,7 @@ def ctr_face_sfTube_SFG_f00_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f00_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f00_Fa0_Ctr1():
 	P000 = App.Vector(10.0000, -99.4987, 0)
 	P001 = App.Vector(100.0000, 0.0000, 0)
 	P002 = App.Vector(10.0000, 99.4987, 0)
@@ -1544,20 +1761,20 @@ def ctr_face_sfTube_SFG_f00_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f00_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f00_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f00_Fa0_Ctr1()
+def face_multiFacets_SFG_f00_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f00_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f00_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f00():
-	FA000 = face_sfTube_SFG_f00_Fa0()
+def multiFacets_SFG_f00():
+	FA000 = face_multiFacets_SFG_f00_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f01_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f01_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1577,7 +1794,7 @@ def ctr_face_sfTube_SFG_f01_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f01_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f01_Fa0_Ctr1():
 	P000 = App.Vector(16.6667, 41.6667, 0)
 	P001 = App.Vector(16.6667, 8.3333, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1597,20 +1814,20 @@ def ctr_face_sfTube_SFG_f01_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f01_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f01_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f01_Fa0_Ctr1()
+def face_multiFacets_SFG_f01_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f01_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f01_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f01():
-	FA000 = face_sfTube_SFG_f01_Fa0()
+def multiFacets_SFG_f01():
+	FA000 = face_multiFacets_SFG_f01_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f02_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f02_Fa0_Ctr0():
 	P000 = App.Vector(-33.3333, 23.3333, 0)
 	P001 = App.Vector(-33.3333, -0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1626,27 +1843,27 @@ def ctr_face_sfTube_SFG_f02_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f02_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f02_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(7.7778, App.Vector(-16.6667, 11.6667, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f02_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f02_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f02_Fa0_Ctr1()
+def face_multiFacets_SFG_f02_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f02_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f02_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f02():
-	FA000 = face_sfTube_SFG_f02_Fa0()
+def multiFacets_SFG_f02():
+	FA000 = face_multiFacets_SFG_f02_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f03_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f03_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1662,19 +1879,19 @@ def ctr_face_sfTube_SFG_f03_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f03_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f03_Fa0_Ctr0()
+def face_multiFacets_SFG_f03_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f03_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f03():
-	FA000 = face_sfTube_SFG_f03_Fa0()
+def multiFacets_SFG_f03():
+	FA000 = face_multiFacets_SFG_f03_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f04_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f04_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1690,27 +1907,27 @@ def ctr_face_sfTube_SFG_f04_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f04_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f04_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(25.0000, 25.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f04_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f04_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f04_Fa0_Ctr1()
+def face_multiFacets_SFG_f04_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f04_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f04_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f04():
-	FA000 = face_sfTube_SFG_f04_Fa0()
+def multiFacets_SFG_f04():
+	FA000 = face_multiFacets_SFG_f04_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f05_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f05_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1726,19 +1943,19 @@ def ctr_face_sfTube_SFG_f05_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f05_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f05_Fa0_Ctr0()
+def face_multiFacets_SFG_f05_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f05_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f05():
-	FA000 = face_sfTube_SFG_f05_Fa0()
+def multiFacets_SFG_f05():
+	FA000 = face_multiFacets_SFG_f05_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f06_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f06_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1754,27 +1971,27 @@ def ctr_face_sfTube_SFG_f06_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f06_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f06_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(25.0000, 25.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f06_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f06_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f06_Fa0_Ctr1()
+def face_multiFacets_SFG_f06_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f06_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f06_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f06():
-	FA000 = face_sfTube_SFG_f06_Fa0()
+def multiFacets_SFG_f06():
+	FA000 = face_multiFacets_SFG_f06_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f07_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f07_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1794,7 +2011,7 @@ def ctr_face_sfTube_SFG_f07_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f07_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f07_Fa0_Ctr1():
 	P000 = App.Vector(16.6667, 41.6667, 0)
 	P001 = App.Vector(16.6667, 8.3333, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1814,20 +2031,20 @@ def ctr_face_sfTube_SFG_f07_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f07_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f07_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f07_Fa0_Ctr1()
+def face_multiFacets_SFG_f07_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f07_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f07_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f07():
-	FA000 = face_sfTube_SFG_f07_Fa0()
+def multiFacets_SFG_f07():
+	FA000 = face_multiFacets_SFG_f07_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f08_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f08_Fa0_Ctr0():
 	P000 = App.Vector(-33.3333, 23.3333, 0)
 	P001 = App.Vector(-33.3333, -0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1843,27 +2060,27 @@ def ctr_face_sfTube_SFG_f08_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f08_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f08_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(7.7778, App.Vector(-16.6667, 11.6667, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f08_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f08_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f08_Fa0_Ctr1()
+def face_multiFacets_SFG_f08_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f08_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f08_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f08():
-	FA000 = face_sfTube_SFG_f08_Fa0()
+def multiFacets_SFG_f08():
+	FA000 = face_multiFacets_SFG_f08_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f09_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f09_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1879,19 +2096,19 @@ def ctr_face_sfTube_SFG_f09_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f09_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f09_Fa0_Ctr0()
+def face_multiFacets_SFG_f09_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f09_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f09():
-	FA000 = face_sfTube_SFG_f09_Fa0()
+def multiFacets_SFG_f09():
+	FA000 = face_multiFacets_SFG_f09_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f10_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f10_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1907,27 +2124,27 @@ def ctr_face_sfTube_SFG_f10_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f10_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f10_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(25.0000, 25.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f10_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f10_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f10_Fa0_Ctr1()
+def face_multiFacets_SFG_f10_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f10_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f10_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f10():
-	FA000 = face_sfTube_SFG_f10_Fa0()
+def multiFacets_SFG_f10():
+	FA000 = face_multiFacets_SFG_f10_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f11_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f11_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1943,19 +2160,19 @@ def ctr_face_sfTube_SFG_f11_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f11_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f11_Fa0_Ctr0()
+def face_multiFacets_SFG_f11_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f11_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f11():
-	FA000 = face_sfTube_SFG_f11_Fa0()
+def multiFacets_SFG_f11():
+	FA000 = face_multiFacets_SFG_f11_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f12_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f12_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -1971,27 +2188,27 @@ def ctr_face_sfTube_SFG_f12_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f12_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f12_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(25.0000, 25.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f12_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f12_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f12_Fa0_Ctr1()
+def face_multiFacets_SFG_f12_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f12_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f12_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f12():
-	FA000 = face_sfTube_SFG_f12_Fa0()
+def multiFacets_SFG_f12():
+	FA000 = face_multiFacets_SFG_f12_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f13_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f13_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2011,7 +2228,7 @@ def ctr_face_sfTube_SFG_f13_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f13_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f13_Fa0_Ctr1():
 	P000 = App.Vector(16.6667, 41.6667, 0)
 	P001 = App.Vector(16.6667, 8.3333, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2031,20 +2248,20 @@ def ctr_face_sfTube_SFG_f13_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f13_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f13_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f13_Fa0_Ctr1()
+def face_multiFacets_SFG_f13_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f13_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f13_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f13():
-	FA000 = face_sfTube_SFG_f13_Fa0()
+def multiFacets_SFG_f13():
+	FA000 = face_multiFacets_SFG_f13_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f14_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f14_Fa0_Ctr0():
 	P000 = App.Vector(-33.3333, 23.3333, 0)
 	P001 = App.Vector(-33.3333, -0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2060,27 +2277,27 @@ def ctr_face_sfTube_SFG_f14_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f14_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f14_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(7.7778, App.Vector(-16.6667, 11.6667, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f14_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f14_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f14_Fa0_Ctr1()
+def face_multiFacets_SFG_f14_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f14_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f14_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f14():
-	FA000 = face_sfTube_SFG_f14_Fa0()
+def multiFacets_SFG_f14():
+	FA000 = face_multiFacets_SFG_f14_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f15_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f15_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2096,19 +2313,19 @@ def ctr_face_sfTube_SFG_f15_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f15_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f15_Fa0_Ctr0()
+def face_multiFacets_SFG_f15_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f15_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f15():
-	FA000 = face_sfTube_SFG_f15_Fa0()
+def multiFacets_SFG_f15():
+	FA000 = face_multiFacets_SFG_f15_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f16_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f16_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2124,27 +2341,27 @@ def ctr_face_sfTube_SFG_f16_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f16_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f16_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(25.0000, 25.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f16_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f16_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f16_Fa0_Ctr1()
+def face_multiFacets_SFG_f16_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f16_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f16_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f16():
-	FA000 = face_sfTube_SFG_f16_Fa0()
+def multiFacets_SFG_f16():
+	FA000 = face_multiFacets_SFG_f16_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f17_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f17_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2160,19 +2377,19 @@ def ctr_face_sfTube_SFG_f17_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f17_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f17_Fa0_Ctr0()
+def face_multiFacets_SFG_f17_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f17_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f17():
-	FA000 = face_sfTube_SFG_f17_Fa0()
+def multiFacets_SFG_f17():
+	FA000 = face_multiFacets_SFG_f17_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f18_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f18_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 50.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2188,27 +2405,27 @@ def ctr_face_sfTube_SFG_f18_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f18_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f18_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(16.6667, App.Vector(25.0000, 25.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f18_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f18_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f18_Fa0_Ctr1()
+def face_multiFacets_SFG_f18_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f18_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f18_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f18():
-	FA000 = face_sfTube_SFG_f18_Fa0()
+def multiFacets_SFG_f18():
+	FA000 = face_multiFacets_SFG_f18_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f19_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f19_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 20.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2224,19 +2441,19 @@ def ctr_face_sfTube_SFG_f19_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f19_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f19_Fa0_Ctr0()
+def face_multiFacets_SFG_f19_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f19_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f19():
-	FA000 = face_sfTube_SFG_f19_Fa0()
+def multiFacets_SFG_f19():
+	FA000 = face_multiFacets_SFG_f19_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f20_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f20_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 20.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2252,19 +2469,19 @@ def ctr_face_sfTube_SFG_f20_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f20_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f20_Fa0_Ctr0()
+def face_multiFacets_SFG_f20_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f20_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f20():
-	FA000 = face_sfTube_SFG_f20_Fa0()
+def multiFacets_SFG_f20():
+	FA000 = face_multiFacets_SFG_f20_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f21_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f21_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2284,7 +2501,7 @@ def ctr_face_sfTube_SFG_f21_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f21_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f21_Fa0_Ctr1():
 	P000 = App.Vector(5.0000, 17.5000, 0)
 	P001 = App.Vector(5.0000, 15.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2308,20 +2525,20 @@ def ctr_face_sfTube_SFG_f21_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f21_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f21_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f21_Fa0_Ctr1()
+def face_multiFacets_SFG_f21_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f21_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f21_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f21():
-	FA000 = face_sfTube_SFG_f21_Fa0()
+def multiFacets_SFG_f21():
+	FA000 = face_multiFacets_SFG_f21_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f22_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f22_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2337,7 +2554,7 @@ def ctr_face_sfTube_SFG_f22_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f22_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f22_Fa0_Ctr1():
 	P000 = App.Vector(2.5000, 16.6667, 0)
 	P001 = App.Vector(2.5000, 3.3333, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2353,20 +2570,20 @@ def ctr_face_sfTube_SFG_f22_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f22_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f22_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f22_Fa0_Ctr1()
+def face_multiFacets_SFG_f22_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f22_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f22_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f22():
-	FA000 = face_sfTube_SFG_f22_Fa0()
+def multiFacets_SFG_f22():
+	FA000 = face_multiFacets_SFG_f22_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f23_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f23_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2382,19 +2599,19 @@ def ctr_face_sfTube_SFG_f23_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f23_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f23_Fa0_Ctr0()
+def face_multiFacets_SFG_f23_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f23_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f23():
-	FA000 = face_sfTube_SFG_f23_Fa0()
+def multiFacets_SFG_f23():
+	FA000 = face_multiFacets_SFG_f23_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f24_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f24_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 10.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2410,27 +2627,27 @@ def ctr_face_sfTube_SFG_f24_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f24_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f24_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(-10.0000, 5.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f24_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f24_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f24_Fa0_Ctr1()
+def face_multiFacets_SFG_f24_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f24_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f24_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f24():
-	FA000 = face_sfTube_SFG_f24_Fa0()
+def multiFacets_SFG_f24():
+	FA000 = face_multiFacets_SFG_f24_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f25_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f25_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 10.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2446,27 +2663,27 @@ def ctr_face_sfTube_SFG_f25_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f25_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f25_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(-10.0000, 5.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f25_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f25_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f25_Fa0_Ctr1()
+def face_multiFacets_SFG_f25_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f25_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f25_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f25():
-	FA000 = face_sfTube_SFG_f25_Fa0()
+def multiFacets_SFG_f25():
+	FA000 = face_multiFacets_SFG_f25_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f26_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f26_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 20.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2482,19 +2699,19 @@ def ctr_face_sfTube_SFG_f26_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f26_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f26_Fa0_Ctr0()
+def face_multiFacets_SFG_f26_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f26_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f26():
-	FA000 = face_sfTube_SFG_f26_Fa0()
+def multiFacets_SFG_f26():
+	FA000 = face_multiFacets_SFG_f26_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f27_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f27_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 20.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2510,19 +2727,19 @@ def ctr_face_sfTube_SFG_f27_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f27_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f27_Fa0_Ctr0()
+def face_multiFacets_SFG_f27_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f27_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f27():
-	FA000 = face_sfTube_SFG_f27_Fa0()
+def multiFacets_SFG_f27():
+	FA000 = face_multiFacets_SFG_f27_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f28_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f28_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2542,7 +2759,7 @@ def ctr_face_sfTube_SFG_f28_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f28_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f28_Fa0_Ctr1():
 	P000 = App.Vector(5.0000, 17.5000, 0)
 	P001 = App.Vector(5.0000, 15.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2566,20 +2783,20 @@ def ctr_face_sfTube_SFG_f28_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f28_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f28_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f28_Fa0_Ctr1()
+def face_multiFacets_SFG_f28_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f28_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f28_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f28():
-	FA000 = face_sfTube_SFG_f28_Fa0()
+def multiFacets_SFG_f28():
+	FA000 = face_multiFacets_SFG_f28_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f29_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f29_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2595,7 +2812,7 @@ def ctr_face_sfTube_SFG_f29_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f29_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f29_Fa0_Ctr1():
 	P000 = App.Vector(2.5000, 16.6667, 0)
 	P001 = App.Vector(2.5000, 3.3333, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2611,20 +2828,20 @@ def ctr_face_sfTube_SFG_f29_Fa0_Ctr1():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f29_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f29_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f29_Fa0_Ctr1()
+def face_multiFacets_SFG_f29_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f29_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f29_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f29():
-	FA000 = face_sfTube_SFG_f29_Fa0()
+def multiFacets_SFG_f29():
+	FA000 = face_multiFacets_SFG_f29_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f30_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f30_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 20.0000, 0)
 	P001 = App.Vector(0.0000, 0.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2640,19 +2857,19 @@ def ctr_face_sfTube_SFG_f30_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_f30_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f30_Fa0_Ctr0()
+def face_multiFacets_SFG_f30_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f30_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f30():
-	FA000 = face_sfTube_SFG_f30_Fa0()
+def multiFacets_SFG_f30():
+	FA000 = face_multiFacets_SFG_f30_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f31_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f31_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 10.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2668,27 +2885,27 @@ def ctr_face_sfTube_SFG_f31_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f31_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f31_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(-10.0000, 5.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f31_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f31_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f31_Fa0_Ctr1()
+def face_multiFacets_SFG_f31_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f31_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f31_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f31():
-	FA000 = face_sfTube_SFG_f31_Fa0()
+def multiFacets_SFG_f31():
+	FA000 = face_multiFacets_SFG_f31_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_f32_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_f32_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(0.0000, 10.0000, 0)
 	S000 = Part.LineSegment(P000, P001)
@@ -2704,27 +2921,27 @@ def ctr_face_sfTube_SFG_f32_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def ctr_face_sfTube_SFG_f32_Fa0_Ctr1():
+def ctr_face_multiFacets_SFG_f32_Fa0_Ctr1():
 	# Radius, XYZ-position, orientation
 	aCircle = Part.makeCircle(3.3333, App.Vector(-10.0000, 5.0000, 0), App.Vector(0, 0, 1))
 	aWire = Part.Wire(aCircle)
 	rFace = Part.Face(aWire)
 	return rFace
 
-def face_sfTube_SFG_f32_Fa0():
-	FC000 = ctr_face_sfTube_SFG_f32_Fa0_Ctr0()
-	FC001 = ctr_face_sfTube_SFG_f32_Fa0_Ctr1()
+def face_multiFacets_SFG_f32_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_f32_Fa0_Ctr0()
+	FC001 = ctr_face_multiFacets_SFG_f32_Fa0_Ctr1()
 	rOneFace = FC000.cut([FC001])
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_f32():
-	FA000 = face_sfTube_SFG_f32_Fa0()
+def multiFacets_SFG_f32():
+	FA000 = face_multiFacets_SFG_f32_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj00_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj00_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -2742,19 +2959,19 @@ def ctr_face_sfTube_SFG_fj00_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj00_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj00_Fa0_Ctr0()
+def face_multiFacets_SFG_fj00_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj00_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj00():
-	FA000 = face_sfTube_SFG_fj00_Fa0()
+def multiFacets_SFG_fj00():
+	FA000 = face_multiFacets_SFG_fj00_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj01_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj01_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -2772,19 +2989,19 @@ def ctr_face_sfTube_SFG_fj01_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj01_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj01_Fa0_Ctr0()
+def face_multiFacets_SFG_fj01_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj01_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj01():
-	FA000 = face_sfTube_SFG_fj01_Fa0()
+def multiFacets_SFG_fj01():
+	FA000 = face_multiFacets_SFG_fj01_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj02_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj02_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -2802,19 +3019,19 @@ def ctr_face_sfTube_SFG_fj02_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj02_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj02_Fa0_Ctr0()
+def face_multiFacets_SFG_fj02_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj02_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj02():
-	FA000 = face_sfTube_SFG_fj02_Fa0()
+def multiFacets_SFG_fj02():
+	FA000 = face_multiFacets_SFG_fj02_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj03_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj03_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -2832,19 +3049,19 @@ def ctr_face_sfTube_SFG_fj03_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj03_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj03_Fa0_Ctr0()
+def face_multiFacets_SFG_fj03_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj03_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj03():
-	FA000 = face_sfTube_SFG_fj03_Fa0()
+def multiFacets_SFG_fj03():
+	FA000 = face_multiFacets_SFG_fj03_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj04_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj04_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -2862,19 +3079,19 @@ def ctr_face_sfTube_SFG_fj04_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj04_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj04_Fa0_Ctr0()
+def face_multiFacets_SFG_fj04_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj04_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj04():
-	FA000 = face_sfTube_SFG_fj04_Fa0()
+def multiFacets_SFG_fj04():
+	FA000 = face_multiFacets_SFG_fj04_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj05_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj05_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -2892,19 +3109,19 @@ def ctr_face_sfTube_SFG_fj05_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj05_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj05_Fa0_Ctr0()
+def face_multiFacets_SFG_fj05_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj05_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj05():
-	FA000 = face_sfTube_SFG_fj05_Fa0()
+def multiFacets_SFG_fj05():
+	FA000 = face_multiFacets_SFG_fj05_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj06_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj06_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -2922,19 +3139,19 @@ def ctr_face_sfTube_SFG_fj06_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj06_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj06_Fa0_Ctr0()
+def face_multiFacets_SFG_fj06_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj06_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj06():
-	FA000 = face_sfTube_SFG_fj06_Fa0()
+def multiFacets_SFG_fj06():
+	FA000 = face_multiFacets_SFG_fj06_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj07_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj07_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(17.6777, 7.3223, 0)
 	P002 = App.Vector(25.0000, 25.0000, 0)
@@ -2952,19 +3169,19 @@ def ctr_face_sfTube_SFG_fj07_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj07_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj07_Fa0_Ctr0()
+def face_multiFacets_SFG_fj07_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj07_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj07():
-	FA000 = face_sfTube_SFG_fj07_Fa0()
+def multiFacets_SFG_fj07():
+	FA000 = face_multiFacets_SFG_fj07_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj08_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj08_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(9.5671, 1.9030, 0)
 	P002 = App.Vector(17.6777, 7.3223, 0)
@@ -2982,19 +3199,19 @@ def ctr_face_sfTube_SFG_fj08_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj08_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj08_Fa0_Ctr0()
+def face_multiFacets_SFG_fj08_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj08_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj08():
-	FA000 = face_sfTube_SFG_fj08_Fa0()
+def multiFacets_SFG_fj08():
+	FA000 = face_multiFacets_SFG_fj08_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj09_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj09_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(9.5671, 1.9030, 0)
 	P002 = App.Vector(17.6777, 7.3223, 0)
@@ -3012,19 +3229,19 @@ def ctr_face_sfTube_SFG_fj09_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj09_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj09_Fa0_Ctr0()
+def face_multiFacets_SFG_fj09_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj09_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj09():
-	FA000 = face_sfTube_SFG_fj09_Fa0()
+def multiFacets_SFG_fj09():
+	FA000 = face_multiFacets_SFG_fj09_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj10_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj10_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -3042,19 +3259,19 @@ def ctr_face_sfTube_SFG_fj10_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj10_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj10_Fa0_Ctr0()
+def face_multiFacets_SFG_fj10_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj10_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj10():
-	FA000 = face_sfTube_SFG_fj10_Fa0()
+def multiFacets_SFG_fj10():
+	FA000 = face_multiFacets_SFG_fj10_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj11_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj11_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -3072,19 +3289,19 @@ def ctr_face_sfTube_SFG_fj11_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj11_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj11_Fa0_Ctr0()
+def face_multiFacets_SFG_fj11_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj11_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj11():
-	FA000 = face_sfTube_SFG_fj11_Fa0()
+def multiFacets_SFG_fj11():
+	FA000 = face_multiFacets_SFG_fj11_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj12_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj12_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(17.6777, 7.3223, 0)
 	P002 = App.Vector(25.0000, 25.0000, 0)
@@ -3102,19 +3319,19 @@ def ctr_face_sfTube_SFG_fj12_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj12_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj12_Fa0_Ctr0()
+def face_multiFacets_SFG_fj12_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj12_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj12():
-	FA000 = face_sfTube_SFG_fj12_Fa0()
+def multiFacets_SFG_fj12():
+	FA000 = face_multiFacets_SFG_fj12_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj13_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj13_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(9.5671, 1.9030, 0)
 	P002 = App.Vector(17.6777, 7.3223, 0)
@@ -3132,19 +3349,19 @@ def ctr_face_sfTube_SFG_fj13_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj13_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj13_Fa0_Ctr0()
+def face_multiFacets_SFG_fj13_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj13_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj13():
-	FA000 = face_sfTube_SFG_fj13_Fa0()
+def multiFacets_SFG_fj13():
+	FA000 = face_multiFacets_SFG_fj13_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj14_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj14_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(9.5671, 1.9030, 0)
 	P002 = App.Vector(17.6777, 7.3223, 0)
@@ -3162,19 +3379,19 @@ def ctr_face_sfTube_SFG_fj14_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj14_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj14_Fa0_Ctr0()
+def face_multiFacets_SFG_fj14_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj14_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj14():
-	FA000 = face_sfTube_SFG_fj14_Fa0()
+def multiFacets_SFG_fj14():
+	FA000 = face_multiFacets_SFG_fj14_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj15_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj15_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -3192,19 +3409,19 @@ def ctr_face_sfTube_SFG_fj15_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj15_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj15_Fa0_Ctr0()
+def face_multiFacets_SFG_fj15_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj15_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj15():
-	FA000 = face_sfTube_SFG_fj15_Fa0()
+def multiFacets_SFG_fj15():
+	FA000 = face_multiFacets_SFG_fj15_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj16_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj16_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(5.7403, -1.1418, 0)
 	P002 = App.Vector(10.6066, -4.3934, 0)
@@ -3222,19 +3439,19 @@ def ctr_face_sfTube_SFG_fj16_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj16_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj16_Fa0_Ctr0()
+def face_multiFacets_SFG_fj16_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj16_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj16():
-	FA000 = face_sfTube_SFG_fj16_Fa0()
+def multiFacets_SFG_fj16():
+	FA000 = face_multiFacets_SFG_fj16_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj17_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj17_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(17.6777, 7.3223, 0)
 	P002 = App.Vector(25.0000, 25.0000, 0)
@@ -3252,19 +3469,19 @@ def ctr_face_sfTube_SFG_fj17_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj17_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj17_Fa0_Ctr0()
+def face_multiFacets_SFG_fj17_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj17_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj17():
-	FA000 = face_sfTube_SFG_fj17_Fa0()
+def multiFacets_SFG_fj17():
+	FA000 = face_multiFacets_SFG_fj17_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj18_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj18_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(9.5671, 1.9030, 0)
 	P002 = App.Vector(17.6777, 7.3223, 0)
@@ -3282,19 +3499,19 @@ def ctr_face_sfTube_SFG_fj18_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj18_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj18_Fa0_Ctr0()
+def face_multiFacets_SFG_fj18_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj18_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj18():
-	FA000 = face_sfTube_SFG_fj18_Fa0()
+def multiFacets_SFG_fj18():
+	FA000 = face_multiFacets_SFG_fj18_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj19_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj19_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(9.5671, 1.9030, 0)
 	P002 = App.Vector(17.6777, 7.3223, 0)
@@ -3312,19 +3529,19 @@ def ctr_face_sfTube_SFG_fj19_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj19_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj19_Fa0_Ctr0()
+def face_multiFacets_SFG_fj19_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj19_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj19():
-	FA000 = face_sfTube_SFG_fj19_Fa0()
+def multiFacets_SFG_fj19():
+	FA000 = face_multiFacets_SFG_fj19_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj20_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj20_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(1.9134, -0.3806, 0)
 	P002 = App.Vector(3.5355, -1.4645, 0)
@@ -3342,19 +3559,19 @@ def ctr_face_sfTube_SFG_fj20_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj20_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj20_Fa0_Ctr0()
+def face_multiFacets_SFG_fj20_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj20_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj20():
-	FA000 = face_sfTube_SFG_fj20_Fa0()
+def multiFacets_SFG_fj20():
+	FA000 = face_multiFacets_SFG_fj20_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj21_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj21_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(1.9134, -0.3806, 0)
 	P002 = App.Vector(3.5355, -1.4645, 0)
@@ -3372,19 +3589,19 @@ def ctr_face_sfTube_SFG_fj21_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj21_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj21_Fa0_Ctr0()
+def face_multiFacets_SFG_fj21_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj21_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj21():
-	FA000 = face_sfTube_SFG_fj21_Fa0()
+def multiFacets_SFG_fj21():
+	FA000 = face_multiFacets_SFG_fj21_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj22_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj22_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3402,19 +3619,19 @@ def ctr_face_sfTube_SFG_fj22_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj22_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj22_Fa0_Ctr0()
+def face_multiFacets_SFG_fj22_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj22_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj22():
-	FA000 = face_sfTube_SFG_fj22_Fa0()
+def multiFacets_SFG_fj22():
+	FA000 = face_multiFacets_SFG_fj22_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj23_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj23_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3432,19 +3649,19 @@ def ctr_face_sfTube_SFG_fj23_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj23_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj23_Fa0_Ctr0()
+def face_multiFacets_SFG_fj23_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj23_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj23():
-	FA000 = face_sfTube_SFG_fj23_Fa0()
+def multiFacets_SFG_fj23():
+	FA000 = face_multiFacets_SFG_fj23_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj24_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj24_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3462,19 +3679,19 @@ def ctr_face_sfTube_SFG_fj24_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj24_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj24_Fa0_Ctr0()
+def face_multiFacets_SFG_fj24_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj24_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj24():
-	FA000 = face_sfTube_SFG_fj24_Fa0()
+def multiFacets_SFG_fj24():
+	FA000 = face_multiFacets_SFG_fj24_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj25_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj25_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3492,19 +3709,19 @@ def ctr_face_sfTube_SFG_fj25_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj25_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj25_Fa0_Ctr0()
+def face_multiFacets_SFG_fj25_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj25_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj25():
-	FA000 = face_sfTube_SFG_fj25_Fa0()
+def multiFacets_SFG_fj25():
+	FA000 = face_multiFacets_SFG_fj25_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj26_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj26_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(1.9134, -0.3806, 0)
 	P002 = App.Vector(3.5355, -1.4645, 0)
@@ -3522,19 +3739,19 @@ def ctr_face_sfTube_SFG_fj26_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj26_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj26_Fa0_Ctr0()
+def face_multiFacets_SFG_fj26_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj26_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj26():
-	FA000 = face_sfTube_SFG_fj26_Fa0()
+def multiFacets_SFG_fj26():
+	FA000 = face_multiFacets_SFG_fj26_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj27_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj27_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(1.9134, -0.3806, 0)
 	P002 = App.Vector(3.5355, -1.4645, 0)
@@ -3552,19 +3769,19 @@ def ctr_face_sfTube_SFG_fj27_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj27_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj27_Fa0_Ctr0()
+def face_multiFacets_SFG_fj27_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj27_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj27():
-	FA000 = face_sfTube_SFG_fj27_Fa0()
+def multiFacets_SFG_fj27():
+	FA000 = face_multiFacets_SFG_fj27_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj28_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj28_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3582,19 +3799,19 @@ def ctr_face_sfTube_SFG_fj28_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj28_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj28_Fa0_Ctr0()
+def face_multiFacets_SFG_fj28_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj28_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj28():
-	FA000 = face_sfTube_SFG_fj28_Fa0()
+def multiFacets_SFG_fj28():
+	FA000 = face_multiFacets_SFG_fj28_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj29_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj29_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3612,19 +3829,19 @@ def ctr_face_sfTube_SFG_fj29_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj29_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj29_Fa0_Ctr0()
+def face_multiFacets_SFG_fj29_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj29_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj29():
-	FA000 = face_sfTube_SFG_fj29_Fa0()
+def multiFacets_SFG_fj29():
+	FA000 = face_multiFacets_SFG_fj29_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj30_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj30_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3642,19 +3859,19 @@ def ctr_face_sfTube_SFG_fj30_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj30_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj30_Fa0_Ctr0()
+def face_multiFacets_SFG_fj30_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj30_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj30():
-	FA000 = face_sfTube_SFG_fj30_Fa0()
+def multiFacets_SFG_fj30():
+	FA000 = face_multiFacets_SFG_fj30_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def ctr_face_sfTube_SFG_fj31_Fa0_Ctr0():
+def ctr_face_multiFacets_SFG_fj31_Fa0_Ctr0():
 	P000 = App.Vector(0.0000, 0.0000, 0)
 	P001 = App.Vector(10.6066, 4.3934, 0)
 	P002 = App.Vector(15.0000, 15.0000, 0)
@@ -3672,742 +3889,742 @@ def ctr_face_sfTube_SFG_fj31_Fa0_Ctr0():
 	subFace.check()
 	return subFace
 
-def face_sfTube_SFG_fj31_Fa0():
-	FC000 = ctr_face_sfTube_SFG_fj31_Fa0_Ctr0()
+def face_multiFacets_SFG_fj31_Fa0():
+	FC000 = ctr_face_multiFacets_SFG_fj31_Fa0_Ctr0()
 	rOneFace = FC000
 	rOneFace.check()
 	return rOneFace
 
-def sfTube_SFG_fj31():
-	FA000 = face_sfTube_SFG_fj31_Fa0()
+def multiFacets_SFG_fj31():
+	FA000 = face_multiFacets_SFG_fj31_Fa0()
 	rOneFig = FA000
 	rOneFig.check()
 	return rOneFig
 
-def fex_subpax_sfTube_SFG_f00():
-	FIG = sfTube_SFG_f00()
+def fex_subpax_multiFacets_SFG_f00():
+	FIG = multiFacets_SFG_f00()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(0.0000, 0.0000, 0.0000))
 	return VFP
-subpax_sfTube_SFG_f00 = fex_subpax_sfTube_SFG_f00()
+subpax_multiFacets_SFG_f00 = fex_subpax_multiFacets_SFG_f00()
 
-def fex_subpax_sfTube_SFG_f01():
-	FIG = sfTube_SFG_f01()
+def fex_subpax_multiFacets_SFG_f01():
+	FIG = multiFacets_SFG_f01()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 120.0000)
 	VFP = VR3.translate(App.Vector(-42.3361, 123.3283, -4.3934))
 	return VFP
-subpax_sfTube_SFG_f01 = fex_subpax_sfTube_SFG_f01()
+subpax_multiFacets_SFG_f01 = fex_subpax_multiFacets_SFG_f01()
 
-def fex_subpax_sfTube_SFG_f02():
-	FIG = sfTube_SFG_f02()
+def fex_subpax_multiFacets_SFG_f02():
+	FIG = multiFacets_SFG_f02()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 180.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -60.0000)
 	VFP = VR3.translate(App.Vector(-83.3459, 167.6927, -27.9636))
 	return VFP
-subpax_sfTube_SFG_f02 = fex_subpax_sfTube_SFG_f02()
+subpax_multiFacets_SFG_f02 = fex_subpax_multiFacets_SFG_f02()
 
-def fex_subpax_sfTube_SFG_f03():
-	FIG = sfTube_SFG_f03()
+def fex_subpax_multiFacets_SFG_f03():
+	FIG = multiFacets_SFG_f03()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -54.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -5.2644)
 	VFP = VR3.translate(App.Vector(-49.2749, 156.5599, -42.8553))
 	return VFP
-subpax_sfTube_SFG_f03 = fex_subpax_sfTube_SFG_f03()
+subpax_multiFacets_SFG_f03 = fex_subpax_multiFacets_SFG_f03()
 
-def fex_subpax_sfTube_SFG_f04():
-	FIG = sfTube_SFG_f04()
+def fex_subpax_multiFacets_SFG_f04():
+	FIG = multiFacets_SFG_f04()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 30.0000)
 	VFP = VR3.translate(App.Vector(11.7418, 156.9417, -73.0330))
 	return VFP
-subpax_sfTube_SFG_f04 = fex_subpax_sfTube_SFG_f04()
+subpax_multiFacets_SFG_f04 = fex_subpax_multiFacets_SFG_f04()
 
-def fex_subpax_sfTube_SFG_f05():
-	FIG = sfTube_SFG_f05()
+def fex_subpax_multiFacets_SFG_f05():
+	FIG = multiFacets_SFG_f05()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 54.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -114.7356)
 	VFP = VR3.translate(App.Vector(-128.6250, 151.5719, -78.2107))
 	return VFP
-subpax_sfTube_SFG_f05 = fex_subpax_sfTube_SFG_f05()
+subpax_multiFacets_SFG_f05 = fex_subpax_multiFacets_SFG_f05()
 
-def fex_subpax_sfTube_SFG_f06():
-	FIG = sfTube_SFG_f06()
+def fex_subpax_multiFacets_SFG_f06():
+	FIG = multiFacets_SFG_f06()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -150.0000)
 	VFP = VR3.translate(App.Vector(-159.4641, 98.9208, -108.3883))
 	return VFP
-subpax_sfTube_SFG_f06 = fex_subpax_sfTube_SFG_f06()
+subpax_multiFacets_SFG_f06 = fex_subpax_multiFacets_SFG_f06()
 
-def fex_subpax_sfTube_SFG_f07():
-	FIG = sfTube_SFG_f07()
+def fex_subpax_multiFacets_SFG_f07():
+	FIG = multiFacets_SFG_f07()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -120.0000)
 	VFP = VR3.translate(App.Vector(-85.6374, -98.3283, -4.3934))
 	return VFP
-subpax_sfTube_SFG_f07 = fex_subpax_sfTube_SFG_f07()
+subpax_multiFacets_SFG_f07 = fex_subpax_multiFacets_SFG_f07()
 
-def fex_subpax_sfTube_SFG_f08():
-	FIG = sfTube_SFG_f08()
+def fex_subpax_multiFacets_SFG_f08():
+	FIG = multiFacets_SFG_f08()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 180.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 60.0000)
 	VFP = VR3.translate(App.Vector(-103.5532, -156.0260, -27.9636))
 	return VFP
-subpax_sfTube_SFG_f08 = fex_subpax_sfTube_SFG_f08()
+subpax_multiFacets_SFG_f08 = fex_subpax_multiFacets_SFG_f08()
 
-def fex_subpax_sfTube_SFG_f09():
-	FIG = sfTube_SFG_f09()
+def fex_subpax_multiFacets_SFG_f09():
+	FIG = multiFacets_SFG_f09()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -54.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 114.7356)
 	VFP = VR3.translate(App.Vector(-110.9474, -120.9533, -42.8553))
 	return VFP
-subpax_sfTube_SFG_f09 = fex_subpax_sfTube_SFG_f09()
+subpax_multiFacets_SFG_f09 = fex_subpax_multiFacets_SFG_f09()
 
-def fex_subpax_sfTube_SFG_f10():
-	FIG = sfTube_SFG_f10()
+def fex_subpax_multiFacets_SFG_f10():
+	FIG = multiFacets_SFG_f10()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 150.0000)
 	VFP = VR3.translate(App.Vector(-141.7865, -68.3021, -73.0330))
 	return VFP
-subpax_sfTube_SFG_f10 = fex_subpax_sfTube_SFG_f10()
+subpax_multiFacets_SFG_f10 = fex_subpax_multiFacets_SFG_f10()
 
-def fex_subpax_sfTube_SFG_f11():
-	FIG = sfTube_SFG_f11()
+def fex_subpax_multiFacets_SFG_f11():
+	FIG = multiFacets_SFG_f11()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 54.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 5.2644)
 	VFP = VR3.translate(App.Vector(-66.9526, -187.1785, -78.2107))
 	return VFP
-subpax_sfTube_SFG_f11 = fex_subpax_sfTube_SFG_f11()
+subpax_multiFacets_SFG_f11 = fex_subpax_multiFacets_SFG_f11()
 
-def fex_subpax_sfTube_SFG_f12():
-	FIG = sfTube_SFG_f12()
+def fex_subpax_multiFacets_SFG_f12():
+	FIG = multiFacets_SFG_f12()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -30.0000)
 	VFP = VR3.translate(App.Vector(-5.9358, -187.5604, -108.3883))
 	return VFP
-subpax_sfTube_SFG_f12 = fex_subpax_sfTube_SFG_f12()
+subpax_multiFacets_SFG_f12 = fex_subpax_multiFacets_SFG_f12()
 
-def fex_subpax_sfTube_SFG_f13():
-	FIG = sfTube_SFG_f13()
+def fex_subpax_multiFacets_SFG_f13():
+	FIG = multiFacets_SFG_f13()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -0.0000)
 	VFP = VR3.translate(App.Vector(127.9735, -25.0000, -4.3934))
 	return VFP
-subpax_sfTube_SFG_f13 = fex_subpax_sfTube_SFG_f13()
+subpax_multiFacets_SFG_f13 = fex_subpax_multiFacets_SFG_f13()
 
-def fex_subpax_sfTube_SFG_f14():
-	FIG = sfTube_SFG_f14()
+def fex_subpax_multiFacets_SFG_f14():
+	FIG = multiFacets_SFG_f14()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 180.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180.0000)
 	VFP = VR3.translate(App.Vector(186.8991, -11.6667, -27.9636))
 	return VFP
-subpax_sfTube_SFG_f14 = fex_subpax_sfTube_SFG_f14()
+subpax_multiFacets_SFG_f14 = fex_subpax_multiFacets_SFG_f14()
 
-def fex_subpax_sfTube_SFG_f15():
-	FIG = sfTube_SFG_f15()
+def fex_subpax_multiFacets_SFG_f15():
+	FIG = multiFacets_SFG_f15()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -54.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -125.2644)
 	VFP = VR3.translate(App.Vector(160.2223, -35.6066, -42.8553))
 	return VFP
-subpax_sfTube_SFG_f15 = fex_subpax_sfTube_SFG_f15()
+subpax_multiFacets_SFG_f15 = fex_subpax_multiFacets_SFG_f15()
 
-def fex_subpax_sfTube_SFG_f16():
-	FIG = sfTube_SFG_f16()
+def fex_subpax_multiFacets_SFG_f16():
+	FIG = multiFacets_SFG_f16()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(130.0446, -88.6396, -73.0330))
 	return VFP
-subpax_sfTube_SFG_f16 = fex_subpax_sfTube_SFG_f16()
+subpax_multiFacets_SFG_f16 = fex_subpax_multiFacets_SFG_f16()
 
-def fex_subpax_sfTube_SFG_f17():
-	FIG = sfTube_SFG_f17()
+def fex_subpax_multiFacets_SFG_f17():
+	FIG = multiFacets_SFG_f17()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 54.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 125.2644)
 	VFP = VR3.translate(App.Vector(195.5776, 35.6066, -78.2107))
 	return VFP
-subpax_sfTube_SFG_f17 = fex_subpax_sfTube_SFG_f17()
+subpax_multiFacets_SFG_f17 = fex_subpax_multiFacets_SFG_f17()
 
-def fex_subpax_sfTube_SFG_f18():
-	FIG = sfTube_SFG_f18()
+def fex_subpax_multiFacets_SFG_f18():
+	FIG = multiFacets_SFG_f18()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(165.4000, 88.6396, -108.3883))
 	return VFP
-subpax_sfTube_SFG_f18 = fex_subpax_sfTube_SFG_f18()
+subpax_multiFacets_SFG_f18 = fex_subpax_multiFacets_SFG_f18()
 
-def fex_subpax_sfTube_SFG_f19():
-	FIG = sfTube_SFG_f19()
+def fex_subpax_multiFacets_SFG_f19():
+	FIG = multiFacets_SFG_f19()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(10.0000, 84.4987, 15.0000))
 	return VFP
-subpax_sfTube_SFG_f19 = fex_subpax_sfTube_SFG_f19()
+subpax_multiFacets_SFG_f19 = fex_subpax_multiFacets_SFG_f19()
 
-def fex_subpax_sfTube_SFG_f20():
-	FIG = sfTube_SFG_f20()
+def fex_subpax_multiFacets_SFG_f20():
+	FIG = multiFacets_SFG_f20()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(-10.0000, 83.0343, 33.5355))
 	return VFP
-subpax_sfTube_SFG_f20 = fex_subpax_sfTube_SFG_f20()
+subpax_multiFacets_SFG_f20 = fex_subpax_multiFacets_SFG_f20()
 
-def fex_subpax_sfTube_SFG_f21():
-	FIG = sfTube_SFG_f21()
+def fex_subpax_multiFacets_SFG_f21():
+	FIG = multiFacets_SFG_f21()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(20.0000, 58.2855, 56.2132))
 	return VFP
-subpax_sfTube_SFG_f21 = fex_subpax_sfTube_SFG_f21()
+subpax_multiFacets_SFG_f21 = fex_subpax_multiFacets_SFG_f21()
 
-def fex_subpax_sfTube_SFG_f22():
-	FIG = sfTube_SFG_f22()
+def fex_subpax_multiFacets_SFG_f22():
+	FIG = multiFacets_SFG_f22()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(20.0000, -36.7145, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f22 = fex_subpax_sfTube_SFG_f22()
+subpax_multiFacets_SFG_f22 = fex_subpax_multiFacets_SFG_f22()
 
-def fex_subpax_sfTube_SFG_f23():
-	FIG = sfTube_SFG_f23()
+def fex_subpax_multiFacets_SFG_f23():
+	FIG = multiFacets_SFG_f23()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(55.0000, 8.2855, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f23 = fex_subpax_sfTube_SFG_f23()
+subpax_multiFacets_SFG_f23 = fex_subpax_multiFacets_SFG_f23()
 
-def fex_subpax_sfTube_SFG_f24():
-	FIG = sfTube_SFG_f24()
+def fex_subpax_multiFacets_SFG_f24():
+	FIG = multiFacets_SFG_f24()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(35.0000, 38.2855, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f24 = fex_subpax_sfTube_SFG_f24()
+subpax_multiFacets_SFG_f24 = fex_subpax_multiFacets_SFG_f24()
 
-def fex_subpax_sfTube_SFG_f25():
-	FIG = sfTube_SFG_f25()
+def fex_subpax_multiFacets_SFG_f25():
+	FIG = multiFacets_SFG_f25()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(25.0000, -1.7145, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f25 = fex_subpax_sfTube_SFG_f25()
+subpax_multiFacets_SFG_f25 = fex_subpax_multiFacets_SFG_f25()
 
-def fex_subpax_sfTube_SFG_f26():
-	FIG = sfTube_SFG_f26()
+def fex_subpax_multiFacets_SFG_f26():
+	FIG = multiFacets_SFG_f26()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-10.0000, -84.4987, 15.0000))
 	return VFP
-subpax_sfTube_SFG_f26 = fex_subpax_sfTube_SFG_f26()
+subpax_multiFacets_SFG_f26 = fex_subpax_multiFacets_SFG_f26()
 
-def fex_subpax_sfTube_SFG_f27():
-	FIG = sfTube_SFG_f27()
+def fex_subpax_multiFacets_SFG_f27():
+	FIG = multiFacets_SFG_f27()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(10.0000, -83.0343, 33.5355))
 	return VFP
-subpax_sfTube_SFG_f27 = fex_subpax_sfTube_SFG_f27()
+subpax_multiFacets_SFG_f27 = fex_subpax_multiFacets_SFG_f27()
 
-def fex_subpax_sfTube_SFG_f28():
-	FIG = sfTube_SFG_f28()
+def fex_subpax_multiFacets_SFG_f28():
+	FIG = multiFacets_SFG_f28()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(-20.0000, -58.2855, 56.2132))
 	return VFP
-subpax_sfTube_SFG_f28 = fex_subpax_sfTube_SFG_f28()
+subpax_multiFacets_SFG_f28 = fex_subpax_multiFacets_SFG_f28()
 
-def fex_subpax_sfTube_SFG_f29():
-	FIG = sfTube_SFG_f29()
+def fex_subpax_multiFacets_SFG_f29():
+	FIG = multiFacets_SFG_f29()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-20.0000, 36.7145, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f29 = fex_subpax_sfTube_SFG_f29()
+subpax_multiFacets_SFG_f29 = fex_subpax_multiFacets_SFG_f29()
 
-def fex_subpax_sfTube_SFG_f30():
-	FIG = sfTube_SFG_f30()
+def fex_subpax_multiFacets_SFG_f30():
+	FIG = multiFacets_SFG_f30()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -180.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-55.0000, -8.2855, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f30 = fex_subpax_sfTube_SFG_f30()
+subpax_multiFacets_SFG_f30 = fex_subpax_multiFacets_SFG_f30()
 
-def fex_subpax_sfTube_SFG_f31():
-	FIG = sfTube_SFG_f31()
+def fex_subpax_multiFacets_SFG_f31():
+	FIG = multiFacets_SFG_f31()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-35.0000, -38.2855, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f31 = fex_subpax_sfTube_SFG_f31()
+subpax_multiFacets_SFG_f31 = fex_subpax_multiFacets_SFG_f31()
 
-def fex_subpax_sfTube_SFG_f32():
-	FIG = sfTube_SFG_f32()
+def fex_subpax_multiFacets_SFG_f32():
+	FIG = multiFacets_SFG_f32()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-25.0000, 1.7145, 71.2132))
 	return VFP
-subpax_sfTube_SFG_f32 = fex_subpax_sfTube_SFG_f32()
+subpax_multiFacets_SFG_f32 = fex_subpax_multiFacets_SFG_f32()
 
-def fex_subpax_sfTube_SFG_fj00():
-	FIG = sfTube_SFG_fj00()
+def fex_subpax_multiFacets_SFG_fj00():
+	FIG = multiFacets_SFG_fj00()
 	VEX = FIG.extrude(App.Vector(0, 0, 50.00000000000002))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 120.0000)
 	VFP = VR3.translate(App.Vector(-80.3341, 89.1428, 0.0000))
 	return VFP
-subpax_sfTube_SFG_fj00 = fex_subpax_sfTube_SFG_fj00()
+subpax_multiFacets_SFG_fj00 = fex_subpax_multiFacets_SFG_fj00()
 
-def fex_subpax_sfTube_SFG_fj01():
-	FIG = sfTube_SFG_fj01()
+def fex_subpax_multiFacets_SFG_fj01():
+	FIG = multiFacets_SFG_fj01()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -120.0000)
 	VFP = VR3.translate(App.Vector(-37.0328, -114.1428, 0.0000))
 	return VFP
-subpax_sfTube_SFG_fj01 = fex_subpax_sfTube_SFG_fj01()
+subpax_multiFacets_SFG_fj01 = fex_subpax_multiFacets_SFG_fj01()
 
-def fex_subpax_sfTube_SFG_fj02():
-	FIG = sfTube_SFG_fj02()
+def fex_subpax_multiFacets_SFG_fj02():
+	FIG = multiFacets_SFG_fj02()
 	VEX = FIG.extrude(App.Vector(0, 0, 50.000000000000156))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -0.0000)
 	VFP = VR3.translate(App.Vector(117.3669, 25.0000, 0.0000))
 	return VFP
-subpax_sfTube_SFG_fj02 = fex_subpax_sfTube_SFG_fj02()
+subpax_multiFacets_SFG_fj02 = fex_subpax_multiFacets_SFG_fj02()
 
-def fex_subpax_sfTube_SFG_fj03():
-	FIG = sfTube_SFG_fj03()
+def fex_subpax_multiFacets_SFG_fj03():
+	FIG = multiFacets_SFG_fj03()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(10.0000, 99.4987, 0.0000))
 	return VFP
-subpax_sfTube_SFG_fj03 = fex_subpax_sfTube_SFG_fj03()
+subpax_multiFacets_SFG_fj03 = fex_subpax_multiFacets_SFG_fj03()
 
-def fex_subpax_sfTube_SFG_fj04():
-	FIG = sfTube_SFG_fj04()
+def fex_subpax_multiFacets_SFG_fj04():
+	FIG = multiFacets_SFG_fj04()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(-10.0000, -99.4987, 0.0000))
 	return VFP
-subpax_sfTube_SFG_fj04 = fex_subpax_sfTube_SFG_fj04()
+subpax_multiFacets_SFG_fj04 = fex_subpax_multiFacets_SFG_fj04()
 
-def fex_subpax_sfTube_SFG_fj05():
-	FIG = sfTube_SFG_fj05()
+def fex_subpax_multiFacets_SFG_fj05():
+	FIG = multiFacets_SFG_fj05()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 30.0000)
 	VFP = VR3.translate(App.Vector(-77.6915, 184.5656, -75.1041))
 	return VFP
-subpax_sfTube_SFG_fj05 = fex_subpax_sfTube_SFG_fj05()
+subpax_multiFacets_SFG_fj05 = fex_subpax_multiFacets_SFG_fj05()
 
-def fex_subpax_sfTube_SFG_fj06():
-	FIG = sfTube_SFG_fj06()
+def fex_subpax_multiFacets_SFG_fj06():
+	FIG = multiFacets_SFG_fj06()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 135.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -150.0000)
 	VFP = VR3.translate(App.Vector(-103.3151, 128.9470, -39.7487))
 	return VFP
-subpax_sfTube_SFG_fj06 = fex_subpax_sfTube_SFG_fj06()
+subpax_multiFacets_SFG_fj06 = fex_subpax_multiFacets_SFG_fj06()
 
-def fex_subpax_sfTube_SFG_fj07():
-	FIG = sfTube_SFG_fj07()
+def fex_subpax_multiFacets_SFG_fj07():
+	FIG = multiFacets_SFG_fj07()
 	VEX = FIG.extrude(App.Vector(0, 0, 23.333333333333336))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -60.0000)
 	VFP = VR3.translate(App.Vector(-83.3459, 167.6927, -63.3190))
 	return VFP
-subpax_sfTube_SFG_fj07 = fex_subpax_sfTube_SFG_fj07()
+subpax_multiFacets_SFG_fj07 = fex_subpax_multiFacets_SFG_fj07()
 
-def fex_subpax_sfTube_SFG_fj08():
-	FIG = sfTube_SFG_fj08()
+def fex_subpax_multiFacets_SFG_fj08():
+	FIG = multiFacets_SFG_fj08()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 35.2644)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -5.2644)
 	VFP = VR3.translate(App.Vector(-23.8340, 183.2055, -103.2107))
 	return VFP
-subpax_sfTube_SFG_fj08 = fex_subpax_sfTube_SFG_fj08()
+subpax_multiFacets_SFG_fj08 = fex_subpax_multiFacets_SFG_fj08()
 
-def fex_subpax_sfTube_SFG_fj09():
-	FIG = sfTube_SFG_fj09()
+def fex_subpax_multiFacets_SFG_fj09():
+	FIG = multiFacets_SFG_fj09()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 144.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -114.7356)
 	VFP = VR3.translate(App.Vector(-129.0660, 81.6250, -67.8553))
 	return VFP
-subpax_sfTube_SFG_fj09 = fex_subpax_sfTube_SFG_fj09()
+subpax_multiFacets_SFG_fj09 = fex_subpax_multiFacets_SFG_fj09()
 
-def fex_subpax_sfTube_SFG_fj10():
-	FIG = sfTube_SFG_fj10()
+def fex_subpax_multiFacets_SFG_fj10():
+	FIG = multiFacets_SFG_fj10()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 150.0000)
 	VFP = VR3.translate(App.Vector(-120.9927, -159.5656, -75.1041))
 	return VFP
-subpax_sfTube_SFG_fj10 = fex_subpax_sfTube_SFG_fj10()
+subpax_multiFacets_SFG_fj10 = fex_subpax_multiFacets_SFG_fj10()
 
-def fex_subpax_sfTube_SFG_fj11():
-	FIG = sfTube_SFG_fj11()
+def fex_subpax_multiFacets_SFG_fj11():
+	FIG = multiFacets_SFG_fj11()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 135.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -30.0000)
 	VFP = VR3.translate(App.Vector(-60.0138, -153.9470, -39.7487))
 	return VFP
-subpax_sfTube_SFG_fj11 = fex_subpax_sfTube_SFG_fj11()
+subpax_multiFacets_SFG_fj11 = fex_subpax_multiFacets_SFG_fj11()
 
-def fex_subpax_sfTube_SFG_fj12():
-	FIG = sfTube_SFG_fj12()
+def fex_subpax_multiFacets_SFG_fj12():
+	FIG = multiFacets_SFG_fj12()
 	VEX = FIG.extrude(App.Vector(0, 0, 23.333333333333336))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 60.0000)
 	VFP = VR3.translate(App.Vector(-103.5532, -156.0260, -63.3190))
 	return VFP
-subpax_sfTube_SFG_fj12 = fex_subpax_sfTube_SFG_fj12()
+subpax_multiFacets_SFG_fj12 = fex_subpax_multiFacets_SFG_fj12()
 
-def fex_subpax_sfTube_SFG_fj13():
-	FIG = sfTube_SFG_fj13()
+def fex_subpax_multiFacets_SFG_fj13():
+	FIG = multiFacets_SFG_fj13()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 35.2644)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 114.7356)
 	VFP = VR3.translate(App.Vector(-146.7437, -112.2436, -103.2107))
 	return VFP
-subpax_sfTube_SFG_fj13 = fex_subpax_sfTube_SFG_fj13()
+subpax_multiFacets_SFG_fj13 = fex_subpax_multiFacets_SFG_fj13()
 
-def fex_subpax_sfTube_SFG_fj14():
-	FIG = sfTube_SFG_fj14()
+def fex_subpax_multiFacets_SFG_fj14():
+	FIG = multiFacets_SFG_fj14()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 144.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 5.2644)
 	VFP = VR3.translate(App.Vector(-6.1563, -152.5869, -67.8553))
 	return VFP
-subpax_sfTube_SFG_fj14 = fex_subpax_sfTube_SFG_fj14()
+subpax_multiFacets_SFG_fj14 = fex_subpax_multiFacets_SFG_fj14()
 
-def fex_subpax_sfTube_SFG_fj15():
-	FIG = sfTube_SFG_fj15()
+def fex_subpax_multiFacets_SFG_fj15():
+	FIG = multiFacets_SFG_fj15()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 45.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(198.6842, -25.0000, -75.1041))
 	return VFP
-subpax_sfTube_SFG_fj15 = fex_subpax_sfTube_SFG_fj15()
+subpax_multiFacets_SFG_fj15 = fex_subpax_multiFacets_SFG_fj15()
 
-def fex_subpax_sfTube_SFG_fj16():
-	FIG = sfTube_SFG_fj16()
+def fex_subpax_multiFacets_SFG_fj16():
+	FIG = multiFacets_SFG_fj16()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 135.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(163.3289, 25.0000, -39.7487))
 	return VFP
-subpax_sfTube_SFG_fj16 = fex_subpax_sfTube_SFG_fj16()
+subpax_multiFacets_SFG_fj16 = fex_subpax_multiFacets_SFG_fj16()
 
-def fex_subpax_sfTube_SFG_fj17():
-	FIG = sfTube_SFG_fj17()
+def fex_subpax_multiFacets_SFG_fj17():
+	FIG = multiFacets_SFG_fj17()
 	VEX = FIG.extrude(App.Vector(0, 0, 23.333333333333336))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 180.0000)
 	VFP = VR3.translate(App.Vector(186.8991, -11.6667, -63.3190))
 	return VFP
-subpax_sfTube_SFG_fj17 = fex_subpax_sfTube_SFG_fj17()
+subpax_multiFacets_SFG_fj17 = fex_subpax_multiFacets_SFG_fj17()
 
-def fex_subpax_sfTube_SFG_fj18():
-	FIG = sfTube_SFG_fj18()
+def fex_subpax_multiFacets_SFG_fj18():
+	FIG = multiFacets_SFG_fj18()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 35.2644)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -125.2644)
 	VFP = VR3.translate(App.Vector(170.5776, -70.9619, -103.2107))
 	return VFP
-subpax_sfTube_SFG_fj18 = fex_subpax_sfTube_SFG_fj18()
+subpax_multiFacets_SFG_fj18 = fex_subpax_multiFacets_SFG_fj18()
 
-def fex_subpax_sfTube_SFG_fj19():
-	FIG = sfTube_SFG_fj19()
+def fex_subpax_multiFacets_SFG_fj19():
+	FIG = multiFacets_SFG_fj19()
 	VEX = FIG.extrude(App.Vector(0, 0, 50))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 144.7356)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 30.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 125.2644)
 	VFP = VR3.translate(App.Vector(135.2223, 70.9619, -67.8553))
 	return VFP
-subpax_sfTube_SFG_fj19 = fex_subpax_sfTube_SFG_fj19()
+subpax_multiFacets_SFG_fj19 = fex_subpax_multiFacets_SFG_fj19()
 
-def fex_subpax_sfTube_SFG_fj20():
-	FIG = sfTube_SFG_fj20()
+def fex_subpax_multiFacets_SFG_fj20():
+	FIG = multiFacets_SFG_fj20()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), -0.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(10.0000, 84.4987, 30.0000))
 	return VFP
-subpax_sfTube_SFG_fj20 = fex_subpax_sfTube_SFG_fj20()
+subpax_multiFacets_SFG_fj20 = fex_subpax_multiFacets_SFG_fj20()
 
-def fex_subpax_sfTube_SFG_fj21():
-	FIG = sfTube_SFG_fj21()
+def fex_subpax_multiFacets_SFG_fj21():
+	FIG = multiFacets_SFG_fj21()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(40.0000, 61.8211, 54.7487))
 	return VFP
-subpax_sfTube_SFG_fj21 = fex_subpax_sfTube_SFG_fj21()
+subpax_multiFacets_SFG_fj21 = fex_subpax_multiFacets_SFG_fj21()
 
-def fex_subpax_sfTube_SFG_fj22():
-	FIG = sfTube_SFG_fj22()
+def fex_subpax_multiFacets_SFG_fj22():
+	FIG = multiFacets_SFG_fj22()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(40.0000, -21.7145, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj22 = fex_subpax_sfTube_SFG_fj22()
+subpax_multiFacets_SFG_fj22 = fex_subpax_multiFacets_SFG_fj22()
 
-def fex_subpax_sfTube_SFG_fj23():
-	FIG = sfTube_SFG_fj23()
+def fex_subpax_multiFacets_SFG_fj23():
+	FIG = multiFacets_SFG_fj23()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(40.0000, 28.2855, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj23 = fex_subpax_sfTube_SFG_fj23()
+subpax_multiFacets_SFG_fj23 = fex_subpax_multiFacets_SFG_fj23()
 
-def fex_subpax_sfTube_SFG_fj24():
-	FIG = sfTube_SFG_fj24()
+def fex_subpax_multiFacets_SFG_fj24():
+	FIG = multiFacets_SFG_fj24()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(35.0000, 53.2855, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj24 = fex_subpax_sfTube_SFG_fj24()
+subpax_multiFacets_SFG_fj24 = fex_subpax_multiFacets_SFG_fj24()
 
-def fex_subpax_sfTube_SFG_fj25():
-	FIG = sfTube_SFG_fj25()
+def fex_subpax_multiFacets_SFG_fj25():
+	FIG = multiFacets_SFG_fj25()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(25.0000, -16.7145, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj25 = fex_subpax_sfTube_SFG_fj25()
+subpax_multiFacets_SFG_fj25 = fex_subpax_multiFacets_SFG_fj25()
 
-def fex_subpax_sfTube_SFG_fj26():
-	FIG = sfTube_SFG_fj26()
+def fex_subpax_multiFacets_SFG_fj26():
+	FIG = multiFacets_SFG_fj26()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 180.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -90.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 0.0000)
 	VFP = VR3.translate(App.Vector(-10.0000, -84.4987, 30.0000))
 	return VFP
-subpax_sfTube_SFG_fj26 = fex_subpax_sfTube_SFG_fj26()
+subpax_multiFacets_SFG_fj26 = fex_subpax_multiFacets_SFG_fj26()
 
-def fex_subpax_sfTube_SFG_fj27():
-	FIG = sfTube_SFG_fj27()
+def fex_subpax_multiFacets_SFG_fj27():
+	FIG = multiFacets_SFG_fj27()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -45.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(-40.0000, -61.8211, 54.7487))
 	return VFP
-subpax_sfTube_SFG_fj27 = fex_subpax_sfTube_SFG_fj27()
+subpax_multiFacets_SFG_fj27 = fex_subpax_multiFacets_SFG_fj27()
 
-def fex_subpax_sfTube_SFG_fj28():
-	FIG = sfTube_SFG_fj28()
+def fex_subpax_multiFacets_SFG_fj28():
+	FIG = multiFacets_SFG_fj28()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(-40.0000, 21.7145, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj28 = fex_subpax_sfTube_SFG_fj28()
+subpax_multiFacets_SFG_fj28 = fex_subpax_multiFacets_SFG_fj28()
 
-def fex_subpax_sfTube_SFG_fj29():
-	FIG = sfTube_SFG_fj29()
+def fex_subpax_multiFacets_SFG_fj29():
+	FIG = multiFacets_SFG_fj29()
 	VEX = FIG.extrude(App.Vector(0, 0, 20))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -180.0000)
 	VFP = VR3.translate(App.Vector(-40.0000, -28.2855, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj29 = fex_subpax_sfTube_SFG_fj29()
+subpax_multiFacets_SFG_fj29 = fex_subpax_multiFacets_SFG_fj29()
 
-def fex_subpax_sfTube_SFG_fj30():
-	FIG = sfTube_SFG_fj30()
+def fex_subpax_multiFacets_SFG_fj30():
+	FIG = multiFacets_SFG_fj30()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), -0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), 90.0000)
 	VFP = VR3.translate(App.Vector(-35.0000, -53.2855, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj30 = fex_subpax_sfTube_SFG_fj30()
+subpax_multiFacets_SFG_fj30 = fex_subpax_multiFacets_SFG_fj30()
 
-def fex_subpax_sfTube_SFG_fj31():
-	FIG = sfTube_SFG_fj31()
+def fex_subpax_multiFacets_SFG_fj31():
+	FIG = multiFacets_SFG_fj31()
 	VEX = FIG.extrude(App.Vector(0, 0, 10))
 	VR1 = VEX.rotate(App.Vector(0, 0, 0), App.Vector(1, 0, 0), 90.0000)
 	VR2 = VR1.rotate(App.Vector(0, 0, 0), App.Vector(0, 1, 0), 0.0000)
 	VR3 = VR2.rotate(App.Vector(0, 0, 0), App.Vector(0, 0, 1), -90.0000)
 	VFP = VR3.translate(App.Vector(-25.0000, 16.7145, 56.2132))
 	return VFP
-subpax_sfTube_SFG_fj31 = fex_subpax_sfTube_SFG_fj31()
+subpax_multiFacets_SFG_fj31 = fex_subpax_multiFacets_SFG_fj31()
 
-def fvol_pax_sfTube():
-	V000 = subpax_sfTube_SFG_f00
-	V001 = V000.fuse(subpax_sfTube_SFG_f01)
-	V002 = V001.fuse(subpax_sfTube_SFG_f02)
-	V003 = V002.fuse(subpax_sfTube_SFG_f03)
-	V004 = V003.fuse(subpax_sfTube_SFG_f04)
-	V005 = V004.fuse(subpax_sfTube_SFG_f05)
-	V006 = V005.fuse(subpax_sfTube_SFG_f06)
-	V007 = V006.fuse(subpax_sfTube_SFG_f07)
-	V008 = V007.fuse(subpax_sfTube_SFG_f08)
-	V009 = V008.fuse(subpax_sfTube_SFG_f09)
-	V010 = V009.fuse(subpax_sfTube_SFG_f10)
-	V011 = V010.fuse(subpax_sfTube_SFG_f11)
-	V012 = V011.fuse(subpax_sfTube_SFG_f12)
-	V013 = V012.fuse(subpax_sfTube_SFG_f13)
-	V014 = V013.fuse(subpax_sfTube_SFG_f14)
-	V015 = V014.fuse(subpax_sfTube_SFG_f15)
-	V016 = V015.fuse(subpax_sfTube_SFG_f16)
-	V017 = V016.fuse(subpax_sfTube_SFG_f17)
-	V018 = V017.fuse(subpax_sfTube_SFG_f18)
-	V019 = V018.fuse(subpax_sfTube_SFG_f19)
-	V020 = V019.fuse(subpax_sfTube_SFG_f20)
-	V021 = V020.fuse(subpax_sfTube_SFG_f21)
-	V022 = V021.fuse(subpax_sfTube_SFG_f22)
-	V023 = V022.fuse(subpax_sfTube_SFG_f23)
-	V024 = V023.fuse(subpax_sfTube_SFG_f24)
-	V025 = V024.fuse(subpax_sfTube_SFG_f25)
-	V026 = V025.fuse(subpax_sfTube_SFG_f26)
-	V027 = V026.fuse(subpax_sfTube_SFG_f27)
-	V028 = V027.fuse(subpax_sfTube_SFG_f28)
-	V029 = V028.fuse(subpax_sfTube_SFG_f29)
-	V030 = V029.fuse(subpax_sfTube_SFG_f30)
-	V031 = V030.fuse(subpax_sfTube_SFG_f31)
-	V032 = V031.fuse(subpax_sfTube_SFG_f32)
-	V033 = V032.fuse(subpax_sfTube_SFG_fj00)
-	V034 = V033.fuse(subpax_sfTube_SFG_fj01)
-	V035 = V034.fuse(subpax_sfTube_SFG_fj02)
-	V036 = V035.fuse(subpax_sfTube_SFG_fj03)
-	V037 = V036.fuse(subpax_sfTube_SFG_fj04)
-	V038 = V037.fuse(subpax_sfTube_SFG_fj05)
-	V039 = V038.fuse(subpax_sfTube_SFG_fj06)
-	V040 = V039.fuse(subpax_sfTube_SFG_fj07)
-	V041 = V040.fuse(subpax_sfTube_SFG_fj08)
-	V042 = V041.fuse(subpax_sfTube_SFG_fj09)
-	V043 = V042.fuse(subpax_sfTube_SFG_fj10)
-	V044 = V043.fuse(subpax_sfTube_SFG_fj11)
-	V045 = V044.fuse(subpax_sfTube_SFG_fj12)
-	V046 = V045.fuse(subpax_sfTube_SFG_fj13)
-	V047 = V046.fuse(subpax_sfTube_SFG_fj14)
-	V048 = V047.fuse(subpax_sfTube_SFG_fj15)
-	V049 = V048.fuse(subpax_sfTube_SFG_fj16)
-	V050 = V049.fuse(subpax_sfTube_SFG_fj17)
-	V051 = V050.fuse(subpax_sfTube_SFG_fj18)
-	V052 = V051.fuse(subpax_sfTube_SFG_fj19)
-	V053 = V052.fuse(subpax_sfTube_SFG_fj20)
-	V054 = V053.fuse(subpax_sfTube_SFG_fj21)
-	V055 = V054.fuse(subpax_sfTube_SFG_fj22)
-	V056 = V055.fuse(subpax_sfTube_SFG_fj23)
-	V057 = V056.fuse(subpax_sfTube_SFG_fj24)
-	V058 = V057.fuse(subpax_sfTube_SFG_fj25)
-	V059 = V058.fuse(subpax_sfTube_SFG_fj26)
-	V060 = V059.fuse(subpax_sfTube_SFG_fj27)
-	V061 = V060.fuse(subpax_sfTube_SFG_fj28)
-	V062 = V061.fuse(subpax_sfTube_SFG_fj29)
-	V063 = V062.fuse(subpax_sfTube_SFG_fj30)
-	V064 = V063.fuse(subpax_sfTube_SFG_fj31)
+def fvol_pax_multiFacets():
+	V000 = subpax_multiFacets_SFG_f00
+	V001 = V000.fuse(subpax_multiFacets_SFG_f01)
+	V002 = V001.fuse(subpax_multiFacets_SFG_f02)
+	V003 = V002.fuse(subpax_multiFacets_SFG_f03)
+	V004 = V003.fuse(subpax_multiFacets_SFG_f04)
+	V005 = V004.fuse(subpax_multiFacets_SFG_f05)
+	V006 = V005.fuse(subpax_multiFacets_SFG_f06)
+	V007 = V006.fuse(subpax_multiFacets_SFG_f07)
+	V008 = V007.fuse(subpax_multiFacets_SFG_f08)
+	V009 = V008.fuse(subpax_multiFacets_SFG_f09)
+	V010 = V009.fuse(subpax_multiFacets_SFG_f10)
+	V011 = V010.fuse(subpax_multiFacets_SFG_f11)
+	V012 = V011.fuse(subpax_multiFacets_SFG_f12)
+	V013 = V012.fuse(subpax_multiFacets_SFG_f13)
+	V014 = V013.fuse(subpax_multiFacets_SFG_f14)
+	V015 = V014.fuse(subpax_multiFacets_SFG_f15)
+	V016 = V015.fuse(subpax_multiFacets_SFG_f16)
+	V017 = V016.fuse(subpax_multiFacets_SFG_f17)
+	V018 = V017.fuse(subpax_multiFacets_SFG_f18)
+	V019 = V018.fuse(subpax_multiFacets_SFG_f19)
+	V020 = V019.fuse(subpax_multiFacets_SFG_f20)
+	V021 = V020.fuse(subpax_multiFacets_SFG_f21)
+	V022 = V021.fuse(subpax_multiFacets_SFG_f22)
+	V023 = V022.fuse(subpax_multiFacets_SFG_f23)
+	V024 = V023.fuse(subpax_multiFacets_SFG_f24)
+	V025 = V024.fuse(subpax_multiFacets_SFG_f25)
+	V026 = V025.fuse(subpax_multiFacets_SFG_f26)
+	V027 = V026.fuse(subpax_multiFacets_SFG_f27)
+	V028 = V027.fuse(subpax_multiFacets_SFG_f28)
+	V029 = V028.fuse(subpax_multiFacets_SFG_f29)
+	V030 = V029.fuse(subpax_multiFacets_SFG_f30)
+	V031 = V030.fuse(subpax_multiFacets_SFG_f31)
+	V032 = V031.fuse(subpax_multiFacets_SFG_f32)
+	V033 = V032.fuse(subpax_multiFacets_SFG_fj00)
+	V034 = V033.fuse(subpax_multiFacets_SFG_fj01)
+	V035 = V034.fuse(subpax_multiFacets_SFG_fj02)
+	V036 = V035.fuse(subpax_multiFacets_SFG_fj03)
+	V037 = V036.fuse(subpax_multiFacets_SFG_fj04)
+	V038 = V037.fuse(subpax_multiFacets_SFG_fj05)
+	V039 = V038.fuse(subpax_multiFacets_SFG_fj06)
+	V040 = V039.fuse(subpax_multiFacets_SFG_fj07)
+	V041 = V040.fuse(subpax_multiFacets_SFG_fj08)
+	V042 = V041.fuse(subpax_multiFacets_SFG_fj09)
+	V043 = V042.fuse(subpax_multiFacets_SFG_fj10)
+	V044 = V043.fuse(subpax_multiFacets_SFG_fj11)
+	V045 = V044.fuse(subpax_multiFacets_SFG_fj12)
+	V046 = V045.fuse(subpax_multiFacets_SFG_fj13)
+	V047 = V046.fuse(subpax_multiFacets_SFG_fj14)
+	V048 = V047.fuse(subpax_multiFacets_SFG_fj15)
+	V049 = V048.fuse(subpax_multiFacets_SFG_fj16)
+	V050 = V049.fuse(subpax_multiFacets_SFG_fj17)
+	V051 = V050.fuse(subpax_multiFacets_SFG_fj18)
+	V052 = V051.fuse(subpax_multiFacets_SFG_fj19)
+	V053 = V052.fuse(subpax_multiFacets_SFG_fj20)
+	V054 = V053.fuse(subpax_multiFacets_SFG_fj21)
+	V055 = V054.fuse(subpax_multiFacets_SFG_fj22)
+	V056 = V055.fuse(subpax_multiFacets_SFG_fj23)
+	V057 = V056.fuse(subpax_multiFacets_SFG_fj24)
+	V058 = V057.fuse(subpax_multiFacets_SFG_fj25)
+	V059 = V058.fuse(subpax_multiFacets_SFG_fj26)
+	V060 = V059.fuse(subpax_multiFacets_SFG_fj27)
+	V061 = V060.fuse(subpax_multiFacets_SFG_fj28)
+	V062 = V061.fuse(subpax_multiFacets_SFG_fj29)
+	V063 = V062.fuse(subpax_multiFacets_SFG_fj30)
+	V064 = V063.fuse(subpax_multiFacets_SFG_fj31)
 	VFC = V064.removeSplitter()
 	return VFC
-pax_sfTube = fvol_pax_sfTube()
+pax_multiFacets = fvol_pax_multiFacets()
 
 
-pax_sfTube.check()
-#pax_sfTube.exportBrep(f"{outFileName}.brep")
-#pax_sfTube.exportIges(f"{outFileName}.igs")
-#pax_sfTube.exportStep(f"{outFileName}.stp")
-pax_sfTube.exportStl(f"{outFileName}.stl")
+pax_multiFacets.check()
+#pax_multiFacets.exportBrep(f"{outFileName}.brep")
+#pax_multiFacets.exportIges(f"{outFileName}.igs")
+#pax_multiFacets.exportStep(f"{outFileName}.stp")
+pax_multiFacets.exportStl(f"{outFileName}.stl")
 

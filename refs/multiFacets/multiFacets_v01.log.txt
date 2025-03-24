@@ -1,3 +1,3 @@
-sfTube simTime: 0
+multiFacets simTime: 0
 multiFacets: N1 3
 multiFacets drawn successfully!

@@ -9,7 +9,7 @@ const { translate, rotate } = require('@jscad/modeling').transforms;
 
 const main = () => {
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr000 = polygon({ points: [ [ 117.3669, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr000 = polygon({ points: [ [ 117.3669, 25.0000 ],
 	[ 116.9363, 26.9425 ],
 	[ 116.4735, 28.8776 ],
 	[ 115.9787, 30.8048 ],
@@ -383,7 +383,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr000 = polygon({ points: [ [ 117.3
 	[ 133.0749, 25.0000 ],
 	[ 117.3669, 25.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr001 = polygon({ points: [ [ 117.3669, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr001 = polygon({ points: [ [ 117.3669, 25.0000 ],
 	[ 116.9363, 26.9425 ],
 	[ 116.4735, 28.8776 ],
 	[ 115.9787, 30.8048 ],
@@ -757,7 +757,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr001 = polygon({ points: [ [ 117.3
 	[ 133.0749, 25.0000 ],
 	[ 117.3669, 25.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr002 = polygon({ points: [ [ 10.0000, -99.4987 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr002 = polygon({ points: [ [ 10.0000, -99.4987 ],
 	[ 10.0000, -83.7908 ],
 	[ 10.0000, -68.7908 ],
 	[ 10.0000, -60.9368 ],
@@ -1101,7 +1101,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr002 = polygon({ points: [ [ 10.00
 	[ 11.9753, -99.2804 ],
 	[ 10.0000, -99.4987 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr003 = polygon({ points: [ [ -89.3045, 121.3467 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr003 = polygon({ points: [ [ -89.3045, 121.3467 ],
 	[ -122.6379, 179.0817 ],
 	[ -118.3078, 181.5817 ],
 	[ -102.5998, 154.3747 ],
@@ -1113,7 +1113,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr003 = polygon({ points: [ [ -89.3
 	[ -60.4370, 138.0133 ],
 	[ -89.3045, 121.3467 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr004 = polygon({ points: [ [ -60.4370, -138.0133 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr004 = polygon({ points: [ [ -60.4370, -138.0133 ],
 	[ -93.7704, -195.7484 ],
 	[ -98.1005, -193.2484 ],
 	[ -82.3925, -166.0414 ],
@@ -1125,7 +1125,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr004 = polygon({ points: [ [ -60.4
 	[ -89.3045, -121.3467 ],
 	[ -60.4370, -138.0133 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr005 = polygon({ points: [ [ 149.7416, 16.6667 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr005 = polygon({ points: [ [ 149.7416, 16.6667 ],
 	[ 216.4082, 16.6667 ],
 	[ 216.4082, 11.6667 ],
 	[ 184.9923, 11.6667 ],
@@ -1137,7 +1137,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr005 = polygon({ points: [ [ 149.7
 	[ 149.7416, -16.6667 ],
 	[ 149.7416, 16.6667 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr006 = polygon({ points: [ [ 37.5000, 18.0828 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr006 = polygon({ points: [ [ 37.5000, 18.0828 ],
 	[ 37.5000, -51.9172 ],
 	[ 35.0000, -51.9172 ],
 	[ 35.0000, -36.2092 ],
@@ -1155,7 +1155,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr006 = polygon({ points: [ [ 37.50
 	[ 35.0000, 18.0828 ],
 	[ 37.5000, 18.0828 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr007 = polygon({ points: [ [ -37.5000, -18.0828 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr007 = polygon({ points: [ [ -37.5000, -18.0828 ],
 	[ -37.5000, 51.9172 ],
 	[ -35.0000, 51.9172 ],
 	[ -35.0000, 36.2092 ],
@@ -1173,7 +1173,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr007 = polygon({ points: [ [ -37.5
 	[ -35.0000, -18.0828 ],
 	[ -37.5000, -18.0828 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr008 = polygon({ points: [ [ -76.3850, 145.7743 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr008 = polygon({ points: [ [ -76.3850, 145.7743 ],
 	[ -76.5345, 147.2917 ],
 	[ -76.9771, 148.7507 ],
 	[ -77.6958, 150.0954 ],
@@ -1207,7 +1207,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr008 = polygon({ points: [ [ -76.3
 	[ -76.5345, 144.2569 ],
 	[ -76.3850, 145.7743 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr009 = polygon({ points: [ [ 26.4387, 245.9061 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr009 = polygon({ points: [ [ 26.4387, 245.9061 ],
 	[ 26.3218, 247.8773 ],
 	[ 25.9725, 249.8209 ],
 	[ 25.3957, 251.7095 ],
@@ -1262,7 +1262,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr009 = polygon({ points: [ [ 26.43
 	[ 26.3218, 243.9349 ],
 	[ 26.4387, 245.9061 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr010 = polygon({ points: [ [ -201.1803, 114.4902 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr010 = polygon({ points: [ [ -201.1803, 114.4902 ],
 	[ -201.2973, 116.4614 ],
 	[ -201.6466, 118.4050 ],
 	[ -202.2233, 120.2936 ],
@@ -1317,7 +1317,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr010 = polygon({ points: [ [ -201.
 	[ -201.2973, 112.5190 ],
 	[ -201.1803, 114.4902 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr011 = polygon({ points: [ [ -76.3850, -145.7743 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr011 = polygon({ points: [ [ -76.3850, -145.7743 ],
 	[ -76.5345, -144.2569 ],
 	[ -76.9771, -142.7979 ],
 	[ -77.6958, -141.4532 ],
@@ -1351,7 +1351,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr011 = polygon({ points: [ [ -76.3
 	[ -76.5345, -147.2917 ],
 	[ -76.3850, -145.7743 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr012 = polygon({ points: [ [ -201.1803, -114.4902 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr012 = polygon({ points: [ [ -201.1803, -114.4902 ],
 	[ -201.2973, -112.5190 ],
 	[ -201.6466, -110.5754 ],
 	[ -202.2233, -108.6868 ],
@@ -1406,7 +1406,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr012 = polygon({ points: [ [ -201.
 	[ -201.2973, -116.4614 ],
 	[ -201.1803, -114.4902 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr013 = polygon({ points: [ [ 26.4387, -245.9061 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr013 = polygon({ points: [ [ 26.4387, -245.9061 ],
 	[ 26.3218, -243.9349 ],
 	[ 25.9725, -241.9914 ],
 	[ 25.3957, -240.1028 ],
@@ -1461,7 +1461,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr013 = polygon({ points: [ [ 26.43
 	[ 26.3218, -247.8773 ],
 	[ 26.4387, -245.9061 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr014 = polygon({ points: [ [ 176.1034, -0.0000 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr014 = polygon({ points: [ [ 176.1034, -0.0000 ],
 	[ 175.9540, 1.5174 ],
 	[ 175.5114, 2.9764 ],
 	[ 174.7926, 4.3211 ],
@@ -1495,7 +1495,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr014 = polygon({ points: [ [ 176.1
 	[ 175.9540, -1.5174 ],
 	[ 176.1034, -0.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr015 = polygon({ points: [ [ 224.7416, -131.4159 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr015 = polygon({ points: [ [ 224.7416, -131.4159 ],
 	[ 224.6246, -129.4447 ],
 	[ 224.2753, -127.5012 ],
 	[ 223.6986, -125.6126 ],
@@ -1550,7 +1550,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr015 = polygon({ points: [ [ 224.7
 	[ 224.6246, -133.3871 ],
 	[ 224.7416, -131.4159 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr016 = polygon({ points: [ [ 224.7416, 131.4159 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr016 = polygon({ points: [ [ 224.7416, 131.4159 ],
 	[ 224.6246, 133.3871 ],
 	[ 224.2753, 135.3307 ],
 	[ 223.6986, 137.2193 ],
@@ -1605,13 +1605,13 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr016 = polygon({ points: [ [ 224.7
 	[ 224.6246, 129.4447 ],
 	[ 224.7416, 131.4159 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr017 = polygon({ points: [ [ 36.6667, -75.1251 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr017 = polygon({ points: [ [ 36.6667, -75.1251 ],
 	[ 23.3333, -75.1251 ],
 	[ 23.3333, -85.1251 ],
 	[ 36.6667, -85.1251 ],
 	[ 36.6667, -75.1251 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr018 = polygon({ points: [ [ 33.3333, -7.6251 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr018 = polygon({ points: [ [ 33.3333, -7.6251 ],
 	[ 33.2693, -6.9748 ],
 	[ 33.0796, -6.3495 ],
 	[ 32.7716, -5.7732 ],
@@ -1645,7 +1645,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr018 = polygon({ points: [ [ 33.33
 	[ 33.2693, -8.2754 ],
 	[ 33.3333, -7.6251 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr019 = polygon({ points: [ [ 33.3333, -26.2092 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr019 = polygon({ points: [ [ 33.3333, -26.2092 ],
 	[ 33.2693, -25.5589 ],
 	[ 33.0796, -24.9336 ],
 	[ 32.7716, -24.3573 ],
@@ -1679,13 +1679,13 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr019 = polygon({ points: [ [ 33.33
 	[ 33.2693, -26.8595 ],
 	[ 33.3333, -26.2092 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr020 = polygon({ points: [ [ -36.6667, 75.1251 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr020 = polygon({ points: [ [ -36.6667, 75.1251 ],
 	[ -23.3333, 75.1251 ],
 	[ -23.3333, 85.1251 ],
 	[ -36.6667, 85.1251 ],
 	[ -36.6667, 75.1251 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr021 = polygon({ points: [ [ -26.6667, 7.6251 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr021 = polygon({ points: [ [ -26.6667, 7.6251 ],
 	[ -26.7307, 8.2754 ],
 	[ -26.9204, 8.9008 ],
 	[ -27.2284, 9.4770 ],
@@ -1719,7 +1719,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr021 = polygon({ points: [ [ -26.6
 	[ -26.7307, 6.9748 ],
 	[ -26.6667, 7.6251 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr022 = polygon({ points: [ [ -26.6667, 26.2092 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr022 = polygon({ points: [ [ -26.6667, 26.2092 ],
 	[ -26.7307, 26.8595 ],
 	[ -26.9204, 27.4848 ],
 	[ -27.2284, 28.0611 ],
@@ -1753,7 +1753,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr022 = polygon({ points: [ [ -26.6
 	[ -26.7307, 25.5589 ],
 	[ -26.6667, 26.2092 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr023 = polygon({ points: [ [ -65.1714, 114.8802 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr023 = polygon({ points: [ [ -65.1714, 114.8802 ],
 	[ -65.2856, 115.0396 ],
 	[ -65.4287, 115.1736 ],
 	[ -65.5952, 115.2771 ],
@@ -1790,7 +1790,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr023 = polygon({ points: [ [ -65.1
 	[ -58.3174, 103.0088 ],
 	[ -65.1714, 114.8802 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr024 = polygon({ points: [ [ -66.9035, -113.8802 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr024 = polygon({ points: [ [ -66.9035, -113.8802 ],
 	[ -66.9844, -114.0588 ],
 	[ -67.0289, -114.2497 ],
 	[ -67.0353, -114.4456 ],
@@ -1826,7 +1826,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr024 = polygon({ points: [ [ -66.9
 	[ -60.0495, -102.0088 ],
 	[ -66.9035, -113.8802 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr025 = polygon({ points: [ [ 132.0749, -1.0000 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr025 = polygon({ points: [ [ 132.0749, -1.0000 ],
 	[ 132.2700, -0.9808 ],
 	[ 132.4576, -0.9239 ],
 	[ 132.6305, -0.8315 ],
@@ -1862,7 +1862,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr025 = polygon({ points: [ [ 132.0
 	[ 118.3669, -1.0000 ],
 	[ 132.0749, -1.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr026 = polygon({ points: [ [ 1.0000, 98.4987 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr026 = polygon({ points: [ [ 1.0000, 98.4987 ],
 	[ 0.9808, 98.6938 ],
 	[ 0.9239, 98.8814 ],
 	[ 0.8315, 99.0543 ],
@@ -1898,7 +1898,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr026 = polygon({ points: [ [ 1.000
 	[ 1.0000, 84.7908 ],
 	[ 1.0000, 98.4987 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr027 = polygon({ points: [ [ -1.0000, -98.4987 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr027 = polygon({ points: [ [ -1.0000, -98.4987 ],
 	[ -0.9808, -98.6938 ],
 	[ -0.9239, -98.8814 ],
 	[ -0.8315, -99.0543 ],
@@ -1934,7 +1934,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr027 = polygon({ points: [ [ -1.00
 	[ -1.0000, -84.7908 ],
 	[ -1.0000, -98.4987 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr028 = polygon({ points: [ [ -69.1493, 199.1861 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr028 = polygon({ points: [ [ -69.1493, 199.1861 ],
 	[ -68.9987, 199.2927 ],
 	[ -68.8703, 199.4252 ],
 	[ -68.7683, 199.5790 ],
@@ -1971,7 +1971,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr028 = polygon({ points: [ [ -69.1
 	[ -81.0208, 192.3321 ],
 	[ -69.1493, 199.1861 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr029 = polygon({ points: [ [ -138.9256, 161.2102 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr029 = polygon({ points: [ [ -138.9256, 161.2102 ],
 	[ -139.0849, 161.0960 ],
 	[ -139.2189, 160.9529 ],
 	[ -139.3224, 160.7865 ],
@@ -2008,7 +2008,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr029 = polygon({ points: [ [ -138.
 	[ -127.0541, 168.0642 ],
 	[ -138.9256, 161.2102 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr030 = polygon({ points: [ [ -106.8381, 187.0490 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr030 = polygon({ points: [ [ -106.8381, 187.0490 ],
 	[ -106.9523, 187.2084 ],
 	[ -107.0954, 187.3424 ],
 	[ -107.2618, 187.4459 ],
@@ -2044,7 +2044,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr030 = polygon({ points: [ [ -106.
 	[ -92.1301, 161.5741 ],
 	[ -106.8381, 187.0490 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr031 = polygon({ points: [ [ -12.2446, 232.0401 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr031 = polygon({ points: [ [ -12.2446, 232.0401 ],
 	[ -12.0940, 232.1467 ],
 	[ -11.9655, 232.2792 ],
 	[ -11.8636, 232.4330 ],
@@ -2081,7 +2081,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr031 = polygon({ points: [ [ -12.2
 	[ -24.1160, 225.1861 ],
 	[ -12.2446, 232.0401 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr032 = polygon({ points: [ [ -195.8303, 128.3562 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr032 = polygon({ points: [ [ -195.8303, 128.3562 ],
 	[ -195.9809, 128.2496 ],
 	[ -196.1094, 128.1171 ],
 	[ -196.2113, 127.9633 ],
@@ -2119,7 +2119,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr032 = polygon({ points: [ [ -195.
 	[ -183.9589, 135.2102 ],
 	[ -195.8303, 128.3562 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr033 = polygon({ points: [ [ -137.9256, -159.4782 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr033 = polygon({ points: [ [ -137.9256, -159.4782 ],
 	[ -138.1041, -159.3972 ],
 	[ -138.2950, -159.3527 ],
 	[ -138.4910, -159.3463 ],
@@ -2156,7 +2156,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr033 = polygon({ points: [ [ -137.
 	[ -126.0541, -166.3321 ],
 	[ -137.9256, -159.4782 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr034 = polygon({ points: [ [ -70.1493, -200.9182 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr034 = polygon({ points: [ [ -70.1493, -200.9182 ],
 	[ -69.9817, -200.9953 ],
 	[ -69.8027, -201.0403 ],
 	[ -69.6186, -201.0517 ],
@@ -2194,7 +2194,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr034 = polygon({ points: [ [ -70.1
 	[ -82.0208, -194.0642 ],
 	[ -70.1493, -200.9182 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr035 = polygon({ points: [ [ -108.5701, -186.0490 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr035 = polygon({ points: [ [ -108.5701, -186.0490 ],
 	[ -108.6511, -186.2276 ],
 	[ -108.6956, -186.4185 ],
 	[ -108.7020, -186.6144 ],
@@ -2231,7 +2231,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr035 = polygon({ points: [ [ -108.
 	[ -93.8622, -160.5741 ],
 	[ -108.5701, -186.0490 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr036 = polygon({ points: [ [ -194.8303, -126.6242 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr036 = polygon({ points: [ [ -194.8303, -126.6242 ],
 	[ -194.9980, -126.5470 ],
 	[ -195.1769, -126.5020 ],
 	[ -195.3611, -126.4907 ],
@@ -2269,7 +2269,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr036 = polygon({ points: [ [ -194.
 	[ -182.9589, -133.4782 ],
 	[ -194.8303, -126.6242 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr037 = polygon({ points: [ [ -13.2446, -233.7721 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr037 = polygon({ points: [ [ -13.2446, -233.7721 ],
 	[ -13.0769, -233.8493 ],
 	[ -12.8980, -233.8943 ],
 	[ -12.7138, -233.9056 ],
@@ -2306,7 +2306,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr037 = polygon({ points: [ [ -13.2
 	[ -25.1160, -226.9182 ],
 	[ -13.2446, -233.7721 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr038 = polygon({ points: [ [ 207.0749, -39.7080 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr038 = polygon({ points: [ [ 207.0749, -39.7080 ],
 	[ 207.0941, -39.9031 ],
 	[ 207.1510, -40.0906 ],
 	[ 207.2434, -40.2635 ],
@@ -2343,7 +2343,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr038 = polygon({ points: [ [ 207.0
 	[ 207.0749, -26.0000 ],
 	[ 207.0749, -39.7080 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr039 = polygon({ points: [ [ 209.0749, 39.7080 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr039 = polygon({ points: [ [ 209.0749, 39.7080 ],
 	[ 209.0557, 39.9031 ],
 	[ 208.9988, 40.0906 ],
 	[ 208.9064, 40.2635 ],
@@ -2380,7 +2380,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr039 = polygon({ points: [ [ 209.0
 	[ 209.0749, 26.0000 ],
 	[ 209.0749, 39.7080 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr040 = polygon({ points: [ [ 215.4082, -1.0000 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr040 = polygon({ points: [ [ 215.4082, -1.0000 ],
 	[ 215.6033, -0.9808 ],
 	[ 215.7909, -0.9239 ],
 	[ 215.9638, -0.8315 ],
@@ -2416,7 +2416,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr040 = polygon({ points: [ [ 215.4
 	[ 185.9923, -1.0000 ],
 	[ 215.4082, -1.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr041 = polygon({ points: [ [ 207.0749, -105.4159 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr041 = polygon({ points: [ [ 207.0749, -105.4159 ],
 	[ 207.0941, -105.6110 ],
 	[ 207.1510, -105.7986 ],
 	[ 207.2434, -105.9715 ],
@@ -2452,7 +2452,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr041 = polygon({ points: [ [ 207.0
 	[ 207.0749, -91.7080 ],
 	[ 207.0749, -105.4159 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr042 = polygon({ points: [ [ 209.0749, 105.4159 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr042 = polygon({ points: [ [ 209.0749, 105.4159 ],
 	[ 209.0557, 105.6110 ],
 	[ 208.9988, 105.7986 ],
 	[ 208.9064, 105.9715 ],
@@ -2488,7 +2488,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr042 = polygon({ points: [ [ 209.0
 	[ 209.0749, 91.7080 ],
 	[ 209.0749, 105.4159 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr043 = polygon({ points: [ [ -1.0000, 61.9368 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr043 = polygon({ points: [ [ -1.0000, 61.9368 ],
 	[ -0.9808, 61.7417 ],
 	[ -0.9239, 61.5541 ],
 	[ -0.8315, 61.3812 ],
@@ -2524,7 +2524,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr043 = polygon({ points: [ [ -1.00
 	[ -1.0000, 67.7908 ],
 	[ -1.0000, 61.9368 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr044 = polygon({ points: [ [ 29.0000, 24.0828 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr044 = polygon({ points: [ [ 29.0000, 24.0828 ],
 	[ 29.0192, 23.8877 ],
 	[ 29.0761, 23.7001 ],
 	[ 29.1685, 23.5272 ],
@@ -2561,7 +2561,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr044 = polygon({ points: [ [ 29.00
 	[ 29.0000, 29.9368 ],
 	[ 29.0000, 24.0828 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr045 = polygon({ points: [ [ 29.0000, -71.6251 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr045 = polygon({ points: [ [ 29.0000, -71.6251 ],
 	[ 29.0192, -71.8202 ],
 	[ 29.0761, -72.0078 ],
 	[ 29.1685, -72.1807 ],
@@ -2597,7 +2597,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr045 = polygon({ points: [ [ 29.00
 	[ 29.0000, -57.9172 ],
 	[ 29.0000, -71.6251 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr046 = polygon({ points: [ [ 54.7080, -17.9172 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr046 = polygon({ points: [ [ 54.7080, -17.9172 ],
 	[ 54.9031, -17.8980 ],
 	[ 55.0906, -17.8411 ],
 	[ 55.2635, -17.7487 ],
@@ -2633,7 +2633,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr046 = polygon({ points: [ [ 54.70
 	[ 41.0000, -17.9172 ],
 	[ 54.7080, -17.9172 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr047 = polygon({ points: [ [ 31.0000, 17.0828 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr047 = polygon({ points: [ [ 31.0000, 17.0828 ],
 	[ 30.9808, 17.2779 ],
 	[ 30.9239, 17.4655 ],
 	[ 30.8315, 17.6384 ],
@@ -2669,7 +2669,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr047 = polygon({ points: [ [ 31.00
 	[ 31.0000, 3.3749 ],
 	[ 31.0000, 17.0828 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr048 = polygon({ points: [ [ 29.0000, -50.9172 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr048 = polygon({ points: [ [ 29.0000, -50.9172 ],
 	[ 29.0192, -51.1123 ],
 	[ 29.0761, -51.2999 ],
 	[ 29.1685, -51.4728 ],
@@ -2705,7 +2705,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr048 = polygon({ points: [ [ 29.00
 	[ 29.0000, -37.2092 ],
 	[ 29.0000, -50.9172 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr049 = polygon({ points: [ [ 1.0000, -61.9368 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr049 = polygon({ points: [ [ 1.0000, -61.9368 ],
 	[ 0.9808, -61.7417 ],
 	[ 0.9239, -61.5541 ],
 	[ 0.8315, -61.3812 ],
@@ -2741,7 +2741,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr049 = polygon({ points: [ [ 1.000
 	[ 1.0000, -67.7908 ],
 	[ 1.0000, -61.9368 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr050 = polygon({ points: [ [ -29.0000, -24.0828 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr050 = polygon({ points: [ [ -29.0000, -24.0828 ],
 	[ -29.0192, -23.8877 ],
 	[ -29.0761, -23.7001 ],
 	[ -29.1685, -23.5272 ],
@@ -2777,7 +2777,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr050 = polygon({ points: [ [ -29.0
 	[ -29.0000, -29.9368 ],
 	[ -29.0000, -24.0828 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr051 = polygon({ points: [ [ -29.0000, 71.6251 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr051 = polygon({ points: [ [ -29.0000, 71.6251 ],
 	[ -29.0192, 71.8202 ],
 	[ -29.0761, 72.0078 ],
 	[ -29.1685, 72.1807 ],
@@ -2813,7 +2813,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr051 = polygon({ points: [ [ -29.0
 	[ -29.0000, 57.9172 ],
 	[ -29.0000, 71.6251 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr052 = polygon({ points: [ [ -54.7080, 17.9172 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr052 = polygon({ points: [ [ -54.7080, 17.9172 ],
 	[ -54.9031, 17.8980 ],
 	[ -55.0906, 17.8411 ],
 	[ -55.2635, 17.7487 ],
@@ -2849,7 +2849,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr052 = polygon({ points: [ [ -54.7
 	[ -41.0000, 17.9172 ],
 	[ -54.7080, 17.9172 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr053 = polygon({ points: [ [ -31.0000, -17.0828 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr053 = polygon({ points: [ [ -31.0000, -17.0828 ],
 	[ -30.9808, -17.2779 ],
 	[ -30.9239, -17.4655 ],
 	[ -30.8315, -17.6384 ],
@@ -2885,7 +2885,7 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr053 = polygon({ points: [ [ -31.0
 	[ -31.0000, -3.3749 ],
 	[ -31.0000, -17.0828 ] ] });
 
-const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr054 = polygon({ points: [ [ -29.0000, 50.9172 ],
+const ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr054 = polygon({ points: [ [ -29.0000, 50.9172 ],
 	[ -29.0192, 51.1123 ],
 	[ -29.0761, 51.2999 ],
 	[ -29.1685, 51.4728 ],
@@ -2921,88 +2921,209 @@ const ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr054 = polygon({ points: [ [ -29.0
 	[ -29.0000, 37.2092 ],
 	[ -29.0000, 50.9172 ] ] });
 
-face_fig_sfTube_SFG_pattern_Fa000 = subtract( ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr001, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr002, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr003, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr004, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr005, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr006, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr007, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr008, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr009, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr010, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr011, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr012, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr013, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr014, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr015, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr016, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr017, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr018, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr019, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr020, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr021, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr022, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr023, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr024, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr025, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr026, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr027, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr028, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr029, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr030, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr031, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr032, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr033, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr034, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr035, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr036, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr037, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr038, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr039, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr040, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr041, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr042, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr043, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr044, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr045, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr046, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr047, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr048, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr049, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr050, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr051, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr052, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr053, ctr_face_fig_sfTube_SFG_pattern_Fa000_Ctr054 );
-fig_sfTube_SFG_pattern = face_fig_sfTube_SFG_pattern_Fa000;
-const ctr_face_fig_sfTube_SFG_profiles_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
-	[ 50.0000, 0.0000 ],
-	[ 50.0000, 10.0000 ],
+face_fig_multiFacets_SFG_pattern_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr001, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr002, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr003, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr004, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr005, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr006, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr007, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr008, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr009, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr010, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr011, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr012, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr013, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr014, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr015, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr016, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr017, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr018, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr019, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr020, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr021, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr022, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr023, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr024, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr025, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr026, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr027, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr028, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr029, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr030, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr031, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr032, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr033, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr034, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr035, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr036, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr037, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr038, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr039, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr040, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr041, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr042, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr043, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr044, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr045, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr046, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr047, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr048, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr049, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr050, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr051, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr052, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr053, ctr_face_fig_multiFacets_SFG_pattern_Fa000_Ctr054 );
+fig_multiFacets_SFG_pattern = face_fig_multiFacets_SFG_pattern_Fa000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+	[ 20.0000, 0.0000 ],
+	[ 20.0000, 10.0000 ],
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_profiles_Fa000 = ctr_face_fig_sfTube_SFG_profiles_Fa000_Ctr000;
-const ctr_face_fig_sfTube_SFG_profiles_Fa001_Ctr000 = polygon({ points: [ [ 50.0000, 0.0000 ],
-	[ 51.9579, 0.1283 ],
-	[ 53.8823, 0.5111 ],
-	[ 55.7403, 1.1418 ],
-	[ 57.5000, 2.0096 ],
-	[ 59.1314, 3.0997 ],
-	[ 60.6066, 4.3934 ],
-	[ 61.9003, 5.8686 ],
-	[ 62.9904, 7.5000 ],
-	[ 63.8582, 9.2597 ],
-	[ 64.4889, 11.1177 ],
-	[ 64.8717, 13.0421 ],
-	[ 65.0000, 15.0000 ],
-	[ 55.0000, 15.0000 ],
-	[ 54.9039, 14.0245 ],
-	[ 54.6194, 13.0866 ],
-	[ 54.1573, 12.2221 ],
-	[ 53.5355, 11.4645 ],
-	[ 52.7779, 10.8427 ],
-	[ 51.9134, 10.3806 ],
-	[ 50.9755, 10.0961 ],
-	[ 50.0000, 10.0000 ],
-	[ 50.0000, 0.0000 ] ] });
+face_fig_multiFacets_SFG_profiles_Fa000 = ctr_face_fig_multiFacets_SFG_profiles_Fa000_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa001_Ctr000 = polygon({ points: [ [ 20.0000, 0.0000 ],
+	[ 21.9579, -0.1283 ],
+	[ 23.8823, -0.5111 ],
+	[ 25.7403, -1.1418 ],
+	[ 27.5000, -2.0096 ],
+	[ 29.1314, -3.0997 ],
+	[ 30.6066, -4.3934 ],
+	[ 37.6777, 2.6777 ],
+	[ 36.2362, 4.0101 ],
+	[ 34.6946, 5.2254 ],
+	[ 33.0625, 6.3160 ],
+	[ 31.3498, 7.2752 ],
+	[ 29.5671, 8.0970 ],
+	[ 27.7254, 8.7764 ],
+	[ 25.8361, 9.3092 ],
+	[ 23.9109, 9.6922 ],
+	[ 21.9615, 9.9229 ],
+	[ 20.0000, 10.0000 ],
+	[ 20.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_profiles_Fa001 = ctr_face_fig_sfTube_SFG_profiles_Fa001_Ctr000;
-const ctr_face_fig_sfTube_SFG_profiles_Fa002_Ctr000 = polygon({ points: [ [ 65.0000, 15.0000 ],
-	[ 65.0000, 65.0000 ],
-	[ 55.0000, 65.0000 ],
-	[ 55.0000, 15.0000 ],
-	[ 65.0000, 15.0000 ] ] });
+face_fig_multiFacets_SFG_profiles_Fa001 = ctr_face_fig_multiFacets_SFG_profiles_Fa001_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa002_Ctr000 = polygon({ points: [ [ 30.6066, -4.3934 ],
+	[ 101.3173, -75.1041 ],
+	[ 108.3883, -68.0330 ],
+	[ 37.6777, 2.6777 ],
+	[ 30.6066, -4.3934 ] ] });
 
-face_fig_sfTube_SFG_profiles_Fa002 = ctr_face_fig_sfTube_SFG_profiles_Fa002_Ctr000;
-const ctr_face_fig_sfTube_SFG_profiles_Fa003_Ctr000 = polygon({ points: [ [ 0.0000, 200.0000 ],
-	[ 20.0000, 200.0000 ],
-	[ 20.0000, 210.0000 ],
-	[ 0.0000, 210.0000 ],
-	[ 0.0000, 200.0000 ] ] });
+face_fig_multiFacets_SFG_profiles_Fa002 = ctr_face_fig_multiFacets_SFG_profiles_Fa002_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa003_Ctr000 = polygon({ points: [ [ 101.3173, -75.1041 ],
+	[ 102.6110, -76.5793 ],
+	[ 103.7011, -78.2107 ],
+	[ 104.5689, -79.9704 ],
+	[ 105.1996, -81.8284 ],
+	[ 105.5824, -83.7528 ],
+	[ 105.7107, -85.7107 ],
+	[ 115.7107, -85.7107 ],
+	[ 115.6336, -83.7492 ],
+	[ 115.4029, -81.7998 ],
+	[ 115.0199, -79.8745 ],
+	[ 114.4871, -77.9853 ],
+	[ 113.8077, -76.1436 ],
+	[ 112.9858, -74.3609 ],
+	[ 112.0267, -72.6482 ],
+	[ 110.9361, -71.0160 ],
+	[ 109.7208, -69.4745 ],
+	[ 108.3883, -68.0330 ],
+	[ 101.3173, -75.1041 ] ] });
 
-face_fig_sfTube_SFG_profiles_Fa003 = ctr_face_fig_sfTube_SFG_profiles_Fa003_Ctr000;
-const ctr_face_fig_sfTube_SFG_profiles_Fa004_Ctr000 = polygon({ points: [ [ 20.0000, 200.0000 ],
-	[ 21.9579, 200.1283 ],
-	[ 23.8823, 200.5111 ],
-	[ 25.7403, 201.1418 ],
-	[ 27.5000, 202.0096 ],
-	[ 29.1314, 203.0997 ],
-	[ 30.6066, 204.3934 ],
-	[ 31.9003, 205.8686 ],
-	[ 32.9904, 207.5000 ],
-	[ 33.8582, 209.2597 ],
-	[ 34.4889, 211.1177 ],
-	[ 34.8717, 213.0421 ],
-	[ 35.0000, 215.0000 ],
-	[ 25.0000, 215.0000 ],
-	[ 24.9039, 214.0245 ],
-	[ 24.6194, 213.0866 ],
-	[ 24.1573, 212.2221 ],
-	[ 23.5355, 211.4645 ],
-	[ 22.7779, 210.8427 ],
-	[ 21.9134, 210.3806 ],
-	[ 20.9755, 210.0961 ],
-	[ 20.0000, 210.0000 ],
-	[ 20.0000, 200.0000 ] ] });
+face_fig_multiFacets_SFG_profiles_Fa003 = ctr_face_fig_multiFacets_SFG_profiles_Fa003_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa004_Ctr000 = polygon({ points: [ [ 105.7107, -85.7107 ],
+	[ 105.7107, -135.7107 ],
+	[ 115.7107, -135.7107 ],
+	[ 115.7107, -85.7107 ],
+	[ 105.7107, -85.7107 ] ] });
 
-face_fig_sfTube_SFG_profiles_Fa004 = ctr_face_fig_sfTube_SFG_profiles_Fa004_Ctr000;
-const ctr_face_fig_sfTube_SFG_profiles_Fa005_Ctr000 = polygon({ points: [ [ 35.0000, 215.0000 ],
-	[ 35.0000, 235.0000 ],
-	[ 25.0000, 235.0000 ],
-	[ 25.0000, 215.0000 ],
-	[ 35.0000, 215.0000 ] ] });
+face_fig_multiFacets_SFG_profiles_Fa004 = ctr_face_fig_multiFacets_SFG_profiles_Fa004_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa005_Ctr000 = polygon({ points: [ [ 105.7107, -135.7107 ],
+	[ 105.7877, -137.6722 ],
+	[ 106.0185, -139.6215 ],
+	[ 106.4014, -141.5468 ],
+	[ 106.9343, -143.4361 ],
+	[ 107.6137, -145.2778 ],
+	[ 108.4355, -147.0604 ],
+	[ 109.3947, -148.7731 ],
+	[ 110.4853, -150.4053 ],
+	[ 111.7005, -151.9469 ],
+	[ 113.0330, -153.3883 ],
+	[ 120.1041, -146.3173 ],
+	[ 118.8104, -144.8421 ],
+	[ 117.7203, -143.2107 ],
+	[ 116.8525, -141.4509 ],
+	[ 116.2218, -139.5930 ],
+	[ 115.8390, -137.6686 ],
+	[ 115.7107, -135.7107 ],
+	[ 105.7107, -135.7107 ] ] });
 
-face_fig_sfTube_SFG_profiles_Fa005 = ctr_face_fig_sfTube_SFG_profiles_Fa005_Ctr000;
-fig_sfTube_SFG_profiles = union( face_fig_sfTube_SFG_profiles_Fa000, face_fig_sfTube_SFG_profiles_Fa001, face_fig_sfTube_SFG_profiles_Fa002, face_fig_sfTube_SFG_profiles_Fa003, face_fig_sfTube_SFG_profiles_Fa004, face_fig_sfTube_SFG_profiles_Fa005 );
-const ctr_face_fig_sfTube_SFG_f00_Fa000_Ctr000 = polygon({ points: [ [ 117.3669, 25.0000 ],
+face_fig_multiFacets_SFG_profiles_Fa005 = ctr_face_fig_multiFacets_SFG_profiles_Fa005_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa006_Ctr000 = polygon({ points: [ [ 113.0330, -153.3883 ],
+	[ 148.3883, -188.7437 ],
+	[ 155.4594, -181.6726 ],
+	[ 120.1041, -146.3173 ],
+	[ 113.0330, -153.3883 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa006 = ctr_face_fig_multiFacets_SFG_profiles_Fa006_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa007_Ctr000 = polygon({ points: [ [ 0.0000, 10.0000 ],
+	[ -0.9755, 10.0961 ],
+	[ -1.9134, 10.3806 ],
+	[ -2.7779, 10.8427 ],
+	[ -3.5355, 11.4645 ],
+	[ -4.1573, 12.2221 ],
+	[ -4.6194, 13.0866 ],
+	[ -4.9039, 14.0245 ],
+	[ -5.0000, 15.0000 ],
+	[ -15.0000, 15.0000 ],
+	[ -14.8717, 13.0421 ],
+	[ -14.4889, 11.1177 ],
+	[ -13.8582, 9.2597 ],
+	[ -12.9904, 7.5000 ],
+	[ -11.9003, 5.8686 ],
+	[ -10.6066, 4.3934 ],
+	[ -9.1314, 3.0997 ],
+	[ -7.5000, 2.0096 ],
+	[ -5.7403, 1.1418 ],
+	[ -3.8823, 0.5111 ],
+	[ -1.9579, 0.1283 ],
+	[ 0.0000, 0.0000 ],
+	[ 0.0000, 10.0000 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa007 = ctr_face_fig_multiFacets_SFG_profiles_Fa007_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa008_Ctr000 = polygon({ points: [ [ -5.0000, 15.0000 ],
+	[ -5.0000, 30.0000 ],
+	[ -15.0000, 30.0000 ],
+	[ -15.0000, 15.0000 ],
+	[ -5.0000, 15.0000 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa008 = ctr_face_fig_multiFacets_SFG_profiles_Fa008_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa009_Ctr000 = polygon({ points: [ [ -5.0000, 30.0000 ],
+	[ -5.1283, 31.9579 ],
+	[ -5.5111, 33.8823 ],
+	[ -6.1418, 35.7403 ],
+	[ -7.0096, 37.5000 ],
+	[ -8.0997, 39.1314 ],
+	[ -9.3934, 40.6066 ],
+	[ -16.4645, 33.5355 ],
+	[ -15.8427, 32.7779 ],
+	[ -15.3806, 31.9134 ],
+	[ -15.0961, 30.9755 ],
+	[ -15.0000, 30.0000 ],
+	[ -5.0000, 30.0000 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa009 = ctr_face_fig_multiFacets_SFG_profiles_Fa009_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa010_Ctr000 = polygon({ points: [ [ -9.3934, 40.6066 ],
+	[ -30.6066, 61.8198 ],
+	[ -37.6777, 54.7487 ],
+	[ -16.4645, 33.5355 ],
+	[ -9.3934, 40.6066 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa010 = ctr_face_fig_multiFacets_SFG_profiles_Fa010_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa011_Ctr000 = polygon({ points: [ [ -30.6066, 61.8198 ],
+	[ -32.0818, 63.1135 ],
+	[ -33.7132, 64.2036 ],
+	[ -35.4730, 65.0714 ],
+	[ -37.3309, 65.7021 ],
+	[ -39.2553, 66.0849 ],
+	[ -41.2132, 66.2132 ],
+	[ -41.2132, 56.2132 ],
+	[ -40.2378, 56.1171 ],
+	[ -39.2998, 55.8326 ],
+	[ -38.4354, 55.3706 ],
+	[ -37.6777, 54.7487 ],
+	[ -30.6066, 61.8198 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa011 = ctr_face_fig_multiFacets_SFG_profiles_Fa011_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa012_Ctr000 = polygon({ points: [ [ -41.2132, 66.2132 ],
+	[ -121.2132, 66.2132 ],
+	[ -121.2132, 56.2132 ],
+	[ -41.2132, 56.2132 ],
+	[ -41.2132, 66.2132 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa012 = ctr_face_fig_multiFacets_SFG_profiles_Fa012_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa013_Ctr000 = polygon({ points: [ [ -121.2132, 66.2132 ],
+	[ -122.1887, 66.3093 ],
+	[ -123.1266, 66.5938 ],
+	[ -123.9911, 67.0559 ],
+	[ -124.7487, 67.6777 ],
+	[ -125.3706, 68.4354 ],
+	[ -125.8326, 69.2998 ],
+	[ -126.1171, 70.2378 ],
+	[ -126.2132, 71.2132 ],
+	[ -136.2132, 71.2132 ],
+	[ -136.0849, 69.2553 ],
+	[ -135.7021, 67.3309 ],
+	[ -135.0714, 65.4730 ],
+	[ -134.2036, 63.7132 ],
+	[ -133.1135, 62.0818 ],
+	[ -131.8198, 60.6066 ],
+	[ -130.3446, 59.3129 ],
+	[ -128.7132, 58.2228 ],
+	[ -126.9535, 57.3550 ],
+	[ -125.0955, 56.7243 ],
+	[ -123.1711, 56.3415 ],
+	[ -121.2132, 56.2132 ],
+	[ -121.2132, 66.2132 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa013 = ctr_face_fig_multiFacets_SFG_profiles_Fa013_Ctr000;
+const ctr_face_fig_multiFacets_SFG_profiles_Fa014_Ctr000 = polygon({ points: [ [ -126.2132, 71.2132 ],
+	[ -126.2132, 86.2132 ],
+	[ -136.2132, 86.2132 ],
+	[ -136.2132, 71.2132 ],
+	[ -126.2132, 71.2132 ] ] });
+
+face_fig_multiFacets_SFG_profiles_Fa014 = ctr_face_fig_multiFacets_SFG_profiles_Fa014_Ctr000;
+fig_multiFacets_SFG_profiles = union( face_fig_multiFacets_SFG_profiles_Fa000, face_fig_multiFacets_SFG_profiles_Fa001, face_fig_multiFacets_SFG_profiles_Fa002, face_fig_multiFacets_SFG_profiles_Fa003, face_fig_multiFacets_SFG_profiles_Fa004, face_fig_multiFacets_SFG_profiles_Fa005, face_fig_multiFacets_SFG_profiles_Fa006, face_fig_multiFacets_SFG_profiles_Fa007, face_fig_multiFacets_SFG_profiles_Fa008, face_fig_multiFacets_SFG_profiles_Fa009, face_fig_multiFacets_SFG_profiles_Fa010, face_fig_multiFacets_SFG_profiles_Fa011, face_fig_multiFacets_SFG_profiles_Fa012, face_fig_multiFacets_SFG_profiles_Fa013, face_fig_multiFacets_SFG_profiles_Fa014 );
+const ctr_face_fig_multiFacets_SFG_f00_Fa000_Ctr000 = polygon({ points: [ [ 117.3669, 25.0000 ],
 	[ 116.9363, 26.9425 ],
 	[ 116.4735, 28.8776 ],
 	[ 115.9787, 30.8048 ],
@@ -3310,7 +3431,7 @@ const ctr_face_fig_sfTube_SFG_f00_Fa000_Ctr000 = polygon({ points: [ [ 117.3669,
 	[ 117.3669, -25.0000 ],
 	[ 117.3669, 25.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f00_Fa000_Ctr001 = polygon({ points: [ [ 10.0000, -99.4987 ],
+const ctr_face_fig_multiFacets_SFG_f00_Fa000_Ctr001 = polygon({ points: [ [ 10.0000, -99.4987 ],
 	[ 11.9753, -99.2804 ],
 	[ 13.9458, -99.0228 ],
 	[ 15.9108, -98.7261 ],
@@ -3610,9 +3731,9 @@ const ctr_face_fig_sfTube_SFG_f00_Fa000_Ctr001 = polygon({ points: [ [ 10.0000, 
 	[ -10.0000, -99.4987 ],
 	[ 10.0000, -99.4987 ] ] });
 
-face_fig_sfTube_SFG_f00_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f00_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f00_Fa000_Ctr001 );
-fig_sfTube_SFG_f00 = face_fig_sfTube_SFG_f00_Fa000;
-const ctr_face_fig_sfTube_SFG_f01_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f00_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f00_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f00_Fa000_Ctr001 );
+fig_multiFacets_SFG_f00 = face_fig_multiFacets_SFG_f00_Fa000;
+const ctr_face_fig_multiFacets_SFG_f01_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 100.0000, 0.0000 ],
@@ -3620,7 +3741,7 @@ const ctr_face_fig_sfTube_SFG_f01_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 5
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f01_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 41.6667 ],
+const ctr_face_fig_multiFacets_SFG_f01_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 41.6667 ],
 	[ 16.6667, 8.3333 ],
 	[ 83.3333, 8.3333 ],
 	[ 83.3333, 13.3333 ],
@@ -3628,15 +3749,15 @@ const ctr_face_fig_sfTube_SFG_f01_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 
 	[ 83.3333, 41.6667 ],
 	[ 16.6667, 41.6667 ] ] });
 
-face_fig_sfTube_SFG_f01_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f01_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f01_Fa000_Ctr001 );
-fig_sfTube_SFG_f01 = face_fig_sfTube_SFG_f01_Fa000;
-const ctr_face_fig_sfTube_SFG_f02_Fa000_Ctr000 = polygon({ points: [ [ -33.3333, 23.3333 ],
+face_fig_multiFacets_SFG_f01_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f01_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f01_Fa000_Ctr001 );
+fig_multiFacets_SFG_f01 = face_fig_multiFacets_SFG_f01_Fa000;
+const ctr_face_fig_multiFacets_SFG_f02_Fa000_Ctr000 = polygon({ points: [ [ -33.3333, 23.3333 ],
 	[ -33.3333, -0.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 0.0000, 23.3333 ],
 	[ -33.3333, 23.3333 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f02_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 11.6667 ],
+const ctr_face_fig_multiFacets_SFG_f02_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 11.6667 ],
 	[ -9.0383, 13.1840 ],
 	[ -9.4809, 14.6431 ],
 	[ -10.1997, 15.9878 ],
@@ -3670,23 +3791,23 @@ const ctr_face_fig_sfTube_SFG_f02_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 
 	[ -9.0383, 10.1493 ],
 	[ -8.8889, 11.6667 ] ] });
 
-face_fig_sfTube_SFG_f02_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f02_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f02_Fa000_Ctr001 );
-fig_sfTube_SFG_f02 = face_fig_sfTube_SFG_f02_Fa000;
-const ctr_face_fig_sfTube_SFG_f03_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f02_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f02_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f02_Fa000_Ctr001 );
+fig_multiFacets_SFG_f02 = face_fig_multiFacets_SFG_f02_Fa000;
+const ctr_face_fig_multiFacets_SFG_f03_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-face_fig_sfTube_SFG_f03_Fa000 = ctr_face_fig_sfTube_SFG_f03_Fa000_Ctr000;
-fig_sfTube_SFG_f03 = face_fig_sfTube_SFG_f03_Fa000;
-const ctr_face_fig_sfTube_SFG_f04_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f03_Fa000 = ctr_face_fig_multiFacets_SFG_f03_Fa000_Ctr000;
+fig_multiFacets_SFG_f03 = face_fig_multiFacets_SFG_f03_Fa000;
+const ctr_face_fig_multiFacets_SFG_f04_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f04_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_f04_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
 	[ 41.5497, 26.9712 ],
 	[ 41.2004, 28.9148 ],
 	[ 40.6237, 30.8034 ],
@@ -3741,23 +3862,23 @@ const ctr_face_fig_sfTube_SFG_f04_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 
 	[ 41.5497, 23.0288 ],
 	[ 41.6667, 25.0000 ] ] });
 
-face_fig_sfTube_SFG_f04_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f04_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f04_Fa000_Ctr001 );
-fig_sfTube_SFG_f04 = face_fig_sfTube_SFG_f04_Fa000;
-const ctr_face_fig_sfTube_SFG_f05_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f04_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f04_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f04_Fa000_Ctr001 );
+fig_multiFacets_SFG_f04 = face_fig_multiFacets_SFG_f04_Fa000;
+const ctr_face_fig_multiFacets_SFG_f05_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-face_fig_sfTube_SFG_f05_Fa000 = ctr_face_fig_sfTube_SFG_f05_Fa000_Ctr000;
-fig_sfTube_SFG_f05 = face_fig_sfTube_SFG_f05_Fa000;
-const ctr_face_fig_sfTube_SFG_f06_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f05_Fa000 = ctr_face_fig_multiFacets_SFG_f05_Fa000_Ctr000;
+fig_multiFacets_SFG_f05 = face_fig_multiFacets_SFG_f05_Fa000;
+const ctr_face_fig_multiFacets_SFG_f06_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f06_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_f06_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
 	[ 41.5497, 26.9712 ],
 	[ 41.2004, 28.9148 ],
 	[ 40.6237, 30.8034 ],
@@ -3812,9 +3933,9 @@ const ctr_face_fig_sfTube_SFG_f06_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 
 	[ 41.5497, 23.0288 ],
 	[ 41.6667, 25.0000 ] ] });
 
-face_fig_sfTube_SFG_f06_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f06_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f06_Fa000_Ctr001 );
-fig_sfTube_SFG_f06 = face_fig_sfTube_SFG_f06_Fa000;
-const ctr_face_fig_sfTube_SFG_f07_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f06_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f06_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f06_Fa000_Ctr001 );
+fig_multiFacets_SFG_f06 = face_fig_multiFacets_SFG_f06_Fa000;
+const ctr_face_fig_multiFacets_SFG_f07_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 100.0000, 0.0000 ],
@@ -3822,7 +3943,7 @@ const ctr_face_fig_sfTube_SFG_f07_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 5
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f07_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 41.6667 ],
+const ctr_face_fig_multiFacets_SFG_f07_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 41.6667 ],
 	[ 16.6667, 8.3333 ],
 	[ 83.3333, 8.3333 ],
 	[ 83.3333, 13.3333 ],
@@ -3830,15 +3951,15 @@ const ctr_face_fig_sfTube_SFG_f07_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 
 	[ 83.3333, 41.6667 ],
 	[ 16.6667, 41.6667 ] ] });
 
-face_fig_sfTube_SFG_f07_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f07_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f07_Fa000_Ctr001 );
-fig_sfTube_SFG_f07 = face_fig_sfTube_SFG_f07_Fa000;
-const ctr_face_fig_sfTube_SFG_f08_Fa000_Ctr000 = polygon({ points: [ [ -33.3333, 23.3333 ],
+face_fig_multiFacets_SFG_f07_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f07_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f07_Fa000_Ctr001 );
+fig_multiFacets_SFG_f07 = face_fig_multiFacets_SFG_f07_Fa000;
+const ctr_face_fig_multiFacets_SFG_f08_Fa000_Ctr000 = polygon({ points: [ [ -33.3333, 23.3333 ],
 	[ -33.3333, -0.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 0.0000, 23.3333 ],
 	[ -33.3333, 23.3333 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f08_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 11.6667 ],
+const ctr_face_fig_multiFacets_SFG_f08_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 11.6667 ],
 	[ -9.0383, 13.1840 ],
 	[ -9.4809, 14.6431 ],
 	[ -10.1997, 15.9878 ],
@@ -3872,23 +3993,23 @@ const ctr_face_fig_sfTube_SFG_f08_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 
 	[ -9.0383, 10.1493 ],
 	[ -8.8889, 11.6667 ] ] });
 
-face_fig_sfTube_SFG_f08_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f08_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f08_Fa000_Ctr001 );
-fig_sfTube_SFG_f08 = face_fig_sfTube_SFG_f08_Fa000;
-const ctr_face_fig_sfTube_SFG_f09_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f08_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f08_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f08_Fa000_Ctr001 );
+fig_multiFacets_SFG_f08 = face_fig_multiFacets_SFG_f08_Fa000;
+const ctr_face_fig_multiFacets_SFG_f09_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-face_fig_sfTube_SFG_f09_Fa000 = ctr_face_fig_sfTube_SFG_f09_Fa000_Ctr000;
-fig_sfTube_SFG_f09 = face_fig_sfTube_SFG_f09_Fa000;
-const ctr_face_fig_sfTube_SFG_f10_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f09_Fa000 = ctr_face_fig_multiFacets_SFG_f09_Fa000_Ctr000;
+fig_multiFacets_SFG_f09 = face_fig_multiFacets_SFG_f09_Fa000;
+const ctr_face_fig_multiFacets_SFG_f10_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f10_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_f10_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
 	[ 41.5497, 26.9712 ],
 	[ 41.2004, 28.9148 ],
 	[ 40.6237, 30.8034 ],
@@ -3943,23 +4064,23 @@ const ctr_face_fig_sfTube_SFG_f10_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 
 	[ 41.5497, 23.0288 ],
 	[ 41.6667, 25.0000 ] ] });
 
-face_fig_sfTube_SFG_f10_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f10_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f10_Fa000_Ctr001 );
-fig_sfTube_SFG_f10 = face_fig_sfTube_SFG_f10_Fa000;
-const ctr_face_fig_sfTube_SFG_f11_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f10_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f10_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f10_Fa000_Ctr001 );
+fig_multiFacets_SFG_f10 = face_fig_multiFacets_SFG_f10_Fa000;
+const ctr_face_fig_multiFacets_SFG_f11_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-face_fig_sfTube_SFG_f11_Fa000 = ctr_face_fig_sfTube_SFG_f11_Fa000_Ctr000;
-fig_sfTube_SFG_f11 = face_fig_sfTube_SFG_f11_Fa000;
-const ctr_face_fig_sfTube_SFG_f12_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f11_Fa000 = ctr_face_fig_multiFacets_SFG_f11_Fa000_Ctr000;
+fig_multiFacets_SFG_f11 = face_fig_multiFacets_SFG_f11_Fa000;
+const ctr_face_fig_multiFacets_SFG_f12_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f12_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_f12_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
 	[ 41.5497, 26.9712 ],
 	[ 41.2004, 28.9148 ],
 	[ 40.6237, 30.8034 ],
@@ -4014,9 +4135,9 @@ const ctr_face_fig_sfTube_SFG_f12_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 
 	[ 41.5497, 23.0288 ],
 	[ 41.6667, 25.0000 ] ] });
 
-face_fig_sfTube_SFG_f12_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f12_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f12_Fa000_Ctr001 );
-fig_sfTube_SFG_f12 = face_fig_sfTube_SFG_f12_Fa000;
-const ctr_face_fig_sfTube_SFG_f13_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f12_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f12_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f12_Fa000_Ctr001 );
+fig_multiFacets_SFG_f12 = face_fig_multiFacets_SFG_f12_Fa000;
+const ctr_face_fig_multiFacets_SFG_f13_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 100.0000, 0.0000 ],
@@ -4024,7 +4145,7 @@ const ctr_face_fig_sfTube_SFG_f13_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 5
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f13_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 41.6667 ],
+const ctr_face_fig_multiFacets_SFG_f13_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 41.6667 ],
 	[ 16.6667, 8.3333 ],
 	[ 83.3333, 8.3333 ],
 	[ 83.3333, 13.3333 ],
@@ -4032,15 +4153,15 @@ const ctr_face_fig_sfTube_SFG_f13_Fa000_Ctr001 = polygon({ points: [ [ 16.6667, 
 	[ 83.3333, 41.6667 ],
 	[ 16.6667, 41.6667 ] ] });
 
-face_fig_sfTube_SFG_f13_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f13_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f13_Fa000_Ctr001 );
-fig_sfTube_SFG_f13 = face_fig_sfTube_SFG_f13_Fa000;
-const ctr_face_fig_sfTube_SFG_f14_Fa000_Ctr000 = polygon({ points: [ [ -33.3333, 23.3333 ],
+face_fig_multiFacets_SFG_f13_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f13_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f13_Fa000_Ctr001 );
+fig_multiFacets_SFG_f13 = face_fig_multiFacets_SFG_f13_Fa000;
+const ctr_face_fig_multiFacets_SFG_f14_Fa000_Ctr000 = polygon({ points: [ [ -33.3333, 23.3333 ],
 	[ -33.3333, -0.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 0.0000, 23.3333 ],
 	[ -33.3333, 23.3333 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f14_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 11.6667 ],
+const ctr_face_fig_multiFacets_SFG_f14_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 11.6667 ],
 	[ -9.0383, 13.1840 ],
 	[ -9.4809, 14.6431 ],
 	[ -10.1997, 15.9878 ],
@@ -4074,23 +4195,23 @@ const ctr_face_fig_sfTube_SFG_f14_Fa000_Ctr001 = polygon({ points: [ [ -8.8889, 
 	[ -9.0383, 10.1493 ],
 	[ -8.8889, 11.6667 ] ] });
 
-face_fig_sfTube_SFG_f14_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f14_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f14_Fa000_Ctr001 );
-fig_sfTube_SFG_f14 = face_fig_sfTube_SFG_f14_Fa000;
-const ctr_face_fig_sfTube_SFG_f15_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f14_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f14_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f14_Fa000_Ctr001 );
+fig_multiFacets_SFG_f14 = face_fig_multiFacets_SFG_f14_Fa000;
+const ctr_face_fig_multiFacets_SFG_f15_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-face_fig_sfTube_SFG_f15_Fa000 = ctr_face_fig_sfTube_SFG_f15_Fa000_Ctr000;
-fig_sfTube_SFG_f15 = face_fig_sfTube_SFG_f15_Fa000;
-const ctr_face_fig_sfTube_SFG_f16_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f15_Fa000 = ctr_face_fig_multiFacets_SFG_f15_Fa000_Ctr000;
+fig_multiFacets_SFG_f15 = face_fig_multiFacets_SFG_f15_Fa000;
+const ctr_face_fig_multiFacets_SFG_f16_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f16_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_f16_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
 	[ 41.5497, 26.9712 ],
 	[ 41.2004, 28.9148 ],
 	[ 40.6237, 30.8034 ],
@@ -4145,23 +4266,23 @@ const ctr_face_fig_sfTube_SFG_f16_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 
 	[ 41.5497, 23.0288 ],
 	[ 41.6667, 25.0000 ] ] });
 
-face_fig_sfTube_SFG_f16_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f16_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f16_Fa000_Ctr001 );
-fig_sfTube_SFG_f16 = face_fig_sfTube_SFG_f16_Fa000;
-const ctr_face_fig_sfTube_SFG_f17_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f16_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f16_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f16_Fa000_Ctr001 );
+fig_multiFacets_SFG_f16 = face_fig_multiFacets_SFG_f16_Fa000;
+const ctr_face_fig_multiFacets_SFG_f17_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-face_fig_sfTube_SFG_f17_Fa000 = ctr_face_fig_sfTube_SFG_f17_Fa000_Ctr000;
-fig_sfTube_SFG_f17 = face_fig_sfTube_SFG_f17_Fa000;
-const ctr_face_fig_sfTube_SFG_f18_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
+face_fig_multiFacets_SFG_f17_Fa000 = ctr_face_fig_multiFacets_SFG_f17_Fa000_Ctr000;
+fig_multiFacets_SFG_f17 = face_fig_multiFacets_SFG_f17_Fa000;
+const ctr_face_fig_multiFacets_SFG_f18_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 50.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 50.0000, 0.0000 ],
 	[ 50.0000, 50.0000 ],
 	[ 0.0000, 50.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f18_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
+const ctr_face_fig_multiFacets_SFG_f18_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 25.0000 ],
 	[ 41.5497, 26.9712 ],
 	[ 41.2004, 28.9148 ],
 	[ 40.6237, 30.8034 ],
@@ -4216,25 +4337,25 @@ const ctr_face_fig_sfTube_SFG_f18_Fa000_Ctr001 = polygon({ points: [ [ 41.6667, 
 	[ 41.5497, 23.0288 ],
 	[ 41.6667, 25.0000 ] ] });
 
-face_fig_sfTube_SFG_f18_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f18_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f18_Fa000_Ctr001 );
-fig_sfTube_SFG_f18 = face_fig_sfTube_SFG_f18_Fa000;
-const ctr_face_fig_sfTube_SFG_f19_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f18_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f18_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f18_Fa000_Ctr001 );
+fig_multiFacets_SFG_f18 = face_fig_multiFacets_SFG_f18_Fa000;
+const ctr_face_fig_multiFacets_SFG_f19_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 20.0000 ],
 	[ -15.0000, 20.0000 ],
 	[ -15.0000, 0.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_f19_Fa000 = ctr_face_fig_sfTube_SFG_f19_Fa000_Ctr000;
-fig_sfTube_SFG_f19 = face_fig_sfTube_SFG_f19_Fa000;
-const ctr_face_fig_sfTube_SFG_f20_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f19_Fa000 = ctr_face_fig_multiFacets_SFG_f19_Fa000_Ctr000;
+fig_multiFacets_SFG_f19 = face_fig_multiFacets_SFG_f19_Fa000;
+const ctr_face_fig_multiFacets_SFG_f20_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 20.0000 ],
 	[ 30.0000, 50.0000 ],
 	[ 30.0000, 30.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_f20_Fa000 = ctr_face_fig_sfTube_SFG_f20_Fa000_Ctr000;
-fig_sfTube_SFG_f20 = face_fig_sfTube_SFG_f20_Fa000;
-const ctr_face_fig_sfTube_SFG_f21_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
+face_fig_multiFacets_SFG_f20_Fa000 = ctr_face_fig_multiFacets_SFG_f20_Fa000_Ctr000;
+fig_multiFacets_SFG_f20 = face_fig_multiFacets_SFG_f20_Fa000;
+const ctr_face_fig_multiFacets_SFG_f21_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 80.0000, 0.0000 ],
 	[ 80.0000, 20.0000 ],
@@ -4242,7 +4363,7 @@ const ctr_face_fig_sfTube_SFG_f21_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 2
 	[ 30.0000, 20.0000 ],
 	[ 0.0000, 20.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f21_Fa000_Ctr001 = polygon({ points: [ [ 5.0000, 17.5000 ],
+const ctr_face_fig_multiFacets_SFG_f21_Fa000_Ctr001 = polygon({ points: [ [ 5.0000, 17.5000 ],
 	[ 5.0000, 15.0000 ],
 	[ 5.0000, 5.0000 ],
 	[ 5.0000, 2.5000 ],
@@ -4252,37 +4373,37 @@ const ctr_face_fig_sfTube_SFG_f21_Fa000_Ctr001 = polygon({ points: [ [ 5.0000, 1
 	[ 75.0000, 17.5000 ],
 	[ 5.0000, 17.5000 ] ] });
 
-face_fig_sfTube_SFG_f21_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f21_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f21_Fa000_Ctr001 );
-fig_sfTube_SFG_f21 = face_fig_sfTube_SFG_f21_Fa000;
-const ctr_face_fig_sfTube_SFG_f22_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
+face_fig_multiFacets_SFG_f21_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f21_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f21_Fa000_Ctr001 );
+fig_multiFacets_SFG_f21 = face_fig_multiFacets_SFG_f21_Fa000;
+const ctr_face_fig_multiFacets_SFG_f22_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 15.0000, 0.0000 ],
 	[ 15.0000, 20.0000 ],
 	[ 0.0000, 20.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f22_Fa000_Ctr001 = polygon({ points: [ [ 2.5000, 16.6667 ],
+const ctr_face_fig_multiFacets_SFG_f22_Fa000_Ctr001 = polygon({ points: [ [ 2.5000, 16.6667 ],
 	[ 2.5000, 3.3333 ],
 	[ 12.5000, 3.3333 ],
 	[ 12.5000, 16.6667 ],
 	[ 2.5000, 16.6667 ] ] });
 
-face_fig_sfTube_SFG_f22_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f22_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f22_Fa000_Ctr001 );
-fig_sfTube_SFG_f22 = face_fig_sfTube_SFG_f22_Fa000;
-const ctr_face_fig_sfTube_SFG_f23_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
+face_fig_multiFacets_SFG_f22_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f22_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f22_Fa000_Ctr001 );
+fig_multiFacets_SFG_f22 = face_fig_multiFacets_SFG_f22_Fa000;
+const ctr_face_fig_multiFacets_SFG_f23_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 15.0000, 0.0000 ],
 	[ 15.0000, 20.0000 ],
 	[ 0.0000, 20.0000 ] ] });
 
-face_fig_sfTube_SFG_f23_Fa000 = ctr_face_fig_sfTube_SFG_f23_Fa000_Ctr000;
-fig_sfTube_SFG_f23 = face_fig_sfTube_SFG_f23_Fa000;
-const ctr_face_fig_sfTube_SFG_f24_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f23_Fa000 = ctr_face_fig_multiFacets_SFG_f23_Fa000_Ctr000;
+fig_multiFacets_SFG_f23 = face_fig_multiFacets_SFG_f23_Fa000;
+const ctr_face_fig_multiFacets_SFG_f24_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 10.0000 ],
 	[ -20.0000, 10.0000 ],
 	[ -20.0000, 0.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f24_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
+const ctr_face_fig_multiFacets_SFG_f24_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
 	[ -6.7307, 5.6503 ],
 	[ -6.9204, 6.2756 ],
 	[ -7.2284, 6.8519 ],
@@ -4316,15 +4437,15 @@ const ctr_face_fig_sfTube_SFG_f24_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 
 	[ -6.7307, 4.3497 ],
 	[ -6.6667, 5.0000 ] ] });
 
-face_fig_sfTube_SFG_f24_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f24_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f24_Fa000_Ctr001 );
-fig_sfTube_SFG_f24 = face_fig_sfTube_SFG_f24_Fa000;
-const ctr_face_fig_sfTube_SFG_f25_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f24_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f24_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f24_Fa000_Ctr001 );
+fig_multiFacets_SFG_f24 = face_fig_multiFacets_SFG_f24_Fa000;
+const ctr_face_fig_multiFacets_SFG_f25_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 10.0000 ],
 	[ -20.0000, 10.0000 ],
 	[ -20.0000, 0.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f25_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
+const ctr_face_fig_multiFacets_SFG_f25_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
 	[ -6.7307, 5.6503 ],
 	[ -6.9204, 6.2756 ],
 	[ -7.2284, 6.8519 ],
@@ -4358,25 +4479,25 @@ const ctr_face_fig_sfTube_SFG_f25_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 
 	[ -6.7307, 4.3497 ],
 	[ -6.6667, 5.0000 ] ] });
 
-face_fig_sfTube_SFG_f25_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f25_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f25_Fa000_Ctr001 );
-fig_sfTube_SFG_f25 = face_fig_sfTube_SFG_f25_Fa000;
-const ctr_face_fig_sfTube_SFG_f26_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f25_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f25_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f25_Fa000_Ctr001 );
+fig_multiFacets_SFG_f25 = face_fig_multiFacets_SFG_f25_Fa000;
+const ctr_face_fig_multiFacets_SFG_f26_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 20.0000 ],
 	[ -15.0000, 20.0000 ],
 	[ -15.0000, 0.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_f26_Fa000 = ctr_face_fig_sfTube_SFG_f26_Fa000_Ctr000;
-fig_sfTube_SFG_f26 = face_fig_sfTube_SFG_f26_Fa000;
-const ctr_face_fig_sfTube_SFG_f27_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f26_Fa000 = ctr_face_fig_multiFacets_SFG_f26_Fa000_Ctr000;
+fig_multiFacets_SFG_f26 = face_fig_multiFacets_SFG_f26_Fa000;
+const ctr_face_fig_multiFacets_SFG_f27_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 20.0000 ],
 	[ 30.0000, 50.0000 ],
 	[ 30.0000, 30.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_f27_Fa000 = ctr_face_fig_sfTube_SFG_f27_Fa000_Ctr000;
-fig_sfTube_SFG_f27 = face_fig_sfTube_SFG_f27_Fa000;
-const ctr_face_fig_sfTube_SFG_f28_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
+face_fig_multiFacets_SFG_f27_Fa000 = ctr_face_fig_multiFacets_SFG_f27_Fa000_Ctr000;
+fig_multiFacets_SFG_f27 = face_fig_multiFacets_SFG_f27_Fa000;
+const ctr_face_fig_multiFacets_SFG_f28_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 80.0000, 0.0000 ],
 	[ 80.0000, 20.0000 ],
@@ -4384,7 +4505,7 @@ const ctr_face_fig_sfTube_SFG_f28_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 2
 	[ 30.0000, 20.0000 ],
 	[ 0.0000, 20.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f28_Fa000_Ctr001 = polygon({ points: [ [ 5.0000, 17.5000 ],
+const ctr_face_fig_multiFacets_SFG_f28_Fa000_Ctr001 = polygon({ points: [ [ 5.0000, 17.5000 ],
 	[ 5.0000, 15.0000 ],
 	[ 5.0000, 5.0000 ],
 	[ 5.0000, 2.5000 ],
@@ -4394,37 +4515,37 @@ const ctr_face_fig_sfTube_SFG_f28_Fa000_Ctr001 = polygon({ points: [ [ 5.0000, 1
 	[ 75.0000, 17.5000 ],
 	[ 5.0000, 17.5000 ] ] });
 
-face_fig_sfTube_SFG_f28_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f28_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f28_Fa000_Ctr001 );
-fig_sfTube_SFG_f28 = face_fig_sfTube_SFG_f28_Fa000;
-const ctr_face_fig_sfTube_SFG_f29_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
+face_fig_multiFacets_SFG_f28_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f28_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f28_Fa000_Ctr001 );
+fig_multiFacets_SFG_f28 = face_fig_multiFacets_SFG_f28_Fa000;
+const ctr_face_fig_multiFacets_SFG_f29_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 15.0000, 0.0000 ],
 	[ 15.0000, 20.0000 ],
 	[ 0.0000, 20.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f29_Fa000_Ctr001 = polygon({ points: [ [ 2.5000, 16.6667 ],
+const ctr_face_fig_multiFacets_SFG_f29_Fa000_Ctr001 = polygon({ points: [ [ 2.5000, 16.6667 ],
 	[ 2.5000, 3.3333 ],
 	[ 12.5000, 3.3333 ],
 	[ 12.5000, 16.6667 ],
 	[ 2.5000, 16.6667 ] ] });
 
-face_fig_sfTube_SFG_f29_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f29_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f29_Fa000_Ctr001 );
-fig_sfTube_SFG_f29 = face_fig_sfTube_SFG_f29_Fa000;
-const ctr_face_fig_sfTube_SFG_f30_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
+face_fig_multiFacets_SFG_f29_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f29_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f29_Fa000_Ctr001 );
+fig_multiFacets_SFG_f29 = face_fig_multiFacets_SFG_f29_Fa000;
+const ctr_face_fig_multiFacets_SFG_f30_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 20.0000 ],
 	[ 0.0000, 0.0000 ],
 	[ 15.0000, 0.0000 ],
 	[ 15.0000, 20.0000 ],
 	[ 0.0000, 20.0000 ] ] });
 
-face_fig_sfTube_SFG_f30_Fa000 = ctr_face_fig_sfTube_SFG_f30_Fa000_Ctr000;
-fig_sfTube_SFG_f30 = face_fig_sfTube_SFG_f30_Fa000;
-const ctr_face_fig_sfTube_SFG_f31_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f30_Fa000 = ctr_face_fig_multiFacets_SFG_f30_Fa000_Ctr000;
+fig_multiFacets_SFG_f30 = face_fig_multiFacets_SFG_f30_Fa000;
+const ctr_face_fig_multiFacets_SFG_f31_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 10.0000 ],
 	[ -20.0000, 10.0000 ],
 	[ -20.0000, 0.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f31_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
+const ctr_face_fig_multiFacets_SFG_f31_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
 	[ -6.7307, 5.6503 ],
 	[ -6.9204, 6.2756 ],
 	[ -7.2284, 6.8519 ],
@@ -4458,15 +4579,15 @@ const ctr_face_fig_sfTube_SFG_f31_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 
 	[ -6.7307, 4.3497 ],
 	[ -6.6667, 5.0000 ] ] });
 
-face_fig_sfTube_SFG_f31_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f31_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f31_Fa000_Ctr001 );
-fig_sfTube_SFG_f31 = face_fig_sfTube_SFG_f31_Fa000;
-const ctr_face_fig_sfTube_SFG_f32_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f31_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f31_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f31_Fa000_Ctr001 );
+fig_multiFacets_SFG_f31 = face_fig_multiFacets_SFG_f31_Fa000;
+const ctr_face_fig_multiFacets_SFG_f32_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.0000, 10.0000 ],
 	[ -20.0000, 10.0000 ],
 	[ -20.0000, 0.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-const ctr_face_fig_sfTube_SFG_f32_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
+const ctr_face_fig_multiFacets_SFG_f32_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 5.0000 ],
 	[ -6.7307, 5.6503 ],
 	[ -6.9204, 6.2756 ],
 	[ -7.2284, 6.8519 ],
@@ -4500,9 +4621,9 @@ const ctr_face_fig_sfTube_SFG_f32_Fa000_Ctr001 = polygon({ points: [ [ -6.6667, 
 	[ -6.7307, 4.3497 ],
 	[ -6.6667, 5.0000 ] ] });
 
-face_fig_sfTube_SFG_f32_Fa000 = subtract( ctr_face_fig_sfTube_SFG_f32_Fa000_Ctr000, ctr_face_fig_sfTube_SFG_f32_Fa000_Ctr001 );
-fig_sfTube_SFG_f32 = face_fig_sfTube_SFG_f32_Fa000;
-const ctr_face_fig_sfTube_SFG_fj00_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_f32_Fa000 = subtract( ctr_face_fig_multiFacets_SFG_f32_Fa000_Ctr000, ctr_face_fig_multiFacets_SFG_f32_Fa000_Ctr001 );
+fig_multiFacets_SFG_f32 = face_fig_multiFacets_SFG_f32_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj00_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4522,9 +4643,9 @@ const ctr_face_fig_sfTube_SFG_fj00_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj00_Fa000 = ctr_face_fig_sfTube_SFG_fj00_Fa000_Ctr000;
-fig_sfTube_SFG_fj00 = face_fig_sfTube_SFG_fj00_Fa000;
-const ctr_face_fig_sfTube_SFG_fj01_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj00_Fa000 = ctr_face_fig_multiFacets_SFG_fj00_Fa000_Ctr000;
+fig_multiFacets_SFG_fj00 = face_fig_multiFacets_SFG_fj00_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj01_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4544,9 +4665,9 @@ const ctr_face_fig_sfTube_SFG_fj01_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj01_Fa000 = ctr_face_fig_sfTube_SFG_fj01_Fa000_Ctr000;
-fig_sfTube_SFG_fj01 = face_fig_sfTube_SFG_fj01_Fa000;
-const ctr_face_fig_sfTube_SFG_fj02_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj01_Fa000 = ctr_face_fig_multiFacets_SFG_fj01_Fa000_Ctr000;
+fig_multiFacets_SFG_fj01 = face_fig_multiFacets_SFG_fj01_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj02_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4566,9 +4687,9 @@ const ctr_face_fig_sfTube_SFG_fj02_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj02_Fa000 = ctr_face_fig_sfTube_SFG_fj02_Fa000_Ctr000;
-fig_sfTube_SFG_fj02 = face_fig_sfTube_SFG_fj02_Fa000;
-const ctr_face_fig_sfTube_SFG_fj03_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj02_Fa000 = ctr_face_fig_multiFacets_SFG_fj02_Fa000_Ctr000;
+fig_multiFacets_SFG_fj02 = face_fig_multiFacets_SFG_fj02_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj03_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -4592,9 +4713,9 @@ const ctr_face_fig_sfTube_SFG_fj03_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj03_Fa000 = ctr_face_fig_sfTube_SFG_fj03_Fa000_Ctr000;
-fig_sfTube_SFG_fj03 = face_fig_sfTube_SFG_fj03_Fa000;
-const ctr_face_fig_sfTube_SFG_fj04_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj03_Fa000 = ctr_face_fig_multiFacets_SFG_fj03_Fa000_Ctr000;
+fig_multiFacets_SFG_fj03 = face_fig_multiFacets_SFG_fj03_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj04_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -4618,9 +4739,9 @@ const ctr_face_fig_sfTube_SFG_fj04_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj04_Fa000 = ctr_face_fig_sfTube_SFG_fj04_Fa000_Ctr000;
-fig_sfTube_SFG_fj04 = face_fig_sfTube_SFG_fj04_Fa000;
-const ctr_face_fig_sfTube_SFG_fj05_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj04_Fa000 = ctr_face_fig_multiFacets_SFG_fj04_Fa000_Ctr000;
+fig_multiFacets_SFG_fj04 = face_fig_multiFacets_SFG_fj04_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj05_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4640,9 +4761,9 @@ const ctr_face_fig_sfTube_SFG_fj05_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj05_Fa000 = ctr_face_fig_sfTube_SFG_fj05_Fa000_Ctr000;
-fig_sfTube_SFG_fj05 = face_fig_sfTube_SFG_fj05_Fa000;
-const ctr_face_fig_sfTube_SFG_fj06_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj05_Fa000 = ctr_face_fig_multiFacets_SFG_fj05_Fa000_Ctr000;
+fig_multiFacets_SFG_fj05 = face_fig_multiFacets_SFG_fj05_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj06_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4662,9 +4783,9 @@ const ctr_face_fig_sfTube_SFG_fj06_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj06_Fa000 = ctr_face_fig_sfTube_SFG_fj06_Fa000_Ctr000;
-fig_sfTube_SFG_fj06 = face_fig_sfTube_SFG_fj06_Fa000;
-const ctr_face_fig_sfTube_SFG_fj07_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj06_Fa000 = ctr_face_fig_multiFacets_SFG_fj06_Fa000_Ctr000;
+fig_multiFacets_SFG_fj06 = face_fig_multiFacets_SFG_fj06_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj07_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4700,9 +4821,9 @@ const ctr_face_fig_sfTube_SFG_fj07_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj07_Fa000 = ctr_face_fig_sfTube_SFG_fj07_Fa000_Ctr000;
-fig_sfTube_SFG_fj07 = face_fig_sfTube_SFG_fj07_Fa000;
-const ctr_face_fig_sfTube_SFG_fj08_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj07_Fa000 = ctr_face_fig_multiFacets_SFG_fj07_Fa000_Ctr000;
+fig_multiFacets_SFG_fj07 = face_fig_multiFacets_SFG_fj07_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj08_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4722,9 +4843,9 @@ const ctr_face_fig_sfTube_SFG_fj08_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj08_Fa000 = ctr_face_fig_sfTube_SFG_fj08_Fa000_Ctr000;
-fig_sfTube_SFG_fj08 = face_fig_sfTube_SFG_fj08_Fa000;
-const ctr_face_fig_sfTube_SFG_fj09_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj08_Fa000 = ctr_face_fig_multiFacets_SFG_fj08_Fa000_Ctr000;
+fig_multiFacets_SFG_fj08 = face_fig_multiFacets_SFG_fj08_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj09_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4744,9 +4865,9 @@ const ctr_face_fig_sfTube_SFG_fj09_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj09_Fa000 = ctr_face_fig_sfTube_SFG_fj09_Fa000_Ctr000;
-fig_sfTube_SFG_fj09 = face_fig_sfTube_SFG_fj09_Fa000;
-const ctr_face_fig_sfTube_SFG_fj10_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj09_Fa000 = ctr_face_fig_multiFacets_SFG_fj09_Fa000_Ctr000;
+fig_multiFacets_SFG_fj09 = face_fig_multiFacets_SFG_fj09_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj10_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4766,9 +4887,9 @@ const ctr_face_fig_sfTube_SFG_fj10_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj10_Fa000 = ctr_face_fig_sfTube_SFG_fj10_Fa000_Ctr000;
-fig_sfTube_SFG_fj10 = face_fig_sfTube_SFG_fj10_Fa000;
-const ctr_face_fig_sfTube_SFG_fj11_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj10_Fa000 = ctr_face_fig_multiFacets_SFG_fj10_Fa000_Ctr000;
+fig_multiFacets_SFG_fj10 = face_fig_multiFacets_SFG_fj10_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj11_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4788,9 +4909,9 @@ const ctr_face_fig_sfTube_SFG_fj11_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj11_Fa000 = ctr_face_fig_sfTube_SFG_fj11_Fa000_Ctr000;
-fig_sfTube_SFG_fj11 = face_fig_sfTube_SFG_fj11_Fa000;
-const ctr_face_fig_sfTube_SFG_fj12_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj11_Fa000 = ctr_face_fig_multiFacets_SFG_fj11_Fa000_Ctr000;
+fig_multiFacets_SFG_fj11 = face_fig_multiFacets_SFG_fj11_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj12_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4826,9 +4947,9 @@ const ctr_face_fig_sfTube_SFG_fj12_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj12_Fa000 = ctr_face_fig_sfTube_SFG_fj12_Fa000_Ctr000;
-fig_sfTube_SFG_fj12 = face_fig_sfTube_SFG_fj12_Fa000;
-const ctr_face_fig_sfTube_SFG_fj13_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj12_Fa000 = ctr_face_fig_multiFacets_SFG_fj12_Fa000_Ctr000;
+fig_multiFacets_SFG_fj12 = face_fig_multiFacets_SFG_fj12_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj13_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4848,9 +4969,9 @@ const ctr_face_fig_sfTube_SFG_fj13_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj13_Fa000 = ctr_face_fig_sfTube_SFG_fj13_Fa000_Ctr000;
-fig_sfTube_SFG_fj13 = face_fig_sfTube_SFG_fj13_Fa000;
-const ctr_face_fig_sfTube_SFG_fj14_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj13_Fa000 = ctr_face_fig_multiFacets_SFG_fj13_Fa000_Ctr000;
+fig_multiFacets_SFG_fj13 = face_fig_multiFacets_SFG_fj13_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj14_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4870,9 +4991,9 @@ const ctr_face_fig_sfTube_SFG_fj14_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj14_Fa000 = ctr_face_fig_sfTube_SFG_fj14_Fa000_Ctr000;
-fig_sfTube_SFG_fj14 = face_fig_sfTube_SFG_fj14_Fa000;
-const ctr_face_fig_sfTube_SFG_fj15_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj14_Fa000 = ctr_face_fig_multiFacets_SFG_fj14_Fa000_Ctr000;
+fig_multiFacets_SFG_fj14 = face_fig_multiFacets_SFG_fj14_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj15_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4892,9 +5013,9 @@ const ctr_face_fig_sfTube_SFG_fj15_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj15_Fa000 = ctr_face_fig_sfTube_SFG_fj15_Fa000_Ctr000;
-fig_sfTube_SFG_fj15 = face_fig_sfTube_SFG_fj15_Fa000;
-const ctr_face_fig_sfTube_SFG_fj16_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj15_Fa000 = ctr_face_fig_multiFacets_SFG_fj15_Fa000_Ctr000;
+fig_multiFacets_SFG_fj15 = face_fig_multiFacets_SFG_fj15_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj16_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, -0.1283 ],
 	[ 3.8823, -0.5111 ],
 	[ 5.7403, -1.1418 ],
@@ -4914,9 +5035,9 @@ const ctr_face_fig_sfTube_SFG_fj16_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj16_Fa000 = ctr_face_fig_sfTube_SFG_fj16_Fa000_Ctr000;
-fig_sfTube_SFG_fj16 = face_fig_sfTube_SFG_fj16_Fa000;
-const ctr_face_fig_sfTube_SFG_fj17_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj16_Fa000 = ctr_face_fig_multiFacets_SFG_fj16_Fa000_Ctr000;
+fig_multiFacets_SFG_fj16 = face_fig_multiFacets_SFG_fj16_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj17_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4952,9 +5073,9 @@ const ctr_face_fig_sfTube_SFG_fj17_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj17_Fa000 = ctr_face_fig_sfTube_SFG_fj17_Fa000_Ctr000;
-fig_sfTube_SFG_fj17 = face_fig_sfTube_SFG_fj17_Fa000;
-const ctr_face_fig_sfTube_SFG_fj18_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj17_Fa000 = ctr_face_fig_multiFacets_SFG_fj17_Fa000_Ctr000;
+fig_multiFacets_SFG_fj17 = face_fig_multiFacets_SFG_fj17_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj18_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4974,9 +5095,9 @@ const ctr_face_fig_sfTube_SFG_fj18_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj18_Fa000 = ctr_face_fig_sfTube_SFG_fj18_Fa000_Ctr000;
-fig_sfTube_SFG_fj18 = face_fig_sfTube_SFG_fj18_Fa000;
-const ctr_face_fig_sfTube_SFG_fj19_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj18_Fa000 = ctr_face_fig_multiFacets_SFG_fj18_Fa000_Ctr000;
+fig_multiFacets_SFG_fj18 = face_fig_multiFacets_SFG_fj18_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj19_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9615, 0.0771 ],
 	[ 3.9109, 0.3078 ],
 	[ 5.8361, 0.6908 ],
@@ -4996,9 +5117,9 @@ const ctr_face_fig_sfTube_SFG_fj19_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj19_Fa000 = ctr_face_fig_sfTube_SFG_fj19_Fa000_Ctr000;
-fig_sfTube_SFG_fj19 = face_fig_sfTube_SFG_fj19_Fa000;
-const ctr_face_fig_sfTube_SFG_fj20_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj19_Fa000 = ctr_face_fig_multiFacets_SFG_fj19_Fa000_Ctr000;
+fig_multiFacets_SFG_fj19 = face_fig_multiFacets_SFG_fj19_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj20_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.7822, -0.0616 ],
 	[ 1.5451, -0.2447 ],
 	[ 2.2700, -0.5450 ],
@@ -5013,9 +5134,9 @@ const ctr_face_fig_sfTube_SFG_fj20_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj20_Fa000 = ctr_face_fig_sfTube_SFG_fj20_Fa000_Ctr000;
-fig_sfTube_SFG_fj20 = face_fig_sfTube_SFG_fj20_Fa000;
-const ctr_face_fig_sfTube_SFG_fj21_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj20_Fa000 = ctr_face_fig_multiFacets_SFG_fj20_Fa000_Ctr000;
+fig_multiFacets_SFG_fj20 = face_fig_multiFacets_SFG_fj20_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj21_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.7822, -0.0616 ],
 	[ 1.5451, -0.2447 ],
 	[ 2.2700, -0.5450 ],
@@ -5030,9 +5151,9 @@ const ctr_face_fig_sfTube_SFG_fj21_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj21_Fa000 = ctr_face_fig_sfTube_SFG_fj21_Fa000_Ctr000;
-fig_sfTube_SFG_fj21 = face_fig_sfTube_SFG_fj21_Fa000;
-const ctr_face_fig_sfTube_SFG_fj22_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj21_Fa000 = ctr_face_fig_multiFacets_SFG_fj21_Fa000_Ctr000;
+fig_multiFacets_SFG_fj21 = face_fig_multiFacets_SFG_fj21_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj22_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5056,9 +5177,9 @@ const ctr_face_fig_sfTube_SFG_fj22_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj22_Fa000 = ctr_face_fig_sfTube_SFG_fj22_Fa000_Ctr000;
-fig_sfTube_SFG_fj22 = face_fig_sfTube_SFG_fj22_Fa000;
-const ctr_face_fig_sfTube_SFG_fj23_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj22_Fa000 = ctr_face_fig_multiFacets_SFG_fj22_Fa000_Ctr000;
+fig_multiFacets_SFG_fj22 = face_fig_multiFacets_SFG_fj22_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj23_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5082,9 +5203,9 @@ const ctr_face_fig_sfTube_SFG_fj23_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj23_Fa000 = ctr_face_fig_sfTube_SFG_fj23_Fa000_Ctr000;
-fig_sfTube_SFG_fj23 = face_fig_sfTube_SFG_fj23_Fa000;
-const ctr_face_fig_sfTube_SFG_fj24_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj23_Fa000 = ctr_face_fig_multiFacets_SFG_fj23_Fa000_Ctr000;
+fig_multiFacets_SFG_fj23 = face_fig_multiFacets_SFG_fj23_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj24_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5108,9 +5229,9 @@ const ctr_face_fig_sfTube_SFG_fj24_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj24_Fa000 = ctr_face_fig_sfTube_SFG_fj24_Fa000_Ctr000;
-fig_sfTube_SFG_fj24 = face_fig_sfTube_SFG_fj24_Fa000;
-const ctr_face_fig_sfTube_SFG_fj25_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj24_Fa000 = ctr_face_fig_multiFacets_SFG_fj24_Fa000_Ctr000;
+fig_multiFacets_SFG_fj24 = face_fig_multiFacets_SFG_fj24_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj25_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5134,9 +5255,9 @@ const ctr_face_fig_sfTube_SFG_fj25_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj25_Fa000 = ctr_face_fig_sfTube_SFG_fj25_Fa000_Ctr000;
-fig_sfTube_SFG_fj25 = face_fig_sfTube_SFG_fj25_Fa000;
-const ctr_face_fig_sfTube_SFG_fj26_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj25_Fa000 = ctr_face_fig_multiFacets_SFG_fj25_Fa000_Ctr000;
+fig_multiFacets_SFG_fj25 = face_fig_multiFacets_SFG_fj25_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj26_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.7822, -0.0616 ],
 	[ 1.5451, -0.2447 ],
 	[ 2.2700, -0.5450 ],
@@ -5151,9 +5272,9 @@ const ctr_face_fig_sfTube_SFG_fj26_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj26_Fa000 = ctr_face_fig_sfTube_SFG_fj26_Fa000_Ctr000;
-fig_sfTube_SFG_fj26 = face_fig_sfTube_SFG_fj26_Fa000;
-const ctr_face_fig_sfTube_SFG_fj27_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj26_Fa000 = ctr_face_fig_multiFacets_SFG_fj26_Fa000_Ctr000;
+fig_multiFacets_SFG_fj26 = face_fig_multiFacets_SFG_fj26_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj27_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 0.7822, -0.0616 ],
 	[ 1.5451, -0.2447 ],
 	[ 2.2700, -0.5450 ],
@@ -5168,9 +5289,9 @@ const ctr_face_fig_sfTube_SFG_fj27_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ 0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj27_Fa000 = ctr_face_fig_sfTube_SFG_fj27_Fa000_Ctr000;
-fig_sfTube_SFG_fj27 = face_fig_sfTube_SFG_fj27_Fa000;
-const ctr_face_fig_sfTube_SFG_fj28_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj27_Fa000 = ctr_face_fig_multiFacets_SFG_fj27_Fa000_Ctr000;
+fig_multiFacets_SFG_fj27 = face_fig_multiFacets_SFG_fj27_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj28_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5194,9 +5315,9 @@ const ctr_face_fig_sfTube_SFG_fj28_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj28_Fa000 = ctr_face_fig_sfTube_SFG_fj28_Fa000_Ctr000;
-fig_sfTube_SFG_fj28 = face_fig_sfTube_SFG_fj28_Fa000;
-const ctr_face_fig_sfTube_SFG_fj29_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj28_Fa000 = ctr_face_fig_multiFacets_SFG_fj28_Fa000_Ctr000;
+fig_multiFacets_SFG_fj28 = face_fig_multiFacets_SFG_fj28_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj29_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5220,9 +5341,9 @@ const ctr_face_fig_sfTube_SFG_fj29_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj29_Fa000 = ctr_face_fig_sfTube_SFG_fj29_Fa000_Ctr000;
-fig_sfTube_SFG_fj29 = face_fig_sfTube_SFG_fj29_Fa000;
-const ctr_face_fig_sfTube_SFG_fj30_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj29_Fa000 = ctr_face_fig_multiFacets_SFG_fj29_Fa000_Ctr000;
+fig_multiFacets_SFG_fj29 = face_fig_multiFacets_SFG_fj29_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj30_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5246,9 +5367,9 @@ const ctr_face_fig_sfTube_SFG_fj30_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj30_Fa000 = ctr_face_fig_sfTube_SFG_fj30_Fa000_Ctr000;
-fig_sfTube_SFG_fj30 = face_fig_sfTube_SFG_fj30_Fa000;
-const ctr_face_fig_sfTube_SFG_fj31_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
+face_fig_multiFacets_SFG_fj30_Fa000 = ctr_face_fig_multiFacets_SFG_fj30_Fa000_Ctr000;
+fig_multiFacets_SFG_fj30 = face_fig_multiFacets_SFG_fj30_Fa000;
+const ctr_face_fig_multiFacets_SFG_fj31_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 0.0000 ],
 	[ 1.9579, 0.1283 ],
 	[ 3.8823, 0.5111 ],
 	[ 5.7403, 1.1418 ],
@@ -5272,530 +5393,530 @@ const ctr_face_fig_sfTube_SFG_fj31_Fa000_Ctr000 = polygon({ points: [ [ 0.0000, 
 	[ -0.0000, 10.0000 ],
 	[ 0.0000, 0.0000 ] ] });
 
-face_fig_sfTube_SFG_fj31_Fa000 = ctr_face_fig_sfTube_SFG_fj31_Fa000_Ctr000;
-fig_sfTube_SFG_fj31 = face_fig_sfTube_SFG_fj31_Fa000;
+face_fig_multiFacets_SFG_fj31_Fa000 = ctr_face_fig_multiFacets_SFG_fj31_Fa000_Ctr000;
+fig_multiFacets_SFG_fj31 = face_fig_multiFacets_SFG_fj31_Fa000;
 
-const subpax_sfTube_SFG_f00 =
+const subpax_multiFacets_SFG_f00 =
 	translate( [ 0, 0, 0, ],
 		rotate( [ 0, 0, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f00 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f00 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f01 =
+const subpax_multiFacets_SFG_f01 =
 	translate( [ -42.336138735815624, 123.32834328671754, -4.3933982822017885, ],
 		rotate( [ 6.123233995736765e-17, 0.7853981633974483, 2.0943951023931957, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f01 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f01 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f02 =
+const subpax_multiFacets_SFG_f02 =
 	translate( [ -83.34592666904763, 167.69271292803376, -27.96362432175337, ],
 		rotate( [ 3.141592653589793, 0.7853981633974484, -1.0471975511965979, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f02 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f02 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f03 =
+const subpax_multiFacets_SFG_f03 =
 	translate( [ -49.27492087114329, 156.55986992335275, -42.85533905932737, ],
 		rotate( [ -0.9553166181245092, 0.523598775598299, -0.09188093307208835, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f03 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f03 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f04 =
+const subpax_multiFacets_SFG_f04 =
 	translate( [ 11.741846570873143, 156.94174577814795, -73.03300858899107, ],
 		rotate( [ -0.7853981633974483, 8.659560562354932e-17, 0.5235987755982988, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f04 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f04 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f05 =
+const subpax_multiFacets_SFG_f05 =
 	translate( [ -128.62503366090274, 151.57188999034426, -78.21067811865474, ],
 		rotate( [ 0.955316618124509, 0.5235987755982987, -2.002514169321107, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f05 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f05 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f06 =
+const subpax_multiFacets_SFG_f06 =
 	translate( [ -159.4641315732555, 98.92075725614838, -108.38834764831842, ],
 		rotate( [ 0.7853981633974483, -1.7319121124709863e-16, -2.617993877991494, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f06 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f06 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f07 =
+const subpax_multiFacets_SFG_f07 =
 	translate( [ -85.6374089250376, -98.3283432867175, -4.3933982822017885, ],
 		rotate( [ 6.123233995736765e-17, 0.7853981633974483, -2.0943951023931957, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f07 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f07 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f08 =
+const subpax_multiFacets_SFG_f08 =
 	translate( [ -103.55318609068458, -156.02604626136704, -27.96362432175337, ],
 		rotate( [ 3.141592653589793, 0.7853981633974484, 1.0471975511965974, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f08 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f08 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f09 =
+const subpax_multiFacets_SFG_f09 =
 	translate( [ -110.94736413123911, -120.95326820555448, -42.85533905932737, ],
 		rotate( [ -0.9553166181245092, 0.523598775598299, 2.002514169321107, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f09 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f09 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f10 =
+const subpax_multiFacets_SFG_f10 =
 	translate( [ -141.78646204359185, -68.30213547135861, -73.03300858899107, ],
 		rotate( [ -0.7853981633974483, 8.659560562354932e-17, 2.617993877991494, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f10 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f10 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f11 =
+const subpax_multiFacets_SFG_f11 =
 	translate( [ -66.95259040080704, -187.17849170814245, -78.21067811865474, ],
 		rotate( [ 0.955316618124509, 0.5235987755982987, 0.09188093307208815, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f11 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f11 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f12 =
+const subpax_multiFacets_SFG_f12 =
 	translate( [ -5.935822958790624, -187.56036756293764, -108.38834764831842, ],
 		rotate( [ 0.7853981633974483, -1.7319121124709863e-16, -0.523598775598299, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f12 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f12 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f13 =
+const subpax_multiFacets_SFG_f13 =
 	translate( [ 127.9735476608532, -25.000000000000167, -4.3933982822017885, ],
 		rotate( [ 6.123233995736765e-17, 0.7853981633974483, -8.628151540339435e-16, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f13 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f13 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f14 =
+const subpax_multiFacets_SFG_f14 =
 	translate( [ 186.8991127597322, -11.666666666666877, -27.96362432175337, ],
 		rotate( [ 3.141592653589793, 0.7853981633974484, 3.1415926535897922, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f14 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f14 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f15 =
+const subpax_multiFacets_SFG_f15 =
 	translate( [ 160.22228500238236, -35.606601717798405, -42.85533905932737, ],
 		rotate( [ -0.9553166181245092, 0.523598775598299, -2.186276035465285, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f15 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f15 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f16 =
+const subpax_multiFacets_SFG_f16 =
 	translate( [ 130.04461547271862, -88.63961030678945, -73.03300858899107, ],
 		rotate( [ -0.7853981633974483, 8.659560562354932e-17, -1.5707963267948977, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f16 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f16 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f17 =
+const subpax_multiFacets_SFG_f17 =
 	translate( [ 195.5776240617098, 35.60660171779799, -78.21067811865474, ],
 		rotate( [ 0.955316618124509, 0.5235987755982987, 2.186276035465283, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f17 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f17 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f18 =
+const subpax_multiFacets_SFG_f18 =
 	translate( [ 165.39995453204614, 88.63961030678908, -108.38834764831842, ],
 		rotate( [ 0.7853981633974483, -1.7319121124709863e-16, 1.570796326794896, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f18 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f18 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f19 =
+const subpax_multiFacets_SFG_f19 =
 	translate( [ 9.999999999999998, 84.498743710662, 15, ],
 		rotate( [ -1.5707963267948966, 1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f19 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f19 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f20 =
+const subpax_multiFacets_SFG_f20 =
 	translate( [ -10.000000000000004, 83.03427761659474, 33.53553390593274, ],
 		rotate( [ 1.1195887128973098e-16, -0.7853981633974484, -1.5707963267948968, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f20 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f20 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f21 =
+const subpax_multiFacets_SFG_f21 =
 	translate( [ 19.999999999999993, 58.28554027506557, 56.21320343559643, ],
 		rotate( [ 1.224646799147353e-16, -1.6081226496766364e-16, -1.5707963267948968, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f21 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f21 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f22 =
+const subpax_multiFacets_SFG_f22 =
 	translate( [ 19.999999999999986, -36.71445972493443, 71.21320343559644, ],
 		rotate( [ -1.5707963267948968, -1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f22 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f22 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f23 =
+const subpax_multiFacets_SFG_f23 =
 	translate( [ 55, 8.285540275065586, 71.21320343559644, ],
 		rotate( [ 6.123233995736762e-17, -1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f23 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f23 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f24 =
+const subpax_multiFacets_SFG_f24 =
 	translate( [ 34.99999999999999, 38.28554027506558, 71.21320343559643, ],
 		rotate( [ -1.5707963267948966, 1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f24 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f24 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f25 =
+const subpax_multiFacets_SFG_f25 =
 	translate( [ 25, -1.7144597249344145, 71.21320343559644, ],
 		rotate( [ 1.5707963267948968, 1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f25 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f25 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f26 =
+const subpax_multiFacets_SFG_f26 =
 	translate( [ -10, -84.498743710662, 15, ],
 		rotate( [ 1.5707963267948966, 1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f26 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f26 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f27 =
+const subpax_multiFacets_SFG_f27 =
 	translate( [ 10, -83.03427761659474, 33.53553390593274, ],
 		rotate( [ 1.1195887128973098e-16, -0.7853981633974484, 1.5707963267948966, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f27 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f27 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f28 =
+const subpax_multiFacets_SFG_f28 =
 	translate( [ -20, -58.28554027506557, 56.21320343559643, ],
 		rotate( [ 1.224646799147353e-16, -1.6081226496766364e-16, 1.5707963267948968, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f28 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f28 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f29 =
+const subpax_multiFacets_SFG_f29 =
 	translate( [ -20.000000000000004, 36.71445972493443, 71.21320343559644, ],
 		rotate( [ 1.5707963267948966, -1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f29 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f29 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f30 =
+const subpax_multiFacets_SFG_f30 =
 	translate( [ -55.000000000000014, -8.285540275065586, 71.21320343559644, ],
 		rotate( [ -3.141592653589793, -1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f30 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f30 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f31 =
+const subpax_multiFacets_SFG_f31 =
 	translate( [ -35, -38.28554027506558, 71.21320343559643, ],
 		rotate( [ 1.5707963267948966, 1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f31 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f31 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_f32 =
+const subpax_multiFacets_SFG_f32 =
 	translate( [ -25.000000000000014, 1.7144597249344145, 71.21320343559644, ],
 		rotate( [ -1.5707963267948966, 1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_f32 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_f32 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj00 =
+const subpax_multiFacets_SFG_fj00 =
 	translate( [ -80.33410806613847, 89.1427567512806, 0, ],
 		rotate( [ 1.5707963267948966, 0, 2.0943951023931957, ],
-			   extrudeLinear( {height: 50.00000000000002}, fig_sfTube_SFG_fj00 )
+			   extrudeLinear( {height: 50.00000000000002}, fig_multiFacets_SFG_fj00 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj01 =
+const subpax_multiFacets_SFG_fj01 =
 	translate( [ -37.032837876916574, -114.14275675128059, 0, ],
 		rotate( [ 1.5707963267948966, 0, -2.0943951023931957, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj01 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj01 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj02 =
+const subpax_multiFacets_SFG_fj02 =
 	translate( [ 117.36694594305503, 25, 0, ],
 		rotate( [ 1.5707963267948966, 0, -8.881784197001251e-16, ],
-			   extrudeLinear( {height: 50.000000000000156}, fig_sfTube_SFG_fj02 )
+			   extrudeLinear( {height: 50.000000000000156}, fig_multiFacets_SFG_fj02 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj03 =
+const subpax_multiFacets_SFG_fj03 =
 	translate( [ 10, 99.498743710662, 0, ],
 		rotate( [ 1.5707963267948966, 0, -1.570796326794897, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj03 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj03 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj04 =
+const subpax_multiFacets_SFG_fj04 =
 	translate( [ -10, -99.498743710662, 0, ],
 		rotate( [ 1.5707963267948966, 0, 1.5707963267948966, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj04 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj04 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj05 =
+const subpax_multiFacets_SFG_fj05 =
 	translate( [ -77.691477795143, 184.565586856297, -75.10407640085653, ],
 		rotate( [ 0.7853981633974484, 8.659560562354932e-17, 0.5235987755982988, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj05 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj05 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj06 =
+const subpax_multiFacets_SFG_fj06 =
 	translate( [ -103.31507845470124, 128.94696507150726, -39.74873734152916, ],
 		rotate( [ 2.356194490192345, -1.7319121124709863e-16, -2.617993877991494, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj06 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj06 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj07 =
+const subpax_multiFacets_SFG_fj07 =
 	translate( [ -83.34592666904763, 167.69271292803376, -63.31896338108075, ],
 		rotate( [ 1.5707963267948966, -0.7853981633974483, -1.0471975511965979, ],
-			   extrudeLinear( {height: 23.333333333333336}, fig_sfTube_SFG_fj07 )
+			   extrudeLinear( {height: 23.333333333333336}, fig_multiFacets_SFG_fj07 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj08 =
+const subpax_multiFacets_SFG_fj08 =
 	translate( [ -23.833968616017245, 183.2055261431952, -103.21067811865474, ],
 		rotate( [ 0.6154797086703874, 0.523598775598299, -0.09188093307208835, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj08 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj08 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj09 =
+const subpax_multiFacets_SFG_fj09 =
 	translate( [ -129.0659859160288, 81.62496358127987, -67.85533905932736, ],
 		rotate( [ 2.5261129449194057, 0.5235987755982987, -2.002514169321107, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj09 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj09 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj10 =
+const subpax_multiFacets_SFG_fj10 =
 	translate( [ -120.992747984365, -159.56558685629693, -75.10407640085653, ],
 		rotate( [ 0.7853981633974484, 8.659560562354932e-17, 2.617993877991494, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj10 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj10 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj11 =
+const subpax_multiFacets_SFG_fj11 =
 	translate( [ -60.01380826547938, -153.94696507150724, -39.74873734152916, ],
 		rotate( [ 2.356194490192345, -1.7319121124709863e-16, -0.523598775598299, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj11 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj11 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj12 =
+const subpax_multiFacets_SFG_fj12 =
 	translate( [ -103.55318609068458, -156.02604626136704, -63.31896338108075, ],
 		rotate( [ 1.5707963267948966, -0.7853981633974483, 1.0471975511965974, ],
-			   extrudeLinear( {height: 23.333333333333336}, fig_sfTube_SFG_fj12 )
+			   extrudeLinear( {height: 23.333333333333336}, fig_multiFacets_SFG_fj12 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj13 =
+const subpax_multiFacets_SFG_fj13 =
 	translate( [ -146.74365544569253, -112.24358536606955, -103.21067811865474, ],
 		rotate( [ 0.6154797086703874, 0.523598775598299, 2.002514169321107, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj13 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj13 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj14 =
+const subpax_multiFacets_SFG_fj14 =
 	translate( [ -6.156299086353627, -152.58690435840543, -67.85533905932736, ],
 		rotate( [ 2.5261129449194057, 0.5235987755982987, 0.09188093307208815, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj14 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj14 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj15 =
+const subpax_multiFacets_SFG_fj15 =
 	translate( [ 198.68422577950795, -25.000000000000224, -75.10407640085653, ],
 		rotate( [ 0.7853981633974484, 8.659560562354932e-17, -1.5707963267948977, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj15 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj15 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj16 =
+const subpax_multiFacets_SFG_fj16 =
 	translate( [ 163.32888672018063, 24.999999999999794, -39.74873734152916, ],
 		rotate( [ 2.356194490192345, -1.7319121124709863e-16, 1.570796326794896, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj16 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj16 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj17 =
+const subpax_multiFacets_SFG_fj17 =
 	translate( [ 186.8991127597322, -11.666666666666877, -63.31896338108075, ],
 		rotate( [ 1.5707963267948966, -0.7853981633974483, 3.1415926535897922, ],
-			   extrudeLinear( {height: 23.333333333333336}, fig_sfTube_SFG_fj17 )
+			   extrudeLinear( {height: 23.333333333333336}, fig_multiFacets_SFG_fj17 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj18 =
+const subpax_multiFacets_SFG_fj18 =
 	translate( [ 170.5776240617097, -70.96194077712579, -103.21067811865474, ],
 		rotate( [ 0.6154797086703874, 0.523598775598299, -2.186276035465285, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj18 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj18 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj19 =
+const subpax_multiFacets_SFG_fj19 =
 	translate( [ 135.22228500238245, 70.96194077712542, -67.85533905932736, ],
 		rotate( [ 2.5261129449194057, 0.5235987755982987, 2.186276035465283, ],
-			   extrudeLinear( {height: 50}, fig_sfTube_SFG_fj19 )
+			   extrudeLinear( {height: 50}, fig_multiFacets_SFG_fj19 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj20 =
+const subpax_multiFacets_SFG_fj20 =
 	translate( [ 9.999999999999998, 84.498743710662, 30, ],
 		rotate( [ -1.8369701987210297e-16, -1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj20 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj20 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj21 =
+const subpax_multiFacets_SFG_fj21 =
 	translate( [ 40, 61.8210741809983, 54.74873734152917, ],
 		rotate( [ 1.5707963267948968, -0.7853981633974484, -1.5707963267948968, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj21 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj21 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj22 =
+const subpax_multiFacets_SFG_fj22 =
 	translate( [ 39.99999999999999, -21.71445972493443, 56.21320343559644, ],
 		rotate( [ 1.5707963267948968, -1.6081226496766364e-16, -1.5707963267948968, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj22 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj22 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj23 =
+const subpax_multiFacets_SFG_fj23 =
 	translate( [ 40.00000000000001, 28.285540275065586, 56.21320343559644, ],
 		rotate( [ 1.5707963267948966, -1.224646799147353e-16, 1.2246467991473532e-16, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj23 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj23 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj24 =
+const subpax_multiFacets_SFG_fj24 =
 	translate( [ 34.99999999999999, 53.28554027506557, 56.213203435596434, ],
 		rotate( [ 1.5707963267948968, -1.6081226496766364e-16, -1.5707963267948968, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_fj24 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_fj24 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj25 =
+const subpax_multiFacets_SFG_fj25 =
 	translate( [ 25.000000000000007, -16.714459724934414, 56.21320343559645, ],
 		rotate( [ 1.5707963267948963, 1.6081226496766364e-16, 1.5707963267948963, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_fj25 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_fj25 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj26 =
+const subpax_multiFacets_SFG_fj26 =
 	translate( [ -10, -84.498743710662, 30, ],
 		rotate( [ 3.141592653589793, -1.5707963267948966, 0, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj26 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj26 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj27 =
+const subpax_multiFacets_SFG_fj27 =
 	translate( [ -40, -61.82107418099831, 54.74873734152917, ],
 		rotate( [ 1.5707963267948968, -0.7853981633974484, 1.5707963267948966, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj27 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj27 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj28 =
+const subpax_multiFacets_SFG_fj28 =
 	translate( [ -40.00000000000001, 21.71445972493443, 56.21320343559644, ],
 		rotate( [ 1.5707963267948968, -1.6081226496766364e-16, 1.5707963267948968, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj28 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj28 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj29 =
+const subpax_multiFacets_SFG_fj29 =
 	translate( [ -40.000000000000014, -28.285540275065586, 56.21320343559644, ],
 		rotate( [ 1.5707963267948966, -1.224646799147353e-16, -3.141592653589793, ],
-			   extrudeLinear( {height: 20}, fig_sfTube_SFG_fj29 )
+			   extrudeLinear( {height: 20}, fig_multiFacets_SFG_fj29 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj30 =
+const subpax_multiFacets_SFG_fj30 =
 	translate( [ -35, -53.28554027506557, 56.213203435596434, ],
 		rotate( [ 1.5707963267948968, -1.6081226496766364e-16, 1.5707963267948968, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_fj30 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_fj30 )
 		)
 	);
 
 
-const subpax_sfTube_SFG_fj31 =
+const subpax_multiFacets_SFG_fj31 =
 	translate( [ -25.00000000000002, 16.714459724934414, 56.21320343559645, ],
 		rotate( [ 1.5707963267948963, 1.6081226496766364e-16, -1.5707963267948968, ],
-			   extrudeLinear( {height: 10}, fig_sfTube_SFG_fj31 )
+			   extrudeLinear( {height: 10}, fig_multiFacets_SFG_fj31 )
 		)
 	);
 
-const pax_sfTube = union( subpax_sfTube_SFG_f00, subpax_sfTube_SFG_f01, subpax_sfTube_SFG_f02, subpax_sfTube_SFG_f03, subpax_sfTube_SFG_f04, subpax_sfTube_SFG_f05, subpax_sfTube_SFG_f06, subpax_sfTube_SFG_f07, subpax_sfTube_SFG_f08, subpax_sfTube_SFG_f09, subpax_sfTube_SFG_f10, subpax_sfTube_SFG_f11, subpax_sfTube_SFG_f12, subpax_sfTube_SFG_f13, subpax_sfTube_SFG_f14, subpax_sfTube_SFG_f15, subpax_sfTube_SFG_f16, subpax_sfTube_SFG_f17, subpax_sfTube_SFG_f18, subpax_sfTube_SFG_f19, subpax_sfTube_SFG_f20, subpax_sfTube_SFG_f21, subpax_sfTube_SFG_f22, subpax_sfTube_SFG_f23, subpax_sfTube_SFG_f24, subpax_sfTube_SFG_f25, subpax_sfTube_SFG_f26, subpax_sfTube_SFG_f27, subpax_sfTube_SFG_f28, subpax_sfTube_SFG_f29, subpax_sfTube_SFG_f30, subpax_sfTube_SFG_f31, subpax_sfTube_SFG_f32, subpax_sfTube_SFG_fj00, subpax_sfTube_SFG_fj01, subpax_sfTube_SFG_fj02, subpax_sfTube_SFG_fj03, subpax_sfTube_SFG_fj04, subpax_sfTube_SFG_fj05, subpax_sfTube_SFG_fj06, subpax_sfTube_SFG_fj07, subpax_sfTube_SFG_fj08, subpax_sfTube_SFG_fj09, subpax_sfTube_SFG_fj10, subpax_sfTube_SFG_fj11, subpax_sfTube_SFG_fj12, subpax_sfTube_SFG_fj13, subpax_sfTube_SFG_fj14, subpax_sfTube_SFG_fj15, subpax_sfTube_SFG_fj16, subpax_sfTube_SFG_fj17, subpax_sfTube_SFG_fj18, subpax_sfTube_SFG_fj19, subpax_sfTube_SFG_fj20, subpax_sfTube_SFG_fj21, subpax_sfTube_SFG_fj22, subpax_sfTube_SFG_fj23, subpax_sfTube_SFG_fj24, subpax_sfTube_SFG_fj25, subpax_sfTube_SFG_fj26, subpax_sfTube_SFG_fj27, subpax_sfTube_SFG_fj28, subpax_sfTube_SFG_fj29, subpax_sfTube_SFG_fj30, subpax_sfTube_SFG_fj31 );
+const pax_multiFacets = union( subpax_multiFacets_SFG_f00, subpax_multiFacets_SFG_f01, subpax_multiFacets_SFG_f02, subpax_multiFacets_SFG_f03, subpax_multiFacets_SFG_f04, subpax_multiFacets_SFG_f05, subpax_multiFacets_SFG_f06, subpax_multiFacets_SFG_f07, subpax_multiFacets_SFG_f08, subpax_multiFacets_SFG_f09, subpax_multiFacets_SFG_f10, subpax_multiFacets_SFG_f11, subpax_multiFacets_SFG_f12, subpax_multiFacets_SFG_f13, subpax_multiFacets_SFG_f14, subpax_multiFacets_SFG_f15, subpax_multiFacets_SFG_f16, subpax_multiFacets_SFG_f17, subpax_multiFacets_SFG_f18, subpax_multiFacets_SFG_f19, subpax_multiFacets_SFG_f20, subpax_multiFacets_SFG_f21, subpax_multiFacets_SFG_f22, subpax_multiFacets_SFG_f23, subpax_multiFacets_SFG_f24, subpax_multiFacets_SFG_f25, subpax_multiFacets_SFG_f26, subpax_multiFacets_SFG_f27, subpax_multiFacets_SFG_f28, subpax_multiFacets_SFG_f29, subpax_multiFacets_SFG_f30, subpax_multiFacets_SFG_f31, subpax_multiFacets_SFG_f32, subpax_multiFacets_SFG_fj00, subpax_multiFacets_SFG_fj01, subpax_multiFacets_SFG_fj02, subpax_multiFacets_SFG_fj03, subpax_multiFacets_SFG_fj04, subpax_multiFacets_SFG_fj05, subpax_multiFacets_SFG_fj06, subpax_multiFacets_SFG_fj07, subpax_multiFacets_SFG_fj08, subpax_multiFacets_SFG_fj09, subpax_multiFacets_SFG_fj10, subpax_multiFacets_SFG_fj11, subpax_multiFacets_SFG_fj12, subpax_multiFacets_SFG_fj13, subpax_multiFacets_SFG_fj14, subpax_multiFacets_SFG_fj15, subpax_multiFacets_SFG_fj16, subpax_multiFacets_SFG_fj17, subpax_multiFacets_SFG_fj18, subpax_multiFacets_SFG_fj19, subpax_multiFacets_SFG_fj20, subpax_multiFacets_SFG_fj21, subpax_multiFacets_SFG_fj22, subpax_multiFacets_SFG_fj23, subpax_multiFacets_SFG_fj24, subpax_multiFacets_SFG_fj25, subpax_multiFacets_SFG_fj26, subpax_multiFacets_SFG_fj27, subpax_multiFacets_SFG_fj28, subpax_multiFacets_SFG_fj29, subpax_multiFacets_SFG_fj30, subpax_multiFacets_SFG_fj31 );
 
-return pax_sfTube;
+return pax_multiFacets;
 }
 module.exports = { main };

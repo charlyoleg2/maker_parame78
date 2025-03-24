@@ -1,7 +1,7 @@
 {
-  "partName": "sfTube",
+  "partName": "multiFacets",
   "pDef": {
-    "partName": "sfTube",
+    "partName": "multiFacets",
     "params": [
       {
         "name": "D1",
@@ -2956,12 +2956,12 @@
             },
             {
               "typ": 1,
-              "px": 50,
+              "px": 20,
               "py": 0
             },
             {
               "typ": 1,
-              "px": 50,
+              "px": 20,
               "py": 10
             },
             {
@@ -2983,33 +2983,33 @@
           "seg": [
             {
               "typ": 0,
-              "px": 50,
+              "px": 20,
               "py": 0
             },
             {
               "typ": 2,
-              "px": 65,
-              "py": 15,
-              "radius": 15,
-              "large": false,
-              "ccw": true
-            },
-            {
-              "typ": 1,
-              "px": 55,
-              "py": 15
-            },
-            {
-              "typ": 2,
-              "px": 50,
-              "py": 10,
-              "radius": 5.000000000000001,
+              "px": 30.606601717798213,
+              "py": -4.3933982822017885,
+              "radius": 14.999999999999972,
               "large": false,
               "ccw": false
             },
             {
               "typ": 1,
-              "px": 50,
+              "px": 37.67766952966369,
+              "py": 2.6776695296636857
+            },
+            {
+              "typ": 2,
+              "px": 20,
+              "py": 10,
+              "radius": 24.99999999999997,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 20,
               "py": 0
             }
           ]
@@ -3021,27 +3021,237 @@
           "seg": [
             {
               "typ": 0,
-              "px": 65,
+              "px": 30.606601717798213,
+              "py": -4.3933982822017885
+            },
+            {
+              "typ": 1,
+              "px": 101.31727983645297,
+              "py": -75.10407640085653
+            },
+            {
+              "typ": 1,
+              "px": 108.38834764831844,
+              "py": -68.03300858899105
+            },
+            {
+              "typ": 1,
+              "px": 37.67766952966369,
+              "py": 2.677669529663686
+            },
+            {
+              "typ": 1,
+              "px": 30.606601717798213,
+              "py": -4.3933982822017885
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 101.31727983645297,
+              "py": -75.10407640085653
+            },
+            {
+              "typ": 2,
+              "px": 105.71067811865476,
+              "py": -85.71067811865474,
+              "radius": 14.999999999999972,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 115.71067811865476,
+              "py": -85.71067811865474
+            },
+            {
+              "typ": 2,
+              "px": 108.38834764831844,
+              "py": -68.03300858899105,
+              "radius": 24.99999999999997,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 101.31727983645297,
+              "py": -75.10407640085653
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 105.71067811865476,
+              "py": -85.71067811865474
+            },
+            {
+              "typ": 1,
+              "px": 105.71067811865476,
+              "py": -135.71067811865476
+            },
+            {
+              "typ": 1,
+              "px": 115.71067811865477,
+              "py": -135.71067811865476
+            },
+            {
+              "typ": 1,
+              "px": 115.71067811865476,
+              "py": -85.71067811865474
+            },
+            {
+              "typ": 1,
+              "px": 105.71067811865476,
+              "py": -85.71067811865474
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 105.71067811865476,
+              "py": -135.71067811865476
+            },
+            {
+              "typ": 2,
+              "px": 113.03300858899107,
+              "py": -153.38834764831844,
+              "radius": 24.999999999999947,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 120.10407640085654,
+              "py": -146.31727983645297
+            },
+            {
+              "typ": 2,
+              "px": 115.71067811865476,
+              "py": -135.71067811865476,
+              "radius": 14.999999999999984,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": 105.71067811865476,
+              "py": -135.71067811865476
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 113.03300858899107,
+              "py": -153.38834764831844
+            },
+            {
+              "typ": 1,
+              "px": 148.38834764831844,
+              "py": -188.74368670764582
+            },
+            {
+              "typ": 1,
+              "px": 155.45941546018392,
+              "py": -181.67261889578035
+            },
+            {
+              "typ": 1,
+              "px": 120.10407640085654,
+              "py": -146.31727983645297
+            },
+            {
+              "typ": 1,
+              "px": 113.03300858899107,
+              "py": -153.38834764831844
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 6.123233995736766e-16,
+              "py": 10
+            },
+            {
+              "typ": 2,
+              "px": -4.999999999999999,
+              "py": 15,
+              "radius": 5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -15,
+              "py": 15
+            },
+            {
+              "typ": 2,
+              "px": -1.224646799147353e-15,
+              "py": 0,
+              "radius": 15.00000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": 6.123233995736766e-16,
+              "py": 10
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -4.999999999999999,
               "py": 15
             },
             {
               "typ": 1,
-              "px": 65,
-              "py": 65
+              "px": -4.999999999999998,
+              "py": 30
             },
             {
               "typ": 1,
-              "px": 55,
-              "py": 65
+              "px": -14.999999999999996,
+              "py": 30
             },
             {
               "typ": 1,
-              "px": 55,
+              "px": -15,
               "py": 15.000000000000002
             },
             {
               "typ": 1,
-              "px": 65,
+              "px": -4.999999999999999,
               "py": 15
             }
           ]
@@ -3053,66 +3263,34 @@
           "seg": [
             {
               "typ": 0,
-              "px": 0,
-              "py": 200
-            },
-            {
-              "typ": 1,
-              "px": 20,
-              "py": 200
-            },
-            {
-              "typ": 1,
-              "px": 20,
-              "py": 210
-            },
-            {
-              "typ": 1,
-              "px": 6.123233995736766e-16,
-              "py": 210
-            },
-            {
-              "typ": 1,
-              "px": 0,
-              "py": 200
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "circle": false,
-          "seg": [
-            {
-              "typ": 0,
-              "px": 20,
-              "py": 200
+              "px": -4.999999999999998,
+              "py": 30
             },
             {
               "typ": 2,
-              "px": 35,
-              "py": 215,
-              "radius": 15,
+              "px": -9.393398282201785,
+              "py": 40.60660171779821,
+              "radius": 14.999999999999972,
               "large": false,
               "ccw": true
             },
             {
               "typ": 1,
-              "px": 25,
-              "py": 215
+              "px": -16.46446609406726,
+              "py": 33.53553390593274
             },
             {
               "typ": 2,
-              "px": 20,
-              "py": 210,
-              "radius": 5.000000000000001,
+              "px": -14.999999999999998,
+              "py": 30,
+              "radius": 5.000000000000002,
               "large": false,
               "ccw": false
             },
             {
               "typ": 1,
-              "px": 20,
-              "py": 200
+              "px": -4.999999999999998,
+              "py": 30
             }
           ]
         }
@@ -3123,28 +3301,168 @@
           "seg": [
             {
               "typ": 0,
-              "px": 35,
-              "py": 215
+              "px": -9.393398282201785,
+              "py": 40.60660171779821
             },
             {
               "typ": 1,
-              "px": 35,
-              "py": 235
+              "px": -30.606601717798206,
+              "py": 61.81980515339464
             },
             {
               "typ": 1,
-              "px": 25,
-              "py": 235
+              "px": -37.67766952966368,
+              "py": 54.748737341529164
             },
             {
               "typ": 1,
-              "px": 25,
-              "py": 215
+              "px": -16.46446609406726,
+              "py": 33.53553390593274
             },
             {
               "typ": 1,
-              "px": 35,
-              "py": 215
+              "px": -9.393398282201785,
+              "py": 40.60660171779821
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -30.606601717798206,
+              "py": 61.81980515339464
+            },
+            {
+              "typ": 2,
+              "px": -41.21320343559642,
+              "py": 66.21320343559643,
+              "radius": 14.999999999999972,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -41.21320343559642,
+              "py": 56.21320343559643
+            },
+            {
+              "typ": 2,
+              "px": -37.67766952966368,
+              "py": 54.748737341529164,
+              "radius": 5.000000000000002,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -30.606601717798206,
+              "py": 61.81980515339464
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -41.21320343559642,
+              "py": 66.21320343559643
+            },
+            {
+              "typ": 1,
+              "px": -121.21320343559643,
+              "py": 66.21320343559644
+            },
+            {
+              "typ": 1,
+              "px": -121.21320343559643,
+              "py": 56.213203435596455
+            },
+            {
+              "typ": 1,
+              "px": -41.21320343559642,
+              "py": 56.21320343559643
+            },
+            {
+              "typ": 1,
+              "px": -41.21320343559642,
+              "py": 66.21320343559643
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -121.21320343559643,
+              "py": 66.21320343559644
+            },
+            {
+              "typ": 2,
+              "px": -126.21320343559643,
+              "py": 71.21320343559644,
+              "radius": 5,
+              "large": false,
+              "ccw": false
+            },
+            {
+              "typ": 1,
+              "px": -136.21320343559643,
+              "py": 71.21320343559644
+            },
+            {
+              "typ": 2,
+              "px": -121.21320343559643,
+              "py": 56.21320343559644,
+              "radius": 15.00000000000001,
+              "large": false,
+              "ccw": true
+            },
+            {
+              "typ": 1,
+              "px": -121.21320343559643,
+              "py": 66.21320343559644
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": -126.21320343559643,
+              "py": 71.21320343559644
+            },
+            {
+              "typ": 1,
+              "px": -126.21320343559643,
+              "py": 86.21320343559644
+            },
+            {
+              "typ": 1,
+              "px": -136.21320343559643,
+              "py": 86.21320343559644
+            },
+            {
+              "typ": 1,
+              "px": -136.21320343559643,
+              "py": 71.21320343559644
+            },
+            {
+              "typ": 1,
+              "px": -126.21320343559643,
+              "py": 71.21320343559644
             }
           ]
         }
@@ -6019,8 +6337,8 @@
   "volume": {
     "extrudes": [
       {
-        "outName": "subpax_sfTube_SFG_f00",
-        "face": "sfTube_SFG_f00",
+        "outName": "subpax_multiFacets_SFG_f00",
+        "face": "multiFacets_SFG_f00",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6035,8 +6353,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f01",
-        "face": "sfTube_SFG_f01",
+        "outName": "subpax_multiFacets_SFG_f01",
+        "face": "multiFacets_SFG_f01",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6051,8 +6369,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f02",
-        "face": "sfTube_SFG_f02",
+        "outName": "subpax_multiFacets_SFG_f02",
+        "face": "multiFacets_SFG_f02",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6067,8 +6385,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f03",
-        "face": "sfTube_SFG_f03",
+        "outName": "subpax_multiFacets_SFG_f03",
+        "face": "multiFacets_SFG_f03",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6083,8 +6401,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f04",
-        "face": "sfTube_SFG_f04",
+        "outName": "subpax_multiFacets_SFG_f04",
+        "face": "multiFacets_SFG_f04",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6099,8 +6417,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f05",
-        "face": "sfTube_SFG_f05",
+        "outName": "subpax_multiFacets_SFG_f05",
+        "face": "multiFacets_SFG_f05",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6115,8 +6433,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f06",
-        "face": "sfTube_SFG_f06",
+        "outName": "subpax_multiFacets_SFG_f06",
+        "face": "multiFacets_SFG_f06",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6131,8 +6449,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f07",
-        "face": "sfTube_SFG_f07",
+        "outName": "subpax_multiFacets_SFG_f07",
+        "face": "multiFacets_SFG_f07",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6147,8 +6465,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f08",
-        "face": "sfTube_SFG_f08",
+        "outName": "subpax_multiFacets_SFG_f08",
+        "face": "multiFacets_SFG_f08",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6163,8 +6481,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f09",
-        "face": "sfTube_SFG_f09",
+        "outName": "subpax_multiFacets_SFG_f09",
+        "face": "multiFacets_SFG_f09",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6179,8 +6497,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f10",
-        "face": "sfTube_SFG_f10",
+        "outName": "subpax_multiFacets_SFG_f10",
+        "face": "multiFacets_SFG_f10",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6195,8 +6513,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f11",
-        "face": "sfTube_SFG_f11",
+        "outName": "subpax_multiFacets_SFG_f11",
+        "face": "multiFacets_SFG_f11",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6211,8 +6529,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f12",
-        "face": "sfTube_SFG_f12",
+        "outName": "subpax_multiFacets_SFG_f12",
+        "face": "multiFacets_SFG_f12",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6227,8 +6545,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f13",
-        "face": "sfTube_SFG_f13",
+        "outName": "subpax_multiFacets_SFG_f13",
+        "face": "multiFacets_SFG_f13",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6243,8 +6561,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f14",
-        "face": "sfTube_SFG_f14",
+        "outName": "subpax_multiFacets_SFG_f14",
+        "face": "multiFacets_SFG_f14",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6259,8 +6577,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f15",
-        "face": "sfTube_SFG_f15",
+        "outName": "subpax_multiFacets_SFG_f15",
+        "face": "multiFacets_SFG_f15",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6275,8 +6593,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f16",
-        "face": "sfTube_SFG_f16",
+        "outName": "subpax_multiFacets_SFG_f16",
+        "face": "multiFacets_SFG_f16",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6291,8 +6609,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f17",
-        "face": "sfTube_SFG_f17",
+        "outName": "subpax_multiFacets_SFG_f17",
+        "face": "multiFacets_SFG_f17",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6307,8 +6625,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f18",
-        "face": "sfTube_SFG_f18",
+        "outName": "subpax_multiFacets_SFG_f18",
+        "face": "multiFacets_SFG_f18",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6323,8 +6641,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f19",
-        "face": "sfTube_SFG_f19",
+        "outName": "subpax_multiFacets_SFG_f19",
+        "face": "multiFacets_SFG_f19",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6339,8 +6657,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f20",
-        "face": "sfTube_SFG_f20",
+        "outName": "subpax_multiFacets_SFG_f20",
+        "face": "multiFacets_SFG_f20",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6355,8 +6673,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f21",
-        "face": "sfTube_SFG_f21",
+        "outName": "subpax_multiFacets_SFG_f21",
+        "face": "multiFacets_SFG_f21",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6371,8 +6689,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f22",
-        "face": "sfTube_SFG_f22",
+        "outName": "subpax_multiFacets_SFG_f22",
+        "face": "multiFacets_SFG_f22",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6387,8 +6705,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f23",
-        "face": "sfTube_SFG_f23",
+        "outName": "subpax_multiFacets_SFG_f23",
+        "face": "multiFacets_SFG_f23",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6403,8 +6721,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f24",
-        "face": "sfTube_SFG_f24",
+        "outName": "subpax_multiFacets_SFG_f24",
+        "face": "multiFacets_SFG_f24",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6419,8 +6737,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f25",
-        "face": "sfTube_SFG_f25",
+        "outName": "subpax_multiFacets_SFG_f25",
+        "face": "multiFacets_SFG_f25",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6435,8 +6753,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f26",
-        "face": "sfTube_SFG_f26",
+        "outName": "subpax_multiFacets_SFG_f26",
+        "face": "multiFacets_SFG_f26",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6451,8 +6769,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f27",
-        "face": "sfTube_SFG_f27",
+        "outName": "subpax_multiFacets_SFG_f27",
+        "face": "multiFacets_SFG_f27",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6467,8 +6785,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f28",
-        "face": "sfTube_SFG_f28",
+        "outName": "subpax_multiFacets_SFG_f28",
+        "face": "multiFacets_SFG_f28",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6483,8 +6801,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f29",
-        "face": "sfTube_SFG_f29",
+        "outName": "subpax_multiFacets_SFG_f29",
+        "face": "multiFacets_SFG_f29",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6499,8 +6817,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f30",
-        "face": "sfTube_SFG_f30",
+        "outName": "subpax_multiFacets_SFG_f30",
+        "face": "multiFacets_SFG_f30",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6515,8 +6833,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f31",
-        "face": "sfTube_SFG_f31",
+        "outName": "subpax_multiFacets_SFG_f31",
+        "face": "multiFacets_SFG_f31",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6531,8 +6849,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_f32",
-        "face": "sfTube_SFG_f32",
+        "outName": "subpax_multiFacets_SFG_f32",
+        "face": "multiFacets_SFG_f32",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6547,8 +6865,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj00",
-        "face": "sfTube_SFG_fj00",
+        "outName": "subpax_multiFacets_SFG_fj00",
+        "face": "multiFacets_SFG_fj00",
         "extrudeMethod": 0,
         "length": 50.00000000000002,
         "rotate": [
@@ -6563,8 +6881,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj01",
-        "face": "sfTube_SFG_fj01",
+        "outName": "subpax_multiFacets_SFG_fj01",
+        "face": "multiFacets_SFG_fj01",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6579,8 +6897,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj02",
-        "face": "sfTube_SFG_fj02",
+        "outName": "subpax_multiFacets_SFG_fj02",
+        "face": "multiFacets_SFG_fj02",
         "extrudeMethod": 0,
         "length": 50.000000000000156,
         "rotate": [
@@ -6595,8 +6913,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj03",
-        "face": "sfTube_SFG_fj03",
+        "outName": "subpax_multiFacets_SFG_fj03",
+        "face": "multiFacets_SFG_fj03",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6611,8 +6929,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj04",
-        "face": "sfTube_SFG_fj04",
+        "outName": "subpax_multiFacets_SFG_fj04",
+        "face": "multiFacets_SFG_fj04",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6627,8 +6945,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj05",
-        "face": "sfTube_SFG_fj05",
+        "outName": "subpax_multiFacets_SFG_fj05",
+        "face": "multiFacets_SFG_fj05",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6643,8 +6961,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj06",
-        "face": "sfTube_SFG_fj06",
+        "outName": "subpax_multiFacets_SFG_fj06",
+        "face": "multiFacets_SFG_fj06",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6659,8 +6977,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj07",
-        "face": "sfTube_SFG_fj07",
+        "outName": "subpax_multiFacets_SFG_fj07",
+        "face": "multiFacets_SFG_fj07",
         "extrudeMethod": 0,
         "length": 23.333333333333336,
         "rotate": [
@@ -6675,8 +6993,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj08",
-        "face": "sfTube_SFG_fj08",
+        "outName": "subpax_multiFacets_SFG_fj08",
+        "face": "multiFacets_SFG_fj08",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6691,8 +7009,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj09",
-        "face": "sfTube_SFG_fj09",
+        "outName": "subpax_multiFacets_SFG_fj09",
+        "face": "multiFacets_SFG_fj09",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6707,8 +7025,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj10",
-        "face": "sfTube_SFG_fj10",
+        "outName": "subpax_multiFacets_SFG_fj10",
+        "face": "multiFacets_SFG_fj10",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6723,8 +7041,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj11",
-        "face": "sfTube_SFG_fj11",
+        "outName": "subpax_multiFacets_SFG_fj11",
+        "face": "multiFacets_SFG_fj11",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6739,8 +7057,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj12",
-        "face": "sfTube_SFG_fj12",
+        "outName": "subpax_multiFacets_SFG_fj12",
+        "face": "multiFacets_SFG_fj12",
         "extrudeMethod": 0,
         "length": 23.333333333333336,
         "rotate": [
@@ -6755,8 +7073,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj13",
-        "face": "sfTube_SFG_fj13",
+        "outName": "subpax_multiFacets_SFG_fj13",
+        "face": "multiFacets_SFG_fj13",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6771,8 +7089,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj14",
-        "face": "sfTube_SFG_fj14",
+        "outName": "subpax_multiFacets_SFG_fj14",
+        "face": "multiFacets_SFG_fj14",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6787,8 +7105,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj15",
-        "face": "sfTube_SFG_fj15",
+        "outName": "subpax_multiFacets_SFG_fj15",
+        "face": "multiFacets_SFG_fj15",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6803,8 +7121,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj16",
-        "face": "sfTube_SFG_fj16",
+        "outName": "subpax_multiFacets_SFG_fj16",
+        "face": "multiFacets_SFG_fj16",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6819,8 +7137,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj17",
-        "face": "sfTube_SFG_fj17",
+        "outName": "subpax_multiFacets_SFG_fj17",
+        "face": "multiFacets_SFG_fj17",
         "extrudeMethod": 0,
         "length": 23.333333333333336,
         "rotate": [
@@ -6835,8 +7153,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj18",
-        "face": "sfTube_SFG_fj18",
+        "outName": "subpax_multiFacets_SFG_fj18",
+        "face": "multiFacets_SFG_fj18",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6851,8 +7169,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj19",
-        "face": "sfTube_SFG_fj19",
+        "outName": "subpax_multiFacets_SFG_fj19",
+        "face": "multiFacets_SFG_fj19",
         "extrudeMethod": 0,
         "length": 50,
         "rotate": [
@@ -6867,8 +7185,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj20",
-        "face": "sfTube_SFG_fj20",
+        "outName": "subpax_multiFacets_SFG_fj20",
+        "face": "multiFacets_SFG_fj20",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6883,8 +7201,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj21",
-        "face": "sfTube_SFG_fj21",
+        "outName": "subpax_multiFacets_SFG_fj21",
+        "face": "multiFacets_SFG_fj21",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6899,8 +7217,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj22",
-        "face": "sfTube_SFG_fj22",
+        "outName": "subpax_multiFacets_SFG_fj22",
+        "face": "multiFacets_SFG_fj22",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6915,8 +7233,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj23",
-        "face": "sfTube_SFG_fj23",
+        "outName": "subpax_multiFacets_SFG_fj23",
+        "face": "multiFacets_SFG_fj23",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6931,8 +7249,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj24",
-        "face": "sfTube_SFG_fj24",
+        "outName": "subpax_multiFacets_SFG_fj24",
+        "face": "multiFacets_SFG_fj24",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6947,8 +7265,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj25",
-        "face": "sfTube_SFG_fj25",
+        "outName": "subpax_multiFacets_SFG_fj25",
+        "face": "multiFacets_SFG_fj25",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -6963,8 +7281,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj26",
-        "face": "sfTube_SFG_fj26",
+        "outName": "subpax_multiFacets_SFG_fj26",
+        "face": "multiFacets_SFG_fj26",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6979,8 +7297,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj27",
-        "face": "sfTube_SFG_fj27",
+        "outName": "subpax_multiFacets_SFG_fj27",
+        "face": "multiFacets_SFG_fj27",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -6995,8 +7313,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj28",
-        "face": "sfTube_SFG_fj28",
+        "outName": "subpax_multiFacets_SFG_fj28",
+        "face": "multiFacets_SFG_fj28",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -7011,8 +7329,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj29",
-        "face": "sfTube_SFG_fj29",
+        "outName": "subpax_multiFacets_SFG_fj29",
+        "face": "multiFacets_SFG_fj29",
         "extrudeMethod": 0,
         "length": 20,
         "rotate": [
@@ -7027,8 +7345,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj30",
-        "face": "sfTube_SFG_fj30",
+        "outName": "subpax_multiFacets_SFG_fj30",
+        "face": "multiFacets_SFG_fj30",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -7043,8 +7361,8 @@
         ]
       },
       {
-        "outName": "subpax_sfTube_SFG_fj31",
-        "face": "sfTube_SFG_fj31",
+        "outName": "subpax_multiFacets_SFG_fj31",
+        "face": "multiFacets_SFG_fj31",
         "extrudeMethod": 0,
         "length": 10,
         "rotate": [
@@ -7061,78 +7379,78 @@
     ],
     "volumes": [
       {
-        "outName": "pax_sfTube",
+        "outName": "pax_multiFacets",
         "boolMethod": 2,
         "inList": [
-          "subpax_sfTube_SFG_f00",
-          "subpax_sfTube_SFG_f01",
-          "subpax_sfTube_SFG_f02",
-          "subpax_sfTube_SFG_f03",
-          "subpax_sfTube_SFG_f04",
-          "subpax_sfTube_SFG_f05",
-          "subpax_sfTube_SFG_f06",
-          "subpax_sfTube_SFG_f07",
-          "subpax_sfTube_SFG_f08",
-          "subpax_sfTube_SFG_f09",
-          "subpax_sfTube_SFG_f10",
-          "subpax_sfTube_SFG_f11",
-          "subpax_sfTube_SFG_f12",
-          "subpax_sfTube_SFG_f13",
-          "subpax_sfTube_SFG_f14",
-          "subpax_sfTube_SFG_f15",
-          "subpax_sfTube_SFG_f16",
-          "subpax_sfTube_SFG_f17",
-          "subpax_sfTube_SFG_f18",
-          "subpax_sfTube_SFG_f19",
-          "subpax_sfTube_SFG_f20",
-          "subpax_sfTube_SFG_f21",
-          "subpax_sfTube_SFG_f22",
-          "subpax_sfTube_SFG_f23",
-          "subpax_sfTube_SFG_f24",
-          "subpax_sfTube_SFG_f25",
-          "subpax_sfTube_SFG_f26",
-          "subpax_sfTube_SFG_f27",
-          "subpax_sfTube_SFG_f28",
-          "subpax_sfTube_SFG_f29",
-          "subpax_sfTube_SFG_f30",
-          "subpax_sfTube_SFG_f31",
-          "subpax_sfTube_SFG_f32",
-          "subpax_sfTube_SFG_fj00",
-          "subpax_sfTube_SFG_fj01",
-          "subpax_sfTube_SFG_fj02",
-          "subpax_sfTube_SFG_fj03",
-          "subpax_sfTube_SFG_fj04",
-          "subpax_sfTube_SFG_fj05",
-          "subpax_sfTube_SFG_fj06",
-          "subpax_sfTube_SFG_fj07",
-          "subpax_sfTube_SFG_fj08",
-          "subpax_sfTube_SFG_fj09",
-          "subpax_sfTube_SFG_fj10",
-          "subpax_sfTube_SFG_fj11",
-          "subpax_sfTube_SFG_fj12",
-          "subpax_sfTube_SFG_fj13",
-          "subpax_sfTube_SFG_fj14",
-          "subpax_sfTube_SFG_fj15",
-          "subpax_sfTube_SFG_fj16",
-          "subpax_sfTube_SFG_fj17",
-          "subpax_sfTube_SFG_fj18",
-          "subpax_sfTube_SFG_fj19",
-          "subpax_sfTube_SFG_fj20",
-          "subpax_sfTube_SFG_fj21",
-          "subpax_sfTube_SFG_fj22",
-          "subpax_sfTube_SFG_fj23",
-          "subpax_sfTube_SFG_fj24",
-          "subpax_sfTube_SFG_fj25",
-          "subpax_sfTube_SFG_fj26",
-          "subpax_sfTube_SFG_fj27",
-          "subpax_sfTube_SFG_fj28",
-          "subpax_sfTube_SFG_fj29",
-          "subpax_sfTube_SFG_fj30",
-          "subpax_sfTube_SFG_fj31"
+          "subpax_multiFacets_SFG_f00",
+          "subpax_multiFacets_SFG_f01",
+          "subpax_multiFacets_SFG_f02",
+          "subpax_multiFacets_SFG_f03",
+          "subpax_multiFacets_SFG_f04",
+          "subpax_multiFacets_SFG_f05",
+          "subpax_multiFacets_SFG_f06",
+          "subpax_multiFacets_SFG_f07",
+          "subpax_multiFacets_SFG_f08",
+          "subpax_multiFacets_SFG_f09",
+          "subpax_multiFacets_SFG_f10",
+          "subpax_multiFacets_SFG_f11",
+          "subpax_multiFacets_SFG_f12",
+          "subpax_multiFacets_SFG_f13",
+          "subpax_multiFacets_SFG_f14",
+          "subpax_multiFacets_SFG_f15",
+          "subpax_multiFacets_SFG_f16",
+          "subpax_multiFacets_SFG_f17",
+          "subpax_multiFacets_SFG_f18",
+          "subpax_multiFacets_SFG_f19",
+          "subpax_multiFacets_SFG_f20",
+          "subpax_multiFacets_SFG_f21",
+          "subpax_multiFacets_SFG_f22",
+          "subpax_multiFacets_SFG_f23",
+          "subpax_multiFacets_SFG_f24",
+          "subpax_multiFacets_SFG_f25",
+          "subpax_multiFacets_SFG_f26",
+          "subpax_multiFacets_SFG_f27",
+          "subpax_multiFacets_SFG_f28",
+          "subpax_multiFacets_SFG_f29",
+          "subpax_multiFacets_SFG_f30",
+          "subpax_multiFacets_SFG_f31",
+          "subpax_multiFacets_SFG_f32",
+          "subpax_multiFacets_SFG_fj00",
+          "subpax_multiFacets_SFG_fj01",
+          "subpax_multiFacets_SFG_fj02",
+          "subpax_multiFacets_SFG_fj03",
+          "subpax_multiFacets_SFG_fj04",
+          "subpax_multiFacets_SFG_fj05",
+          "subpax_multiFacets_SFG_fj06",
+          "subpax_multiFacets_SFG_fj07",
+          "subpax_multiFacets_SFG_fj08",
+          "subpax_multiFacets_SFG_fj09",
+          "subpax_multiFacets_SFG_fj10",
+          "subpax_multiFacets_SFG_fj11",
+          "subpax_multiFacets_SFG_fj12",
+          "subpax_multiFacets_SFG_fj13",
+          "subpax_multiFacets_SFG_fj14",
+          "subpax_multiFacets_SFG_fj15",
+          "subpax_multiFacets_SFG_fj16",
+          "subpax_multiFacets_SFG_fj17",
+          "subpax_multiFacets_SFG_fj18",
+          "subpax_multiFacets_SFG_fj19",
+          "subpax_multiFacets_SFG_fj20",
+          "subpax_multiFacets_SFG_fj21",
+          "subpax_multiFacets_SFG_fj22",
+          "subpax_multiFacets_SFG_fj23",
+          "subpax_multiFacets_SFG_fj24",
+          "subpax_multiFacets_SFG_fj25",
+          "subpax_multiFacets_SFG_fj26",
+          "subpax_multiFacets_SFG_fj27",
+          "subpax_multiFacets_SFG_fj28",
+          "subpax_multiFacets_SFG_fj29",
+          "subpax_multiFacets_SFG_fj30",
+          "subpax_multiFacets_SFG_fj31"
         ]
       }
     ]
   },
   "subs": {},
-  "log": "sfTube simTime: 0\nmultiFacets: N1 3\nmultiFacets drawn successfully!\n"
+  "log": "multiFacets simTime: 0\nmultiFacets: N1 3\nmultiFacets drawn successfully!\n"
 }
